@@ -34,7 +34,7 @@ modulonként szétszedve. Egy fájl egyszerű kulcs–érték párokból áll:
 ## Szabályok, amikre figyelj
 
 - A kulcsokat **ne** változtasd meg, és ne törölj ki egyet sem.
-- A változókat, pl. `{user}`, `{count}`, `{0}` hagyd **pontosan** úgy, ahogy vannak (a mondatban áthelyezheted őket).
+- A változókat, pl. `{name}`, `{mention}`, `{money}` hagyd **pontosan** úgy, ahogy vannak (a mondatban áthelyezheted őket).
 - A Discord formázást (`**félkövér**`, `` `kód` ``, `\n`, emojik, `<@...>`) tartsd meg.
 - A fájl maradjon **érvényes JSON** (idézőjelek, vesszők!) és **UTF-8** kódolású.
 - Ha valamit nem tudsz lefordítani, hagyd angolul – jobb, mint egy rossz fordítás.
