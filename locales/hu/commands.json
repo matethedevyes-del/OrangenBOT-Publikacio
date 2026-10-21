@@ -1,0 +1,3007 @@
+{
+ "commands": {
+  "8ball": {
+   "name": "8ball",
+   "description": "Kérdezz valamit a mindentudó márványgolyótól"
+  },
+  "adatvedelem": {
+   "name": "adatvedelem",
+   "description": "GDPR Adatvédelmi tájékoztató megtekintése"
+  },
+  "ai": {
+   "name": "ai",
+   "description": "Az AI-chat szerverenkénti beállításai"
+  },
+  "ai beallitasok": {
+   "name": "beallitasok",
+   "description": "A jelenlegi AI-beállítások megtekintése"
+  },
+  "ai csatorna": {
+   "name": "csatorna",
+   "description": "Az AI-chat csatorna kijelölése (üresen: kikapcsolás)"
+  },
+  "ai prompt": {
+   "name": "prompt",
+   "description": "Az AI szerver-specifikus személyiségének beállítása ('reset' = alap)"
+  },
+  "ai reset": {
+   "name": "reset",
+   "description": "Új beszélgetés indítása ebben a csatornában"
+  },
+  "ai teszt": {
+   "name": "teszt",
+   "description": "Próbakérés: működik-e az AI, és ha nem, miért"
+  },
+  "aimod": {
+   "name": "aimod",
+   "description": "AI-moderáció: pontrendszer, szabályzat, szólisták"
+  },
+  "aimod panel": {
+   "name": "panel",
+   "description": "Az AI-moderáció irányítópultja: be/ki, szabályzat, szavak, felülvizsgálat"
+  },
+  "aimod pontok": {
+   "name": "pontok",
+   "description": "Moderációs pontok és előzmények (a sajátod, vagy egy tagé)"
+  },
+  "aimod teszt": {
+   "name": "teszt",
+   "description": "Mit tenne a moderáció ezzel a szöveggel? (próba — nem büntet)"
+  },
+  "aktivitas": {
+   "name": "aktivitas",
+   "description": "Szerver-aktivitási grafikon: üzenetek, aktív tagok, hang, be- és kilépők, top 5"
+  },
+  "arculat": {
+   "name": "arculat",
+   "description": "A bot arculata ezen a szerveren: kártyaszín, név, profilkép, szalagkép (admin)"
+  },
+  "aszf": {
+   "name": "aszf",
+   "description": "Az Általános Szerződési Feltételek megtekintése"
+  },
+  "autovalasz": {
+   "name": "autovalasz",
+   "description": "💬 Automatikus válaszok kulcsszavakra"
+  },
+  "autovalasz lista": {
+   "name": "lista",
+   "description": "Az automatikus válaszok listája"
+  },
+  "autovalasz torles": {
+   "name": "torles",
+   "description": "Automatikus válasz törlése"
+  },
+  "autovalasz uj": {
+   "name": "uj",
+   "description": "Új automatikus válasz egy kulcsszóra"
+  },
+  "ban": {
+   "name": "ban",
+   "description": "Felhasználó végleges kitiltása (nem kell a szerveren lennie)"
+  },
+  "bank": {
+   "name": "bank",
+   "description": "Bankpult: be- és kifizetés, lekötött betét, közösségi alap"
+  },
+  "banlist": {
+   "name": "banlist",
+   "description": "A szerver kitiltott felhasználói"
+  },
+  "botinfo": {
+   "name": "botinfo",
+   "description": "Információk a rendszerről, technikai háttérről és szabályzatokról"
+  },
+  "btc": {
+   "name": "btc",
+   "description": "Bitcoin: tőzsdei terminál, videókártyás farm, kriptohírek, árfolyam, limit megbízások"
+  },
+  "btc arfolyam": {
+   "name": "arfolyam",
+   "description": "Árfolyam-grafikon és piaci hangulat"
+  },
+  "btc eladas": {
+   "name": "eladas",
+   "description": "Bitcoin eladása forintért, a piaci árfolyamon"
+  },
+  "btc limit": {
+   "name": "limit",
+   "description": "Automatikus vétel vagy eladás, ha az árfolyam eléri a célárat"
+  },
+  "btc tozsde": {
+   "name": "tozsde",
+   "description": "Bitcoin-terminál: piac, tárca, bányászfarm, kártyabolt, hírek, megbízások"
+  },
+  "btc vetel": {
+   "name": "vetel",
+   "description": "Bitcoin vásárlása forintért, a piaci árfolyamon"
+  },
+  "bunozes": {
+   "name": "bunozes",
+   "description": "Alvilág: bűntények, tagrablás, pénzmosás, bandás balhék, események"
+  },
+  "case": {
+   "name": "case",
+   "description": "Moderációs esetek (esetnapló)"
+  },
+  "case lista": {
+   "name": "lista",
+   "description": "Egy felhasználó teljes moderációs előzménye"
+  },
+  "case megtekintes": {
+   "name": "megtekintes",
+   "description": "Egy eset részletei"
+  },
+  "case szerkesztes": {
+   "name": "szerkesztes",
+   "description": "Egy eset indokának utólagos módosítása"
+  },
+  "casino": {
+   "name": "casino",
+   "description": "Kaszinó: 16 játék, lobbi, jackpot, napi bónusz, lottó, ranglista"
+  },
+  "casino aknakereso": {
+   "name": "aknakereso",
+   "description": "💣 Aknakereső — fordíts gyémántokat, kerüld el az aknákat"
+  },
+  "casino baccarat": {
+   "name": "baccarat",
+   "description": "👑 Baccarat — játékos, bankár vagy döntetlen • 2× / 1,95× / 9×"
+  },
+  "casino bajnoksag": {
+   "name": "bajnoksag",
+   "description": "🏆 Szerverek közötti heti bajnokság: ranglista, kihívás, nyereménykalap"
+  },
+  "casino blackjack": {
+   "name": "blackjack",
+   "description": "🃏 Blackjack — 21-ig húzz lapot • blackjack 3:2, duplázás"
+  },
+  "casino chip": {
+   "name": "chip",
+   "description": "Chipváltás: vétel készpénzből és beváltás"
+  },
+  "casino chip eladas": {
+   "name": "eladas",
+   "description": "Chip beváltása készpénzre (1 chip = 100 Ft)"
+  },
+  "casino chip vetel": {
+   "name": "vetel",
+   "description": "Chip vásárlása készpénzből (1 chip = 100 Ft)"
+  },
+  "casino crash": {
+   "name": "crash",
+   "description": "🚀 Rakéta — nő a szorzó — szállj ki, mielőtt felrobban!"
+  },
+  "casino fejiras": {
+   "name": "fejiras",
+   "description": "🪙 Fej vagy írás — dupla vagy semmi"
+  },
+  "casino hilo": {
+   "name": "hilo",
+   "description": "↕️ Magasabb vagy alacsonyabb — tippelj a következő lapra, a szorzó nő"
+  },
+  "casino kaparos": {
+   "name": "kaparos",
+   "description": "🎟️ Kaparós sorsjegy — kaparj le 9 mezőt — 3 egyforma nyer, akár 50×"
+  },
+  "casino keno": {
+   "name": "keno",
+   "description": "🔢 Keno — 6 szám, 10 húzás — 6 találat 500×"
+  },
+  "casino kerek": {
+   "name": "kerek",
+   "description": "🎡 Szerencsekerék — pörgesd meg — akár 50×"
+  },
+  "casino kocka": {
+   "name": "kocka",
+   "description": "🎲 Kocka — te döntöd el az esélyt és a szorzót"
+  },
+  "casino lobbi": {
+   "name": "lobbi",
+   "description": "A kaszinó főoldala: chipek, jackpot, tét, játékok, napi bónusz, ranglista"
+  },
+  "casino lotto": {
+   "name": "lotto",
+   "description": "🎫 Lottó: szelvényvásárlás és állás — napi sorsolás a befizetésekből"
+  },
+  "casino loverseny": {
+   "name": "loverseny",
+   "description": "🏇 Lóverseny — 6 ló, élő futam — a kisebb esély többet fizet"
+  },
+  "casino napi": {
+   "name": "napi",
+   "description": "🎁 Napi bónusz chip — sorozattal egyre több (20 óránként)"
+  },
+  "casino parbaj": {
+   "name": "parbaj",
+   "description": "⚔️ Kockapárbaj egy másik taggal — a nagyobb dobás viszi a kasszát"
+  },
+  "casino plinko": {
+   "name": "plinko",
+   "description": "🔻 Plinko — a golyó lepattog a tüskéken — akár 28×"
+  },
+  "casino poker": {
+   "name": "poker",
+   "description": "🎴 Video póker — tarts meg lapokat, cserélj • royal flush 250×"
+  },
+  "casino rulett": {
+   "name": "rulett",
+   "description": "🔴 Rulett — szín, paritás, tucat, oszlop vagy egy szám (36×)"
+  },
+  "casino slot": {
+   "name": "slot",
+   "description": "🎰 Félkarú rabló — 3×3 tárcsa, 5 nyerővonal, progresszív jackpot"
+  },
+  "casino statisztika": {
+   "name": "statisztika",
+   "description": "📊 Kaszinó-statisztika: játékok, nyeremények, kedvenc játékok"
+  },
+  "casino torony": {
+   "name": "torony",
+   "description": "🗼 Torony — mássz egyre feljebb — minden szint többet ér"
+  },
+  "dicksize": {
+   "name": "dicksize",
+   "description": "🍆 Méret kalkulátor pontos skálával"
+  },
+  "ecoadmin": {
+   "name": "ecoadmin",
+   "description": "Egyenlegek kezelése (admin)"
+  },
+  "ecoadmin ad": {
+   "name": "ad",
+   "description": "Pénz (vagy chip) jóváírása egy tagnak"
+  },
+  "ecoadmin alvilag": {
+   "name": "alvilag",
+   "description": "Alvilági profil: szabadon engedés, körözés törlése vagy nullázás"
+  },
+  "ecoadmin elvesz": {
+   "name": "elvesz",
+   "description": "Pénz (vagy chip) levonása egy tagtól (legfeljebb a teljes egyenlegig)"
+  },
+  "ecoadmin profil": {
+   "name": "profil",
+   "description": "Egy tag teljes gazdasági adatlapja (várakozási időkkel)"
+  },
+  "egyenleg": {
+   "name": "egyenleg",
+   "description": "Pénztárca: készpénz, bank, bitcoin, nettó vagyon és helyezés"
+  },
+  "eszkoz": {
+   "name": "eszkoz",
+   "description": "Emlékeztető, szavazás, AFK, születésnap, státusz és AutoMod"
+  },
+  "eszkoz afk": {
+   "name": "afk",
+   "description": "AFK állapot beállítása — aki megemlít, megkapja az okát"
+  },
+  "eszkoz automod": {
+   "name": "automod",
+   "description": "Natív Discord AutoMod szabályok (admin)"
+  },
+  "eszkoz automod lista": {
+   "name": "lista",
+   "description": "A szerver AutoMod szabályai"
+  },
+  "eszkoz automod sablon": {
+   "name": "sablon",
+   "description": "Natív AutoMod szabály létrehozása sablonból (Szerver kezelése jog)"
+  },
+  "eszkoz botstatusz": {
+   "name": "botstatusz",
+   "description": "A bot állapota: ping, uptime, adatbázis, hibák"
+  },
+  "eszkoz emlekezteto": {
+   "name": "emlekezteto",
+   "description": "Emlékeztetők kezelése"
+  },
+  "eszkoz emlekezteto lista": {
+   "name": "lista",
+   "description": "Aktív emlékeztetőid ezen a szerveren"
+  },
+  "eszkoz emlekezteto torles": {
+   "name": "torles",
+   "description": "Egy emlékeztető törlése"
+  },
+  "eszkoz emlekezteto uj": {
+   "name": "uj",
+   "description": "Emlékeztető beállítása (pl. 10p, 1ó30p, 2n, 1hét)"
+  },
+  "eszkoz szavazas": {
+   "name": "szavazas",
+   "description": "Szavazás indítása élő eredménysávokkal (Components V2)"
+  },
+  "eszkoz szerverinfo": {
+   "name": "szerverinfo",
+   "description": "A szerver adatlapja"
+  },
+  "eszkoz szuletesnap": {
+   "name": "szuletesnap",
+   "description": "Születésnapok"
+  },
+  "eszkoz szuletesnap beallit": {
+   "name": "beallit",
+   "description": "A születésnapod beállítása (a köszöntés ezen a szerveren)"
+  },
+  "eszkoz szuletesnap lista": {
+   "name": "lista",
+   "description": "A következő születésnapok a szerveren"
+  },
+  "eszkoz szuletesnap torles": {
+   "name": "torles",
+   "description": "A születésnapod törlése erről a szerverről"
+  },
+  "feketelista": {
+   "name": "feketelista",
+   "description": "Szerverenkénti feketelista: kitiltás lejárattal"
+  },
+  "feketelista hozzaad": {
+   "name": "hozzaad",
+   "description": "Felhasználó feketelistára tétele (kitiltás, lejárattal is)"
+  },
+  "feketelista lista": {
+   "name": "lista",
+   "description": "A feketelista aktív bejegyzései"
+  },
+  "feketelista torol": {
+   "name": "torol",
+   "description": "Felhasználó levétele a feketelistáról (a kitiltás is feloldódik)"
+  },
+  "global": {
+   "name": "global",
+   "description": "Globális moderáció (csak globális moderátoroknak)"
+  },
+  "global csatorna": {
+   "name": "csatorna",
+   "description": "Az ellenőrző csatorna: javaslatok, fellebbezések, archívum (tulajdonos)"
+  },
+  "global feloldas": {
+   "name": "feloldas",
+   "description": "Globális szankció feloldása (tulajdonos)"
+  },
+  "global info": {
+   "name": "info",
+   "description": "Egy felhasználó globális előélete (aktív és korábbi szankciók)"
+  },
+  "global javaslatok": {
+   "name": "javaslatok",
+   "description": "Függő javaslatok és fellebbezések elbírálása (tulajdonos)"
+  },
+  "global jeloles": {
+   "name": "jeloles",
+   "description": "Felhasználó megjelölése (figyelőlista) — csatlakozáskor figyelmeztetés"
+  },
+  "global lista": {
+   "name": "lista",
+   "description": "Az érvényes globális szankciók"
+  },
+  "global statusz": {
+   "name": "statusz",
+   "description": "A globális moderáció állapota a hálózatban"
+  },
+  "globalban": {
+   "name": "globalban",
+   "description": "Globális tiltás a bot minden szerverén (csak globális moderátor)"
+  },
+  "globalbanrequest": {
+   "name": "globalbanrequest",
+   "description": "Javaslat globális tiltásra — a globális moderátorok bírálják el (stáb)"
+  },
+  "globaltimeout": {
+   "name": "globaltimeout",
+   "description": "Globális némítás a bot minden szerverén (csak globális moderátor)"
+  },
+  "globaltimeoutrequest": {
+   "name": "globaltimeoutrequest",
+   "description": "Javaslat globális némításra — a globális moderátorok bírálják el (stáb)"
+  },
+  "help": {
+   "name": "help",
+   "description": "Súgó: az összes parancs kategóriánként, kereséssel"
+  },
+  "hiba_panel": {
+   "name": "hiba_panel",
+   "description": "Hibabejelentő panel kiküldése ebbe a csatornába (admin)"
+  },
+  "honeypot": {
+   "name": "honeypot",
+   "description": "Spambot-csapda: csatorna, büntetés, figyelmeztető kártya, statisztika"
+  },
+  "idojaras": {
+   "name": "idojaras",
+   "description": "Lekéri az aktuális időjárást egy adott városban."
+  },
+  "inaktiv": {
+   "name": "inaktiv",
+   "description": "Inaktív tagok (se üzenet, se hang) — inaktív rang, kirúgás"
+  },
+  "jogaim": {
+   "name": "jogaim",
+   "description": "A szinted és hogy mit tudsz a botban (stábnak: bárkiét)"
+  },
+  "jogosultsag": {
+   "name": "jogosultsag",
+   "description": "Rangszintek és jogok: ki mit tud a botban (admin)"
+  },
+  "jogosultsag alaphelyzet": {
+   "name": "alaphelyzet",
+   "description": "Minden jog vissza az alapértelmezésre (a rangszintek maradnak)"
+  },
+  "jogosultsag jog": {
+   "name": "jog",
+   "description": "Egy jog (képesség) szükséges szintjének és plusz rangjának beállítása"
+  },
+  "jogosultsag panel": {
+   "name": "panel",
+   "description": "Irányítópult: rangszintek, jogok, egy tag jogainak ellenőrzése"
+  },
+  "jogosultsag rang": {
+   "name": "rang",
+   "description": "Egy rang besorolása: Stáb / Moderátor / Adminisztrátor (vagy kivétel)"
+  },
+  "kick": {
+   "name": "kick",
+   "description": "Tag kirúgása a szerverről"
+  },
+  "klan": {
+   "name": "klan",
+   "description": "Klánok: alapítás, tagok, közös kassza, fejlesztések, területharc"
+  },
+  "klan adatlap": {
+   "name": "adatlap",
+   "description": "Egy klán nyilvános adatlapja (üresen a sajátod)"
+  },
+  "klan admin": {
+   "name": "admin",
+   "description": "Klánok kezelése: törlés, területharc kiírása és leállítása, nullázás"
+  },
+  "klan alapitas": {
+   "name": "alapitas",
+   "description": "Saját klán alapítása (az ára a készpénzedből megy)"
+  },
+  "klan kassza": {
+   "name": "kassza",
+   "description": "A klánkassza: befizetés, kifizetés, tiszti limit, napló"
+  },
+  "klan kilep": {
+   "name": "kilep",
+   "description": "Kilépés a klánodból (megerősítéssel)"
+  },
+  "klan meghivas": {
+   "name": "meghivas",
+   "description": "Tag meghívása a klánodba (tisztek és a vezér)"
+  },
+  "klan panel": {
+   "name": "panel",
+   "description": "A klánod irányítópultja: tagok, kassza, fejlesztések, háború"
+  },
+  "koldulas": {
+   "name": "koldulas",
+   "description": "Kéregetés az utcán: gyors, kis összeg — néha semmi"
+  },
+  "kuldetesek": {
+   "name": "kuldetesek",
+   "description": "Napi küldetések, sorozat, kitüntetések és toplista"
+  },
+  "leltar": {
+   "name": "leltar",
+   "description": "A tárgyaid és a hatásuk (az energiaital itt használható)"
+  },
+  "level": {
+   "name": "level",
+   "description": "Szintrendszer: rangkártya, ranglista, jutalmak"
+  },
+  "level csatorna": {
+   "name": "csatorna",
+   "description": "A szintlépési üzenetek csatornája (üresen: ahol a tag írt)"
+  },
+  "level jutalmak": {
+   "name": "jutalmak",
+   "description": "A szint-jutalmak (rangok) listája"
+  },
+  "level jutalom": {
+   "name": "jutalom",
+   "description": "Jutalomrang beállítása egy szinthez"
+  },
+  "level kartya": {
+   "name": "kartya",
+   "description": "Saját vagy egy tag rangkártyája (szint, helyezés, haladás)"
+  },
+  "level xp": {
+   "name": "xp",
+   "description": "XP hozzáadása / levonása, szint beállítása (admin)"
+  },
+  "lock": {
+   "name": "lock",
+   "description": "Csatorna lezárása: @everyone nem írhat (feloldás: /unlock)"
+  },
+  "lockdown_all": {
+   "name": "lockdown_all",
+   "description": "VÉSZHELYZET: minden nyilvános szöveges csatorna lezárása"
+  },
+  "mass": {
+   "name": "mass",
+   "description": "Tömeges szankciók (raid után)"
+  },
+  "mass kirugas": {
+   "name": "kirugas",
+   "description": "Tömeges kirúgás ID-lista alapján (legfeljebb 100)"
+  },
+  "mass kitiltas": {
+   "name": "kitiltas",
+   "description": "Tömeges kitiltás ID-lista alapján (legfeljebb 200)"
+  },
+  "meghivok": {
+   "name": "meghivok",
+   "description": "Ki kit hívott meg: érvényes meghívások, toplista"
+  },
+  "message:AI: Fordítás": {
+   "name": "AI: Fordítás"
+  },
+  "message:AI: Magyarázat": {
+   "name": "AI: Magyarázat"
+  },
+  "message:Szerkesztés (/say)": {
+   "name": "Szerkesztés (/say)"
+  },
+  "message:Üzenet jelentése": {
+   "name": "Üzenet jelentése"
+  },
+  "migracio": {
+   "name": "migracio",
+   "description": "Adatbázis: mentés és régi adatok hozzárendelése (csak a bot tulajdonosa)"
+  },
+  "migracio allapot": {
+   "name": "allapot",
+   "description": "Hány régi sor vár még szerverhez rendelésre?"
+  },
+  "migracio hozzarendel": {
+   "name": "hozzarendel",
+   "description": "A régi adatokat EHHEZ a szerverhez rendeli (előtte mentést készít)"
+  },
+  "migracio mentes": {
+   "name": "mentes",
+   "description": "Adatbázis-mentés most + a meglévő mentések (csak a bot tulajdonosa)"
+  },
+  "munka": {
+   "name": "munka",
+   "description": "Munkaközpont: minden munka egy helyen, várakozási időkkel"
+  },
+  "nevnap": {
+   "name": "nevnap",
+   "description": "📅 Névnapok: ma, egy adott napon, vagy egy név névnapja"
+  },
+  "nick": {
+   "name": "nick",
+   "description": "Becenevek kezelése"
+  },
+  "nick beallitas": {
+   "name": "beallitas",
+   "description": "Tag becenevének beállítása"
+  },
+  "nick javitas": {
+   "name": "javitas",
+   "description": "A lista tetejére „furakodó” (!, ., stb. kezdetű) nevek javítása"
+  },
+  "nick torles": {
+   "name": "torles",
+   "description": "Tag becenevének törlése"
+  },
+  "note": {
+   "name": "note",
+   "description": "Belső moderátori jegyzetek"
+  },
+  "note lista": {
+   "name": "lista",
+   "description": "Egy felhasználó belső jegyzetei"
+  },
+  "note torles": {
+   "name": "torles",
+   "description": "Egy jegyzet törlése"
+  },
+  "note uj": {
+   "name": "uj",
+   "description": "Belső jegyzet egy felhasználóhoz (csak a stáb látja)"
+  },
+  "nuke": {
+   "name": "nuke",
+   "description": "Csatorna újralétrehozása üres üzenettörténettel (megerősítéssel)"
+  },
+  "nyeremeny": {
+   "name": "nyeremeny",
+   "description": "Nyereményjáték: indítás, lezárás, újrasorsolás, lista"
+  },
+  "nyeremeny inditas": {
+   "name": "inditas",
+   "description": "🎉 Gombos nyereményjáték indítása ebben a csatornában"
+  },
+  "nyeremeny lezaras": {
+   "name": "lezaras",
+   "description": "🏁 Nyereményjáték azonnali lezárása és kisorsolása"
+  },
+  "nyeremeny lista": {
+   "name": "lista",
+   "description": "📋 A szerveren éppen futó nyereményjátékok listája"
+  },
+  "nyeremeny ujrasorsolas": {
+   "name": "ujrasorsolas",
+   "description": "🎲 Új nyertes sorsolása egy lezárt nyereményjátékhoz"
+  },
+  "oszodibeszed": {
+   "name": "oszodibeszed",
+   "description": "🎙️ Az őszödi beszéd: videó a 4:57-es résztől, idézetek, lejátszás a hangcsatornában"
+  },
+  "otlet_panel": {
+   "name": "otlet_panel",
+   "description": "Ötlet-panel kiküldése ebbe a csatornába (admin)"
+  },
+  "peca": {
+   "name": "peca",
+   "description": "RPG pecázás: mini-játék, akvárium, felszerelés, rekordok"
+  },
+  "peca akvarium": {
+   "name": "akvarium",
+   "description": "Az akváriumod: lapozás, rendezés, értékbecslés, eladás"
+  },
+  "peca bolt": {
+   "name": "bolt",
+   "description": "Horgászbotok és csalik vásárlása"
+  },
+  "peca dobale": {
+   "name": "dobale",
+   "description": "Bedobás! Várd ki a kapást, és rántsd be időben (mini-játék)"
+  },
+  "peca statisztika": {
+   "name": "statisztika",
+   "description": "Pecás statisztika, egyéni és szerverrekordok, toplista"
+  },
+  "penzmosas": {
+   "name": "penzmosas",
+   "description": "Piszkos pénz tisztára mosása (módszer + összeg)"
+  },
+  "profile": {
+   "name": "profile",
+   "description": "Saját vagy más tag részletes szerverstatisztikáinak lekérése"
+  },
+  "purge": {
+   "name": "purge",
+   "description": "Üzenetek tömeges törlése"
+  },
+  "purge botok": {
+   "name": "botok",
+   "description": "Botok utolsó N üzenetének törlése"
+  },
+  "purge linkek": {
+   "name": "linkek",
+   "description": "Linket tartalmazó üzenetek törlése"
+  },
+  "purge mellekletek": {
+   "name": "mellekletek",
+   "description": "Mellékletet (képet, fájlt) tartalmazó üzenetek törlése"
+  },
+  "purge szoveg": {
+   "name": "szoveg",
+   "description": "Adott szöveget tartalmazó üzenetek törlése"
+  },
+  "purge tag": {
+   "name": "tag",
+   "description": "Egy felhasználó utolsó N üzenetének törlése"
+  },
+  "purge uzenetek": {
+   "name": "uzenetek",
+   "description": "Az utolsó N üzenet törlése"
+  },
+  "rangvalaszto": {
+   "name": "rangvalaszto",
+   "description": "Rangválasztó panelek: bármilyen rang, egyedi névvel, típussal, színnel (admin)"
+  },
+  "roblox": {
+   "name": "roblox",
+   "description": "Egy Roblox felhasználó összes nyilvános profiladatának lekérdezése"
+  },
+  "role": {
+   "name": "role",
+   "description": "Rangok kezelése"
+  },
+  "role ad": {
+   "name": "ad",
+   "description": "Rang hozzáadása egy taghoz"
+  },
+  "role ad_mindenkinek": {
+   "name": "ad_mindenkinek",
+   "description": "Rang hozzáadása MINDEN taghoz"
+  },
+  "role elvesz": {
+   "name": "elvesz",
+   "description": "Rang elvétele egy tagtól"
+  },
+  "role elvesz_mindenkitol": {
+   "name": "elvesz_mindenkitol",
+   "description": "Rang elvétele MINDENKITŐL"
+  },
+  "role szin": {
+   "name": "szin",
+   "description": "Rang színének módosítása"
+  },
+  "rulett": {
+   "name": "rulett",
+   "description": "Orosz rulett egyetlen éles golyóval a tárban"
+  },
+  "say": {
+   "name": "say",
+   "description": "Üzenet a bot nevében: azonnal, vagy stúdióval élő előnézettel (admin)"
+  },
+  "security": {
+   "name": "security",
+   "description": "Automatikus védelem és moderációs beállítások"
+  },
+  "security antiinvite": {
+   "name": "antiinvite",
+   "description": "Más szerverek Discord-meghívóinak törlése"
+  },
+  "security antilink": {
+   "name": "antilink",
+   "description": "Linkszűrő: a nem engedélyezett oldalak linkjeinek törlése"
+  },
+  "security antiraid": {
+   "name": "antiraid",
+   "description": "24 óránál fiatalabb fiókok automatikus kirúgása"
+  },
+  "security antispam": {
+   "name": "antispam",
+   "description": "Antispam: üzenetáradat → törlés + 5 perc timeout"
+  },
+  "security capsmention": {
+   "name": "capsmention",
+   "description": "Tömeges említés (6+) és csupa nagybetű szűrése"
+  },
+  "security dm_ertesites": {
+   "name": "dm_ertesites",
+   "description": "Kapjon-e DM-et (fellebbezés gombbal) a szankcionált tag"
+  },
+  "security eszkalacio": {
+   "name": "eszkalacio",
+   "description": "Automatikus timeout minden X. figyelmeztetésnél"
+  },
+  "security linkek": {
+   "name": "linkek",
+   "description": "A linkszűrőnél engedélyezett oldalak (domainek) megadása"
+  },
+  "security naplo": {
+   "name": "naplo",
+   "description": "A moderációs napló csatornájának beállítása"
+  },
+  "security panel": {
+   "name": "panel",
+   "description": "Hol állítható be minden moderációs beállítás (webes vezérlőpult)"
+  },
+  "security slowmode_auto": {
+   "name": "slowmode_auto",
+   "description": "Adaptív lassított mód üzenetáradatnál"
+  },
+  "security verification_level": {
+   "name": "verification_level",
+   "description": "A szerver ellenőrzési szintjének módosítása"
+  },
+  "ship": {
+   "name": "ship",
+   "description": "Két szervertag szerelmi kompatibilitásának elemzése"
+  },
+  "shop": {
+   "name": "shop",
+   "description": "Szerverbolt: rangok, eszközök, tárgyak"
+  },
+  "shop lista": {
+   "name": "lista",
+   "description": "A bolt kínálata (lapozható, a termékek innen is megvehetők)"
+  },
+  "shop vetel": {
+   "name": "vetel",
+   "description": "Termék megvásárlása az azonosítója alapján"
+  },
+  "shopadmin": {
+   "name": "shopadmin",
+   "description": "A szerverbolt termékeinek kezelése"
+  },
+  "shopadmin lista": {
+   "name": "lista",
+   "description": "A szerver saját termékei (a kikapcsoltakkal együtt)"
+  },
+  "shopadmin rang": {
+   "name": "rang",
+   "description": "Megvásárolható rang felvétele (akár időkorlátosan)"
+  },
+  "shopadmin szerkeszt": {
+   "name": "szerkeszt",
+   "description": "Egy saját termék módosítása"
+  },
+  "shopadmin targy": {
+   "name": "targy",
+   "description": "Gyűjthető tárgy felvétele (a vevő leltárába kerül)"
+  },
+  "shopadmin torol": {
+   "name": "torol",
+   "description": "Egy saját termék törlése a boltból"
+  },
+  "slowmode": {
+   "name": "slowmode",
+   "description": "Lassított mód beállítása (0 = kikapcsolás)"
+  },
+  "softban": {
+   "name": "softban",
+   "description": "Kitiltás + azonnali feloldás: kirúgás és 7 napnyi üzenet törlése"
+  },
+  "szolgalat": {
+   "name": "szolgalat",
+   "description": "🕒 Szolgálat: be- és kilépés, idők, távollét, riportok, panel"
+  },
+  "szolgalat adatok": {
+   "name": "adatok",
+   "description": "A szolgálati időd (vagy egy tagé)"
+  },
+  "szolgalat aktiv": {
+   "name": "aktiv",
+   "description": "Ki van most szolgálatban?"
+  },
+  "szolgalat atnevez": {
+   "name": "atnevez",
+   "description": "Szolgálattípus átnevezése (az adatok is átkerülnek)"
+  },
+  "szolgalat be": {
+   "name": "be",
+   "description": "Szolgálatba lépés"
+  },
+  "szolgalat export": {
+   "name": "export",
+   "description": "CSV-export a szolgálati időkről (csak admin)"
+  },
+  "szolgalat hozzaad": {
+   "name": "hozzaad",
+   "description": "Idő jóváírása vagy levonása (csak admin, pl. 30 vagy -15 perc)"
+  },
+  "szolgalat ki": {
+   "name": "ki",
+   "description": "Kilépés a szolgálatból (típus nélkül: mindből)"
+  },
+  "szolgalat kileptet": {
+   "name": "kileptet",
+   "description": "Egy tag, egy típus vagy mindenki kiléptetése (megerősítéssel)"
+  },
+  "szolgalat kvota": {
+   "name": "kvota",
+   "description": "🏅 Kvóta-rangok a ledolgozott idő után"
+  },
+  "szolgalat kvota beallit": {
+   "name": "beallit",
+   "description": "Rang a ledolgozott idő után (pl. 600 perc → @Tapasztalt)"
+  },
+  "szolgalat kvota lista": {
+   "name": "lista",
+   "description": "A kvóta-rangok"
+  },
+  "szolgalat kvota szinkron": {
+   "name": "szinkron",
+   "description": "A kvóta-rangok kiosztása mindenkinek, aki már teljesítette"
+  },
+  "szolgalat kvota torol": {
+   "name": "torol",
+   "description": "Kvóta-rang törlése"
+  },
+  "szolgalat loa": {
+   "name": "loa",
+   "description": "🏖️ Távollét (LOA): kérelem, lista, elbírálás"
+  },
+  "szolgalat loa dontes": {
+   "name": "dontes",
+   "description": "Távollét-kérelem elbírálása"
+  },
+  "szolgalat loa kerelem": {
+   "name": "kerelem",
+   "description": "Távollét kérése (1–365 nap)"
+  },
+  "szolgalat loa lezaras": {
+   "name": "lezaras",
+   "description": "Távollét lezárása (korábbi vége) vagy egy kérelem visszavonása"
+  },
+  "szolgalat loa lista": {
+   "name": "lista",
+   "description": "A függő és aktív távollétek"
+  },
+  "szolgalat nullazas": {
+   "name": "nullazas",
+   "description": "Szolgálati idők nullázása (csak admin, megerősítéssel)"
+  },
+  "szolgalat osszesito": {
+   "name": "osszesito",
+   "description": "Toplista: ki mennyit volt szolgálatban (csak admin)"
+  },
+  "szolgalat panel": {
+   "name": "panel",
+   "description": "A szolgálati panel kirakása (élő létszámmal, gombokkal)"
+  },
+  "szolgalat riport": {
+   "name": "riport",
+   "description": "Riport most, nullázás nélkül (csak admin)"
+  },
+  "szolgalat szunet": {
+   "name": "szunet",
+   "description": "Szünet kezdése vagy vége (a szünet nem számít a szolgálati időbe)"
+  },
+  "szolgalat tipusok": {
+   "name": "tipusok",
+   "description": "A szolgálattípusok, bent lévők és összesített idők"
+  },
+  "szolgalat torles": {
+   "name": "torles",
+   "description": "Szolgálati adatok VÉGLEGES törlése (csak admin, megerősítéssel)"
+  },
+  "tempban": {
+   "name": "tempban",
+   "description": "Ideiglenes kitiltás — lejáratkor automatikusan feloldódik"
+  },
+  "ticket": {
+   "name": "ticket",
+   "description": "Ticket rendszer: jegyeid, stábeszközök, beállítások"
+  },
+  "ticket beallitasok": {
+   "name": "beallitasok",
+   "description": "A ticket rendszer admin-irányítópultja (beállítások, panel, statisztika)"
+  },
+  "ticket feloldas": {
+   "name": "feloldas",
+   "description": "Ticket-tiltás feloldása (stáb)"
+  },
+  "ticket jegyeim": {
+   "name": "jegyeim",
+   "description": "A saját nyitott és korábbi jegyeid ezen a szerveren"
+  },
+  "ticket lista": {
+   "name": "lista",
+   "description": "Nyitott jegyek prioritás szerint, szűrőkkel (stáb)"
+  },
+  "ticket panel_torles": {
+   "name": "panel_torles",
+   "description": "Egy további ticket-panel törlése (a kint lévő üzenettel)"
+  },
+  "ticket panel_uj": {
+   "name": "panel_uj",
+   "description": "Ticket-panel egy (újabb) csatornába, saját kategóriákkal"
+  },
+  "ticket panelek": {
+   "name": "panelek",
+   "description": "A további ticket-panelek listája"
+  },
+  "ticket statisztika": {
+   "name": "statisztika",
+   "description": "Válaszidők, értékelések, legaktívabb stábtagok (stáb)"
+  },
+  "ticket tiltas": {
+   "name": "tiltas",
+   "description": "Tag kitiltása a ticket rendszerből (stáb)"
+  },
+  "tiktok": {
+   "name": "tiktok",
+   "description": "TikTok-értesítő: új videók és élő adások jelzése"
+  },
+  "tiktok hozzaad": {
+   "name": "hozzaad",
+   "description": "TikTok-fiók követése: új videó és élő adás jelzése egy csatornában"
+  },
+  "tiktok panel": {
+   "name": "panel",
+   "description": "A TikTok-értesítő kezelése: fiókok, csatorna, ping, próba, ellenőrzés"
+  },
+  "timeout": {
+   "name": "timeout",
+   "description": "Tag időkorlátozása (nem írhat, nem beszélhet)"
+  },
+  "toplista": {
+   "name": "toplista",
+   "description": "Toplisták: vagyon, szint, kaszinó, tőzsde, bitcoin, klán, küldetés, meghívó, peca, vadászat"
+  },
+  "tozsde": {
+   "name": "tozsde",
+   "description": "Tőzsde: részvények, terminál, grafikon, megbízások"
+  },
+  "tozsde eladas": {
+   "name": "eladas",
+   "description": "Részvényeladás a piaci áron (darab, % vagy max)"
+  },
+  "tozsde fedezes": {
+   "name": "fedezes",
+   "description": "A short pozíció lezárása (visszavásárlás a piaci áron)"
+  },
+  "tozsde grafikon": {
+   "name": "grafikon",
+   "description": "Nyilvános árfolyam-kártya gyertyás grafikonnal (a PÉTIX-é is)"
+  },
+  "tozsde megbizas": {
+   "name": "megbizas",
+   "description": "Limit vagy stop megbízás (7 napig él, zárva is feladható)"
+  },
+  "tozsde piac": {
+   "name": "piac",
+   "description": "Tőzsdei terminál: piac, portfólió, megbízások, hírek, toplista"
+  },
+  "tozsde reszveny": {
+   "name": "reszveny",
+   "description": "Egy cég adatlapja: grafikon, ajánlati könyv, mutatók, pozíciód"
+  },
+  "tozsde short": {
+   "name": "short",
+   "description": "Short ügylet: esésre játszás kölcsönrészvénnyel (50% fedezettel)"
+  },
+  "tozsde vetel": {
+   "name": "vetel",
+   "description": "Részvényvásárlás a piaci áron (darab, összeg, % vagy max)"
+  },
+  "udvozles": {
+   "name": "udvozles",
+   "description": "Üdvözlő-stúdió: üdvözlő, búcsú és privát üzenet élő előnézettel"
+  },
+  "unban": {
+   "name": "unban",
+   "description": "Kitiltás feloldása"
+  },
+  "unlock": {
+   "name": "unlock",
+   "description": "Csatorna feloldása (a lezárás előtti állapot visszaáll)"
+  },
+  "unlock_all": {
+   "name": "unlock_all",
+   "description": "A bot által lezárt összes csatorna feloldása"
+  },
+  "unnepek": {
+   "name": "unnepek",
+   "description": "🇭🇺 Magyar ünnepek és emléknapok: ma és a következő napokban"
+  },
+  "untimeout": {
+   "name": "untimeout",
+   "description": "Időkorlátozás visszavonása"
+  },
+  "user:Figyelmeztetés": {
+   "name": "Figyelmeztetés"
+  },
+  "user:Profil megtekintése": {
+   "name": "Profil megtekintése"
+  },
+  "user_info": {
+   "name": "user_info",
+   "description": "Tag moderációs adatlapja: fiók, rangok, esetek, jegyzetek"
+  },
+  "utalas": {
+   "name": "utalas",
+   "description": "Pénz küldése egy másik tagnak a készpénzedből"
+  },
+  "uzlet": {
+   "name": "uzlet",
+   "description": "Üzletek: passzív jövedelem befektetésből"
+  },
+  "uzlet bolt": {
+   "name": "bolt",
+   "description": "Fektess be egy üzletbe, ami passzív jövedelmet termel."
+  },
+  "uzlet profil": {
+   "name": "profil",
+   "description": "Megnézed a saját üzleteidet és a passzív jövedelmedet."
+  },
+  "vadaszat": {
+   "name": "vadaszat",
+   "description": "RPG vadászat: les mini-játékkal, trófeaterem, felszerelés, rekordok"
+  },
+  "vadaszat bolt": {
+   "name": "bolt",
+   "description": "Íjak, puskák és csalogatók vásárlása"
+  },
+  "vadaszat les": {
+   "name": "les",
+   "description": "Lesre fel! Várd ki a vadat, és lőj a jó irányba időben (mini-játék)"
+  },
+  "vadaszat statisztika": {
+   "name": "statisztika",
+   "description": "Vadász-statisztika, egyéni és szerverrekordok, toplista"
+  },
+  "vadaszat trofeaterem": {
+   "name": "trofeaterem",
+   "description": "A trófeatermed: lapozás, rendezés, értékbecslés, eladás"
+  },
+  "vc": {
+   "name": "vc",
+   "description": "🎙️ Az ideiglenes hangcsatornád kezelése"
+  },
+  "vc claim": {
+   "name": "claim",
+   "description": "Tulajdonjog megszerzése (ha a tulaj nincs bent)"
+  },
+  "vc kick": {
+   "name": "kick",
+   "description": "Felhasználó kirúgása (visszajöhet, ha nincs zárolva)"
+  },
+  "vc limit": {
+   "name": "limit",
+   "description": "Csatorna maximális létszáma"
+  },
+  "vc lobbi": {
+   "name": "lobbi",
+   "description": "🚪 Csatornakészítő lobbik (több is lehet)"
+  },
+  "vc lobbi hozzaad": {
+   "name": "hozzaad",
+   "description": "Új csatornakészítő lobbi (vagy egy meglévő módosítása)"
+  },
+  "vc lobbi lista": {
+   "name": "lista",
+   "description": "A csatornakészítő lobbik listája"
+  },
+  "vc lobbi torles": {
+   "name": "torles",
+   "description": "Csatornakészítő lobbi megszüntetése (a csatorna megmarad)"
+  },
+  "vc lock": {
+   "name": "lock",
+   "description": "Csatorna zárolása (aki bent van, visszajöhet)"
+  },
+  "vc permit": {
+   "name": "permit",
+   "description": "Felhasználó beengedése (zárolt csatornába is)"
+  },
+  "vc reject": {
+   "name": "reject",
+   "description": "Felhasználó kitiltása a csatornából"
+  },
+  "vc rename": {
+   "name": "rename",
+   "description": "Csatorna átnevezése (10 percenként legfeljebb 2-szer)"
+  },
+  "vc transfer": {
+   "name": "transfer",
+   "description": "Tulajdonjog átadása valakinek"
+  },
+  "vc unlock": {
+   "name": "unlock",
+   "description": "Csatorna feloldása"
+  },
+  "verify_embed": {
+   "name": "verify_embed",
+   "description": "Verifikációs panel kihelyezése (Admin)"
+  },
+  "verify_info": {
+   "name": "verify_info",
+   "description": "Megnézi, egy tag mikor és melyik dokumentumverziót fogadta el (Stáb)"
+  },
+  "voice": {
+   "name": "voice",
+   "description": "Hangcsatorna-moderáció"
+  },
+  "voice athelyezes": {
+   "name": "athelyezes",
+   "description": "Tag áthelyezése másik hangcsatornába"
+  },
+  "voice feloldas": {
+   "name": "feloldas",
+   "description": "Hangcsatorna feloldása (a lezárás előtti állapot visszaáll)"
+  },
+  "voice kidobas": {
+   "name": "kidobas",
+   "description": "Tag lecsatlakoztatása hangból"
+  },
+  "voice lezaras": {
+   "name": "lezaras",
+   "description": "Hangcsatorna lezárása (@everyone nem csatlakozhat)"
+  },
+  "voice mind_athelyezese": {
+   "name": "mind_athelyezese",
+   "description": "Egy hangcsatorna összes tagjának áthelyezése"
+  },
+  "voice nemitas": {
+   "name": "nemitas",
+   "description": "Tag némítása hangban"
+  },
+  "voice nemitas_fel": {
+   "name": "nemitas_fel",
+   "description": "Hang-némítás feloldása"
+  },
+  "voice suketites": {
+   "name": "suketites",
+   "description": "Tag süketítése hangban"
+  },
+  "voice suketites_fel": {
+   "name": "suketites_fel",
+   "description": "Süketítés feloldása"
+  },
+  "warn": {
+   "name": "warn",
+   "description": "Figyelmeztetések kezelése"
+  },
+  "warn kereses": {
+   "name": "kereses",
+   "description": "Figyelmeztetések keresése az indokban"
+  },
+  "warn lista": {
+   "name": "lista",
+   "description": "Egy tag figyelmeztetései"
+  },
+  "warn nullazas": {
+   "name": "nullazas",
+   "description": "Egy tag összes figyelmeztetésének törlése"
+  },
+  "warn uj": {
+   "name": "uj",
+   "description": "Figyelmeztetés adása egy tagnak"
+  },
+  "warn visszavonas": {
+   "name": "visszavonas",
+   "description": "Egy figyelmeztetés visszavonása esetszám alapján"
+  },
+  "wordfilter": {
+   "name": "wordfilter",
+   "description": "Tiltott szavak és kifejezések"
+  },
+  "wordfilter lista": {
+   "name": "lista",
+   "description": "A tiltott kifejezések listája"
+  },
+  "wordfilter torles": {
+   "name": "torles",
+   "description": "Kifejezés levétele a tiltólistáról"
+  },
+  "wordfilter uj": {
+   "name": "uj",
+   "description": "Szó vagy kifejezés tiltása (a * bármennyi betűt jelent)"
+  },
+  "youtube": {
+   "name": "youtube",
+   "description": "YouTube-értesítő: új videók, Shorts, élő adások"
+  },
+  "youtube hozzaad": {
+   "name": "hozzaad",
+   "description": "YouTube-csatorna követése: új videó, Shorts és élő adás jelzése"
+  },
+  "youtube panel": {
+   "name": "panel",
+   "description": "A YouTube-értesítő kezelése: csatornák, ping, próba, ellenőrzés"
+  },
+  "zene": {
+   "name": "zene",
+   "description": "🎵 Zenelejátszó: panel, sor, előzmények, ugrás, hangerő, hangzás, dalszöveg …"
+  },
+  "zene athelyez": {
+   "name": "athelyez",
+   "description": "Egy szám áthelyezése a sorban"
+  },
+  "zene dalszoveg": {
+   "name": "dalszoveg",
+   "description": "A most szóló (vagy a megadott) szám dalszövege, időzített sorral"
+  },
+  "zene elozmenyek": {
+   "name": "elozmenyek",
+   "description": "Az utoljára lejátszott számok — egy kattintással újra a sorba tehetők"
+  },
+  "zene hangero": {
+   "name": "hangero",
+   "description": "A hangerő (0–150%) — szám nélkül űrlap nyílik"
+  },
+  "zene hangzas": {
+   "name": "hangzas",
+   "description": "Hangzás: basszus, nightcore, vaporwave, slowed, 8D, kiegyenlítés, gyorsítás"
+  },
+  "zene ismetles": {
+   "name": "ismetles",
+   "description": "Ismétlés: ki, ez a szám, vagy a teljes sor"
+  },
+  "zene keveres": {
+   "name": "keveres",
+   "description": "A várólista összekeverése"
+  },
+  "zene kihagyas": {
+   "name": "kihagyas",
+   "description": "A most szóló szám átugrása (ha a szerver így állította be: szavazással)"
+  },
+  "zene kilep": {
+   "name": "kilep",
+   "description": "A zene leállítása és kilépés a hangcsatornából"
+  },
+  "zene kovetkezo": {
+   "name": "kovetkezo",
+   "description": "Egy szám a sor ELEJÉRE — a most szóló után azonnal jön"
+  },
+  "zene lejatszas": {
+   "name": "lejatszas",
+   "description": "Zene lejátszása: cím, vagy YouTube-, Spotify-, SoundCloud-link"
+  },
+  "zene most": {
+   "name": "most",
+   "description": "Mi szól most? Kártya idősávval, előadóval, a következő számokkal"
+  },
+  "zene panel": {
+   "name": "panel",
+   "description": "A lejátszó panelje ide, a csatorna aljára (a régi eltűnik)"
+  },
+  "zene sor": {
+   "name": "sor",
+   "description": "A várólista: ugrás, előrehozás, törlés, keverés, ürítés, előzmények"
+  },
+  "zene torles": {
+   "name": "torles",
+   "description": "Egy szám törlése a sorból (a sorszám a /zene sor listájából)"
+  },
+  "zene ugras": {
+   "name": "ugras",
+   "description": "Ugrás a számban: 1:23 (perc:mp), 90 (mp), +30 (előre), -15 (vissza)"
+  },
+  "zene urites": {
+   "name": "urites",
+   "description": "A teljes várólista törlése (a most szóló szám marad)"
+  }
+ },
+ "options": {
+  "8ball kerdes": {
+   "name": "kerdes",
+   "description": "A kérdésed, amire választ vársz"
+  },
+  "ai csatorna csatorna": {
+   "name": "csatorna",
+   "description": "Ebben a csatornában válaszol az AI minden üzenetre"
+  },
+  "ai prompt szoveg": {
+   "name": "szoveg",
+   "description": "Az AI utasításai, vagy 'reset' az alapértelmezett személyiséghez"
+  },
+  "aimod pontok tag": {
+   "name": "tag",
+   "description": "Akinek a pontjait látni szeretnéd (üresen: a sajátod)"
+  },
+  "aimod teszt szoveg": {
+   "name": "szoveg",
+   "description": "A kipróbálandó üzenet"
+  },
+  "aktivitas napok": {
+   "name": "napok",
+   "description": "Hány napot mutasson (alap: 30)"
+  },
+  "autovalasz torles azonosito": {
+   "name": "azonosito",
+   "description": "A törlendő válasz (kezdd el gépelni a kulcsszót)"
+  },
+  "autovalasz uj kulcsszo": {
+   "name": "kulcsszo",
+   "description": "Pl. „ip”, „szabályzat”, „hogyan jelentkezem”"
+  },
+  "autovalasz uj mod": {
+   "name": "mod",
+   "description": "Mikor válaszoljon (alap: ha az üzenetben szerepel a kulcsszó)"
+  },
+  "autovalasz uj valasz": {
+   "name": "valasz",
+   "description": "A bot válasza — helyettesítők: {user} {name} {server} {channel}"
+  },
+  "ban felhasznalo": {
+   "name": "felhasznalo",
+   "description": "A kitiltandó felhasználó (vagy az ID-ja)"
+  },
+  "ban indok": {
+   "name": "indok",
+   "description": "Az indok (DM-ben megkapja)"
+  },
+  "ban torles_napok": {
+   "name": "torles_napok",
+   "description": "Hány napnyi üzenetét töröljük (0–7)"
+  },
+  "btc arfolyam idoszak": {
+   "name": "idoszak",
+   "description": "Mekkora időszakot mutasson (alap: 24 óra)"
+  },
+  "btc eladas mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Mennyi BTC-t adsz el: 0.05, 50% vagy összes"
+  },
+  "btc limit celar": {
+   "name": "celar",
+   "description": "A célárfolyam (Ft / BTC)"
+  },
+  "btc limit irany": {
+   "name": "irany",
+   "description": "Vétel vagy eladás"
+  },
+  "btc limit mennyiseg": {
+   "name": "mennyiseg",
+   "description": "BTC-mennyiség (pl. 0.05)"
+  },
+  "btc tozsde oldal": {
+   "name": "oldal",
+   "description": "Melyik lapon nyíljon meg (alap: Piac és tárca)"
+  },
+  "btc vetel osszeg": {
+   "name": "osszeg",
+   "description": "Mennyi forintot költesz rá: 50000, 125k, 1,5m vagy összes"
+  },
+  "case lista felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Akinek az eseteit listázzuk"
+  },
+  "case megtekintes eset": {
+   "name": "eset",
+   "description": "Az eset száma (#…)"
+  },
+  "case szerkesztes eset": {
+   "name": "eset",
+   "description": "Az eset száma (#…)"
+  },
+  "case szerkesztes indok": {
+   "name": "indok",
+   "description": "Az új indok"
+  },
+  "casino aknakereso aknak": {
+   "name": "aknak",
+   "description": "Hány akna legyen a 20 mező között (üresen a kártyán választasz)"
+  },
+  "casino aknakereso tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino baccarat tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino baccarat tipp": {
+   "name": "tipp",
+   "description": "Kire teszel? (üresen a kártyán választasz)"
+  },
+  "casino blackjack tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino chip eladas mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány chipet váltasz vissza? (pl. 100, 1k, összes)"
+  },
+  "casino chip vetel mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány chipet veszel? (pl. 100, 1k, összes)"
+  },
+  "casino crash kiszallas": {
+   "name": "kiszallas",
+   "description": "Automatikus kiszállás ennél a szorzónál (pl. 2 vagy 1.5)"
+  },
+  "casino crash tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino fejiras oldal": {
+   "name": "oldal",
+   "description": "Fej vagy írás? (üresen a kártyán választasz)"
+  },
+  "casino fejiras tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino hilo tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino kaparos tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino keno szamok": {
+   "name": "szamok",
+   "description": "6 szám 1–40 között, pl. 3,7,12,19,28,40 (üresen: gyors tipp a kártyán)"
+  },
+  "casino keno tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino kerek tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino kocka cel": {
+   "name": "cel",
+   "description": "A cél (5–95) — üresen a kártyán állítod be"
+  },
+  "casino kocka irany": {
+   "name": "irany",
+   "description": "A dobás a cél felett vagy alatt legyen?"
+  },
+  "casino kocka tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino lotto darab": {
+   "name": "darab",
+   "description": "Hány szelvényt veszel (0 = csak megnézed az állást, alap: 1)"
+  },
+  "casino loverseny lo": {
+   "name": "lo",
+   "description": "Melyik lóra teszel? (üresen a kártyán választasz)"
+  },
+  "casino loverseny tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino parbaj ellenfel": {
+   "name": "ellenfel",
+   "description": "Kit hívsz ki?"
+  },
+  "casino parbaj tet": {
+   "name": "tet",
+   "description": "Tét fejenként (chip): szám, fele vagy max"
+  },
+  "casino plinko kockazat": {
+   "name": "kockazat",
+   "description": "Kockázat (üresen a kártyán választasz)"
+  },
+  "casino plinko tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino poker tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino rulett szam": {
+   "name": "szam",
+   "description": "Számtétnél a szám (0–36)"
+  },
+  "casino rulett tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino rulett tipus": {
+   "name": "tipus",
+   "description": "Mire teszel? (üresen a kártyán választasz)"
+  },
+  "casino slot tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "casino statisztika tag": {
+   "name": "tag",
+   "description": "Kinek a statisztikája? (alap: a sajátod)"
+  },
+  "casino torony nehezseg": {
+   "name": "nehezseg",
+   "description": "Nehézség (üresen a kártyán választasz)"
+  },
+  "casino torony tet": {
+   "name": "tet",
+   "description": "Tét chipben: szám (pl. 100, 2,5k), fele vagy max"
+  },
+  "dicksize celpont": {
+   "name": "celpont",
+   "description": "Kinek a méretét mérjük (üresen: a sajátod)"
+  },
+  "ecoadmin ad hova": {
+   "name": "hova",
+   "description": "Melyik egyenlegre (alap: készpénz)"
+  },
+  "ecoadmin ad osszeg": {
+   "name": "osszeg",
+   "description": "Összeg (pl. 50000 vagy 50k)"
+  },
+  "ecoadmin ad tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "ecoadmin alvilag muvelet": {
+   "name": "muvelet",
+   "description": "Mit tegyünk"
+  },
+  "ecoadmin alvilag tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "ecoadmin elvesz honnan": {
+   "name": "honnan",
+   "description": "Melyik egyenlegről (alap: készpénz)"
+  },
+  "ecoadmin elvesz osszeg": {
+   "name": "osszeg",
+   "description": "Összeg (pl. 50000, 50k vagy összes)"
+  },
+  "ecoadmin elvesz tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "ecoadmin profil tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "egyenleg tag": {
+   "name": "tag",
+   "description": "Kinek a pénztárcáját nézed (alapból a sajátod)"
+  },
+  "eszkoz afk ok": {
+   "name": "ok",
+   "description": "Miért vagy távol? (nem kötelező)"
+  },
+  "eszkoz automod sablon emlites_limit": {
+   "name": "emlites_limit",
+   "description": "Tömeges említésnél: ennyi említéstől blokkol (alap: 5)"
+  },
+  "eszkoz automod sablon kulcsszavak": {
+   "name": "kulcsszavak",
+   "description": "Csak az 'Egyedi kulcsszavak' sablonhoz: vesszővel elválasztva (* joker)"
+  },
+  "eszkoz automod sablon sablon": {
+   "name": "sablon",
+   "description": "Milyen szabályt hozzak létre?"
+  },
+  "eszkoz emlekezteto torles azonosito": {
+   "name": "azonosito",
+   "description": "Az emlékeztető azonosítója (kezdj el gépelni a listához)"
+  },
+  "eszkoz emlekezteto uj ido": {
+   "name": "ido",
+   "description": "Mennyi idő múlva? Pl.: 10p, 1ó30p, 2n, 1hét"
+  },
+  "eszkoz emlekezteto uj privat": {
+   "name": "privat",
+   "description": "Privát üzenetben kéred? (alapból ebben a csatornában)"
+  },
+  "eszkoz emlekezteto uj szoveg": {
+   "name": "szoveg",
+   "description": "Mire emlékeztesselek?"
+  },
+  "eszkoz szavazas kerdes": {
+   "name": "kerdes",
+   "description": "A szavazás kérdése"
+  },
+  "eszkoz szavazas nevtelen": {
+   "name": "nevtelen",
+   "description": "Névtelen (alap) — kikapcsolva bárki megnézheti, ki mire szavazott"
+  },
+  "eszkoz szavazas orak": {
+   "name": "orak",
+   "description": "Automatikus lezárás ennyi óra múlva (0: csak kézzel, alap: 24)"
+  },
+  "eszkoz szavazas rejtett_eredmeny": {
+   "name": "rejtett_eredmeny",
+   "description": "Az eredmény csak a lezáráskor látszik"
+  },
+  "eszkoz szavazas tobb_valasz": {
+   "name": "tobb_valasz",
+   "description": "Több válasz is megjelölhető?"
+  },
+  "eszkoz szavazas valaszok": {
+   "name": "valaszok",
+   "description": "2-10 válasz pontosvesszővel elválasztva, pl.: Igen; Nem; Talán"
+  },
+  "eszkoz szuletesnap beallit ev": {
+   "name": "ev",
+   "description": "Születési év (nem kötelező — ha megadod, a kort is kiírjuk)"
+  },
+  "eszkoz szuletesnap beallit honap": {
+   "name": "honap",
+   "description": "Hónap (1-12)"
+  },
+  "eszkoz szuletesnap beallit nap": {
+   "name": "nap",
+   "description": "Nap (1-31)"
+  },
+  "feketelista hozzaad azonosito": {
+   "name": "azonosito",
+   "description": "Vagy a felhasználó azonosítója (ha nincs a szerveren)"
+  },
+  "feketelista hozzaad ido": {
+   "name": "ido",
+   "description": "Meddig (pl. 1n, 7n, 30n) — üresen végleges"
+  },
+  "feketelista hozzaad indok": {
+   "name": "indok",
+   "description": "Az indok (a felhasználó DM-ben megkapja)"
+  },
+  "feketelista hozzaad tag": {
+   "name": "tag",
+   "description": "A felhasználó"
+  },
+  "feketelista torol azonosito": {
+   "name": "azonosito",
+   "description": "Vagy a felhasználó azonosítója"
+  },
+  "feketelista torol indok": {
+   "name": "indok",
+   "description": "Az oka (nem kötelező)"
+  },
+  "feketelista torol tag": {
+   "name": "tag",
+   "description": "A felhasználó"
+  },
+  "global csatorna csatorna": {
+   "name": "csatorna",
+   "description": "A csatorna (üresen: ez a csatorna)"
+  },
+  "global feloldas felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kinek"
+  },
+  "global feloldas indok": {
+   "name": "indok",
+   "description": "Miért"
+  },
+  "global feloldas tipus": {
+   "name": "tipus",
+   "description": "Melyik (üresen: az összes)"
+  },
+  "global info felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kiről"
+  },
+  "global jeloles bizonyitek": {
+   "name": "bizonyitek",
+   "description": "Képernyőkép vagy fájl"
+  },
+  "global jeloles felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit"
+  },
+  "global jeloles indok": {
+   "name": "indok",
+   "description": "Miért figyeljenek rá"
+  },
+  "global jeloles link": {
+   "name": "link",
+   "description": "Link a bizonyítékra"
+  },
+  "global lista tipus": {
+   "name": "tipus",
+   "description": "Szűrés típusra"
+  },
+  "globalban bizonyitek": {
+   "name": "bizonyitek",
+   "description": "Képernyőkép vagy fájl (nem kötelező, de erősen ajánlott)"
+  },
+  "globalban felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit (tag, vagy felhasználó-ID)"
+  },
+  "globalban idotartam": {
+   "name": "idotartam",
+   "description": "Lejárat (üresen: végleges), pl. 30n"
+  },
+  "globalban indok": {
+   "name": "indok",
+   "description": "Miért — a felhasználó is látja"
+  },
+  "globalban link": {
+   "name": "link",
+   "description": "Link a bizonyítékra, pl. egy üzenet linkje"
+  },
+  "globalbanrequest bizonyitek": {
+   "name": "bizonyitek",
+   "description": "Képernyőkép vagy fájl (nem kötelező, de erősen ajánlott)"
+  },
+  "globalbanrequest felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit (tag, vagy felhasználó-ID)"
+  },
+  "globalbanrequest idotartam": {
+   "name": "idotartam",
+   "description": "Javasolt lejárat (üresen: végleges)"
+  },
+  "globalbanrequest indok": {
+   "name": "indok",
+   "description": "Miért — a bírálók és a felhasználó is látja"
+  },
+  "globalbanrequest link": {
+   "name": "link",
+   "description": "Link a bizonyítékra, pl. egy üzenet linkje"
+  },
+  "globaltimeout bizonyitek": {
+   "name": "bizonyitek",
+   "description": "Képernyőkép vagy fájl"
+  },
+  "globaltimeout felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit (tag, vagy felhasználó-ID)"
+  },
+  "globaltimeout idotartam": {
+   "name": "idotartam",
+   "description": "Mennyi időre (max. 28 nap), pl. 1n"
+  },
+  "globaltimeout indok": {
+   "name": "indok",
+   "description": "Miért — a felhasználó is látja"
+  },
+  "globaltimeout link": {
+   "name": "link",
+   "description": "Link a bizonyítékra, pl. egy üzenet linkje"
+  },
+  "globaltimeoutrequest bizonyitek": {
+   "name": "bizonyitek",
+   "description": "Képernyőkép vagy fájl"
+  },
+  "globaltimeoutrequest felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit (tag, vagy felhasználó-ID)"
+  },
+  "globaltimeoutrequest idotartam": {
+   "name": "idotartam",
+   "description": "Mennyi időre (max. 28 nap), pl. 1n"
+  },
+  "globaltimeoutrequest indok": {
+   "name": "indok",
+   "description": "Miért — a bírálók és a felhasználó is látja"
+  },
+  "globaltimeoutrequest link": {
+   "name": "link",
+   "description": "Link a bizonyítékra, pl. egy üzenet linkje"
+  },
+  "help parancs": {
+   "name": "parancs",
+   "description": "Egy konkrét parancs részletei (kezdj el gépelni)"
+  },
+  "idojaras varos": {
+   "name": "varos",
+   "description": "A város neve (pl. Budapest)"
+  },
+  "inaktiv napok": {
+   "name": "napok",
+   "description": "Ennyi nap csend után inaktív valaki (alap: a beállítás, 30 nap)"
+  },
+  "jogaim tag": {
+   "name": "tag",
+   "description": "Kinek a jogait nézzük? (csak a stábnak; üresen: a sajátod)"
+  },
+  "jogosultsag jog kepesseg": {
+   "name": "kepesseg",
+   "description": "Melyik jog (pl. Kitiltás, Üzenet a bot nevében)"
+  },
+  "jogosultsag jog rang": {
+   "name": "rang",
+   "description": "Plusz rang, amely szinttől függetlenül használhatja (nem kötelező)"
+  },
+  "jogosultsag jog szint": {
+   "name": "szint",
+   "description": "Ki használhatja"
+  },
+  "jogosultsag rang rang": {
+   "name": "rang",
+   "description": "A Discord-rang"
+  },
+  "jogosultsag rang szint": {
+   "name": "szint",
+   "description": "Melyik szinthez tartozzon"
+  },
+  "kick indok": {
+   "name": "indok",
+   "description": "Az indok (a tag DM-ben megkapja)"
+  },
+  "kick tag": {
+   "name": "tag",
+   "description": "A kirúgandó tag"
+  },
+  "klan adatlap rovidites": {
+   "name": "rovidites",
+   "description": "A klán rövid jele (üresen: a saját klánod)"
+  },
+  "klan alapitas emoji": {
+   "name": "emoji",
+   "description": "A klán emojija (nem kötelező)"
+  },
+  "klan alapitas leiras": {
+   "name": "leiras",
+   "description": "Rövid bemutatkozás (nem kötelező)"
+  },
+  "klan alapitas nev": {
+   "name": "nev",
+   "description": "A klán neve (2–32 karakter)"
+  },
+  "klan alapitas rovidites": {
+   "name": "rovidites",
+   "description": "Rövid jel: 2–5 betű vagy szám, pl. ORNG"
+  },
+  "klan meghivas tag": {
+   "name": "tag",
+   "description": "A meghívott tag"
+  },
+  "kuldetesek tag": {
+   "name": "tag",
+   "description": "Valaki más kitüntetései"
+  },
+  "level csatorna csatorna": {
+   "name": "csatorna",
+   "description": "Hova menjenek a szintlépési kártyák (üresen: ahol a tag szintet lépett)"
+  },
+  "level jutalom rang": {
+   "name": "rang",
+   "description": "A kiosztandó rang"
+  },
+  "level jutalom szint": {
+   "name": "szint",
+   "description": "Elérendő szint"
+  },
+  "level kartya felhasznalo": {
+   "name": "felhasznalo",
+   "description": "A megtekinteni kívánt tag (alapból te)"
+  },
+  "level xp felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kinek"
+  },
+  "level xp mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Mennyi XP (szintnél: a szint)"
+  },
+  "level xp muvelet": {
+   "name": "muvelet",
+   "description": "Mit csináljunk"
+  },
+  "lock csatorna": {
+   "name": "csatorna",
+   "description": "Melyik csatorna (alapból az aktuális)"
+  },
+  "lock indok": {
+   "name": "indok",
+   "description": "Az indok (nem kötelező)"
+  },
+  "lockdown_all indok": {
+   "name": "indok",
+   "description": "Az indok (nem kötelező)"
+  },
+  "mass kirugas azonositok": {
+   "name": "azonositok",
+   "description": "Felhasználó-ID-k szóközzel/vesszővel elválasztva"
+  },
+  "mass kirugas indok": {
+   "name": "indok",
+   "description": "Az indok"
+  },
+  "mass kitiltas azonositok": {
+   "name": "azonositok",
+   "description": "Felhasználó-ID-k szóközzel/vesszővel elválasztva"
+  },
+  "mass kitiltas indok": {
+   "name": "indok",
+   "description": "Az indok"
+  },
+  "mass kitiltas torles_napok": {
+   "name": "torles_napok",
+   "description": "Hány napnyi üzenetüket töröljük (0–7)"
+  },
+  "meghivok tag": {
+   "name": "tag",
+   "description": "Valaki más meghívói"
+  },
+  "migracio hozzarendel megerosites": {
+   "name": "megerosites",
+   "description": "Írd be a szerver nevét pontosan a megerősítéshez"
+  },
+  "nevnap honap": {
+   "name": "honap",
+   "description": "Hónap (1-12)"
+  },
+  "nevnap nap": {
+   "name": "nap",
+   "description": "Nap (1-31)"
+  },
+  "nevnap nev": {
+   "name": "nev",
+   "description": "Egy név — mikor van a névnapja (pl. Anna)"
+  },
+  "nick beallitas becenev": {
+   "name": "becenev",
+   "description": "Az új becenév (legfeljebb 32 karakter)"
+  },
+  "nick beallitas tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "nick javitas helyettesito": {
+   "name": "helyettesito",
+   "description": "Név, ha a javítás után semmi nem maradna (alap: Tag)"
+  },
+  "nick torles tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "note lista felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Akinek a jegyzeteit listázzuk"
+  },
+  "note torles azonosito": {
+   "name": "azonosito",
+   "description": "A jegyzet száma (az N utáni szám)"
+  },
+  "note uj felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Akihez a jegyzet tartozik"
+  },
+  "note uj jegyzet": {
+   "name": "jegyzet",
+   "description": "A jegyzet szövege"
+  },
+  "nyeremeny inditas nyeremeny": {
+   "name": "nyeremeny",
+   "description": "Nyeremény megnevezése"
+  },
+  "nyeremeny inditas nyertesek": {
+   "name": "nyertesek",
+   "description": "Nyertesek száma"
+  },
+  "nyeremeny inditas perc": {
+   "name": "perc",
+   "description": "Időtartam percben"
+  },
+  "nyeremeny lezaras uzenet_id": {
+   "name": "uzenet_id",
+   "description": "A nyereményjáték üzenetének azonosítója (ID)"
+  },
+  "nyeremeny ujrasorsolas uzenet_id": {
+   "name": "uzenet_id",
+   "description": "A nyereményjáték üzenetének azonosítója (ID)"
+  },
+  "peca dobale csali": {
+   "name": "csali",
+   "description": "Ezzel a csalival dobsz be (a leltáradból — a kártyán is választhatsz)"
+  },
+  "peca statisztika tag": {
+   "name": "tag",
+   "description": "Valaki más statisztikája"
+  },
+  "profile tag": {
+   "name": "tag",
+   "description": "A megtekinteni kívánt személy"
+  },
+  "purge botok mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány üzenetet (1–100)"
+  },
+  "purge linkek mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány üzenetet (1–100)"
+  },
+  "purge mellekletek mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány üzenetet (1–100)"
+  },
+  "purge szoveg mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány üzenetet (1–100)"
+  },
+  "purge szoveg szoveg": {
+   "name": "szoveg",
+   "description": "A keresett szövegrész (kis- és nagybetű mindegy)"
+  },
+  "purge tag felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Akinek az üzeneteit töröljük"
+  },
+  "purge tag mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány üzenetet (1–100)"
+  },
+  "purge uzenetek mennyiseg": {
+   "name": "mennyiseg",
+   "description": "Hány üzenetet töröljünk (1–100)"
+  },
+  "roblox felhasznalonev": {
+   "name": "felhasznalonev",
+   "description": "A Roblox felhasználónév, amit le akarsz kérdezni"
+  },
+  "role ad rang": {
+   "name": "rang",
+   "description": "A rang"
+  },
+  "role ad tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "role ad_mindenkinek botokkal": {
+   "name": "botokkal",
+   "description": "A botok is kapják meg? (alap: nem)"
+  },
+  "role ad_mindenkinek rang": {
+   "name": "rang",
+   "description": "A rang"
+  },
+  "role elvesz rang": {
+   "name": "rang",
+   "description": "A rang"
+  },
+  "role elvesz tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "role elvesz_mindenkitol botokkal": {
+   "name": "botokkal",
+   "description": "A botoktól is? (alap: nem)"
+  },
+  "role elvesz_mindenkitol rang": {
+   "name": "rang",
+   "description": "A rang"
+  },
+  "role szin rang": {
+   "name": "rang",
+   "description": "A rang"
+  },
+  "role szin szin": {
+   "name": "szin",
+   "description": "Hex színkód, pl. #FD8200 vagy f80"
+  },
+  "say cim": {
+   "name": "cim",
+   "description": "Cím — ha megadod, színes kártyán megy ki"
+  },
+  "say csatorna": {
+   "name": "csatorna",
+   "description": "Hova menjen (alap: ez a csatorna)"
+  },
+  "say kep": {
+   "name": "kep",
+   "description": "Kép az üzenet aljára (PNG, JPG, GIF, WEBP — max. 8 MB)"
+  },
+  "say ping": {
+   "name": "ping",
+   "description": "Kit pingeljen: @everyone vagy egy rang (a szövegbe írt említések nem pingelnek)"
+  },
+  "say sablon": {
+   "name": "sablon",
+   "description": "Egy mentett sablon kiküldése (a 📂 Sablonok közül)"
+  },
+  "say stilus": {
+   "name": "stilus",
+   "description": "Megjelenés (alap: cím nélkül sima szöveg, címmel kártya)"
+  },
+  "say studio": {
+   "name": "studio",
+   "description": "Igen: előbb a stúdió nyílik meg élő előnézettel (gombok, szín, sablonok)"
+  },
+  "say szerkeszt": {
+   "name": "szerkeszt",
+   "description": "Egy korábbi /say üzenet linkje — szerkesztés"
+  },
+  "say szoveg": {
+   "name": "szoveg",
+   "description": "Az üzenet (\\n = új sor). Üresen hagyva szövegdoboz nyílik (több sor, cím, csatorna)"
+  },
+  "say valasz": {
+   "name": "valasz",
+   "description": "Válasz egy üzenetre — az üzenet linkje"
+  },
+  "security antiinvite bekapcsolva": {
+   "name": "bekapcsolva",
+   "description": "Üresen hagyva átkapcsol"
+  },
+  "security antilink bekapcsolva": {
+   "name": "bekapcsolva",
+   "description": "Üresen hagyva átkapcsol"
+  },
+  "security antiraid bekapcsolva": {
+   "name": "bekapcsolva",
+   "description": "Üresen hagyva átkapcsol"
+  },
+  "security antispam bekapcsolva": {
+   "name": "bekapcsolva",
+   "description": "Üresen hagyva átkapcsol"
+  },
+  "security capsmention bekapcsolva": {
+   "name": "bekapcsolva",
+   "description": "Üresen hagyva átkapcsol"
+  },
+  "security dm_ertesites bekapcsolva": {
+   "name": "bekapcsolva",
+   "description": "Üresen hagyva átkapcsol"
+  },
+  "security eszkalacio kuszob": {
+   "name": "kuszob",
+   "description": "Hány figyelmeztetésenként (0 = kikapcsolva)"
+  },
+  "security eszkalacio perc": {
+   "name": "perc",
+   "description": "A timeout hossza percben"
+  },
+  "security linkek domainek": {
+   "name": "domainek",
+   "description": "Vesszővel elválasztva, pl.: youtube.com, tenor.com — „alap” = alapértelmezett lista"
+  },
+  "security naplo csatorna": {
+   "name": "csatorna",
+   "description": "Ide kerülnek az esetek, az automod-találatok és a fellebbezések"
+  },
+  "security slowmode_auto bekapcsolva": {
+   "name": "bekapcsolva",
+   "description": "Üresen hagyva átkapcsol"
+  },
+  "security verification_level szint": {
+   "name": "szint",
+   "description": "Az új ellenőrzési szint"
+  },
+  "ship tag1": {
+   "name": "tag1",
+   "description": "Első fél"
+  },
+  "ship tag2": {
+   "name": "tag2",
+   "description": "Második fél"
+  },
+  "shop vetel termek": {
+   "name": "termek",
+   "description": "A termék azonosítója (kezdd el gépelni a nevét)"
+  },
+  "shopadmin rang ar": {
+   "name": "ar",
+   "description": "Ár"
+  },
+  "shopadmin rang azonosito": {
+   "name": "azonosito",
+   "description": "Rövid azonosító, pl. vip"
+  },
+  "shopadmin rang emoji": {
+   "name": "emoji",
+   "description": "Emoji a név elé"
+  },
+  "shopadmin rang keszlet": {
+   "name": "keszlet",
+   "description": "Hány darab adható el (üresen: korlátlan)"
+  },
+  "shopadmin rang leiras": {
+   "name": "leiras",
+   "description": "Rövid leírás"
+  },
+  "shopadmin rang napok": {
+   "name": "napok",
+   "description": "Ennyi nap után lejár (üresen: örökre)"
+  },
+  "shopadmin rang nev": {
+   "name": "nev",
+   "description": "Megjelenő név (alapból a rang neve)"
+  },
+  "shopadmin rang rang": {
+   "name": "rang",
+   "description": "A kiosztandó rang"
+  },
+  "shopadmin szerkeszt aktiv": {
+   "name": "aktiv",
+   "description": "Kapható-e (kikapcsolva elrejti)"
+  },
+  "shopadmin szerkeszt ar": {
+   "name": "ar",
+   "description": "Új ár"
+  },
+  "shopadmin szerkeszt azonosito": {
+   "name": "azonosito",
+   "description": "A termék"
+  },
+  "shopadmin szerkeszt emoji": {
+   "name": "emoji",
+   "description": "Új emoji"
+  },
+  "shopadmin szerkeszt keszlet": {
+   "name": "keszlet",
+   "description": "Új készlet (-1 = korlátlan)"
+  },
+  "shopadmin szerkeszt leiras": {
+   "name": "leiras",
+   "description": "Új leírás"
+  },
+  "shopadmin szerkeszt nev": {
+   "name": "nev",
+   "description": "Új név"
+  },
+  "shopadmin targy ar": {
+   "name": "ar",
+   "description": "Ár"
+  },
+  "shopadmin targy azonosito": {
+   "name": "azonosito",
+   "description": "Rövid azonosító, pl. aranyserleg"
+  },
+  "shopadmin targy emoji": {
+   "name": "emoji",
+   "description": "Emoji a név elé"
+  },
+  "shopadmin targy keszlet": {
+   "name": "keszlet",
+   "description": "Hány darab adható el (üresen: korlátlan)"
+  },
+  "shopadmin targy leiras": {
+   "name": "leiras",
+   "description": "Rövid leírás"
+  },
+  "shopadmin targy nev": {
+   "name": "nev",
+   "description": "Megjelenő név"
+  },
+  "shopadmin torol azonosito": {
+   "name": "azonosito",
+   "description": "A törlendő termék"
+  },
+  "slowmode csatorna": {
+   "name": "csatorna",
+   "description": "Melyik csatorna (alapból az aktuális)"
+  },
+  "slowmode masodperc": {
+   "name": "masodperc",
+   "description": "Két üzenet közti minimális idő másodpercben (0–21600)"
+  },
+  "softban indok": {
+   "name": "indok",
+   "description": "Az indok"
+  },
+  "softban tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "szolgalat adatok tag": {
+   "name": "tag",
+   "description": "Kinek az idejét nézed (üresen: a sajátod)"
+  },
+  "szolgalat aktiv tipus": {
+   "name": "tipus",
+   "description": "Csak ez a szolgálattípus"
+  },
+  "szolgalat atnevez regi": {
+   "name": "regi",
+   "description": "A mostani neve"
+  },
+  "szolgalat atnevez uj": {
+   "name": "uj",
+   "description": "Az új neve"
+  },
+  "szolgalat be tipus": {
+   "name": "tipus",
+   "description": "A szolgálattípus (üresen: az első / az egyetlen)"
+  },
+  "szolgalat export percben": {
+   "name": "percben",
+   "description": "Percben (alapból másodpercben)"
+  },
+  "szolgalat export tipus": {
+   "name": "tipus",
+   "description": "Csak ez a típus"
+  },
+  "szolgalat hozzaad indok": {
+   "name": "indok",
+   "description": "Miért (a naplóba kerül)"
+  },
+  "szolgalat hozzaad perc": {
+   "name": "perc",
+   "description": "Hány perc (negatív: levonás)"
+  },
+  "szolgalat hozzaad tag": {
+   "name": "tag",
+   "description": "Kinek"
+  },
+  "szolgalat hozzaad tipus": {
+   "name": "tipus",
+   "description": "A szolgálattípus (üresen: az első / az egyetlen)"
+  },
+  "szolgalat ki tipus": {
+   "name": "tipus",
+   "description": "Melyikből lépsz ki (üresen: mindből)"
+  },
+  "szolgalat kileptet tag": {
+   "name": "tag",
+   "description": "Kit (üresen: mindenkit)"
+  },
+  "szolgalat kileptet tipus": {
+   "name": "tipus",
+   "description": "Csak ebből a típusból"
+  },
+  "szolgalat kvota beallit perc": {
+   "name": "perc",
+   "description": "Ennyi perc után"
+  },
+  "szolgalat kvota beallit rang": {
+   "name": "rang",
+   "description": "A kiosztandó rang"
+  },
+  "szolgalat kvota beallit tipus": {
+   "name": "tipus",
+   "description": "Csak ebben a típusban (üresen: összesen)"
+  },
+  "szolgalat kvota torol rang": {
+   "name": "rang",
+   "description": "A törlendő kvóta-rang"
+  },
+  "szolgalat loa dontes azonosito": {
+   "name": "azonosito",
+   "description": "A kérelem száma (#)"
+  },
+  "szolgalat loa dontes dontes": {
+   "name": "dontes",
+   "description": "Jóváhagyás vagy elutasítás"
+  },
+  "szolgalat loa dontes indok": {
+   "name": "indok",
+   "description": "Indok / megjegyzés — a tag DM-ben megkapja (nem kötelező)"
+  },
+  "szolgalat loa kerelem indok": {
+   "name": "indok",
+   "description": "Miért"
+  },
+  "szolgalat loa kerelem napok": {
+   "name": "napok",
+   "description": "Hány napra"
+  },
+  "szolgalat loa lezaras azonosito": {
+   "name": "azonosito",
+   "description": "A kérelem száma (#)"
+  },
+  "szolgalat nullazas tag": {
+   "name": "tag",
+   "description": "Csak ez a tag"
+  },
+  "szolgalat nullazas tipus": {
+   "name": "tipus",
+   "description": "Csak ez a típus"
+  },
+  "szolgalat osszesito idoszak": {
+   "name": "idoszak",
+   "description": "Az aktuális időszak (igen) vagy minden idők (nem)"
+  },
+  "szolgalat osszesito tipus": {
+   "name": "tipus",
+   "description": "Csak ez a szolgálattípus"
+  },
+  "szolgalat panel csatorna": {
+   "name": "csatorna",
+   "description": "Hova (üresen: ide)"
+  },
+  "szolgalat riport csatorna": {
+   "name": "csatorna",
+   "description": "Hova (üresen: ide)"
+  },
+  "szolgalat riport idoszak": {
+   "name": "idoszak",
+   "description": "Melyik riport"
+  },
+  "szolgalat torles tag": {
+   "name": "tag",
+   "description": "Csak ez a tag"
+  },
+  "szolgalat torles tipus": {
+   "name": "tipus",
+   "description": "Csak ez a típus"
+  },
+  "tempban felhasznalo": {
+   "name": "felhasznalo",
+   "description": "A kitiltandó felhasználó"
+  },
+  "tempban idotartam": {
+   "name": "idotartam",
+   "description": "Pl. 1n, 3n, 1hét (legfeljebb 365 nap)"
+  },
+  "tempban indok": {
+   "name": "indok",
+   "description": "Az indok (DM-ben megkapja)"
+  },
+  "tempban torles_napok": {
+   "name": "torles_napok",
+   "description": "Hány napnyi üzenetét töröljük (0–7)"
+  },
+  "ticket feloldas tag": {
+   "name": "tag",
+   "description": "Kinek a tiltását oldod fel?"
+  },
+  "ticket panel_torles azonosito": {
+   "name": "azonosito",
+   "description": "A panel száma (#) a /ticket panelek listából"
+  },
+  "ticket panel_uj cim": {
+   "name": "cim",
+   "description": "A panel címe (üresen: mint a fő panelé)"
+  },
+  "ticket panel_uj csatorna": {
+   "name": "csatorna",
+   "description": "Hova kerüljön a panel"
+  },
+  "ticket panel_uj kategoriak": {
+   "name": "kategoriak",
+   "description": "A panelen választható kategóriák, vesszővel (üresen: mint a fő panelen)"
+  },
+  "ticket panel_uj leiras": {
+   "name": "leiras",
+   "description": "A panel szövege (üresen: mint a fő panelé)"
+  },
+  "ticket panel_uj nev": {
+   "name": "nev",
+   "description": "A panel neve (csak nektek, a listában)"
+  },
+  "ticket panel_uj stilus": {
+   "name": "stilus",
+   "description": "Menü vagy gombok"
+  },
+  "ticket tiltas indok": {
+   "name": "indok",
+   "description": "Miért? (a tag látja, ha jegyet próbál nyitni)"
+  },
+  "ticket tiltas tag": {
+   "name": "tag",
+   "description": "Kit tiltasz ki?"
+  },
+  "tiktok hozzaad csatorna": {
+   "name": "csatorna",
+   "description": "Ide jöjjenek az értesítések (alapból: ez a csatorna)"
+  },
+  "tiktok hozzaad felhasznalonev": {
+   "name": "felhasznalonev",
+   "description": "A TikTok-felhasználónév (pl. @valaki) vagy a profil linkje"
+  },
+  "tiktok hozzaad rang": {
+   "name": "rang",
+   "description": "Ezt a rangot pingeli új videónál és élő adásnál (nem kötelező)"
+  },
+  "timeout idotartam": {
+   "name": "idotartam",
+   "description": "Pl. 10p, 1ó30p, 2n (legfeljebb 28 nap)"
+  },
+  "timeout indok": {
+   "name": "indok",
+   "description": "Az indok"
+  },
+  "timeout tag": {
+   "name": "tag",
+   "description": "A korlátozandó tag"
+  },
+  "toplista kategoria": {
+   "name": "kategoria",
+   "description": "Melyik toplistát nézed (alapból: vagyon)"
+  },
+  "tozsde eladas ceg": {
+   "name": "ceg",
+   "description": "A cég neve vagy tickere"
+  },
+  "tozsde eladas mennyiseg": {
+   "name": "mennyiseg",
+   "description": "10 (darab) • 50% • max"
+  },
+  "tozsde fedezes ceg": {
+   "name": "ceg",
+   "description": "A cég neve vagy tickere"
+  },
+  "tozsde fedezes mennyiseg": {
+   "name": "mennyiseg",
+   "description": "10 (darab) • 50% • max"
+  },
+  "tozsde grafikon ceg": {
+   "name": "ceg",
+   "description": "A cég (vagy a PÉTIX index)"
+  },
+  "tozsde grafikon idotav": {
+   "name": "idotav",
+   "description": "Mekkora időszakot mutasson (alap: 1 nap)"
+  },
+  "tozsde megbizas ar": {
+   "name": "ar",
+   "description": "A limitár vagy a stop-szint (pl. 18420 vagy 452,5)"
+  },
+  "tozsde megbizas ceg": {
+   "name": "ceg",
+   "description": "A cég neve vagy tickere"
+  },
+  "tozsde megbizas darab": {
+   "name": "darab",
+   "description": "Darabszám (eladásnál: max is)"
+  },
+  "tozsde megbizas tipus": {
+   "name": "tipus",
+   "description": "A megbízás típusa"
+  },
+  "tozsde piac oldal": {
+   "name": "oldal",
+   "description": "Melyik lapon nyíljon meg (alap: Piac)"
+  },
+  "tozsde reszveny ceg": {
+   "name": "ceg",
+   "description": "A cég neve vagy tickere (pl. PENG)"
+  },
+  "tozsde short ceg": {
+   "name": "ceg",
+   "description": "A cég neve vagy tickere"
+  },
+  "tozsde short mennyiseg": {
+   "name": "mennyiseg",
+   "description": "10 (darab) • 50000 Ft (érték) • max"
+  },
+  "tozsde vetel ceg": {
+   "name": "ceg",
+   "description": "A cég neve vagy tickere"
+  },
+  "tozsde vetel mennyiseg": {
+   "name": "mennyiseg",
+   "description": "10 (darab) • 50000 Ft / 125k (összeg) • 50% • max"
+  },
+  "unban felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kezdd el gépelni a nevét vagy az ID-ját"
+  },
+  "unban indok": {
+   "name": "indok",
+   "description": "Az indok (nem kötelező)"
+  },
+  "unlock csatorna": {
+   "name": "csatorna",
+   "description": "Melyik csatorna (alapból az aktuális)"
+  },
+  "unlock indok": {
+   "name": "indok",
+   "description": "Az indok (nem kötelező)"
+  },
+  "untimeout indok": {
+   "name": "indok",
+   "description": "Az indok (nem kötelező)"
+  },
+  "untimeout tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "user_info tag": {
+   "name": "tag",
+   "description": "A vizsgált tag"
+  },
+  "utalas megjegyzes": {
+   "name": "megjegyzes",
+   "description": "Közlemény (nem kötelező)"
+  },
+  "utalas osszeg": {
+   "name": "osszeg",
+   "description": "Összeg: 5000, 125k, 1,5m vagy összes"
+  },
+  "utalas tag": {
+   "name": "tag",
+   "description": "Kinek utalsz"
+  },
+  "vadaszat les csalogato": {
+   "name": "csalogato",
+   "description": "Ezt a csalogatót használod (a leltáradból)"
+  },
+  "vadaszat les lesmod": {
+   "name": "lesmod",
+   "description": "Honnan vadászol (a kártyán is választhatsz)"
+  },
+  "vadaszat statisztika tag": {
+   "name": "tag",
+   "description": "Valaki más statisztikája"
+  },
+  "vc kick felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit rúgsz ki"
+  },
+  "vc limit limit": {
+   "name": "limit",
+   "description": "0 = korlátlan, max 99"
+  },
+  "vc lobbi hozzaad csatorna": {
+   "name": "csatorna",
+   "description": "A hangcsatorna, amibe belépve mindenki saját csatornát kap"
+  },
+  "vc lobbi hozzaad letszam": {
+   "name": "letszam",
+   "description": "Létszámkorlát az új csatornákon (0 = korlátlan)"
+  },
+  "vc lobbi hozzaad nevsablon": {
+   "name": "nevsablon",
+   "description": "A csatornák neve — {name} a tag neve, {game} amivel játszik, {n} sorszám"
+  },
+  "vc lobbi torles csatorna": {
+   "name": "csatorna",
+   "description": "A lobbi hangcsatornája"
+  },
+  "vc permit felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit engedsz be"
+  },
+  "vc reject felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kit tiltasz ki"
+  },
+  "vc rename nev": {
+   "name": "nev",
+   "description": "Az új csatornanév"
+  },
+  "vc transfer felhasznalo": {
+   "name": "felhasznalo",
+   "description": "Kinek adod át"
+  },
+  "verify_info felhasznalo": {
+   "name": "felhasznalo",
+   "description": "A vizsgált tag"
+  },
+  "voice athelyezes csatorna": {
+   "name": "csatorna",
+   "description": "A cél hangcsatorna"
+  },
+  "voice athelyezes tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "voice feloldas csatorna": {
+   "name": "csatorna",
+   "description": "A feloldandó hangcsatorna"
+  },
+  "voice kidobas indok": {
+   "name": "indok",
+   "description": "Az indok"
+  },
+  "voice kidobas tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "voice lezaras csatorna": {
+   "name": "csatorna",
+   "description": "A lezárandó hangcsatorna"
+  },
+  "voice mind_athelyezese cel": {
+   "name": "cel",
+   "description": "Hová"
+  },
+  "voice mind_athelyezese forras": {
+   "name": "forras",
+   "description": "Honnan"
+  },
+  "voice nemitas indok": {
+   "name": "indok",
+   "description": "Az indok"
+  },
+  "voice nemitas tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "voice nemitas_fel tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "voice suketites indok": {
+   "name": "indok",
+   "description": "Az indok"
+  },
+  "voice suketites tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "voice suketites_fel tag": {
+   "name": "tag",
+   "description": "A tag"
+  },
+  "warn kereses kulcsszo": {
+   "name": "kulcsszo",
+   "description": "Keresett szövegrész"
+  },
+  "warn lista tag": {
+   "name": "tag",
+   "description": "Akinek a figyelmeztetéseit listázzuk"
+  },
+  "warn nullazas indok": {
+   "name": "indok",
+   "description": "Az oka (nem kötelező)"
+  },
+  "warn nullazas tag": {
+   "name": "tag",
+   "description": "Akinek a figyelmeztetéseit töröljük"
+  },
+  "warn uj indok": {
+   "name": "indok",
+   "description": "Az indok (a tag DM-ben megkapja)"
+  },
+  "warn uj tag": {
+   "name": "tag",
+   "description": "A figyelmeztetett tag"
+  },
+  "warn visszavonas eset": {
+   "name": "eset",
+   "description": "Az eset száma (#…)"
+  },
+  "warn visszavonas indok": {
+   "name": "indok",
+   "description": "A visszavonás oka (nem kötelező)"
+  },
+  "wordfilter torles kifejezes": {
+   "name": "kifejezes",
+   "description": "A törlendő kifejezés"
+  },
+  "wordfilter uj kifejezes": {
+   "name": "kifejezes",
+   "description": "Pl. „csúnyaszó” (csak egész szóra), „csúnya*” (toldalékkal is)"
+  },
+  "wordfilter uj sulyossag": {
+   "name": "sulyossag",
+   "description": "Az AI-moderáció pontjaihoz: enyhe +1, közepes +2, súlyos +4, kritikus +8"
+  },
+  "youtube hozzaad csatorna": {
+   "name": "csatorna",
+   "description": "Ide jöjjenek az értesítések (alapból: ez a csatorna)"
+  },
+  "youtube hozzaad csatorna_link": {
+   "name": "csatorna_link",
+   "description": "A csatorna: @név, link vagy UC… azonosító"
+  },
+  "youtube hozzaad rang": {
+   "name": "rang",
+   "description": "Ezt a rangot pingeli új videónál és élő adásnál (nem kötelező)"
+  },
+  "zene athelyez honnan": {
+   "name": "honnan",
+   "description": "A szám mostani helye"
+  },
+  "zene athelyez hova": {
+   "name": "hova",
+   "description": "Az új helye (1 = a következő)"
+  },
+  "zene dalszoveg kereses": {
+   "name": "kereses",
+   "description": "Más szám szövege, pl. „Előadó - Cím” (üresen: ami most szól)"
+  },
+  "zene hangero szazalek": {
+   "name": "szazalek",
+   "description": "0 és 150 között (az alapérték a /beallitas → Zene alatt állítható)"
+  },
+  "zene hangzas szuro": {
+   "name": "szuro",
+   "description": "A hangzás (az „Eredeti” kikapcsolja)"
+  },
+  "zene ismetles mod": {
+   "name": "mod",
+   "description": "Mit ismételjen"
+  },
+  "zene kovetkezo kereses": {
+   "name": "kereses",
+   "description": "A szám címe vagy linkje"
+  },
+  "zene lejatszas kereses": {
+   "name": "kereses",
+   "description": "A szám címe, vagy egy YouTube / Spotify / SoundCloud link (lejátszási lista is)"
+  },
+  "zene sor oldal": {
+   "name": "oldal",
+   "description": "Hányadik oldal (oldalanként 10 szám)"
+  },
+  "zene torles sorszam": {
+   "name": "sorszam",
+   "description": "A szám helye a sorban (1 = a következő)"
+  },
+  "zene ugras idopont": {
+   "name": "idopont",
+   "description": "Pl. 1:23, 90, +30 vagy -15"
+  }
+ },
+ "choices": {
+  "1 akna": "1 akna",
+  "1 hónap": "1 hónap",
+  "1 nap": "1 nap",
+  "1. oszlop — 3×": "1. oszlop — 3×",
+  "12 akna": "12 akna",
+  "13–24 (2. tucat) — 3×": "13–24 (2. tucat) — 3×",
+  "19–36 — 2×": "19–36 — 2×",
+  "1–12 (1. tucat) — 3×": "1–12 (1. tucat) — 3×",
+  "1–18 — 2×": "1–18 — 2×",
+  "2. oszlop — 3×": "2. oszlop — 3×",
+  "25–36 (3. tucat) — 3×": "25–36 (3. tucat) — 3×",
+  "3 akna": "3 akna",
+  "3. oszlop — 3×": "3. oszlop — 3×",
+  "5 akna": "5 akna",
+  "5 nap": "5 nap",
+  "6 hónap": "6 hónap",
+  "8 akna": "8 akna",
+  "Alacsony": "Alacsony",
+  "Aranyozott villantó": "Aranyozott villantó",
+  "Bank": "Bank",
+  "Bojli (csali)": "Bojli (csali)",
+  "Bányászfarm": "Bányászfarm",
+  "Csemegekukorica (csali)": "Csemegekukorica (csali)",
+  "Cserkelés": "Cserkelés",
+  "Egy szám — 36×": "Egy szám — 36×",
+  "Egyedi kulcsszavak (a 'kulcsszavak' paraméterből)": "Egyedi kulcsszavak (a 'kulcsszavak' paraméterből)",
+  "Eladás (ha az ár eléri a célárat)": "Eladás (ha az ár eléri a célárat)",
+  "Extrém (3 ajtó, 2 csapda)": "Extrém (3 ajtó, 2 csapda)",
+  "Giliszta (csali)": "Giliszta (csali)",
+  "Gombok": "Gombok",
+  "Gyanús spam-tartalom": "Gyanús spam-tartalom",
+  "Havi": "Havi",
+  "Heti": "Heti",
+  "Hírek": "Hírek",
+  "Kacsahívó síp": "Kacsahívó síp",
+  "Kaszinó chip": "Kaszinó chip",
+  "Készpénz": "Készpénz",
+  "Könnyű (4 ajtó, 1 csapda)": "Könnyű (4 ajtó, 1 csapda)",
+  "Közepes": "Közepes",
+  "Legmagasabb": "Legmagasabb",
+  "Legördülő menü": "Legördülő menü",
+  "Magas": "Magas",
+  "Magasles": "Magasles",
+  "Megbízások": "Megbízások",
+  "Meghívó-linkek tiltása": "Meghívó-linkek tiltása",
+  "Napi": "Napi",
+  "Nehéz (2 ajtó, 1 csapda)": "Nehéz (2 ajtó, 1 csapda)",
+  "Nincs": "Nincs",
+  "Normál (3 ajtó, 1 csapda)": "Normál (3 ajtó, 1 csapda)",
+  "Piac": "Piac",
+  "Piac és tárca": "Piac és tárca",
+  "Piszkos pénz": "Piszkos pénz",
+  "Portfólió": "Portfólió",
+  "Páratlan — 2×": "Páratlan — 2×",
+  "Páros — 2×": "Páros — 2×",
+  "Pézsmás csalogatóillat": "Pézsmás csalogatóillat",
+  "Ragadozóhívó síp": "Ragadozóhívó síp",
+  "Szabadon engedés + körözés törlése": "Szabadon engedés + körözés törlése",
+  "Szarvasbőgő kürt": "Szarvasbőgő kürt",
+  "Szint beállítása": "Szint beállítása",
+  "Szolgálati idő": "Szolgálati idő",
+  "Szóró mellett": "Szóró mellett",
+  "Sózó és szórócsali": "Sózó és szórócsali",
+  "Teljes": "Teljes",
+  "Teljes nullázás (hírnév, rang, statisztika)": "Teljes nullázás (hírnév, rang, statisztika)",
+  "Toplista": "Toplista",
+  "Trágárság / szexuális tartalom / sértések (beépített listák)": "Trágárság / szexuális tartalom / sértések (beépített listák)",
+  "Tömeges említés (+10 perc timeout)": "Tömeges említés (+10 perc timeout)",
+  "Utolsó 24 óra": "Utolsó 24 óra",
+  "Utolsó 6 óra": "Utolsó 6 óra",
+  "Utolsó 7 nap": "Utolsó 7 nap",
+  "Videókártya-bolt": "Videókártya-bolt",
+  "Vétel (ha az ár a célár alá esik)": "Vétel (ha az ár a célár alá esik)",
+  "XP hozzáadása": "XP hozzáadása",
+  "XP levonása": "XP levonása",
+  "alatta": "alatta",
+  "felette": "felette",
+  "Élő csalihal": "Élő csalihal",
+  "Éves": "Éves",
+  "₿ Bitcoin": "₿ Bitcoin",
+  "⏩ Gyorsítás": "⏩ Gyorsítás",
+  "▶️ Ha az üzenet ezzel kezdődik": "▶️ Ha az üzenet ezzel kezdődik",
+  "⚔️ Klánok": "⚔️ Klánok",
+  "⚡ Nightcore": "⚡ Nightcore",
+  "⚡ Villám (2,8×)": "⚡ Villám (2,8×)",
+  "⚫ Fekete — 2×": "⚫ Fekete — 2×",
+  "⛔ Kikapcsolva": "⛔ Kikapcsolva",
+  "✅ Jóváhagyás": "✅ Jóváhagyás",
+  "✖️ Elutasítás": "✖️ Elutasítás",
+  "❌ Nincs (kivétel minden szintből)": "❌ Nincs (kivétel minden szintből)",
+  "➡️ Ki": "➡️ Ki",
+  "🌑 Árnyék (8×)": "🌑 Árnyék (8×)",
+  "🌙 Slowed + reverb": "🌙 Slowed + reverb",
+  "🌪️ Tornádó (5,5×)": "🌪️ Tornádó (5,5×)",
+  "🌴 Vaporwave": "🌴 Vaporwave",
+  "🍀 Szerencse (12×)": "🍀 Szerencse (12×)",
+  "🎚️ Hangerő-kiegyenlítés": "🎚️ Hangerő-kiegyenlítés",
+  "🎣 Peca": "🎣 Peca",
+  "🎧 8D hangzás": "🎧 8D hangzás",
+  "🎧 Stáb": "🎧 Stáb",
+  "🎯 Csak kijelölt rangok": "🎯 Csak kijelölt rangok",
+  "🎯 Ha az üzenet pontosan ez": "🎯 Ha az üzenet pontosan ez",
+  "🎯 Küldetések (kitüntetések)": "🎯 Küldetések (kitüntetések)",
+  "🎰 Kaszinó": "🎰 Kaszinó",
+  "🎵 Eredeti hangzás": "🎵 Eredeti hangzás",
+  "🏦 Bank": "🏦 Bank",
+  "🏦 Bankár (1,95×)": "🏦 Bankár (1,95×)",
+  "🐢 Csiga (20×)": "🐢 Csiga (20×)",
+  "👑 Tulajdonos": "👑 Tulajdonos",
+  "👤 Tag": "👤 Tag",
+  "💬 Ha az üzenetben szerepel": "💬 Ha az üzenetben szerepel",
+  "💰 Vagyon (készpénz + bank)": "💰 Vagyon (készpénz + bank)",
+  "💵 Készpénz": "💵 Készpénz",
+  "💼 Karrierpont": "💼 Karrierpont",
+  "📈 Szint (XP)": "📈 Szint (XP)",
+  "📊 Tőzsde": "📊 Tőzsde",
+  "📝 Sima szöveg (keret nélkül)": "📝 Sima szöveg (keret nélkül)",
+  "📢 Közlemény (nagy cím)": "📢 Közlemény (nagy cím)",
+  "📨 Meghívók": "📨 Meghívók",
+  "🔁 A teljes sor": "🔁 A teljes sor",
+  "🔂 Ez a szám": "🔂 Ez a szám",
+  "🔇 Némítás": "🔇 Némítás",
+  "🔈 Basszuskiemelés": "🔈 Basszuskiemelés",
+  "🔐 Szerver-adminisztrátor": "🔐 Szerver-adminisztrátor",
+  "🔥 Tűzvész (4×)": "🔥 Tűzvész (4×)",
+  "🔨 Tiltás": "🔨 Tiltás",
+  "🔴 Eladási limit — eladás, ha az ár eléri a limitet": "🔴 Eladási limit — eladás, ha az ár eléri a limitet",
+  "🔴 Kritikus (+8 pont)": "🔴 Kritikus (+8 pont)",
+  "🔴 Piros — 2×": "🔴 Piros — 2×",
+  "🕵️ Alvilági hírnév": "🕵️ Alvilági hírnév",
+  "🗂️ Kártya (színes keret)": "🗂️ Kártya (színes keret)",
+  "🙂 Fej": "🙂 Fej",
+  "🚩 Megjelölés": "🚩 Megjelölés",
+  "🛑 Stop-loss — eladás, ha az ár a szintre esik": "🛑 Stop-loss — eladás, ha az ár a szintre esik",
+  "🛠️ Adminisztrátor": "🛠️ Adminisztrátor",
+  "🛡️ Moderátor": "🛡️ Moderátor",
+  "🛡️ Short stop — visszavásárlás, ha az ár a szintre emelkedik": "🛡️ Short stop — visszavásárlás, ha az ár a szintre emelkedik",
+  "🟠 Súlyos (+4 pont)": "🟠 Súlyos (+4 pont)",
+  "🟡 Közepes (+2 pont)": "🟡 Közepes (+2 pont)",
+  "🟢 Enyhe (+1 pont)": "🟢 Enyhe (+1 pont)",
+  "🟢 Vételi limit — vétel, ha az ár a limitre vagy alá esik": "🟢 Vételi limit — vétel, ha az ár a limitre vagy alá esik",
+  "🤝 Döntetlen (9×)": "🤝 Döntetlen (9×)",
+  "🦅 Írás": "🦅 Írás",
+  "🦌 Vadászat": "🦌 Vadászat",
+  "🧑 Játékos (2×)": "🧑 Játékos (2×)"
+ }
+}

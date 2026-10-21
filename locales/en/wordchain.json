@@ -1,0 +1,15 @@
+{
+ "a_z_utolso_betuje_a_kovetkezo_szonak": "🔤 The last letter of **{esc}** is **{letter_text}** — the next word must start with it (**{esc2}** starts with **{letter_text2}**).",
+ "ketszer_egymas_utan_nem_irhatsz_vard_meg": "👥 {mention}, you can't post twice in a row — wait for someone else to continue!",
+ "a_z_mar_volt_ebben_a_lancban_mondj": "♻️ **{esc}** has already been used in this chain — say another one!",
+ "uj_rekord_lett_belole": "🏆 It's a **new record**!",
+ "rekord_szo": "🏆 Record: **{max}** words",
+ "elszakadt_a_lanc": "💥 The chain broke!",
+ "elindult_a_szolanc": "🔤 The word chain has started!",
+ "idaig_jutottatok_szo": "📊 You got this far: **{length}** words • {best}",
+ "uj_lanc_indul_az_elso_szo_barmi_lehet": "🔁 A new chain starts — the first word can be anything.",
+ "az_elso_szo_a_kovetkezonek_betuvel_kell": "The first word: **{esc}** — the next one must start with **{letter}**.",
+ "szabalyok_egy_uzenet_egy_szo_a_kovetkezo": "📜 **Rules:** one message = one word • the next word starts with the previous word's last letter • **cs, dz, dzs, gy, ly, ny, sz, ty, zs** count as one letter • **a = á, o = ó …** • you can't post twice in a row • each word can appear only once in the chain",
+ "dontsetek_meg_a_rekordot_minden_jo_szo_a": "🏆 Break the record! Every correct word also counts towards the daily quests (`/kuldetesek`).",
+ "valaki_torolte_az_utolso_szot_a": "🗑️ Someone deleted the last word (**{esc}**) — the next word starts with **{letter_text}**."
+}

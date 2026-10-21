@@ -1,0 +1,8 @@
+{
+ "eredeti_uzenet": "Original message",
+ "ugras_az_uzenethez": "[Jump to message]({jump_url})",
+ "id": "ID: {id}",
+ "csatolmanyok": "Attachments",
+ "id_2": "{format_dt} • ID: {id}",
+ "ugras_az_eredetihez": "Jump to original"
+}

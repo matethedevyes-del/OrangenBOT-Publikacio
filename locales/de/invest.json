@@ -1,0 +1,22 @@
+{
+ "ez_nem_a_te_kartyad_a_sajatod": "❌ Das ist nicht deine Karte — deine: `/uzlet bolt`",
+ "orankent_megterul_kb_ora_alatt": "### {name}\n💰 **{format_huf} {sym}** • 📈 **{format_huf2} {sym}** pro Stunde\n-# Amortisiert sich in ca. {payback_hours} Stunden",
+ "uzletbefektetesek": "🏢 Geschäftsinvestitionen",
+ "orankent_termelnek_magadtol_minden": "Sie verdienen stündlich von selbst — von jeder Geschäftsart kannst du eins besitzen.\n-# 💵 Dein Bargeld: **{format_huf} {sym}**",
+ "a_bevetel_orankent_magatol_a": "Die Einnahmen landen stündlich automatisch in deinem Bargeld • deine Geschäfte: /uzlet profil",
+ "a_tied_orankent_bevetelt_hoz": "✅ **{name}** gehört dir! Es bringt stündlich **{format_huf} {sym}** ein.",
+ "i_mar_a_tied": "ℹ️ **{name}** gehört dir bereits.",
+ "meg_nincs_szamlad_az_elso_vagy_megnyitja": "❌ Du hast noch kein Konto — dein erstes `/egyenleg` oder `/munka` eröffnet es.",
+ "nincs_eleg_penzed_az_ar_neked_van": "❌ Nicht genug Geld: Der Preis ist **{format_huf} {sym}**, du hast **{format_huf2} {sym}**.",
+ "a_gazdasagi_modul_ezen_a_szerveren_ki": "Das Wirtschaftsmodul ist auf diesem Server deaktiviert.",
+ "ora_ota": "{name} — **{format_huf} {sym}/Stunde** • seit {relative_time}",
+ "megvan": "Im Besitz",
+ "megveszem": "Kaufen",
+ "uzletei": "🏢 Geschäfte von {escape_markdown}",
+ "uzletfajta": "-# {owned_count} / {BUSINESSES_count} Geschäftsarten",
+ "ujabb_uzlet_uzlet_bolt": "Weiteres Geschäft: /uzlet bolt",
+ "osszesen_ora_naponta": "💰 Gesamt: **{format_huf} {sym}/Stunde** • **{format_huf2} {sym}** pro Tag",
+ "meg_nincs_egy_uzleted_sem": "Du besitzt noch kein Geschäft",
+ "nezz_korul": "Schau dich um: `/uzlet bolt`",
+ "kovetkezo_kifizetes": "\n⏰ Nächste Auszahlung: {format_dt}"
+}

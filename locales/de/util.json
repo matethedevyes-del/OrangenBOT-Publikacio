@@ -1,0 +1,15 @@
+{
+ "idojaras": "🌤️ Wetter — {name}, {country}",
+ "ismeretlen_hiba": "Unbekannter Fehler.",
+ "homerseklet": "Temperatur",
+ "szel": "Wind",
+ "paratartalom": "Luftfeuchtigkeit",
+ "legnyomas": "Luftdruck",
+ "uv_faktor": "UV-Index",
+ "latotavolsag": "Sichtweite",
+ "nincs_beallitva_weather_api_key": "❌ WEATHER_API_KEY ist nicht gesetzt",
+ "lasd_a_env_fajlt": "Siehe .env-Datei.",
+ "hiba": "❌ Fehler",
+ "hiba_tortent_az_adatlekeres_soran": "❌ Beim Abrufen der Daten ist ein Fehler aufgetreten",
+ "az_idojaras_szolgaltatas_most_nem_erheto": "Der Wetterdienst ist gerade nicht erreichbar. Versuche es später erneut."
+}

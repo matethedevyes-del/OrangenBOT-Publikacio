@@ -1,0 +1,14 @@
+{
+ "jogosultsagi_utkozes": "Jogosultsági ütközés",
+ "a_discord_elutasitotta_a_muveletet": "A Discord elutasította a műveletet — általában azért, mert a bot rangja a célpont rangja alatt van, vagy hiányzik egy jogosultsága ezen a csatornán.",
+ "mar_nem_letezik": "Már nem létezik",
+ "a_celpont_uzenet_csatorna_vagy_tag": "A célpont (üzenet, csatorna vagy tag) időközben törlődött.",
+ "atmeneti_hiba": "Átmeneti hiba",
+ "a_discord_szervereivel_van_gond_probald": "A Discord szervereivel van gond. Próbáld újra pár másodperc múlva.",
+ "tulterhelt_adatbazis": "Túlterhelt adatbázis",
+ "most_tul_sok_keres_fut_egyszerre_probald": "Most túl sok kérés fut egyszerre. Próbáld újra pár másodperc múlva.",
+ "adatbazis_nem_elerheto": "Adatbázis nem elérhető",
+ "az_adatbazis_atmenetileg_nem_erheto_el": "Az adatbázis átmenetileg nem érhető el. Próbáld újra később.",
+ "varatlan_hiba": "Váratlan hiba",
+ "a_hibat_naploztuk_hivatkozasi_kod": "A hibát naplóztuk. Hivatkozási kód: `{eid}`"
+}

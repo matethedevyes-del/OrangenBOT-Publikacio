@@ -1,0 +1,8 @@
+{
+ "eredeti_uzenet": "Ursprüngliche Nachricht",
+ "ugras_az_uzenethez": "[Zur Nachricht springen]({jump_url})",
+ "id": "ID: {id}",
+ "csatolmanyok": "Anhänge",
+ "id_2": "{format_dt} • ID: {id}",
+ "ugras_az_eredetihez": "Zum Original springen"
+}

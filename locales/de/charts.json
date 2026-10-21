@@ -1,0 +1,16 @@
+{
+ "ft": "{huf} Ft",
+ "szerveraktivitas": "Serveraktivität",
+ "uzenet_hangperc_csucs_aktiv_tag": "{huf} Nachrichten  •  {huf2} Sprachminuten  •  Spitze: {huf3} aktive Mitglieder",
+ "elozo_zaro": "Vortagesschluss {price_label}",
+ "meg_nincs_aktivitasi_adat_ebben_az": "Noch keine Aktivitätsdaten in diesem Zeitraum",
+ "csucs": "Spitze {huf} • {strftime}",
+ "a_grafikonhoz_legalabb_ket_pont_kell": "Für das Diagramm braucht es mindestens zwei Punkte.",
+ "a_gyertyadiagramhoz_legalabb_ket_gyertya": "Für das Kerzendiagramm braucht es mindestens zwei Kerzen.",
+ "uzenetek": "Nachrichten",
+ "aktiv_tagok": "Aktive Mitglieder",
+ "hangpercek": "Sprachminuten",
+ "belepok": "Beitritte",
+ "kilepok": "Austritte",
+ "legtobb_perc_nap": "meiste: {huf} Min. / Tag"
+}

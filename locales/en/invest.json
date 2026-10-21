@@ -1,0 +1,22 @@
+{
+ "ez_nem_a_te_kartyad_a_sajatod": "❌ This isn't your card — yours: `/uzlet bolt`",
+ "orankent_megterul_kb_ora_alatt": "### {name}\n💰 **{format_huf} {sym}** • 📈 **{format_huf2} {sym}** per hour\n-# Pays for itself in about {payback_hours} hours",
+ "uzletbefektetesek": "🏢 Business investments",
+ "orankent_termelnek_magadtol_minden": "They earn every hour on their own — you can own one of each business type.\n-# 💵 Your cash: **{format_huf} {sym}**",
+ "a_bevetel_orankent_magatol_a": "Income goes to your cash automatically every hour • your businesses: /uzlet profil",
+ "a_tied_orankent_bevetelt_hoz": "✅ **{name}** is yours! It brings in **{format_huf} {sym}** every hour.",
+ "i_mar_a_tied": "ℹ️ **{name}** is already yours.",
+ "meg_nincs_szamlad_az_elso_vagy_megnyitja": "❌ You don't have an account yet — your first `/egyenleg` or `/munka` opens one.",
+ "nincs_eleg_penzed_az_ar_neked_van": "❌ Not enough money: the price is **{format_huf} {sym}**, you have **{format_huf2} {sym}**.",
+ "a_gazdasagi_modul_ezen_a_szerveren_ki": "The economy module is disabled on this server.",
+ "ora_ota": "{name} — **{format_huf} {sym}/hour** • since {relative_time}",
+ "megvan": "Owned",
+ "megveszem": "Buy",
+ "uzletei": "🏢 {escape_markdown}'s businesses",
+ "uzletfajta": "-# {owned_count} / {BUSINESSES_count} business types",
+ "ujabb_uzlet_uzlet_bolt": "Another business: /uzlet bolt",
+ "osszesen_ora_naponta": "💰 Total: **{format_huf} {sym}/hour** • **{format_huf2} {sym}** per day",
+ "meg_nincs_egy_uzleted_sem": "You don't own any businesses yet",
+ "nezz_korul": "Take a look: `/uzlet bolt`",
+ "kovetkezo_kifizetes": "\n⏰ Next payout: {format_dt}"
+}

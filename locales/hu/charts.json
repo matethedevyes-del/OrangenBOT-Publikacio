@@ -1,0 +1,16 @@
+{
+ "ft": "{huf} Ft",
+ "szerveraktivitas": "Szerveraktivitás",
+ "uzenet_hangperc_csucs_aktiv_tag": "{huf} üzenet  •  {huf2} hangperc  •  csúcs: {huf3} aktív tag",
+ "elozo_zaro": "előző záró {price_label}",
+ "meg_nincs_aktivitasi_adat_ebben_az": "Még nincs aktivitási adat ebben az időszakban",
+ "csucs": "csúcs {huf} • {strftime}",
+ "a_grafikonhoz_legalabb_ket_pont_kell": "A grafikonhoz legalább két pont kell.",
+ "a_gyertyadiagramhoz_legalabb_ket_gyertya": "A gyertyadiagramhoz legalább két gyertya kell.",
+ "uzenetek": "Üzenetek",
+ "aktiv_tagok": "Aktív tagok",
+ "hangpercek": "Hangpercek",
+ "belepok": "Belépők",
+ "kilepok": "Kilépők",
+ "legtobb_perc_nap": "legtöbb: {huf} perc / nap"
+}

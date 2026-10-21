@@ -1,0 +1,8 @@
+{
+ "botshield_nem_engedelyezett_bot_kirugva": "🛡️ BotShield: Nem Engedélyezett Bot Kirúgva",
+ "bot_neve": "Bot Neve",
+ "bot_id": "Bot ID",
+ "fiok_letrehozva": "Fiók Létrehozva",
+ "a_bot_nem_szerepelt_az_engedelyezett": "A bot nem szerepelt az engedélyezett botok listájában (bot_shield_allowed_bots).",
+ "botshield_ez_a_bot_nincs_engedelyezve_a": "BotShield: Ez a bot nincs engedélyezve a szerveren."
+}

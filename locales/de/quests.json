@@ -1,0 +1,141 @@
+{
+ "ez_nem_a_te_kartyad_a_sajatod": "❌ Das ist nicht deine Karte — deine: `/kuldetesek`",
+ "fokozat": "**{total} / {v} Stufen** • 🥇 {v2} • 🥈 {v3} • 🥉 {v4}",
+ "napi_lada_ma_mar_kinyitottad_holnap_ujra": "🧰 **Tagestruhe:** heute schon geöffnet — morgen wieder!",
+ "napi_lada_ha_mind_a_3_kesz_sorozat": "🧰 **Tagestruhe:** wenn alle 3 erledigt sind → **{format_huf} {symbol}** (🔥 Serienbonus: {streak_bonus_text})",
+ "i_most_nincs_felveheto_jutalom_teljesits": "ℹ️ Gerade gibt es keine Belohnung abzuholen — schließe eine Quest ab!",
+ "kuldetes_jutalma": "🎁 **Belohnung für {claimed} {claimed|Quest|Quests}:** +{format_huf} {symbol}",
+ "napi": "Täglich",
+ "kituntetesek": "Auszeichnungen",
+ "toplista": "Bestenliste",
+ "jutalom_xp": "Belohnung: XP",
+ "ma_nincs_elerheto_kuldetes_ezen_a": "*Heute sind auf diesem Server keine Quests verfügbar — die Funktionen sind deaktiviert.*",
+ "sorozat_nap": "🔥 **Serie:** {streak} {streak|Tag|Tage}",
+ "sorozat_meg_nincs_teljesitsd_ma_mind_a": "🔥 **Serie:** noch keine — schließe heute alle drei ab!",
+ "napi_kuldetesek": "🎯 Tägliche Quests — {escape_markdown}",
+ "uj_kuldetesek_minden_nap_3_konnyu": "Neue Quests {format_dt} • jeden Tag 3: leicht, mittel, schwer",
+ "a_haladas_magatol_szamolodik_uzenet": "Der Fortschritt wird automatisch gezählt • Nachricht: mindestens 3 Zeichen • Sprache: mindestens zu zweit, nicht taubgeschaltet",
+ "kituntetesek_2": "🏅 Auszeichnungen — {escape_markdown}",
+ "fokozatonkent_jutalom_a_statisztikak_a": "Belohnung pro Stufe: {rewards} • die Statistik zählt ab Einführung der Auszeichnungen",
+ "kituntetes_toplista": "🏆 Auszeichnungs-Bestenliste",
+ "a_legtobb_fokozat": "{escape_markdown} • die meisten Stufen",
+ "bronz_1_ezust_2_arany_3_fokozat": "Bronze = 1, Silber = 2, Gold = 3 Stufen • bei Gleichstand entscheidet die längste Serie",
+ "uj_kuldetes_holnap_ujra_cserelhetsz": "🔄 Neue Quest: {emoji} **{text}** — morgen kannst du wieder tauschen.",
+ "i_ezt_most_nem_lehet_cserelni_ma_mar": "ℹ️ Das kann gerade nicht getauscht werden (heute schon getauscht, oder es gibt keine andere Möglichkeit).",
+ "felveve": "✅ ~~{emoji} {text}~~ · {difficulty} — **abgeholt**",
+ "legjobb": " • Bestwert: {best}",
+ "legjobb_2": " (Bestwert: {best})",
+ "jutalmak_felvetele": "Belohnungen abholen ({claimable})",
+ "nincs_felveheto_jutalom": "Keine Belohnung abzuholen",
+ "egy_kuldetes_csereje_naponta_egyszer": "🔄 Eine Quest tauschen (einmal täglich)…",
+ "rejtett_kituntetes_egyszer_majd_kiderul": "❔ **Versteckte Auszeichnung** — eines Tages wirst du es erfahren …",
+ "teljes": "{medal}{emoji} **{name}**{new} — abgeschlossen! ({num}{unit})",
+ "a_hoz": "{medal}{emoji} **{name}**{new} — {num} / {num2}{unit} bis {next_medal}  `{progress_bar}`",
+ "fokozat_kituntetes": "{mark} <@{user_id}> — **{int}** Stufen • {int2} Auszeichnungen",
+ "meg_senkinek_sincs_kituntetese_legy_te": "*Noch hat niemand eine Auszeichnung — sei der Erste!*",
+ "xp": "✨ +{xp} XP",
+ "napi_lada_sorozat_nap": "🧰 **Tagestruhe:** +{format_huf} {symbol} • 🔥 Serie: **{streak} {streak|Tag|Tage}**",
+ "kesz_var_rad": "🎁 **{emoji} {text}** · {difficulty} — **erledigt!** {reward} wartet auf dich",
+ "ma_minden_kesz_szep_munka": "\n🏁 **Für heute alles erledigt — gute Arbeit!**",
+ "legjobb_sorozat": " • 🔥 beste Serie: {int}",
+ "uj_csucs": " — neuer Rekord!",
+ "uj_kituntetes": "🏅 Neue Auszeichnung: {v}{emoji} {name}",
+ "uj_kituntetes_2": "🏅 Neue Auszeichnung!",
+ "szintet_lepett_a_kitunteteseiben": "<@{user_id}> hat eine neue Auszeichnungsstufe erreicht",
+ "nezd_meg_a_sajatjaidat_kuldetesek": "Sieh dir deine an: /kuldetesek",
+ "csere_egy_masik_tipusra": "{v} — gegen einen anderen Typ tauschen",
+ "a_kuldetesek_ezen_a_szerveren_ki_vannak": "⚠️ Quests sind auf diesem Server deaktiviert (",
+ "konnyu": "Leicht",
+ "kozepes": "Mittel",
+ "nehez": "Schwer",
+ "bronz": "🥉 Bronze",
+ "ezust": "🥈 Silber",
+ "arany": "🥇 Gold",
+ "irj_uzenetet_a_szerveren": "Schreibe {n} {n|Nachricht|Nachrichten} auf dem Server",
+ "tolts_percet_hangcsatornaban_tarsasagban": "Verbringe {n} {n|Minute|Minuten} mit anderen in einem Sprachkanal",
+ "dolgozz_a_munkakozpontban": "Arbeite {n}× im Jobcenter",
+ "jatssz_kaszinojatekot": "Spiele {n} {n|Casinospiel|Casinospiele}",
+ "nyerj_a_kaszinoban": "Gewinne {n}× im Casino",
+ "hajts_vegre_sikeres_buntenyt": "Begehe {n} {n|erfolgreiches Verbrechen|erfolgreiche Verbrechen}",
+ "gyujtsd_be_a_banyaszfarm_hozamat": "Sammle {n}× den Ertrag deiner Mining-Farm ein",
+ "koss_bitcoin_ugyletet": "Tätige {n} {n|Bitcoin-Geschäft|Bitcoin-Geschäfte}",
+ "koss_tozsdei_ugyletet": "Tätige {n} {n|Börsengeschäft|Börsengeschäfte}",
+ "vedd_fel_a_napi_kaszinobonuszt": "Hol dir den täglichen Casino-Bonus",
+ "irj_jo_szamot_a_szamolos_csatornaba": "Schreibe {n} {n|richtige Zahl|richtige Zahlen} in den Zählkanal",
+ "irj_jo_szot_a_szolancba": "Schreibe {n} {n|richtiges Wort|richtige Wörter} in die Wortkette",
+ "szoszatyar": "Plaudertasche",
+ "uzenet": {
+  "one": "Nachricht",
+  "other": "Nachrichten"
+ },
+ "radios": "Radiomoderator",
+ "perc_hangcsatornaban": {
+  "one": "Minute im Sprachkanal",
+  "other": "Minuten im Sprachkanal"
+ },
+ "szorgos_kez": "Fleißiges Bienchen",
+ "elvegzett_munka": {
+  "one": "erledigter Job",
+  "other": "erledigte Jobs"
+ },
+ "szerencsejatekos": "Glücksspieler",
+ "kaszinojatek": {
+  "one": "Casinospiel",
+  "other": "Casinospiele"
+ },
+ "szerencse_fia": "Glückspilz",
+ "nyertes_kor": {
+  "one": "gewonnene Runde",
+  "other": "gewonnene Runden"
+ },
+ "alvilagi_legenda": "Unterwelt-Legende",
+ "sikeres_bunteny": {
+  "one": "erfolgreiches Verbrechen",
+  "other": "erfolgreiche Verbrechen"
+ },
+ "banyasz": "Bergmann",
+ "farm_begyujtes": {
+  "one": "Farm-Ernte",
+  "other": "Farm-Ernten"
+ },
+ "tozsdecapa": "Börsenhai",
+ "tozsdei_vagy_bitcoin_ugylet": {
+  "one": "Börsen- oder Bitcoin-Geschäft",
+  "other": "Börsen- oder Bitcoin-Geschäfte"
+ },
+ "szamtanar": "Mathelehrer",
+ "jo_szam_a_szamolos_csatornaban": {
+  "one": "richtige Zahl im Zählkanal",
+  "other": "richtige Zahlen im Zählkanal"
+ },
+ "nyelvesz": "Sprachwissenschaftler",
+ "jo_szo_a_szolancban": {
+  "one": "richtiges Wort in der Wortkette",
+  "other": "richtige Wörter in der Wortkette"
+ },
+ "kuldetesvadasz": "Questjäger",
+ "teljesitett_napi_kuldetes": {
+  "one": "abgeschlossene Tagesquest",
+  "other": "abgeschlossene Tagesquests"
+ },
+ "kitarto": "Ausdauernd",
+ "napos_kuldetes_sorozat": {
+  "one": "Tag Questserie",
+  "other": "Tage Questserie"
+ },
+ "szintlepo": "Aufsteiger",
+ "szint": {
+  "one": "Stufe",
+  "other": "Stufen"
+ },
+ "toborzo": "Anwerber",
+ "meghivott_tag": {
+  "one": "eingeladenes Mitglied",
+  "other": "eingeladene Mitglieder"
+ },
+ "jackpot": "Jackpot!",
+ "elvitt_jackpot": {
+  "one": "gewonnener Jackpot",
+  "other": "gewonnene Jackpots"
+ }
+}

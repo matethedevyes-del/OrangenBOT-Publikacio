@@ -1,0 +1,15 @@
+{
+ "idojaras": "🌤️ Weather — {name}, {country}",
+ "ismeretlen_hiba": "Unknown error.",
+ "homerseklet": "Temperature",
+ "szel": "Wind",
+ "paratartalom": "Humidity",
+ "legnyomas": "Pressure",
+ "uv_faktor": "UV index",
+ "latotavolsag": "Visibility",
+ "nincs_beallitva_weather_api_key": "❌ WEATHER_API_KEY isn't set",
+ "lasd_a_env_fajlt": "See the .env file.",
+ "hiba": "❌ Error",
+ "hiba_tortent_az_adatlekeres_soran": "❌ An error occurred while fetching the data",
+ "az_idojaras_szolgaltatas_most_nem_erheto": "The weather service is unavailable right now. Please try again later."
+}

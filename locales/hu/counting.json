@@ -1,0 +1,11 @@
+{
+ "ketszer_szamolt_egymas_utan_itt_mindig": "{mention} kétszer számolt egymás után — itt mindig másnak kell jönnie.",
+ "ezt_irta_pedig_a_jott_volna": "{mention} ezt írta: **{number}** — pedig a **{v}** jött volna.",
+ "uj_rekord_lett_belole": "🏆 **Új rekord** lett belőle!",
+ "rekord": "🏆 Rekord: **{record}**",
+ "elrontva": "💥 Elrontva!",
+ "idaig_jutottatok": "📊 Idáig jutottatok: **{reached}** • {best}",
+ "kezdjetek_ujra_1": "🔁 Kezdjétek újra: **1**",
+ "valaki_torolte_az_utolso_szamot_a": "🗑️ Valaki törölte az utolsó számot (**{current}**) — a következő: **{v}**",
+ "i_itt_1_tol_szamolunk_a_kovetkezo_szam_1": "ℹ️ Itt 1-től számolunk — a következő szám: **1**"
+}

@@ -1,0 +1,15 @@
+{
+ "1_kapcsold_ki_ami_nem_kell_alapbol": "**1.** {link}: turn off what you don't need (everything is on by default).",
+ "2_add_meg_a_stab_es_a_moderator_rangot": "**2.** {link}: set the **Staff** and **Moderator** roles.",
+ "3_valassz_egy_csatornat_a_bot_naplojanak": "**3.** {link}: pick a channel for the bot's log.",
+ "a_tagok_a_help_paranccsal_latjak_mit": "Members can see what they can use with **/help**.",
+ "minden_beallitas_a_webes_vezerlopultot": "Every setting lives on the web **dashboard** — ask the bot's operator for its address.",
+ "koszi_hogy_behivtal_a_z_szerverre": "🧡 Thanks for inviting me to {escape_markdown}!",
+ "magyar_nyelvu_mindenes_bot_gazdasag": "An all-in-one bot: economy, moderation, tickets, music, levels, name days and lots more — in Hungarian, English and German. A few minutes and you're set up.",
+ "tipp_a_vezerlopulton_vegzett": "Tip: the bot picks up changes made on the dashboard within a few seconds. You'll only get this message once.",
+ "harom_lepes_es_kesz": "### 🚀 Three steps and you're done\n",
+ "vezerlopult_megnyitasa": "Open dashboard",
+ "modulok": "Modules",
+ "rangok_es_jogok": "Roles and permissions",
+ "naplok": "Logs"
+}

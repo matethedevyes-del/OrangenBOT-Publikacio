@@ -1,0 +1,11 @@
+{
+ "ketszer_szamolt_egymas_utan_itt_mindig": "{mention} counted twice in a row — someone else always has to go next.",
+ "ezt_irta_pedig_a_jott_volna": "{mention} wrote **{number}** — but **{v}** was next.",
+ "uj_rekord_lett_belole": "🏆 It's a **new record**!",
+ "rekord": "🏆 Record: **{record}**",
+ "elrontva": "💥 Messed up!",
+ "idaig_jutottatok": "📊 You got this far: **{reached}** • {best}",
+ "kezdjetek_ujra_1": "🔁 Start again: **1**",
+ "valaki_torolte_az_utolso_szamot_a": "🗑️ Someone deleted the last number (**{current}**) — the next one is: **{v}**",
+ "i_itt_1_tol_szamolunk_a_kovetkezo_szam_1": "ℹ️ We count from 1 here — the next number is: **1**"
+}

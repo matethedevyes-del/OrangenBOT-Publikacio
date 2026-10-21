@@ -1,0 +1,15 @@
+{
+ "1_kapcsold_ki_ami_nem_kell_alapbol": "**1.** {link}: kapcsold ki, ami nem kell (alapból minden be van kapcsolva).",
+ "2_add_meg_a_stab_es_a_moderator_rangot": "**2.** {link}: add meg a **Stáb** és a **Moderátor** rangot.",
+ "3_valassz_egy_csatornat_a_bot_naplojanak": "**3.** {link}: válassz egy csatornát a bot naplójának.",
+ "a_tagok_a_help_paranccsal_latjak_mit": "A tagok a **/help** paranccsal látják, mit tudnak használni.",
+ "minden_beallitas_a_webes_vezerlopultot": "Minden beállítás a webes **vezérlőpultot** használja — kérd el a bot üzemeltetőjétől a címét.",
+ "koszi_hogy_behivtal_a_z_szerverre": "🧡 Köszi, hogy behívtál a(z) {escape_markdown} szerverre!",
+ "magyar_nyelvu_mindenes_bot_gazdasag": "Magyar nyelvű, mindenes bot: gazdaság, moderáció, ticketek, zene, szintrendszer, névnapok és még sok más. Pár perc, és be is van állítva.",
+ "tipp_a_vezerlopulton_vegzett": "Tipp: a vezérlőpulton végzett változásokat a bot pár másodpercen belül átveszi. Ezt az üzenetet csak egyszer kapod meg.",
+ "harom_lepes_es_kesz": "### 🚀 Három lépés, és kész\n",
+ "vezerlopult_megnyitasa": "Vezérlőpult megnyitása",
+ "modulok": "Modulok",
+ "rangok_es_jogok": "Rangok és jogok",
+ "naplok": "Naplók"
+}

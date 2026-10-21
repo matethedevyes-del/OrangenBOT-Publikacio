@@ -1,0 +1,7 @@
+{
+ "days": "{count} nap",
+ "hours": "{count} óra",
+ "minutes": "{count} perc",
+ "seconds": "{count} másodperc",
+ "hint": "Példák: {examples} — legfeljebb {max}."
+}

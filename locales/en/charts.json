@@ -1,0 +1,16 @@
+{
+ "ft": "{huf} Ft",
+ "szerveraktivitas": "Server activity",
+ "uzenet_hangperc_csucs_aktiv_tag": "{huf} messages  •  {huf2} voice minutes  •  peak: {huf3} active members",
+ "elozo_zaro": "previous close {price_label}",
+ "meg_nincs_aktivitasi_adat_ebben_az": "No activity data in this period yet",
+ "csucs": "peak {huf} • {strftime}",
+ "a_grafikonhoz_legalabb_ket_pont_kell": "The chart needs at least two points.",
+ "a_gyertyadiagramhoz_legalabb_ket_gyertya": "The candlestick chart needs at least two candles.",
+ "uzenetek": "Messages",
+ "aktiv_tagok": "Active members",
+ "hangpercek": "Voice minutes",
+ "belepok": "Joins",
+ "kilepok": "Leaves",
+ "legtobb_perc_nap": "most: {huf} min / day"
+}

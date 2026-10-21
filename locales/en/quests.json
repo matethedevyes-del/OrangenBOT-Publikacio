@@ -1,0 +1,141 @@
+{
+ "ez_nem_a_te_kartyad_a_sajatod": "❌ This isn't your card — yours: `/kuldetesek`",
+ "fokozat": "**{total} / {v} tiers** • 🥇 {v2} • 🥈 {v3} • 🥉 {v4}",
+ "napi_lada_ma_mar_kinyitottad_holnap_ujra": "🧰 **Daily chest:** already opened today — again tomorrow!",
+ "napi_lada_ha_mind_a_3_kesz_sorozat": "🧰 **Daily chest:** once all 3 are done → **{format_huf} {symbol}** (🔥 streak bonus: {streak_bonus_text})",
+ "i_most_nincs_felveheto_jutalom_teljesits": "ℹ️ No rewards to claim right now — complete a quest!",
+ "kuldetes_jutalma": "🎁 **Reward for {claimed} {claimed|quest|quests}:** +{format_huf} {symbol}",
+ "napi": "Daily",
+ "kituntetesek": "Achievements",
+ "toplista": "Leaderboard",
+ "jutalom_xp": "reward: XP",
+ "ma_nincs_elerheto_kuldetes_ezen_a": "*No quests available on this server today — the features are disabled.*",
+ "sorozat_nap": "🔥 **Streak:** {streak} {streak|day|days}",
+ "sorozat_meg_nincs_teljesitsd_ma_mind_a": "🔥 **Streak:** none yet — complete all three today!",
+ "napi_kuldetesek": "🎯 Daily quests — {escape_markdown}",
+ "uj_kuldetesek_minden_nap_3_konnyu": "New quests {format_dt} • 3 every day: easy, medium, hard",
+ "a_haladas_magatol_szamolodik_uzenet": "Progress is tracked automatically • messages: at least 3 characters • voice: at least two people, not deafened",
+ "kituntetesek_2": "🏅 Achievements — {escape_markdown}",
+ "fokozatonkent_jutalom_a_statisztikak_a": "Reward per tier: {rewards} • stats count from when achievements were introduced",
+ "kituntetes_toplista": "🏆 Achievement leaderboard",
+ "a_legtobb_fokozat": "{escape_markdown} • most tiers",
+ "bronz_1_ezust_2_arany_3_fokozat": "Bronze = 1, silver = 2, gold = 3 tiers • ties are broken by the longest streak",
+ "uj_kuldetes_holnap_ujra_cserelhetsz": "🔄 New quest: {emoji} **{text}** — you can swap again tomorrow.",
+ "i_ezt_most_nem_lehet_cserelni_ma_mar": "ℹ️ This can't be swapped right now (you've already swapped today, or there's no other option).",
+ "felveve": "✅ ~~{emoji} {text}~~ · {difficulty} — **claimed**",
+ "legjobb": " • best: {best}",
+ "legjobb_2": " (best: {best})",
+ "jutalmak_felvetele": "Claim rewards ({claimable})",
+ "nincs_felveheto_jutalom": "No rewards to claim",
+ "egy_kuldetes_csereje_naponta_egyszer": "🔄 Swap a quest (once a day)…",
+ "rejtett_kituntetes_egyszer_majd_kiderul": "❔ **Hidden achievement** — you'll find out one day …",
+ "teljes": "{medal}{emoji} **{name}**{new} — complete! ({num}{unit})",
+ "a_hoz": "{medal}{emoji} **{name}**{new} — {num} / {num2}{unit} to {next_medal}  `{progress_bar}`",
+ "fokozat_kituntetes": "{mark} <@{user_id}> — **{int}** tiers • {int2} achievements",
+ "meg_senkinek_sincs_kituntetese_legy_te": "*Nobody has an achievement yet — be the first!*",
+ "xp": "✨ +{xp} XP",
+ "napi_lada_sorozat_nap": "🧰 **Daily chest:** +{format_huf} {symbol} • 🔥 streak: **{streak} {streak|day|days}**",
+ "kesz_var_rad": "🎁 **{emoji} {text}** · {difficulty} — **done!** {reward} is waiting for you",
+ "ma_minden_kesz_szep_munka": "\n🏁 **All done for today — nice work!**",
+ "legjobb_sorozat": " • 🔥 best streak: {int}",
+ "uj_csucs": " — new record!",
+ "uj_kituntetes": "🏅 New achievement: {v}{emoji} {name}",
+ "uj_kituntetes_2": "🏅 New achievement!",
+ "szintet_lepett_a_kitunteteseiben": "<@{user_id}> reached a new achievement tier",
+ "nezd_meg_a_sajatjaidat_kuldetesek": "Check yours: /kuldetesek",
+ "csere_egy_masik_tipusra": "{v} — swap for another type",
+ "a_kuldetesek_ezen_a_szerveren_ki_vannak": "⚠️ Quests are disabled on this server (",
+ "konnyu": "Easy",
+ "kozepes": "Medium",
+ "nehez": "Hard",
+ "bronz": "🥉 Bronze",
+ "ezust": "🥈 Silver",
+ "arany": "🥇 Gold",
+ "irj_uzenetet_a_szerveren": "Send {n} {n|message|messages} on the server",
+ "tolts_percet_hangcsatornaban_tarsasagban": "Spend {n} {n|minute|minutes} in a voice channel with others",
+ "dolgozz_a_munkakozpontban": "Work {n}× at the job centre",
+ "jatssz_kaszinojatekot": "Play {n} casino {n|game|games}",
+ "nyerj_a_kaszinoban": "Win {n}× at the casino",
+ "hajts_vegre_sikeres_buntenyt": "Pull off {n} successful {n|crime|crimes}",
+ "gyujtsd_be_a_banyaszfarm_hozamat": "Collect your mining farm's output {n}×",
+ "koss_bitcoin_ugyletet": "Make {n} bitcoin {n|trade|trades}",
+ "koss_tozsdei_ugyletet": "Make {n} stock {n|trade|trades}",
+ "vedd_fel_a_napi_kaszinobonuszt": "Claim the daily casino bonus",
+ "irj_jo_szamot_a_szamolos_csatornaba": "Post {n} correct {n|number|numbers} in the counting channel",
+ "irj_jo_szot_a_szolancba": "Post {n} correct {n|word|words} in the word chain",
+ "szoszatyar": "Chatterbox",
+ "uzenet": {
+  "one": "message",
+  "other": "messages"
+ },
+ "radios": "Radio host",
+ "perc_hangcsatornaban": {
+  "one": "minute in voice",
+  "other": "minutes in voice"
+ },
+ "szorgos_kez": "Busy bee",
+ "elvegzett_munka": {
+  "one": "job done",
+  "other": "jobs done"
+ },
+ "szerencsejatekos": "Gambler",
+ "kaszinojatek": {
+  "one": "casino game",
+  "other": "casino games"
+ },
+ "szerencse_fia": "Lucky devil",
+ "nyertes_kor": {
+  "one": "winning round",
+  "other": "winning rounds"
+ },
+ "alvilagi_legenda": "Underworld legend",
+ "sikeres_bunteny": {
+  "one": "successful crime",
+  "other": "successful crimes"
+ },
+ "banyasz": "Miner",
+ "farm_begyujtes": {
+  "one": "farm collection",
+  "other": "farm collections"
+ },
+ "tozsdecapa": "Market shark",
+ "tozsdei_vagy_bitcoin_ugylet": {
+  "one": "stock or bitcoin trade",
+  "other": "stock or bitcoin trades"
+ },
+ "szamtanar": "Maths teacher",
+ "jo_szam_a_szamolos_csatornaban": {
+  "one": "correct number in the counting channel",
+  "other": "correct numbers in the counting channel"
+ },
+ "nyelvesz": "Linguist",
+ "jo_szo_a_szolancban": {
+  "one": "correct word in the word chain",
+  "other": "correct words in the word chain"
+ },
+ "kuldetesvadasz": "Quest hunter",
+ "teljesitett_napi_kuldetes": {
+  "one": "daily quest completed",
+  "other": "daily quests completed"
+ },
+ "kitarto": "Steadfast",
+ "napos_kuldetes_sorozat": {
+  "one": "day in a quest streak",
+  "other": "days in a quest streak"
+ },
+ "szintlepo": "Climber",
+ "szint": {
+  "one": "level",
+  "other": "levels"
+ },
+ "toborzo": "Recruiter",
+ "meghivott_tag": {
+  "one": "invited member",
+  "other": "invited members"
+ },
+ "jackpot": "Jackpot!",
+ "elvitt_jackpot": {
+  "one": "jackpot won",
+  "other": "jackpots won"
+ }
+}

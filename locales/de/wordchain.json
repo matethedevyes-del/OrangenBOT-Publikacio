@@ -1,0 +1,15 @@
+{
+ "a_z_utolso_betuje_a_kovetkezo_szonak": "🔤 Der letzte Buchstabe von **{esc}** ist **{letter_text}** — das nächste Wort muss damit beginnen (**{esc2}** beginnt mit **{letter_text2}**).",
+ "ketszer_egymas_utan_nem_irhatsz_vard_meg": "👥 {mention}, du darfst nicht zweimal hintereinander schreiben — warte, bis jemand anderes weitermacht!",
+ "a_z_mar_volt_ebben_a_lancban_mondj": "♻️ **{esc}** kam in dieser Kette schon vor — nimm ein anderes!",
+ "uj_rekord_lett_belole": "🏆 Das ist ein **neuer Rekord**!",
+ "rekord_szo": "🏆 Rekord: **{max}** Wörter",
+ "elszakadt_a_lanc": "💥 Die Kette ist gerissen!",
+ "elindult_a_szolanc": "🔤 Die Wortkette hat begonnen!",
+ "idaig_jutottatok_szo": "📊 So weit seid ihr gekommen: **{length}** Wörter • {best}",
+ "uj_lanc_indul_az_elso_szo_barmi_lehet": "🔁 Eine neue Kette beginnt — das erste Wort ist frei.",
+ "az_elso_szo_a_kovetkezonek_betuvel_kell": "Das erste Wort: **{esc}** — das nächste muss mit **{letter}** beginnen.",
+ "szabalyok_egy_uzenet_egy_szo_a_kovetkezo": "📜 **Regeln:** eine Nachricht = ein Wort • das nächste Wort beginnt mit dem letzten Buchstaben des vorigen • **cs, dz, dzs, gy, ly, ny, sz, ty, zs** gelten als ein Buchstabe • **a = á, o = ó …** • nicht zweimal hintereinander schreiben • jedes Wort darf nur einmal in der Kette vorkommen",
+ "dontsetek_meg_a_rekordot_minden_jo_szo_a": "🏆 Brecht den Rekord! Jedes richtige Wort zählt auch für die Tagesquests (`/kuldetesek`).",
+ "valaki_torolte_az_utolso_szot_a": "🗑️ Jemand hat das letzte Wort (**{esc}**) gelöscht — das nächste Wort beginnt mit **{letter_text}**."
+}

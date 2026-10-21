@@ -1,0 +1,19 @@
+{
+ "days": {
+  "one": "{count} day",
+  "other": "{count} days"
+ },
+ "hours": {
+  "one": "{count} hour",
+  "other": "{count} hours"
+ },
+ "minutes": {
+  "one": "{count} minute",
+  "other": "{count} minutes"
+ },
+ "seconds": {
+  "one": "{count} second",
+  "other": "{count} seconds"
+ },
+ "hint": "Examples: {examples} — at most {max}."
+}

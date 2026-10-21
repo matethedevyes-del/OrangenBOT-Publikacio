@@ -1,0 +1,23 @@
+{
+ "mod_contains": "when it appears in the message",
+ "mod_exact": "when the message is exactly this",
+ "mod_startswith": "when the message starts with it",
+ "megtelt": "The list is full",
+ "legfeljebb": "A server can have at most {max} auto-responses — remove one: /autovalasz torles",
+ "mar_van": "That keyword already exists",
+ "mar_van_szoveg": "This keyword already has a response (`#{id}`). Remove it first: /autovalasz torles",
+ "hibas": "Invalid input",
+ "hibas_szoveg": "Give a keyword and a response text.",
+ "kesz": "💬 Auto-response created (#{id})",
+ "kesz_szoveg": "**Keyword:** {trigger}\n**When:** {mode}",
+ "elonezet": "**It will look like this:**",
+ "lablec": "At most once every 10 seconds per rule and channel • never to bots",
+ "lista_cim": "💬 Auto-responses ({count})",
+ "ures": "No auto-responses yet. Add one: /autovalasz uj",
+ "sor": "`#{id}` **{trigger}** · {mode} · used {uses}×\n-# ↳ {answer}",
+ "lista_lablec": "Up to {max} • remove: /autovalasz torles",
+ "nincs_ilyen": "No such auto-response",
+ "nincs_ilyen_szoveg": "`#{id}` was not found on this server.",
+ "torolve": "Removed",
+ "torolve_szoveg": "Auto-response `#{id}` removed."
+}

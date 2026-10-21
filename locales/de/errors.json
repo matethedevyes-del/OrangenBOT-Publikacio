@@ -1,0 +1,14 @@
+{
+ "jogosultsagi_utkozes": "Berechtigungskonflikt",
+ "a_discord_elutasitotta_a_muveletet": "Discord hat die Aktion abgelehnt — meist, weil die Rolle des Bots unter der Rolle des Ziels liegt oder ihm in diesem Kanal eine Berechtigung fehlt.",
+ "mar_nem_letezik": "Existiert nicht mehr",
+ "a_celpont_uzenet_csatorna_vagy_tag": "Das Ziel (Nachricht, Kanal oder Mitglied) wurde inzwischen gelöscht.",
+ "atmeneti_hiba": "Vorübergehender Fehler",
+ "a_discord_szervereivel_van_gond_probald": "Die Discord-Server haben Probleme. Versuch es in ein paar Sekunden noch einmal.",
+ "tulterhelt_adatbazis": "Datenbank überlastet",
+ "most_tul_sok_keres_fut_egyszerre_probald": "Gerade laufen zu viele Anfragen gleichzeitig. Versuch es in ein paar Sekunden noch einmal.",
+ "adatbazis_nem_elerheto": "Datenbank nicht erreichbar",
+ "az_adatbazis_atmenetileg_nem_erheto_el": "Die Datenbank ist vorübergehend nicht erreichbar. Versuch es später noch einmal.",
+ "varatlan_hiba": "Unerwarteter Fehler",
+ "a_hibat_naploztuk_hivatkozasi_kod": "Der Fehler wurde protokolliert. Referenzcode: `{eid}`"
+}

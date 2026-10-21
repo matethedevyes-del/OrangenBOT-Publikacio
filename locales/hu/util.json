@@ -1,0 +1,15 @@
+{
+ "idojaras": "🌤️ Időjárás — {name}, {country}",
+ "ismeretlen_hiba": "Ismeretlen hiba.",
+ "homerseklet": "Hőmérséklet",
+ "szel": "Szél",
+ "paratartalom": "Páratartalom",
+ "legnyomas": "Légnyomás",
+ "uv_faktor": "UV faktor",
+ "latotavolsag": "Látótávolság",
+ "nincs_beallitva_weather_api_key": "❌ Nincs beállítva WEATHER_API_KEY",
+ "lasd_a_env_fajlt": "Lásd a .env fájlt.",
+ "hiba": "❌ Hiba",
+ "hiba_tortent_az_adatlekeres_soran": "❌ Hiba történt az adatlekérés során",
+ "az_idojaras_szolgaltatas_most_nem_erheto": "Az időjárás-szolgáltatás most nem érhető el. Próbáld újra később."
+}

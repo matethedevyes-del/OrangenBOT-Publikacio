@@ -1,0 +1,23 @@
+{
+ "mod_contains": "ha szerepel az üzenetben",
+ "mod_exact": "ha az üzenet pontosan ez",
+ "mod_startswith": "ha az üzenet ezzel kezdődik",
+ "megtelt": "Megtelt a lista",
+ "legfeljebb": "Egy szerveren legfeljebb {max} automatikus válasz lehet — törölj egyet: /autovalasz torles",
+ "mar_van": "Már van ilyen kulcsszó",
+ "mar_van_szoveg": "Erre a kulcsszóra már van válasz (`#{id}`). Előbb töröld: /autovalasz torles",
+ "hibas": "Hibás adatok",
+ "hibas_szoveg": "Adj meg egy kulcsszót és egy válaszszöveget.",
+ "kesz": "💬 Automatikus válasz kész (#{id})",
+ "kesz_szoveg": "**Kulcsszó:** {trigger}\n**Mikor:** {mode}",
+ "elonezet": "**Így fog kinézni:**",
+ "lablec": "Szabályonként és csatornánként legfeljebb 10 másodpercenként válaszol • a botok üzeneteire nem",
+ "lista_cim": "💬 Automatikus válaszok ({count})",
+ "ures": "Még nincs automatikus válasz. Új: /autovalasz uj",
+ "sor": "`#{id}` **{trigger}** · {mode} · {uses}× használva\n-# ↳ {answer}",
+ "lista_lablec": "Legfeljebb {max} • törlés: /autovalasz torles",
+ "nincs_ilyen": "Nincs ilyen automatikus válasz",
+ "nincs_ilyen_szoveg": "`#{id}` nem található ezen a szerveren.",
+ "torolve": "Törölve",
+ "torolve_szoveg": "A(z) `#{id}` automatikus válasz törölve."
+}

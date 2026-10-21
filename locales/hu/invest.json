@@ -1,0 +1,22 @@
+{
+ "ez_nem_a_te_kartyad_a_sajatod": "❌ Ez nem a te kártyád — a sajátod: `/uzlet bolt`",
+ "orankent_megterul_kb_ora_alatt": "### {name}\n💰 **{format_huf} {sym}** • 📈 óránként **{format_huf2} {sym}**\n-# Megtérül: kb. {payback_hours} óra alatt",
+ "uzletbefektetesek": "🏢 Üzletbefektetések",
+ "orankent_termelnek_magadtol_minden": "Óránként termelnek, magadtól — minden üzletfajtából egy lehet a tiéd.\n-# 💵 Készpénzed: **{format_huf} {sym}**",
+ "a_bevetel_orankent_magatol_a": "A bevétel óránként magától a készpénzedre kerül • a saját üzleteid: /uzlet profil",
+ "a_tied_orankent_bevetelt_hoz": "✅ **{name}** a tiéd! Óránként **{format_huf} {sym}** bevételt hoz.",
+ "i_mar_a_tied": "ℹ️ **{name}** már a tiéd.",
+ "meg_nincs_szamlad_az_elso_vagy_megnyitja": "❌ Még nincs számlád — az első `/egyenleg` vagy `/munka` megnyitja.",
+ "nincs_eleg_penzed_az_ar_neked_van": "❌ Nincs elég pénzed: az ár **{format_huf} {sym}**, neked **{format_huf2} {sym}** van.",
+ "a_gazdasagi_modul_ezen_a_szerveren_ki": "A gazdasági modul ezen a szerveren ki van kapcsolva.",
+ "ora_ota": "{name} — **{format_huf} {sym}/óra** • {relative_time} óta",
+ "megvan": "Megvan",
+ "megveszem": "Megveszem",
+ "uzletei": "🏢 {escape_markdown} üzletei",
+ "uzletfajta": "-# {owned_count} / {BUSINESSES_count} üzletfajta",
+ "ujabb_uzlet_uzlet_bolt": "Újabb üzlet: /uzlet bolt",
+ "osszesen_ora_naponta": "💰 Összesen: **{format_huf} {sym}/óra** • naponta **{format_huf2} {sym}**",
+ "meg_nincs_egy_uzleted_sem": "Még nincs egy üzleted sem",
+ "nezz_korul": "Nézz körül: `/uzlet bolt`",
+ "kovetkezo_kifizetes": "\n⏰ Következő kifizetés: {format_dt}"
+}

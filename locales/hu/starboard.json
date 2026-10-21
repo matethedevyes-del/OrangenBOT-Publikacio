@@ -1,0 +1,8 @@
+{
+ "eredeti_uzenet": "Eredeti üzenet",
+ "ugras_az_uzenethez": "[Ugrás az üzenethez]({jump_url})",
+ "id": "ID: {id}",
+ "csatolmanyok": "Csatolmányok",
+ "id_2": "{format_dt} • ID: {id}",
+ "ugras_az_eredetihez": "Ugrás az eredetihez"
+}

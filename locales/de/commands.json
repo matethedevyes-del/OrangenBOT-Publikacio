@@ -1,0 +1,3007 @@
+{
+ "commands": {
+  "8ball": {
+   "name": "8ball",
+   "description": "Stell der allwissenden Kristallkugel eine Frage"
+  },
+  "adatvedelem": {
+   "name": "datenschutz",
+   "description": "DSGVO-Datenschutzhinweis anzeigen"
+  },
+  "ai": {
+   "name": "ki",
+   "description": "KI-Chat-Einstellungen pro Server"
+  },
+  "ai beallitasok": {
+   "name": "einstellungen",
+   "description": "Aktuelle KI-Einstellungen anzeigen"
+  },
+  "ai csatorna": {
+   "name": "kanal",
+   "description": "KI-Chat-Kanal festlegen (leer lassen: ausschalten)"
+  },
+  "ai prompt": {
+   "name": "prompt",
+   "description": "Serverspezifische KI-Persönlichkeit festlegen ('reset' = Standard)"
+  },
+  "ai reset": {
+   "name": "reset",
+   "description": "Neues Gespräch in diesem Kanal beginnen"
+  },
+  "ai teszt": {
+   "name": "test",
+   "description": "Testanfrage: Funktioniert die KI, und wenn nicht, warum?"
+  },
+  "aimod": {
+   "name": "kimod",
+   "description": "KI-Moderation: Punktesystem, Regeln, Wortlisten"
+  },
+  "aimod panel": {
+   "name": "panel",
+   "description": "KI-Moderation-Dashboard: an/aus, Regeln, Wörter, Prüfung"
+  },
+  "aimod pontok": {
+   "name": "punkte",
+   "description": "Moderationspunkte und Verlauf (deine oder die eines Mitglieds)"
+  },
+  "aimod teszt": {
+   "name": "test",
+   "description": "Was würde die Moderation mit diesem Text tun? (Probe, keine Strafe)"
+  },
+  "aktivitas": {
+   "name": "aktivitaet",
+   "description": "Serveraktivität: Nachrichten, aktive Mitglieder, Voice, Beitritte, Top 5"
+  },
+  "arculat": {
+   "name": "design",
+   "description": "Das Aussehen des Bots hier: Kartenfarbe, Name, Avatar, Banner (Admin)"
+  },
+  "aszf": {
+   "name": "agb",
+   "description": "Allgemeine Geschäftsbedingungen anzeigen"
+  },
+  "autovalasz": {
+   "name": "autoantwort",
+   "description": "💬 Automatische Antworten auf Stichwörter"
+  },
+  "autovalasz lista": {
+   "name": "liste",
+   "description": "Liste der automatischen Antworten"
+  },
+  "autovalasz torles": {
+   "name": "entfernen",
+   "description": "Automatische Antwort entfernen"
+  },
+  "autovalasz uj": {
+   "name": "neu",
+   "description": "Neue automatische Antwort auf ein Stichwort"
+  },
+  "ban": {
+   "name": "bann",
+   "description": "Nutzer dauerhaft bannen (muss nicht auf dem Server sein)"
+  },
+  "bank": {
+   "name": "bank",
+   "description": "Bankschalter: Ein- und Auszahlung, Festgeld, Gemeinschaftsfonds"
+  },
+  "banlist": {
+   "name": "bannliste",
+   "description": "Die gebannten Nutzer des Servers"
+  },
+  "botinfo": {
+   "name": "botinfo",
+   "description": "Infos über das System, die Technik und die Richtlinien"
+  },
+  "btc": {
+   "name": "btc",
+   "description": "Bitcoin: Terminal, GPU-Farm, Krypto-News, Kurs, Limit-Orders"
+  },
+  "btc arfolyam": {
+   "name": "kurs",
+   "description": "Kursdiagramm und Marktstimmung"
+  },
+  "btc eladas": {
+   "name": "verkaufen",
+   "description": "Bitcoin zum Marktpreis verkaufen"
+  },
+  "btc limit": {
+   "name": "limit",
+   "description": "Automatisch kaufen oder verkaufen, wenn der Kurs das Ziel erreicht"
+  },
+  "btc tozsde": {
+   "name": "boerse",
+   "description": "Bitcoin-Terminal: Markt, Wallet, Mining-Farm, GPU-Shop, News, Orders"
+  },
+  "btc vetel": {
+   "name": "kaufen",
+   "description": "Bitcoin zum Marktpreis kaufen"
+  },
+  "bunozes": {
+   "name": "verbrechen",
+   "description": "Unterwelt: Verbrechen, Raub, Geldwäsche, Bandenkriege, Events"
+  },
+  "case": {
+   "name": "fall",
+   "description": "Moderationsfälle (Fallprotokoll)"
+  },
+  "case lista": {
+   "name": "liste",
+   "description": "Der vollständige Moderationsverlauf eines Nutzers"
+  },
+  "case megtekintes": {
+   "name": "anzeigen",
+   "description": "Details eines Falls"
+  },
+  "case szerkesztes": {
+   "name": "bearbeiten",
+   "description": "Den Grund eines Falls nachträglich ändern"
+  },
+  "casino": {
+   "name": "casino",
+   "description": "Casino: 16 Spiele, Lobby, Jackpot, Tagesbonus, Lotto, Rangliste"
+  },
+  "casino aknakereso": {
+   "name": "minen",
+   "description": "💣 Minen — Diamanten aufdecken, Minen meiden"
+  },
+  "casino baccarat": {
+   "name": "baccarat",
+   "description": "👑 Baccarat — Spieler, Bank oder Unentschieden • 2× / 1,95× / 9×"
+  },
+  "casino bajnoksag": {
+   "name": "meisterschaft",
+   "description": "🏆 Wöchentliche Server-Meisterschaft: Rangliste, Challenge, Preistopf"
+  },
+  "casino blackjack": {
+   "name": "blackjack",
+   "description": "🃏 Blackjack — zieh bis 21 • Blackjack zahlt 3:2, Verdoppeln"
+  },
+  "casino chip": {
+   "name": "chips",
+   "description": "Chip-Wechsel: mit Bargeld kaufen und einlösen"
+  },
+  "casino chip eladas": {
+   "name": "verkaufen",
+   "description": "Chips einlösen (1 Chip = 100 Ft)"
+  },
+  "casino chip vetel": {
+   "name": "kaufen",
+   "description": "Chips mit Bargeld kaufen (1 Chip = 100 Ft)"
+  },
+  "casino crash": {
+   "name": "crash",
+   "description": "🚀 Rakete — der Multiplikator steigt — steig aus, bevor sie explodiert!"
+  },
+  "casino fejiras": {
+   "name": "muenzwurf",
+   "description": "🪙 Kopf oder Zahl — doppelt oder nichts"
+  },
+  "casino hilo": {
+   "name": "hilo",
+   "description": "↕️ Höher oder tiefer — rate die nächste Karte, der Multiplikator steigt"
+  },
+  "casino kaparos": {
+   "name": "rubbellos",
+   "description": "🎟️ Rubbellos — 9 Felder freirubbeln — 3 gleiche gewinnen, bis 50×"
+  },
+  "casino keno": {
+   "name": "keno",
+   "description": "🔢 Keno — 6 Zahlen, 10 Ziehungen — 6 Treffer zahlen 500×"
+  },
+  "casino kerek": {
+   "name": "gluecksrad",
+   "description": "🎡 Glücksrad — dreh es — bis zu 50×"
+  },
+  "casino kocka": {
+   "name": "wuerfel",
+   "description": "🎲 Würfel — du bestimmst Chance und Multiplikator"
+  },
+  "casino lobbi": {
+   "name": "lobby",
+   "description": "Casino-Startseite: Chips, Jackpot, Einsatz, Spiele, Tagesbonus, Rangliste"
+  },
+  "casino lotto": {
+   "name": "lotto",
+   "description": "🎫 Lotto: Lose kaufen und Stand ansehen — tägliche Ziehung aus den Einsätzen"
+  },
+  "casino loverseny": {
+   "name": "pferderennen",
+   "description": "🏇 Pferderennen — 6 Pferde, Live-Rennen — Außenseiter zahlen mehr"
+  },
+  "casino napi": {
+   "name": "taeglich",
+   "description": "🎁 Täglicher Bonus — mit Serie immer mehr Chips (alle 20 Stunden)"
+  },
+  "casino parbaj": {
+   "name": "duell",
+   "description": "⚔️ Würfelduell gegen ein anderes Mitglied — der höhere Wurf gewinnt"
+  },
+  "casino plinko": {
+   "name": "plinko",
+   "description": "🔻 Plinko — die Kugel prallt von den Stiften ab — bis zu 28×"
+  },
+  "casino poker": {
+   "name": "poker",
+   "description": "🎴 Videopoker — Karten halten, Rest tauschen • Royal Flush 250×"
+  },
+  "casino rulett": {
+   "name": "roulette",
+   "description": "🔴 Roulette — Farbe, Gerade/Ungerade, Dutzend, Kolonne oder Zahl (36×)"
+  },
+  "casino slot": {
+   "name": "slots",
+   "description": "🎰 Einarmiger Bandit — 3×3 Walzen, 5 Gewinnlinien, progressiver Jackpot"
+  },
+  "casino statisztika": {
+   "name": "statistik",
+   "description": "📊 Casino-Statistik: Spiele, Gewinne, Lieblingsspiele"
+  },
+  "casino torony": {
+   "name": "turm",
+   "description": "🗼 Turm — klettere immer höher — jede Stufe ist mehr wert"
+  },
+  "dicksize": {
+   "name": "dicksize",
+   "description": "🍆 Größenrechner mit exakter Skala"
+  },
+  "ecoadmin": {
+   "name": "wirtschaftadmin",
+   "description": "Kontostände verwalten (Admin)"
+  },
+  "ecoadmin ad": {
+   "name": "geben",
+   "description": "Einem Mitglied Geld (oder Chips) gutschreiben"
+  },
+  "ecoadmin alvilag": {
+   "name": "unterwelt",
+   "description": "Unterwelt-Profil: freilassen, Fahndung löschen oder zurücksetzen"
+  },
+  "ecoadmin elvesz": {
+   "name": "nehmen",
+   "description": "Einem Mitglied Geld (oder Chips) abziehen (höchstens das ganze Guthaben)"
+  },
+  "ecoadmin profil": {
+   "name": "profil",
+   "description": "Das vollständige Wirtschaftsprofil eines Mitglieds (mit Wartezeiten)"
+  },
+  "egyenleg": {
+   "name": "kontostand",
+   "description": "Geldbörse: Bargeld, Bank, Bitcoin, Vermögen und Platzierung"
+  },
+  "eszkoz": {
+   "name": "werkzeuge",
+   "description": "Erinnerungen, Umfragen, AFK, Geburtstage, Status und AutoMod"
+  },
+  "eszkoz afk": {
+   "name": "afk",
+   "description": "AFK-Status setzen — wer dich erwähnt, sieht den Grund"
+  },
+  "eszkoz automod": {
+   "name": "automod",
+   "description": "Native Discord-AutoMod-Regeln (Admin)"
+  },
+  "eszkoz automod lista": {
+   "name": "liste",
+   "description": "Die AutoMod-Regeln des Servers"
+  },
+  "eszkoz automod sablon": {
+   "name": "vorlage",
+   "description": "Native AutoMod-Regel aus Vorlage erstellen (Server verwalten)"
+  },
+  "eszkoz botstatusz": {
+   "name": "botstatus",
+   "description": "Bot-Status: Ping, Laufzeit, Datenbank, Fehler"
+  },
+  "eszkoz emlekezteto": {
+   "name": "erinnerung",
+   "description": "Erinnerungen verwalten"
+  },
+  "eszkoz emlekezteto lista": {
+   "name": "liste",
+   "description": "Deine aktiven Erinnerungen auf diesem Server"
+  },
+  "eszkoz emlekezteto torles": {
+   "name": "loeschen",
+   "description": "Eine Erinnerung löschen"
+  },
+  "eszkoz emlekezteto uj": {
+   "name": "neu",
+   "description": "Erinnerung setzen (z. B. 10m, 1h30m, 2d, 1w)"
+  },
+  "eszkoz szavazas": {
+   "name": "umfrage",
+   "description": "Umfrage mit Live-Ergebnisbalken starten (Components V2)"
+  },
+  "eszkoz szerverinfo": {
+   "name": "serverinfo",
+   "description": "Das Profil des Servers"
+  },
+  "eszkoz szuletesnap": {
+   "name": "geburtstag",
+   "description": "Geburtstage"
+  },
+  "eszkoz szuletesnap beallit": {
+   "name": "setzen",
+   "description": "Deinen Geburtstag setzen (Gratulation auf diesem Server)"
+  },
+  "eszkoz szuletesnap lista": {
+   "name": "liste",
+   "description": "Die nächsten Geburtstage auf dem Server"
+  },
+  "eszkoz szuletesnap torles": {
+   "name": "loeschen",
+   "description": "Deinen Geburtstag von diesem Server entfernen"
+  },
+  "feketelista": {
+   "name": "schwarzeliste",
+   "description": "Schwarze Liste des Servers: Bann mit Ablauf"
+  },
+  "feketelista hozzaad": {
+   "name": "hinzufuegen",
+   "description": "Benutzer auf die schwarze Liste setzen (Bann, auch mit Ablauf)"
+  },
+  "feketelista lista": {
+   "name": "liste",
+   "description": "Aktive Einträge der schwarzen Liste"
+  },
+  "feketelista torol": {
+   "name": "entfernen",
+   "description": "Benutzer von der schwarzen Liste nehmen (der Bann wird aufgehoben)"
+  },
+  "global": {
+   "name": "global",
+   "description": "Globale Moderation (nur globale Moderatoren)"
+  },
+  "global csatorna": {
+   "name": "kanal",
+   "description": "Der Prüfkanal: Vorschläge, Einsprüche, Archiv (Eigentümer)"
+  },
+  "global feloldas": {
+   "name": "aufheben",
+   "description": "Eine globale Sanktion aufheben (Eigentümer)"
+  },
+  "global info": {
+   "name": "info",
+   "description": "Globale Vorgeschichte eines Nutzers (aktive und frühere Sanktionen)"
+  },
+  "global javaslatok": {
+   "name": "vorschlaege",
+   "description": "Offene Vorschläge und Einsprüche prüfen (Eigentümer)"
+  },
+  "global jeloles": {
+   "name": "markieren",
+   "description": "Nutzer markieren (Beobachtungsliste) — Warnung beim Beitritt"
+  },
+  "global lista": {
+   "name": "liste",
+   "description": "Die gültigen globalen Sanktionen"
+  },
+  "global statusz": {
+   "name": "status",
+   "description": "Status der globalen Moderation im Netzwerk"
+  },
+  "globalban": {
+   "name": "globalban",
+   "description": "Globaler Bann auf allen Servern des Bots (nur globale Moderatoren)"
+  },
+  "globalbanrequest": {
+   "name": "globalbanantrag",
+   "description": "Globalen Bann vorschlagen — globale Moderatoren entscheiden (Team)"
+  },
+  "globaltimeout": {
+   "name": "globaltimeout",
+   "description": "Globaler Timeout auf allen Servern des Bots (nur globale Moderatoren)"
+  },
+  "globaltimeoutrequest": {
+   "name": "globaltimeoutantrag",
+   "description": "Globalen Timeout vorschlagen — globale Moderatoren entscheiden (Team)"
+  },
+  "help": {
+   "name": "hilfe",
+   "description": "Hilfe: alle Befehle nach Kategorie, mit Suche"
+  },
+  "hiba_panel": {
+   "name": "fehler_panel",
+   "description": "Fehlermelde-Panel in diesem Kanal senden (Admin)"
+  },
+  "honeypot": {
+   "name": "honeypot",
+   "description": "Spambot-Falle: Kanal, Strafe, Warnkarte, Statistik"
+  },
+  "idojaras": {
+   "name": "wetter",
+   "description": "Ruft das aktuelle Wetter in einer Stadt ab."
+  },
+  "inaktiv": {
+   "name": "inaktiv",
+   "description": "Inaktive Mitglieder (keine Nachrichten, kein Voice) — Rolle, Kick"
+  },
+  "jogaim": {
+   "name": "meinerechte",
+   "description": "Deine Stufe und was du im Bot darfst (Team: von jedem)"
+  },
+  "jogosultsag": {
+   "name": "berechtigungen",
+   "description": "Rollenstufen und Rechte: wer im Bot was darf (Admin)"
+  },
+  "jogosultsag alaphelyzet": {
+   "name": "zuruecksetzen",
+   "description": "Alle Rechte auf Standard zurücksetzen (Rollenstufen bleiben)"
+  },
+  "jogosultsag jog": {
+   "name": "recht",
+   "description": "Benötigte Stufe und Zusatzrolle eines Rechts festlegen"
+  },
+  "jogosultsag panel": {
+   "name": "panel",
+   "description": "Dashboard: Rollenstufen, Rechte, Rechte eines Mitglieds prüfen"
+  },
+  "jogosultsag rang": {
+   "name": "rolle",
+   "description": "Rolle einstufen: Team / Moderator / Administrator (oder Ausnahme)"
+  },
+  "kick": {
+   "name": "kick",
+   "description": "Mitglied vom Server kicken"
+  },
+  "klan": {
+   "name": "clan",
+   "description": "Clans: Gründung, Mitglieder, Clankasse, Upgrades, Gebietskriege"
+  },
+  "klan adatlap": {
+   "name": "profil",
+   "description": "Öffentliches Profil eines Clans (leer: dein eigener)"
+  },
+  "klan admin": {
+   "name": "admin",
+   "description": "Clans verwalten: löschen, Gebietskrieg starten/stoppen, zurücksetzen"
+  },
+  "klan alapitas": {
+   "name": "gruenden",
+   "description": "Eigenen Clan gründen (wird von deinem Bargeld bezahlt)"
+  },
+  "klan kassza": {
+   "name": "kasse",
+   "description": "Clankasse: einzahlen, auszahlen, Offizierslimit, Protokoll"
+  },
+  "klan kilep": {
+   "name": "verlassen",
+   "description": "Deinen Clan verlassen (mit Bestätigung)"
+  },
+  "klan meghivas": {
+   "name": "einladen",
+   "description": "Ein Mitglied in deinen Clan einladen (Offiziere und Anführer)"
+  },
+  "klan panel": {
+   "name": "panel",
+   "description": "Dashboard deines Clans: Mitglieder, Kasse, Upgrades, Krieg"
+  },
+  "koldulas": {
+   "name": "betteln",
+   "description": "Auf der Straße betteln: schnell, wenig Geld — manchmal nichts"
+  },
+  "kuldetesek": {
+   "name": "quests",
+   "description": "Tägliche Quests, Serie, Auszeichnungen und Rangliste"
+  },
+  "leltar": {
+   "name": "inventar",
+   "description": "Deine Gegenstände und ihre Wirkung (Energydrinks hier benutzen)"
+  },
+  "level": {
+   "name": "level",
+   "description": "Levelsystem: Rangkarte, Rangliste, Belohnungen"
+  },
+  "level csatorna": {
+   "name": "kanal",
+   "description": "Kanal für Level-up-Nachrichten (leer: wo das Mitglied schrieb)"
+  },
+  "level jutalmak": {
+   "name": "belohnungen",
+   "description": "Liste der Levelbelohnungen (Rollen)"
+  },
+  "level jutalom": {
+   "name": "belohnung",
+   "description": "Belohnungsrolle für ein Level festlegen"
+  },
+  "level kartya": {
+   "name": "karte",
+   "description": "Deine oder die Rangkarte eines Mitglieds (Level, Platz, Fortschritt)"
+  },
+  "level xp": {
+   "name": "xp",
+   "description": "XP hinzufügen / abziehen, Level setzen (Admin)"
+  },
+  "lock": {
+   "name": "sperren",
+   "description": "Kanal sperren: @everyone kann nicht schreiben (aufheben: /unlock)"
+  },
+  "lockdown_all": {
+   "name": "lockdown_alle",
+   "description": "NOTFALL: alle öffentlichen Textkanäle sperren"
+  },
+  "mass": {
+   "name": "massen",
+   "description": "Massensanktionen (nach einem Raid)"
+  },
+  "mass kirugas": {
+   "name": "kick",
+   "description": "Massen-Kick per ID-Liste (bis zu 100)"
+  },
+  "mass kitiltas": {
+   "name": "bann",
+   "description": "Massen-Bann per ID-Liste (bis zu 200)"
+  },
+  "meghivok": {
+   "name": "einladungen",
+   "description": "Wer hat wen eingeladen: gültige Einladungen, Rangliste"
+  },
+  "message:AI: Fordítás": {
+   "name": "KI: Übersetzen"
+  },
+  "message:AI: Magyarázat": {
+   "name": "KI: Erklären"
+  },
+  "message:Szerkesztés (/say)": {
+   "name": "Bearbeiten (/say)"
+  },
+  "message:Üzenet jelentése": {
+   "name": "Nachricht melden"
+  },
+  "migracio": {
+   "name": "migration",
+   "description": "Datenbank: Backup und Altdaten zuordnen (nur Bot-Eigentümer)"
+  },
+  "migracio allapot": {
+   "name": "status",
+   "description": "Wie viele Altzeilen warten noch auf einen Server?"
+  },
+  "migracio hozzarendel": {
+   "name": "zuordnen",
+   "description": "Ordnet die Altdaten DIESEM Server zu (erstellt vorher ein Backup)"
+  },
+  "migracio mentes": {
+   "name": "backup",
+   "description": "Datenbank-Backup jetzt + vorhandene Backups (nur Bot-Eigentümer)"
+  },
+  "munka": {
+   "name": "arbeit",
+   "description": "Jobcenter: alle Jobs an einem Ort, mit Wartezeiten"
+  },
+  "nevnap": {
+   "name": "namenstag",
+   "description": "📅 Namenstage: heute, an einem Tag oder für einen Namen"
+  },
+  "nick": {
+   "name": "nick",
+   "description": "Spitznamen verwalten"
+  },
+  "nick beallitas": {
+   "name": "setzen",
+   "description": "Spitznamen eines Mitglieds setzen"
+  },
+  "nick javitas": {
+   "name": "korrigieren",
+   "description": "Namen korrigieren, die sich nach oben drängeln (mit !, . usw.)"
+  },
+  "nick torles": {
+   "name": "entfernen",
+   "description": "Spitznamen eines Mitglieds entfernen"
+  },
+  "note": {
+   "name": "notiz",
+   "description": "Interne Moderatorennotizen"
+  },
+  "note lista": {
+   "name": "liste",
+   "description": "Die internen Notizen zu einem Nutzer"
+  },
+  "note torles": {
+   "name": "loeschen",
+   "description": "Eine Notiz löschen"
+  },
+  "note uj": {
+   "name": "neu",
+   "description": "Interne Notiz zu einem Nutzer (nur für das Team)"
+  },
+  "nuke": {
+   "name": "nuke",
+   "description": "Kanal mit leerem Verlauf neu erstellen (mit Bestätigung)"
+  },
+  "nyeremeny": {
+   "name": "gewinnspiel",
+   "description": "Gewinnspiele: starten, beenden, neu auslosen, Liste"
+  },
+  "nyeremeny inditas": {
+   "name": "starten",
+   "description": "🎉 Gewinnspiel mit Button in diesem Kanal starten"
+  },
+  "nyeremeny lezaras": {
+   "name": "beenden",
+   "description": "🏁 Gewinnspiel sofort beenden und auslosen"
+  },
+  "nyeremeny lista": {
+   "name": "liste",
+   "description": "📋 Laufende Gewinnspiele auf dem Server"
+  },
+  "nyeremeny ujrasorsolas": {
+   "name": "neu_auslosen",
+   "description": "🎲 Neuen Gewinner für ein beendetes Gewinnspiel auslosen"
+  },
+  "oszodibeszed": {
+   "name": "oszodrede",
+   "description": "🎙️ Die Őszöd-Rede: Video ab 4:57, Zitate, Wiedergabe im Voice-Kanal"
+  },
+  "otlet_panel": {
+   "name": "ideen_panel",
+   "description": "Ideen-Panel in diesem Kanal senden (Admin)"
+  },
+  "peca": {
+   "name": "angeln",
+   "description": "RPG-Angeln: Minispiel, Aquarium, Ausrüstung, Rekorde"
+  },
+  "peca akvarium": {
+   "name": "aquarium",
+   "description": "Dein Aquarium: blättern, sortieren, schätzen, verkaufen"
+  },
+  "peca bolt": {
+   "name": "laden",
+   "description": "Angelruten und Köder kaufen"
+  },
+  "peca dobale": {
+   "name": "auswerfen",
+   "description": "Auswerfen! Warte auf den Biss und schlag rechtzeitig an (Minispiel)"
+  },
+  "peca statisztika": {
+   "name": "statistik",
+   "description": "Angelstatistik, persönliche und Serverrekorde, Rangliste"
+  },
+  "penzmosas": {
+   "name": "geldwaesche",
+   "description": "Schmutziges Geld waschen (Methode + Betrag)"
+  },
+  "profile": {
+   "name": "profil",
+   "description": "Detaillierte Serverstatistik von dir oder einem anderen Mitglied"
+  },
+  "purge": {
+   "name": "purge",
+   "description": "Nachrichten massenhaft löschen"
+  },
+  "purge botok": {
+   "name": "bots",
+   "description": "Die letzten N Nachrichten von Bots löschen"
+  },
+  "purge linkek": {
+   "name": "links",
+   "description": "Nachrichten mit Links löschen"
+  },
+  "purge mellekletek": {
+   "name": "anhaenge",
+   "description": "Nachrichten mit Anhängen (Bilder, Dateien) löschen"
+  },
+  "purge szoveg": {
+   "name": "text",
+   "description": "Nachrichten mit einem bestimmten Text löschen"
+  },
+  "purge tag": {
+   "name": "nutzer",
+   "description": "Die letzten N Nachrichten eines Nutzers löschen"
+  },
+  "purge uzenetek": {
+   "name": "nachrichten",
+   "description": "Die letzten N Nachrichten löschen"
+  },
+  "rangvalaszto": {
+   "name": "rollenwahl",
+   "description": "Rollenauswahl-Panels: beliebige Rolle, Name, Typ, Farbe (Admin)"
+  },
+  "roblox": {
+   "name": "roblox",
+   "description": "Alle öffentlichen Profildaten eines Roblox-Nutzers abfragen"
+  },
+  "role": {
+   "name": "rolle",
+   "description": "Rollen verwalten"
+  },
+  "role ad": {
+   "name": "geben",
+   "description": "Einem Mitglied eine Rolle geben"
+  },
+  "role ad_mindenkinek": {
+   "name": "allen_geben",
+   "description": "Eine Rolle ALLEN Mitgliedern geben"
+  },
+  "role elvesz": {
+   "name": "nehmen",
+   "description": "Einem Mitglied eine Rolle nehmen"
+  },
+  "role elvesz_mindenkitol": {
+   "name": "allen_nehmen",
+   "description": "Eine Rolle ALLEN wegnehmen"
+  },
+  "role szin": {
+   "name": "farbe",
+   "description": "Farbe einer Rolle ändern"
+  },
+  "rulett": {
+   "name": "roulette",
+   "description": "Russisches Roulette mit einer einzigen scharfen Kugel"
+  },
+  "say": {
+   "name": "sagen",
+   "description": "Nachricht als Bot: sofort oder im Studio mit Live-Vorschau (Admin)"
+  },
+  "security": {
+   "name": "sicherheit",
+   "description": "Automatischer Schutz und Moderationseinstellungen"
+  },
+  "security antiinvite": {
+   "name": "antiinvite",
+   "description": "Discord-Einladungen zu anderen Servern löschen"
+  },
+  "security antilink": {
+   "name": "antilink",
+   "description": "Linkfilter: Links zu nicht erlaubten Seiten löschen"
+  },
+  "security antiraid": {
+   "name": "antiraid",
+   "description": "Konten jünger als 24 Stunden automatisch kicken"
+  },
+  "security antispam": {
+   "name": "antispam",
+   "description": "Antispam: Nachrichtenflut → Löschen + 5 Minuten Timeout"
+  },
+  "security capsmention": {
+   "name": "capsmention",
+   "description": "Massenerwähnungen (6+) und Großbuchstaben-Text filtern"
+  },
+  "security dm_ertesites": {
+   "name": "dm_info",
+   "description": "Ob sanktionierte Mitglieder eine DM bekommen (mit Einspruch-Button)"
+  },
+  "security eszkalacio": {
+   "name": "eskalation",
+   "description": "Automatischer Timeout bei jeder X-ten Verwarnung"
+  },
+  "security linkek": {
+   "name": "links",
+   "description": "Vom Linkfilter erlaubte Seiten (Domains) festlegen"
+  },
+  "security naplo": {
+   "name": "log",
+   "description": "Kanal für das Moderationsprotokoll festlegen"
+  },
+  "security panel": {
+   "name": "panel",
+   "description": "Wo sich alle Moderationseinstellungen ändern lassen (Web-Dashboard)"
+  },
+  "security slowmode_auto": {
+   "name": "slowmode_auto",
+   "description": "Adaptiver Slowmode bei Nachrichtenflut"
+  },
+  "security verification_level": {
+   "name": "verifizierungsstufe",
+   "description": "Verifizierungsstufe des Servers ändern"
+  },
+  "ship": {
+   "name": "ship",
+   "description": "Liebeskompatibilität zweier Mitglieder analysieren"
+  },
+  "shop": {
+   "name": "shop",
+   "description": "Servershop: Rollen, Werkzeuge, Gegenstände"
+  },
+  "shop lista": {
+   "name": "liste",
+   "description": "Das Angebot des Shops (blätterbar, direkt kaufbar)"
+  },
+  "shop vetel": {
+   "name": "kaufen",
+   "description": "Ein Produkt anhand seiner ID kaufen"
+  },
+  "shopadmin": {
+   "name": "shopadmin",
+   "description": "Die Produkte des Servershops verwalten"
+  },
+  "shopadmin lista": {
+   "name": "liste",
+   "description": "Die eigenen Produkte des Servers (auch deaktivierte)"
+  },
+  "shopadmin rang": {
+   "name": "rolle",
+   "description": "Kaufbare Rolle hinzufügen (auch zeitlich begrenzt)"
+  },
+  "shopadmin szerkeszt": {
+   "name": "bearbeiten",
+   "description": "Ein eigenes Produkt bearbeiten"
+  },
+  "shopadmin targy": {
+   "name": "gegenstand",
+   "description": "Sammelgegenstand hinzufügen (landet im Inventar des Käufers)"
+  },
+  "shopadmin torol": {
+   "name": "loeschen",
+   "description": "Ein eigenes Produkt aus dem Shop entfernen"
+  },
+  "slowmode": {
+   "name": "slowmode",
+   "description": "Slowmode einstellen (0 = aus)"
+  },
+  "softban": {
+   "name": "softban",
+   "description": "Bann + sofortige Aufhebung: Kick und 7 Tage Nachrichten löschen"
+  },
+  "szolgalat": {
+   "name": "dienst",
+   "description": "🕒 Dienst: ein- und ausstempeln, Zeiten, Abwesenheit, Berichte, Panel"
+  },
+  "szolgalat adatok": {
+   "name": "zeiten",
+   "description": "Deine Dienstzeit (oder die eines Mitglieds)"
+  },
+  "szolgalat aktiv": {
+   "name": "aktiv",
+   "description": "Wer ist gerade im Dienst?"
+  },
+  "szolgalat atnevez": {
+   "name": "umbenennen",
+   "description": "Diensttyp umbenennen (die Daten werden übernommen)"
+  },
+  "szolgalat be": {
+   "name": "ein",
+   "description": "Einstempeln"
+  },
+  "szolgalat export": {
+   "name": "export",
+   "description": "CSV-Export der Dienstzeiten (nur Admin)"
+  },
+  "szolgalat hozzaad": {
+   "name": "anpassen",
+   "description": "Zeit gutschreiben oder abziehen (nur Admin, z. B. 30 oder -15 Minuten)"
+  },
+  "szolgalat ki": {
+   "name": "aus",
+   "description": "Ausstempeln (ohne Typ: aus allen)"
+  },
+  "szolgalat kileptet": {
+   "name": "ausstempeln",
+   "description": "Ein Mitglied, einen Typ oder alle ausstempeln (mit Bestätigung)"
+  },
+  "szolgalat kvota": {
+   "name": "quote",
+   "description": "🏅 Quoten-Rollen nach geleisteter Zeit"
+  },
+  "szolgalat kvota beallit": {
+   "name": "setzen",
+   "description": "Rolle nach geleisteter Zeit (z. B. 600 Minuten → @Erfahren)"
+  },
+  "szolgalat kvota lista": {
+   "name": "liste",
+   "description": "Die Quoten-Rollen"
+  },
+  "szolgalat kvota szinkron": {
+   "name": "sync",
+   "description": "Quoten-Rollen an alle vergeben, die sie schon erreicht haben"
+  },
+  "szolgalat kvota torol": {
+   "name": "entfernen",
+   "description": "Quoten-Rolle entfernen"
+  },
+  "szolgalat loa": {
+   "name": "abwesenheit",
+   "description": "🏖️ Abwesenheit (LOA): Antrag, Liste, Prüfung"
+  },
+  "szolgalat loa dontes": {
+   "name": "entscheiden",
+   "description": "Abwesenheitsantrag prüfen"
+  },
+  "szolgalat loa kerelem": {
+   "name": "antrag",
+   "description": "Abwesenheit beantragen (1–365 Tage)"
+  },
+  "szolgalat loa lezaras": {
+   "name": "beenden",
+   "description": "Abwesenheit vorzeitig beenden oder einen Antrag zurückziehen"
+  },
+  "szolgalat loa lista": {
+   "name": "liste",
+   "description": "Offene und aktive Abwesenheiten"
+  },
+  "szolgalat nullazas": {
+   "name": "zuruecksetzen",
+   "description": "Dienstzeiten zurücksetzen (nur Admin, mit Bestätigung)"
+  },
+  "szolgalat osszesito": {
+   "name": "rangliste",
+   "description": "Rangliste: wer wie lange im Dienst war (nur Admin)"
+  },
+  "szolgalat panel": {
+   "name": "panel",
+   "description": "Dienst-Panel posten (Live-Besetzung, Buttons)"
+  },
+  "szolgalat riport": {
+   "name": "bericht",
+   "description": "Bericht jetzt, ohne Zurücksetzen (nur Admin)"
+  },
+  "szolgalat szunet": {
+   "name": "pause",
+   "description": "Pause beginnen oder beenden (Pausen zählen nicht zur Dienstzeit)"
+  },
+  "szolgalat tipusok": {
+   "name": "typen",
+   "description": "Diensttypen, wer im Dienst ist und Gesamtzeiten"
+  },
+  "szolgalat torles": {
+   "name": "loeschen",
+   "description": "Dienstdaten ENDGÜLTIG löschen (nur Admin, mit Bestätigung)"
+  },
+  "tempban": {
+   "name": "tempbann",
+   "description": "Temporärer Bann — wird bei Ablauf automatisch aufgehoben"
+  },
+  "ticket": {
+   "name": "ticket",
+   "description": "Ticketsystem: deine Tickets, Team-Werkzeuge, Einstellungen"
+  },
+  "ticket beallitasok": {
+   "name": "einstellungen",
+   "description": "Admin-Dashboard des Ticketsystems (Einstellungen, Panel, Statistik)"
+  },
+  "ticket feloldas": {
+   "name": "entsperren",
+   "description": "Ticket-Sperre aufheben (Team)"
+  },
+  "ticket jegyeim": {
+   "name": "meinetickets",
+   "description": "Deine offenen und früheren Tickets auf diesem Server"
+  },
+  "ticket lista": {
+   "name": "liste",
+   "description": "Offene Tickets nach Priorität, mit Filtern (Team)"
+  },
+  "ticket panel_torles": {
+   "name": "panel-loeschen",
+   "description": "Ein zusätzliches Ticket-Panel löschen (mit der geposteten Nachricht)"
+  },
+  "ticket panel_uj": {
+   "name": "panel-neu",
+   "description": "Ticket-Panel in einen weiteren Kanal, mit eigenen Kategorien"
+  },
+  "ticket panelek": {
+   "name": "panels",
+   "description": "Liste der zusätzlichen Ticket-Panels"
+  },
+  "ticket statisztika": {
+   "name": "statistik",
+   "description": "Antwortzeiten, Bewertungen, aktivste Teammitglieder (Team)"
+  },
+  "ticket tiltas": {
+   "name": "sperren",
+   "description": "Mitglied vom Ticketsystem sperren (Team)"
+  },
+  "tiktok": {
+   "name": "tiktok",
+   "description": "TikTok-Benachrichtigungen: neue Videos und Livestreams"
+  },
+  "tiktok hozzaad": {
+   "name": "hinzufuegen",
+   "description": "TikTok-Konto folgen: neue Videos und Lives in einem Kanal melden"
+  },
+  "tiktok panel": {
+   "name": "panel",
+   "description": "TikTok-Benachrichtigungen verwalten: Konten, Kanal, Ping, Test, Prüfung"
+  },
+  "timeout": {
+   "name": "timeout",
+   "description": "Mitglied in den Timeout schicken (kein Schreiben, kein Sprechen)"
+  },
+  "toplista": {
+   "name": "rangliste",
+   "description": "Ranglisten: Vermögen, Level, Casino, Börse, Bitcoin, Clans, Quests u. v. m."
+  },
+  "tozsde": {
+   "name": "boerse",
+   "description": "Börse: Aktien, Terminal, Charts, Orders"
+  },
+  "tozsde eladas": {
+   "name": "verkaufen",
+   "description": "Aktien zum Marktpreis verkaufen (Stück, % oder max)"
+  },
+  "tozsde fedezes": {
+   "name": "eindecken",
+   "description": "Short-Position schließen (Rückkauf zum Marktpreis)"
+  },
+  "tozsde grafikon": {
+   "name": "chart",
+   "description": "Öffentliche Kurskarte mit Kerzenchart (auch für den PÉTIX)"
+  },
+  "tozsde megbizas": {
+   "name": "order",
+   "description": "Limit- oder Stop-Order (7 Tage gültig, auch bei Börsenschluss)"
+  },
+  "tozsde piac": {
+   "name": "markt",
+   "description": "Handelsterminal: Markt, Portfolio, Orders, News, Rangliste"
+  },
+  "tozsde reszveny": {
+   "name": "aktie",
+   "description": "Firmenprofil: Chart, Orderbuch, Kennzahlen, deine Position"
+  },
+  "tozsde short": {
+   "name": "short",
+   "description": "Leerverkauf: auf fallende Kurse setzen (50 % Sicherheit)"
+  },
+  "tozsde vetel": {
+   "name": "kaufen",
+   "description": "Aktien zum Marktpreis kaufen (Stück, Betrag, % oder max)"
+  },
+  "udvozles": {
+   "name": "willkommen",
+   "description": "Willkommensstudio: Begrüßung, Abschied und DM mit Live-Vorschau"
+  },
+  "unban": {
+   "name": "entbannen",
+   "description": "Einen Bann aufheben"
+  },
+  "unlock": {
+   "name": "entsperren",
+   "description": "Kanal entsperren (Zustand vor der Sperre wird wiederhergestellt)"
+  },
+  "unlock_all": {
+   "name": "alle_entsperren",
+   "description": "Alle vom Bot gesperrten Kanäle entsperren"
+  },
+  "unnepek": {
+   "name": "feiertage",
+   "description": "🇭🇺 Ungarische Feier- und Gedenktage: heute und demnächst"
+  },
+  "untimeout": {
+   "name": "timeout_aufheben",
+   "description": "Einen Timeout aufheben"
+  },
+  "user:Figyelmeztetés": {
+   "name": "Verwarnen"
+  },
+  "user:Profil megtekintése": {
+   "name": "Profil ansehen"
+  },
+  "user_info": {
+   "name": "nutzer_info",
+   "description": "Moderationsprofil eines Mitglieds: Konto, Rollen, Fälle, Notizen"
+  },
+  "utalas": {
+   "name": "ueberweisen",
+   "description": "Einem anderen Mitglied Geld aus deinem Bargeld senden"
+  },
+  "uzlet": {
+   "name": "geschaeft",
+   "description": "Geschäfte: passives Einkommen durch Investitionen"
+  },
+  "uzlet bolt": {
+   "name": "laden",
+   "description": "Investiere in ein Geschäft, das passives Einkommen bringt."
+  },
+  "uzlet profil": {
+   "name": "profil",
+   "description": "Sieh dir deine Geschäfte und dein passives Einkommen an."
+  },
+  "vadaszat": {
+   "name": "jagd",
+   "description": "RPG-Jagd: Ansitz-Minispiel, Trophäenraum, Ausrüstung, Rekorde"
+  },
+  "vadaszat bolt": {
+   "name": "laden",
+   "description": "Bögen, Gewehre und Lockmittel kaufen"
+  },
+  "vadaszat les": {
+   "name": "ansitz",
+   "description": "Auf den Ansitz! Warte auf das Wild und schieß rechtzeitig richtig"
+  },
+  "vadaszat statisztika": {
+   "name": "statistik",
+   "description": "Jagdstatistik, persönliche und Serverrekorde, Rangliste"
+  },
+  "vadaszat trofeaterem": {
+   "name": "trophaeen",
+   "description": "Dein Trophäenraum: blättern, sortieren, schätzen, verkaufen"
+  },
+  "vc": {
+   "name": "vc",
+   "description": "🎙️ Deinen temporären Sprachkanal verwalten"
+  },
+  "vc claim": {
+   "name": "claim",
+   "description": "Besitz übernehmen (wenn der Besitzer nicht im Kanal ist)"
+  },
+  "vc kick": {
+   "name": "kick",
+   "description": "Nutzer rauswerfen (kann zurück, wenn nicht gesperrt)"
+  },
+  "vc limit": {
+   "name": "limit",
+   "description": "Maximale Nutzerzahl im Kanal"
+  },
+  "vc lobbi": {
+   "name": "lobby",
+   "description": "🚪 Kanal-Ersteller-Lobbys (mehrere möglich)"
+  },
+  "vc lobbi hozzaad": {
+   "name": "hinzufuegen",
+   "description": "Neue Kanal-Ersteller-Lobby (oder eine bestehende ändern)"
+  },
+  "vc lobbi lista": {
+   "name": "liste",
+   "description": "Liste der Kanal-Ersteller-Lobbys"
+  },
+  "vc lobbi torles": {
+   "name": "entfernen",
+   "description": "Kanal-Ersteller-Lobby entfernen (der Kanal bleibt)"
+  },
+  "vc lock": {
+   "name": "sperren",
+   "description": "Kanal sperren (wer drin ist, kann zurückkommen)"
+  },
+  "vc permit": {
+   "name": "erlauben",
+   "description": "Nutzer hereinlassen (auch in einen gesperrten Kanal)"
+  },
+  "vc reject": {
+   "name": "ablehnen",
+   "description": "Nutzer aus dem Kanal aussperren"
+  },
+  "vc rename": {
+   "name": "umbenennen",
+   "description": "Kanal umbenennen (höchstens 2-mal alle 10 Minuten)"
+  },
+  "vc transfer": {
+   "name": "uebergeben",
+   "description": "Besitz an jemanden übergeben"
+  },
+  "vc unlock": {
+   "name": "entsperren",
+   "description": "Kanal entsperren"
+  },
+  "verify_embed": {
+   "name": "verify_embed",
+   "description": "Verifizierungs-Panel senden (Admin)"
+  },
+  "verify_info": {
+   "name": "verify_info",
+   "description": "Wann und welche Dokumentversion ein Mitglied akzeptiert hat (Team)"
+  },
+  "voice": {
+   "name": "voice",
+   "description": "Sprachkanal-Moderation"
+  },
+  "voice athelyezes": {
+   "name": "verschieben",
+   "description": "Mitglied in einen anderen Sprachkanal verschieben"
+  },
+  "voice feloldas": {
+   "name": "entsperren",
+   "description": "Sprachkanal entsperren (Zustand vor der Sperre wiederherstellen)"
+  },
+  "voice kidobas": {
+   "name": "trennen",
+   "description": "Mitglied aus dem Sprachkanal trennen"
+  },
+  "voice lezaras": {
+   "name": "sperren",
+   "description": "Sprachkanal sperren (@everyone kann nicht beitreten)"
+  },
+  "voice mind_athelyezese": {
+   "name": "alle_verschieben",
+   "description": "Alle Mitglieder eines Sprachkanals verschieben"
+  },
+  "voice nemitas": {
+   "name": "stummschalten",
+   "description": "Mitglied im Sprachkanal stummschalten"
+  },
+  "voice nemitas_fel": {
+   "name": "stumm_aufheben",
+   "description": "Stummschaltung im Sprachkanal aufheben"
+  },
+  "voice suketites": {
+   "name": "taubschalten",
+   "description": "Mitglied im Sprachkanal taub schalten"
+  },
+  "voice suketites_fel": {
+   "name": "taub_aufheben",
+   "description": "Taubschaltung aufheben"
+  },
+  "warn": {
+   "name": "verwarnung",
+   "description": "Verwarnungen verwalten"
+  },
+  "warn kereses": {
+   "name": "suchen",
+   "description": "Verwarnungen im Grund durchsuchen"
+  },
+  "warn lista": {
+   "name": "liste",
+   "description": "Die Verwarnungen eines Mitglieds"
+  },
+  "warn nullazas": {
+   "name": "zuruecksetzen",
+   "description": "Alle Verwarnungen eines Mitglieds löschen"
+  },
+  "warn uj": {
+   "name": "neu",
+   "description": "Ein Mitglied verwarnen"
+  },
+  "warn visszavonas": {
+   "name": "widerrufen",
+   "description": "Eine Verwarnung per Fallnummer widerrufen"
+  },
+  "wordfilter": {
+   "name": "wortfilter",
+   "description": "Verbotene Wörter und Ausdrücke"
+  },
+  "wordfilter lista": {
+   "name": "liste",
+   "description": "Liste der verbotenen Ausdrücke"
+  },
+  "wordfilter torles": {
+   "name": "loeschen",
+   "description": "Einen Ausdruck von der Sperrliste nehmen"
+  },
+  "wordfilter uj": {
+   "name": "neu",
+   "description": "Wort oder Ausdruck sperren (* steht für beliebige Buchstaben)"
+  },
+  "youtube": {
+   "name": "youtube",
+   "description": "YouTube-Benachrichtigungen: neue Videos, Shorts, Livestreams"
+  },
+  "youtube hozzaad": {
+   "name": "hinzufuegen",
+   "description": "YouTube-Kanal folgen: neue Videos, Shorts und Livestreams"
+  },
+  "youtube panel": {
+   "name": "panel",
+   "description": "YouTube-Benachrichtigungen verwalten: Kanäle, Ping, Test, Prüfung"
+  },
+  "zene": {
+   "name": "musik",
+   "description": "🎵 Musikplayer: Panel, Warteschlange, Verlauf, Spulen, Lautstärke, Klang, Songtext …"
+  },
+  "zene athelyez": {
+   "name": "verschieben",
+   "description": "Einen Titel in der Warteschlange verschieben"
+  },
+  "zene dalszoveg": {
+   "name": "songtext",
+   "description": "Songtext des aktuellen (oder eines anderen) Titels, mit synchronen Zeilen"
+  },
+  "zene elozmenyek": {
+   "name": "verlauf",
+   "description": "Die zuletzt gespielten Titel — mit einem Klick erneut einreihen"
+  },
+  "zene hangero": {
+   "name": "lautstaerke",
+   "description": "Die Lautstärke (0–150 %) — ohne Zahl öffnet sich ein Formular"
+  },
+  "zene hangzas": {
+   "name": "klang",
+   "description": "Klang: Bass, Nightcore, Vaporwave, Slowed, 8D, Ausgleich, Beschleunigen"
+  },
+  "zene ismetles": {
+   "name": "wiederholen",
+   "description": "Wiederholen: aus, dieser Titel oder die ganze Warteschlange"
+  },
+  "zene keveres": {
+   "name": "mischen",
+   "description": "Die Warteschlange mischen"
+  },
+  "zene kihagyas": {
+   "name": "ueberspringen",
+   "description": "Den aktuellen Titel überspringen (per Abstimmung, falls so eingestellt)"
+  },
+  "zene kilep": {
+   "name": "verlassen",
+   "description": "Musik stoppen und den Sprachkanal verlassen"
+  },
+  "zene kovetkezo": {
+   "name": "alsnaechstes",
+   "description": "Einen Titel an den ANFANG der Warteschlange — läuft direkt nach dem aktuellen"
+  },
+  "zene lejatszas": {
+   "name": "abspielen",
+   "description": "Musik abspielen: ein Titel oder ein YouTube-, Spotify- oder SoundCloud-Link"
+  },
+  "zene most": {
+   "name": "aktuell",
+   "description": "Was läuft gerade? Karte mit Fortschritt, Interpret und den nächsten Titeln"
+  },
+  "zene panel": {
+   "name": "panel",
+   "description": "Das Player-Panel hierher an das Kanalende holen (das alte verschwindet)"
+  },
+  "zene sor": {
+   "name": "warteschlange",
+   "description": "Die Warteschlange: springen, vorziehen, entfernen, mischen, leeren, Verlauf"
+  },
+  "zene torles": {
+   "name": "entfernen",
+   "description": "Einen Titel aus der Warteschlange entfernen (Nummer aus /zene sor)"
+  },
+  "zene ugras": {
+   "name": "spulen",
+   "description": "Im Titel springen: 1:23 (Min:Sek), 90 (Sek), +30 (vor), -15 (zurück)"
+  },
+  "zene urites": {
+   "name": "leeren",
+   "description": "Die ganze Warteschlange leeren (der aktuelle Titel läuft weiter)"
+  }
+ },
+ "options": {
+  "8ball kerdes": {
+   "name": "frage",
+   "description": "Deine Frage, auf die du eine Antwort willst"
+  },
+  "ai csatorna csatorna": {
+   "name": "kanal",
+   "description": "In diesem Kanal antwortet die KI auf jede Nachricht"
+  },
+  "ai prompt szoveg": {
+   "name": "text",
+   "description": "Die Anweisungen der KI oder 'reset' für die Standardpersönlichkeit"
+  },
+  "aimod pontok tag": {
+   "name": "mitglied",
+   "description": "Wessen Punkte du sehen willst (leer: deine)"
+  },
+  "aimod teszt szoveg": {
+   "name": "text",
+   "description": "Die zu testende Nachricht"
+  },
+  "aktivitas napok": {
+   "name": "tage",
+   "description": "Wie viele Tage angezeigt werden (Standard: 30)"
+  },
+  "autovalasz torles azonosito": {
+   "name": "id",
+   "description": "Die zu entfernende Antwort (tippe das Stichwort)"
+  },
+  "autovalasz uj kulcsszo": {
+   "name": "stichwort",
+   "description": "Z. B. „ip“, „regeln“, „wie bewerbe ich mich“"
+  },
+  "autovalasz uj mod": {
+   "name": "modus",
+   "description": "Wann antworten (Standard: wenn das Stichwort in der Nachricht vorkommt)"
+  },
+  "autovalasz uj valasz": {
+   "name": "antwort",
+   "description": "Die Antwort des Bots — Platzhalter: {user} {name} {server} {channel}"
+  },
+  "ban felhasznalo": {
+   "name": "nutzer",
+   "description": "Der zu bannende Nutzer (oder seine ID)"
+  },
+  "ban indok": {
+   "name": "grund",
+   "description": "Der Grund (wird per DM mitgeteilt)"
+  },
+  "ban torles_napok": {
+   "name": "loeschtage",
+   "description": "Wie viele Tage an Nachrichten gelöscht werden (0–7)"
+  },
+  "btc arfolyam idoszak": {
+   "name": "zeitraum",
+   "description": "Angezeigter Zeitraum (Standard: 24 Stunden)"
+  },
+  "btc eladas mennyiseg": {
+   "name": "menge",
+   "description": "Wie viel BTC du verkaufst: 0.05, 50 % oder alles"
+  },
+  "btc limit celar": {
+   "name": "zielkurs",
+   "description": "Der Zielkurs (Ft / BTC)"
+  },
+  "btc limit irany": {
+   "name": "richtung",
+   "description": "Kauf oder Verkauf"
+  },
+  "btc limit mennyiseg": {
+   "name": "menge",
+   "description": "BTC-Menge (z. B. 0.05)"
+  },
+  "btc tozsde oldal": {
+   "name": "seite",
+   "description": "Welcher Tab sich öffnet (Standard: Markt und Wallet)"
+  },
+  "btc vetel osszeg": {
+   "name": "betrag",
+   "description": "Wie viel Geld du ausgibst: 50000, 125k, 1,5m oder alles"
+  },
+  "case lista felhasznalo": {
+   "name": "nutzer",
+   "description": "Der Nutzer, dessen Fälle aufgelistet werden"
+  },
+  "case megtekintes eset": {
+   "name": "fall",
+   "description": "Die Fallnummer (#…)"
+  },
+  "case szerkesztes eset": {
+   "name": "fall",
+   "description": "Die Fallnummer (#…)"
+  },
+  "case szerkesztes indok": {
+   "name": "grund",
+   "description": "Der neue Grund"
+  },
+  "casino aknakereso aknak": {
+   "name": "minen",
+   "description": "Wie viele Minen unter den 20 Feldern (leer: auf der Karte wählen)"
+  },
+  "casino aknakereso tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino baccarat tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino baccarat tipp": {
+   "name": "tipp",
+   "description": "Auf wen setzt du? (leer: auf der Karte wählen)"
+  },
+  "casino blackjack tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino chip eladas mennyiseg": {
+   "name": "menge",
+   "description": "Wie viele Chips einlösen? (z. B. 100, 1k, alle)"
+  },
+  "casino chip vetel mennyiseg": {
+   "name": "menge",
+   "description": "Wie viele Chips kaufen? (z. B. 100, 1k, alle)"
+  },
+  "casino crash kiszallas": {
+   "name": "ausstieg",
+   "description": "Automatischer Ausstieg bei diesem Multiplikator (z. B. 2 oder 1.5)"
+  },
+  "casino crash tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino fejiras oldal": {
+   "name": "seite",
+   "description": "Kopf oder Zahl? (leer: auf der Karte wählen)"
+  },
+  "casino fejiras tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino hilo tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino kaparos tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino keno szamok": {
+   "name": "zahlen",
+   "description": "6 Zahlen von 1–40, z. B. 3,7,12,19,28,40 (leer: Quick-Tipp auf der Karte)"
+  },
+  "casino keno tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino kerek tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino kocka cel": {
+   "name": "ziel",
+   "description": "Das Ziel (5–95) — leer: auf der Karte einstellen"
+  },
+  "casino kocka irany": {
+   "name": "richtung",
+   "description": "Soll der Wurf über oder unter dem Ziel liegen?"
+  },
+  "casino kocka tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino lotto darab": {
+   "name": "lose",
+   "description": "Wie viele Lose (0 = nur den Stand ansehen, Standard: 1)"
+  },
+  "casino loverseny lo": {
+   "name": "pferd",
+   "description": "Auf welches Pferd setzt du? (leer: auf der Karte wählen)"
+  },
+  "casino loverseny tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino parbaj ellenfel": {
+   "name": "gegner",
+   "description": "Wen forderst du heraus?"
+  },
+  "casino parbaj tet": {
+   "name": "einsatz",
+   "description": "Einsatz pro Spieler (Chips): Zahl, halb oder max"
+  },
+  "casino plinko kockazat": {
+   "name": "risiko",
+   "description": "Risiko (leer: auf der Karte wählen)"
+  },
+  "casino plinko tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino poker tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino rulett szam": {
+   "name": "zahl",
+   "description": "Bei einer Zahlenwette: die Zahl (0–36)"
+  },
+  "casino rulett tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino rulett tipus": {
+   "name": "art",
+   "description": "Worauf setzt du? (leer: auf der Karte wählen)"
+  },
+  "casino slot tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "casino statisztika tag": {
+   "name": "mitglied",
+   "description": "Wessen Statistik? (Standard: deine)"
+  },
+  "casino torony nehezseg": {
+   "name": "schwierigkeit",
+   "description": "Schwierigkeit (leer: auf der Karte wählen)"
+  },
+  "casino torony tet": {
+   "name": "einsatz",
+   "description": "Einsatz in Chips: Zahl (z. B. 100, 2,5k), halb oder max"
+  },
+  "dicksize celpont": {
+   "name": "ziel",
+   "description": "Wessen Größe gemessen wird (leer: deine)"
+  },
+  "ecoadmin ad hova": {
+   "name": "wohin",
+   "description": "Welches Guthaben (Standard: Bargeld)"
+  },
+  "ecoadmin ad osszeg": {
+   "name": "betrag",
+   "description": "Betrag (z. B. 50000 oder 50k)"
+  },
+  "ecoadmin ad tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "ecoadmin alvilag muvelet": {
+   "name": "aktion",
+   "description": "Was getan werden soll"
+  },
+  "ecoadmin alvilag tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "ecoadmin elvesz honnan": {
+   "name": "woher",
+   "description": "Von welchem Guthaben (Standard: Bargeld)"
+  },
+  "ecoadmin elvesz osszeg": {
+   "name": "betrag",
+   "description": "Betrag (z. B. 50000, 50k oder alles)"
+  },
+  "ecoadmin elvesz tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "ecoadmin profil tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "egyenleg tag": {
+   "name": "mitglied",
+   "description": "Wessen Geldbörse (Standard: deine)"
+  },
+  "eszkoz afk ok": {
+   "name": "grund",
+   "description": "Warum bist du weg? (optional)"
+  },
+  "eszkoz automod sablon emlites_limit": {
+   "name": "erwaehnungslimit",
+   "description": "Bei Massenerwähnungen: ab so vielen blockieren (Standard: 5)"
+  },
+  "eszkoz automod sablon kulcsszavak": {
+   "name": "stichwoerter",
+   "description": "Nur für die Vorlage 'Eigene Stichwörter': kommagetrennt (* Platzhalter)"
+  },
+  "eszkoz automod sablon sablon": {
+   "name": "vorlage",
+   "description": "Welche Regel soll ich erstellen?"
+  },
+  "eszkoz emlekezteto torles azonosito": {
+   "name": "id",
+   "description": "Die ID der Erinnerung (tippen für die Liste)"
+  },
+  "eszkoz emlekezteto uj ido": {
+   "name": "zeit",
+   "description": "In wie viel Zeit? Z. B. 10m, 1h30m, 2d, 1w"
+  },
+  "eszkoz emlekezteto uj privat": {
+   "name": "privat",
+   "description": "Per DM? (Standard: in diesem Kanal)"
+  },
+  "eszkoz emlekezteto uj szoveg": {
+   "name": "text",
+   "description": "Woran soll ich dich erinnern?"
+  },
+  "eszkoz szavazas kerdes": {
+   "name": "frage",
+   "description": "Die Frage der Umfrage"
+  },
+  "eszkoz szavazas nevtelen": {
+   "name": "anonym",
+   "description": "Anonym (Standard) — ausgeschaltet sieht jeder, wer wofür gestimmt hat"
+  },
+  "eszkoz szavazas orak": {
+   "name": "stunden",
+   "description": "Automatisch nach so vielen Stunden beenden (0: nur manuell, Standard: 24)"
+  },
+  "eszkoz szavazas rejtett_eredmeny": {
+   "name": "verborgenes_ergebnis",
+   "description": "Das Ergebnis wird erst beim Beenden angezeigt"
+  },
+  "eszkoz szavazas tobb_valasz": {
+   "name": "mehrfach",
+   "description": "Mehrere Antworten erlauben?"
+  },
+  "eszkoz szavazas valaszok": {
+   "name": "antworten",
+   "description": "2-10 Antworten, durch Semikolon getrennt, z. B.: Ja; Nein; Vielleicht"
+  },
+  "eszkoz szuletesnap beallit ev": {
+   "name": "jahr",
+   "description": "Geburtsjahr (optional — dann wird auch das Alter angezeigt)"
+  },
+  "eszkoz szuletesnap beallit honap": {
+   "name": "monat",
+   "description": "Monat (1-12)"
+  },
+  "eszkoz szuletesnap beallit nap": {
+   "name": "tag",
+   "description": "Tag (1-31)"
+  },
+  "feketelista hozzaad azonosito": {
+   "name": "id",
+   "description": "Oder die ID des Benutzers (falls nicht auf dem Server)"
+  },
+  "feketelista hozzaad ido": {
+   "name": "dauer",
+   "description": "Wie lange (z. B. 1d, 7d, 30d) — leer: dauerhaft"
+  },
+  "feketelista hozzaad indok": {
+   "name": "grund",
+   "description": "Der Grund (der Benutzer erhält ihn per DM)"
+  },
+  "feketelista hozzaad tag": {
+   "name": "benutzer",
+   "description": "Der Benutzer"
+  },
+  "feketelista torol azonosito": {
+   "name": "id",
+   "description": "Oder die ID des Benutzers"
+  },
+  "feketelista torol indok": {
+   "name": "grund",
+   "description": "Der Grund (optional)"
+  },
+  "feketelista torol tag": {
+   "name": "benutzer",
+   "description": "Der Benutzer"
+  },
+  "global csatorna csatorna": {
+   "name": "kanal",
+   "description": "Der Kanal (leer: dieser Kanal)"
+  },
+  "global feloldas felhasznalo": {
+   "name": "nutzer",
+   "description": "Für wen"
+  },
+  "global feloldas indok": {
+   "name": "grund",
+   "description": "Warum"
+  },
+  "global feloldas tipus": {
+   "name": "art",
+   "description": "Welche (leer: alle)"
+  },
+  "global info felhasznalo": {
+   "name": "nutzer",
+   "description": "Über wen"
+  },
+  "global jeloles bizonyitek": {
+   "name": "beweis",
+   "description": "Screenshot oder Datei"
+  },
+  "global jeloles felhasznalo": {
+   "name": "nutzer",
+   "description": "Wen"
+  },
+  "global jeloles indok": {
+   "name": "grund",
+   "description": "Warum man auf ihn achten soll"
+  },
+  "global jeloles link": {
+   "name": "link",
+   "description": "Link zum Beweis"
+  },
+  "global lista tipus": {
+   "name": "art",
+   "description": "Nach Art filtern"
+  },
+  "globalban bizonyitek": {
+   "name": "beweis",
+   "description": "Screenshot oder Datei (optional, aber dringend empfohlen)"
+  },
+  "globalban felhasznalo": {
+   "name": "nutzer",
+   "description": "Wer (Mitglied oder Nutzer-ID)"
+  },
+  "globalban idotartam": {
+   "name": "dauer",
+   "description": "Ablauf (leer: dauerhaft), z. B. 30d"
+  },
+  "globalban indok": {
+   "name": "grund",
+   "description": "Warum — der Nutzer sieht es auch"
+  },
+  "globalban link": {
+   "name": "link",
+   "description": "Link zum Beweis, z. B. ein Nachrichtenlink"
+  },
+  "globalbanrequest bizonyitek": {
+   "name": "beweis",
+   "description": "Screenshot oder Datei (optional, aber dringend empfohlen)"
+  },
+  "globalbanrequest felhasznalo": {
+   "name": "nutzer",
+   "description": "Wer (Mitglied oder Nutzer-ID)"
+  },
+  "globalbanrequest idotartam": {
+   "name": "dauer",
+   "description": "Vorgeschlagener Ablauf (leer: dauerhaft)"
+  },
+  "globalbanrequest indok": {
+   "name": "grund",
+   "description": "Warum — Prüfer und Nutzer sehen es"
+  },
+  "globalbanrequest link": {
+   "name": "link",
+   "description": "Link zum Beweis, z. B. ein Nachrichtenlink"
+  },
+  "globaltimeout bizonyitek": {
+   "name": "beweis",
+   "description": "Screenshot oder Datei"
+  },
+  "globaltimeout felhasznalo": {
+   "name": "nutzer",
+   "description": "Wer (Mitglied oder Nutzer-ID)"
+  },
+  "globaltimeout idotartam": {
+   "name": "dauer",
+   "description": "Wie lange (max. 28 Tage), z. B. 1d"
+  },
+  "globaltimeout indok": {
+   "name": "grund",
+   "description": "Warum — der Nutzer sieht es auch"
+  },
+  "globaltimeout link": {
+   "name": "link",
+   "description": "Link zum Beweis, z. B. ein Nachrichtenlink"
+  },
+  "globaltimeoutrequest bizonyitek": {
+   "name": "beweis",
+   "description": "Screenshot oder Datei"
+  },
+  "globaltimeoutrequest felhasznalo": {
+   "name": "nutzer",
+   "description": "Wer (Mitglied oder Nutzer-ID)"
+  },
+  "globaltimeoutrequest idotartam": {
+   "name": "dauer",
+   "description": "Wie lange (max. 28 Tage), z. B. 1d"
+  },
+  "globaltimeoutrequest indok": {
+   "name": "grund",
+   "description": "Warum — Prüfer und Nutzer sehen es"
+  },
+  "globaltimeoutrequest link": {
+   "name": "link",
+   "description": "Link zum Beweis, z. B. ein Nachrichtenlink"
+  },
+  "help parancs": {
+   "name": "befehl",
+   "description": "Details zu einem bestimmten Befehl (tippen)"
+  },
+  "idojaras varos": {
+   "name": "stadt",
+   "description": "Name der Stadt (z. B. Budapest)"
+  },
+  "inaktiv napok": {
+   "name": "tage",
+   "description": "Inaktiv nach so vielen stillen Tagen (Standard: Einstellung, 30 Tage)"
+  },
+  "jogaim tag": {
+   "name": "mitglied",
+   "description": "Wessen Rechte? (nur Team; leer: deine)"
+  },
+  "jogosultsag jog kepesseg": {
+   "name": "recht",
+   "description": "Welches Recht (z. B. Bannen, Nachricht als Bot)"
+  },
+  "jogosultsag jog rang": {
+   "name": "rolle",
+   "description": "Zusatzrolle, die es unabhängig von der Stufe nutzen darf (optional)"
+  },
+  "jogosultsag jog szint": {
+   "name": "stufe",
+   "description": "Wer es nutzen darf"
+  },
+  "jogosultsag rang rang": {
+   "name": "rolle",
+   "description": "Die Discord-Rolle"
+  },
+  "jogosultsag rang szint": {
+   "name": "stufe",
+   "description": "Zu welcher Stufe sie gehört"
+  },
+  "kick indok": {
+   "name": "grund",
+   "description": "Der Grund (das Mitglied erhält ihn per DM)"
+  },
+  "kick tag": {
+   "name": "mitglied",
+   "description": "Das zu kickende Mitglied"
+  },
+  "klan adatlap rovidites": {
+   "name": "kuerzel",
+   "description": "Das Kürzel des Clans (leer: dein Clan)"
+  },
+  "klan alapitas emoji": {
+   "name": "emoji",
+   "description": "Das Emoji des Clans (optional)"
+  },
+  "klan alapitas leiras": {
+   "name": "beschreibung",
+   "description": "Kurze Vorstellung (optional)"
+  },
+  "klan alapitas nev": {
+   "name": "name",
+   "description": "Der Name des Clans (2–32 Zeichen)"
+  },
+  "klan alapitas rovidites": {
+   "name": "kuerzel",
+   "description": "Kürzel: 2–5 Buchstaben oder Ziffern, z. B. ORNG"
+  },
+  "klan meghivas tag": {
+   "name": "mitglied",
+   "description": "Das eingeladene Mitglied"
+  },
+  "kuldetesek tag": {
+   "name": "mitglied",
+   "description": "Die Auszeichnungen von jemand anderem"
+  },
+  "level csatorna csatorna": {
+   "name": "kanal",
+   "description": "Wohin die Level-up-Karten gehen (leer: wo das Mitglied aufstieg)"
+  },
+  "level jutalom rang": {
+   "name": "rolle",
+   "description": "Die zu vergebende Rolle"
+  },
+  "level jutalom szint": {
+   "name": "level",
+   "description": "Zu erreichendes Level"
+  },
+  "level kartya felhasznalo": {
+   "name": "mitglied",
+   "description": "Das anzuzeigende Mitglied (Standard: du)"
+  },
+  "level xp felhasznalo": {
+   "name": "mitglied",
+   "description": "Wem"
+  },
+  "level xp mennyiseg": {
+   "name": "menge",
+   "description": "Wie viel XP (bei Level: das Level)"
+  },
+  "level xp muvelet": {
+   "name": "aktion",
+   "description": "Was getan werden soll"
+  },
+  "lock csatorna": {
+   "name": "kanal",
+   "description": "Welcher Kanal (Standard: der aktuelle)"
+  },
+  "lock indok": {
+   "name": "grund",
+   "description": "Der Grund (optional)"
+  },
+  "lockdown_all indok": {
+   "name": "grund",
+   "description": "Der Grund (optional)"
+  },
+  "mass kirugas azonositok": {
+   "name": "ids",
+   "description": "Nutzer-IDs, durch Leerzeichen/Kommas getrennt"
+  },
+  "mass kirugas indok": {
+   "name": "grund",
+   "description": "Der Grund"
+  },
+  "mass kitiltas azonositok": {
+   "name": "ids",
+   "description": "Nutzer-IDs, durch Leerzeichen/Kommas getrennt"
+  },
+  "mass kitiltas indok": {
+   "name": "grund",
+   "description": "Der Grund"
+  },
+  "mass kitiltas torles_napok": {
+   "name": "loeschtage",
+   "description": "Wie viele Tage an Nachrichten gelöscht werden (0–7)"
+  },
+  "meghivok tag": {
+   "name": "mitglied",
+   "description": "Die Einladungen von jemand anderem"
+  },
+  "migracio hozzarendel megerosites": {
+   "name": "bestaetigung",
+   "description": "Zur Bestätigung den genauen Servernamen eingeben"
+  },
+  "nevnap honap": {
+   "name": "monat",
+   "description": "Monat (1-12)"
+  },
+  "nevnap nap": {
+   "name": "tag",
+   "description": "Tag (1-31)"
+  },
+  "nevnap nev": {
+   "name": "name",
+   "description": "Ein Name — wann ist sein Namenstag (z. B. Anna)"
+  },
+  "nick beallitas becenev": {
+   "name": "spitzname",
+   "description": "Der neue Spitzname (höchstens 32 Zeichen)"
+  },
+  "nick beallitas tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "nick javitas helyettesito": {
+   "name": "ersatz",
+   "description": "Name, falls nach der Korrektur nichts übrig bleibt (Standard: Tag)"
+  },
+  "nick torles tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "note lista felhasznalo": {
+   "name": "nutzer",
+   "description": "Der Nutzer, dessen Notizen aufgelistet werden"
+  },
+  "note torles azonosito": {
+   "name": "id",
+   "description": "Die Nummer der Notiz (die Zahl nach N)"
+  },
+  "note uj felhasznalo": {
+   "name": "nutzer",
+   "description": "Der Nutzer, zu dem die Notiz gehört"
+  },
+  "note uj jegyzet": {
+   "name": "notiz",
+   "description": "Der Text der Notiz"
+  },
+  "nyeremeny inditas nyeremeny": {
+   "name": "preis",
+   "description": "Bezeichnung des Preises"
+  },
+  "nyeremeny inditas nyertesek": {
+   "name": "gewinner",
+   "description": "Anzahl der Gewinner"
+  },
+  "nyeremeny inditas perc": {
+   "name": "minuten",
+   "description": "Dauer in Minuten"
+  },
+  "nyeremeny lezaras uzenet_id": {
+   "name": "nachrichten_id",
+   "description": "Die ID der Gewinnspiel-Nachricht"
+  },
+  "nyeremeny ujrasorsolas uzenet_id": {
+   "name": "nachrichten_id",
+   "description": "Die ID der Gewinnspiel-Nachricht"
+  },
+  "peca dobale csali": {
+   "name": "koeder",
+   "description": "Mit diesem Köder auswerfen (aus dem Inventar — auch auf der Karte wählbar)"
+  },
+  "peca statisztika tag": {
+   "name": "mitglied",
+   "description": "Die Statistik von jemand anderem"
+  },
+  "profile tag": {
+   "name": "mitglied",
+   "description": "Die anzuzeigende Person"
+  },
+  "purge botok mennyiseg": {
+   "name": "anzahl",
+   "description": "Wie viele Nachrichten (1–100)"
+  },
+  "purge linkek mennyiseg": {
+   "name": "anzahl",
+   "description": "Wie viele Nachrichten (1–100)"
+  },
+  "purge mellekletek mennyiseg": {
+   "name": "anzahl",
+   "description": "Wie viele Nachrichten (1–100)"
+  },
+  "purge szoveg mennyiseg": {
+   "name": "anzahl",
+   "description": "Wie viele Nachrichten (1–100)"
+  },
+  "purge szoveg szoveg": {
+   "name": "text",
+   "description": "Der gesuchte Text (Groß-/Kleinschreibung egal)"
+  },
+  "purge tag felhasznalo": {
+   "name": "nutzer",
+   "description": "Wessen Nachrichten gelöscht werden"
+  },
+  "purge tag mennyiseg": {
+   "name": "anzahl",
+   "description": "Wie viele Nachrichten (1–100)"
+  },
+  "purge uzenetek mennyiseg": {
+   "name": "anzahl",
+   "description": "Wie viele Nachrichten gelöscht werden (1–100)"
+  },
+  "roblox felhasznalonev": {
+   "name": "nutzername",
+   "description": "Der Roblox-Nutzername, den du abfragen willst"
+  },
+  "role ad rang": {
+   "name": "rolle",
+   "description": "Die Rolle"
+  },
+  "role ad tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "role ad_mindenkinek botokkal": {
+   "name": "mit_bots",
+   "description": "Sollen auch Bots sie bekommen? (Standard: nein)"
+  },
+  "role ad_mindenkinek rang": {
+   "name": "rolle",
+   "description": "Die Rolle"
+  },
+  "role elvesz rang": {
+   "name": "rolle",
+   "description": "Die Rolle"
+  },
+  "role elvesz tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "role elvesz_mindenkitol botokkal": {
+   "name": "mit_bots",
+   "description": "Auch von Bots? (Standard: nein)"
+  },
+  "role elvesz_mindenkitol rang": {
+   "name": "rolle",
+   "description": "Die Rolle"
+  },
+  "role szin rang": {
+   "name": "rolle",
+   "description": "Die Rolle"
+  },
+  "role szin szin": {
+   "name": "farbe",
+   "description": "Hex-Farbcode, z. B. #FD8200 oder f80"
+  },
+  "say cim": {
+   "name": "titel",
+   "description": "Titel — wenn angegeben, als farbige Karte"
+  },
+  "say csatorna": {
+   "name": "kanal",
+   "description": "Wohin es geht (Standard: dieser Kanal)"
+  },
+  "say kep": {
+   "name": "bild",
+   "description": "Bild unten (PNG, JPG, GIF, WEBP — max. 8 MB)"
+  },
+  "say ping": {
+   "name": "ping",
+   "description": "Wen pingen: @everyone oder eine Rolle (Erwähnungen im Text pingen nicht)"
+  },
+  "say sablon": {
+   "name": "vorlage",
+   "description": "Eine gespeicherte Vorlage senden (aus 📂 Vorlagen)"
+  },
+  "say stilus": {
+   "name": "stil",
+   "description": "Aussehen (Standard: ohne Titel Text, mit Titel Karte)"
+  },
+  "say studio": {
+   "name": "studio",
+   "description": "Ja: zuerst das Studio mit Live-Vorschau öffnen (Buttons, Farbe, Vorlagen)"
+  },
+  "say szerkeszt": {
+   "name": "bearbeiten",
+   "description": "Link zu einer früheren /say-Nachricht — bearbeiten"
+  },
+  "say szoveg": {
+   "name": "text",
+   "description": "Die Nachricht (\\n = neue Zeile). Leer: Textfeld (mehrzeilig, Titel, Kanal)"
+  },
+  "say valasz": {
+   "name": "antwort",
+   "description": "Auf eine Nachricht antworten — der Nachrichtenlink"
+  },
+  "security antiinvite bekapcsolva": {
+   "name": "aktiviert",
+   "description": "Leer lassen zum Umschalten"
+  },
+  "security antilink bekapcsolva": {
+   "name": "aktiviert",
+   "description": "Leer lassen zum Umschalten"
+  },
+  "security antiraid bekapcsolva": {
+   "name": "aktiviert",
+   "description": "Leer lassen zum Umschalten"
+  },
+  "security antispam bekapcsolva": {
+   "name": "aktiviert",
+   "description": "Leer lassen zum Umschalten"
+  },
+  "security capsmention bekapcsolva": {
+   "name": "aktiviert",
+   "description": "Leer lassen zum Umschalten"
+  },
+  "security dm_ertesites bekapcsolva": {
+   "name": "aktiviert",
+   "description": "Leer lassen zum Umschalten"
+  },
+  "security eszkalacio kuszob": {
+   "name": "schwelle",
+   "description": "Nach wie vielen Verwarnungen (0 = aus)"
+  },
+  "security eszkalacio perc": {
+   "name": "minuten",
+   "description": "Timeout-Dauer in Minuten"
+  },
+  "security linkek domainek": {
+   "name": "domains",
+   "description": "Kommagetrennt, z. B.: youtube.com, tenor.com — 'alap' = Standardliste"
+  },
+  "security naplo csatorna": {
+   "name": "kanal",
+   "description": "Hierhin kommen Fälle, Automod-Treffer und Einsprüche"
+  },
+  "security slowmode_auto bekapcsolva": {
+   "name": "aktiviert",
+   "description": "Leer lassen zum Umschalten"
+  },
+  "security verification_level szint": {
+   "name": "stufe",
+   "description": "Die neue Verifizierungsstufe"
+  },
+  "ship tag1": {
+   "name": "mitglied1",
+   "description": "Erste Hälfte"
+  },
+  "ship tag2": {
+   "name": "mitglied2",
+   "description": "Zweite Hälfte"
+  },
+  "shop vetel termek": {
+   "name": "produkt",
+   "description": "Die ID des Produkts (Namen eintippen)"
+  },
+  "shopadmin rang ar": {
+   "name": "preis",
+   "description": "Preis"
+  },
+  "shopadmin rang azonosito": {
+   "name": "id",
+   "description": "Kurze ID, z. B. vip"
+  },
+  "shopadmin rang emoji": {
+   "name": "emoji",
+   "description": "Emoji vor dem Namen"
+  },
+  "shopadmin rang keszlet": {
+   "name": "bestand",
+   "description": "Wie viele verkauft werden können (leer: unbegrenzt)"
+  },
+  "shopadmin rang leiras": {
+   "name": "beschreibung",
+   "description": "Kurze Beschreibung"
+  },
+  "shopadmin rang napok": {
+   "name": "tage",
+   "description": "Läuft nach so vielen Tagen ab (leer: dauerhaft)"
+  },
+  "shopadmin rang nev": {
+   "name": "name",
+   "description": "Anzeigename (Standard: Name der Rolle)"
+  },
+  "shopadmin rang rang": {
+   "name": "rolle",
+   "description": "Die zu vergebende Rolle"
+  },
+  "shopadmin szerkeszt aktiv": {
+   "name": "aktiv",
+   "description": "Erhältlich oder nicht (aus = versteckt)"
+  },
+  "shopadmin szerkeszt ar": {
+   "name": "preis",
+   "description": "Neuer Preis"
+  },
+  "shopadmin szerkeszt azonosito": {
+   "name": "produkt",
+   "description": "Das Produkt"
+  },
+  "shopadmin szerkeszt emoji": {
+   "name": "emoji",
+   "description": "Neues Emoji"
+  },
+  "shopadmin szerkeszt keszlet": {
+   "name": "bestand",
+   "description": "Neuer Bestand (-1 = unbegrenzt)"
+  },
+  "shopadmin szerkeszt leiras": {
+   "name": "beschreibung",
+   "description": "Neue Beschreibung"
+  },
+  "shopadmin szerkeszt nev": {
+   "name": "name",
+   "description": "Neuer Name"
+  },
+  "shopadmin targy ar": {
+   "name": "preis",
+   "description": "Preis"
+  },
+  "shopadmin targy azonosito": {
+   "name": "id",
+   "description": "Kurze ID, z. B. goldpokal"
+  },
+  "shopadmin targy emoji": {
+   "name": "emoji",
+   "description": "Emoji vor dem Namen"
+  },
+  "shopadmin targy keszlet": {
+   "name": "bestand",
+   "description": "Wie viele verkauft werden können (leer: unbegrenzt)"
+  },
+  "shopadmin targy leiras": {
+   "name": "beschreibung",
+   "description": "Kurze Beschreibung"
+  },
+  "shopadmin targy nev": {
+   "name": "name",
+   "description": "Anzeigename"
+  },
+  "shopadmin torol azonosito": {
+   "name": "produkt",
+   "description": "Das zu löschende Produkt"
+  },
+  "slowmode csatorna": {
+   "name": "kanal",
+   "description": "Welcher Kanal (Standard: der aktuelle)"
+  },
+  "slowmode masodperc": {
+   "name": "sekunden",
+   "description": "Mindestabstand zwischen zwei Nachrichten in Sekunden (0–21600)"
+  },
+  "softban indok": {
+   "name": "grund",
+   "description": "Der Grund"
+  },
+  "softban tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "szolgalat adatok tag": {
+   "name": "mitglied",
+   "description": "Wessen Zeit du ansiehst (leer: deine)"
+  },
+  "szolgalat aktiv tipus": {
+   "name": "typ",
+   "description": "Nur dieser Diensttyp"
+  },
+  "szolgalat atnevez regi": {
+   "name": "alt",
+   "description": "Der aktuelle Name"
+  },
+  "szolgalat atnevez uj": {
+   "name": "neu",
+   "description": "Der neue Name"
+  },
+  "szolgalat be tipus": {
+   "name": "typ",
+   "description": "Der Diensttyp (leer: der erste / einzige)"
+  },
+  "szolgalat export percben": {
+   "name": "in_minuten",
+   "description": "In Minuten (standardmäßig in Sekunden)"
+  },
+  "szolgalat export tipus": {
+   "name": "typ",
+   "description": "Nur dieser Typ"
+  },
+  "szolgalat hozzaad indok": {
+   "name": "grund",
+   "description": "Warum (kommt ins Protokoll)"
+  },
+  "szolgalat hozzaad perc": {
+   "name": "minuten",
+   "description": "Wie viele Minuten (negativ: abziehen)"
+  },
+  "szolgalat hozzaad tag": {
+   "name": "mitglied",
+   "description": "Für wen"
+  },
+  "szolgalat hozzaad tipus": {
+   "name": "typ",
+   "description": "Der Diensttyp (leer: der erste / einzige)"
+  },
+  "szolgalat ki tipus": {
+   "name": "typ",
+   "description": "Aus welchem du ausstempelst (leer: alle)"
+  },
+  "szolgalat kileptet tag": {
+   "name": "mitglied",
+   "description": "Wen (leer: alle)"
+  },
+  "szolgalat kileptet tipus": {
+   "name": "typ",
+   "description": "Nur aus diesem Typ"
+  },
+  "szolgalat kvota beallit perc": {
+   "name": "minuten",
+   "description": "Nach so vielen Minuten"
+  },
+  "szolgalat kvota beallit rang": {
+   "name": "rolle",
+   "description": "Die zu vergebende Rolle"
+  },
+  "szolgalat kvota beallit tipus": {
+   "name": "typ",
+   "description": "Nur in diesem Typ (leer: gesamt)"
+  },
+  "szolgalat kvota torol rang": {
+   "name": "rolle",
+   "description": "Die zu entfernende Kontingent-Rolle"
+  },
+  "szolgalat loa dontes azonosito": {
+   "name": "id",
+   "description": "Die Antragsnummer (#)"
+  },
+  "szolgalat loa dontes dontes": {
+   "name": "entscheidung",
+   "description": "Genehmigen oder ablehnen"
+  },
+  "szolgalat loa dontes indok": {
+   "name": "grund",
+   "description": "Grund / Notiz — das Mitglied erhält sie per DM (optional)"
+  },
+  "szolgalat loa kerelem indok": {
+   "name": "grund",
+   "description": "Warum"
+  },
+  "szolgalat loa kerelem napok": {
+   "name": "tage",
+   "description": "Für wie viele Tage"
+  },
+  "szolgalat loa lezaras azonosito": {
+   "name": "id",
+   "description": "Die Antragsnummer (#)"
+  },
+  "szolgalat nullazas tag": {
+   "name": "mitglied",
+   "description": "Nur dieses Mitglied"
+  },
+  "szolgalat nullazas tipus": {
+   "name": "typ",
+   "description": "Nur dieser Typ"
+  },
+  "szolgalat osszesito idoszak": {
+   "name": "zeitraum",
+   "description": "Der aktuelle Zeitraum (ja) oder gesamt (nein)"
+  },
+  "szolgalat osszesito tipus": {
+   "name": "typ",
+   "description": "Nur dieser Diensttyp"
+  },
+  "szolgalat panel csatorna": {
+   "name": "kanal",
+   "description": "Wohin (leer: hierher)"
+  },
+  "szolgalat riport csatorna": {
+   "name": "kanal",
+   "description": "Wohin (leer: hierher)"
+  },
+  "szolgalat riport idoszak": {
+   "name": "zeitraum",
+   "description": "Welcher Bericht"
+  },
+  "szolgalat torles tag": {
+   "name": "mitglied",
+   "description": "Nur dieses Mitglied"
+  },
+  "szolgalat torles tipus": {
+   "name": "typ",
+   "description": "Nur dieser Typ"
+  },
+  "tempban felhasznalo": {
+   "name": "nutzer",
+   "description": "Der zu bannende Nutzer"
+  },
+  "tempban idotartam": {
+   "name": "dauer",
+   "description": "Z. B. 1d, 3d, 1w (höchstens 365 Tage)"
+  },
+  "tempban indok": {
+   "name": "grund",
+   "description": "Der Grund (wird per DM mitgeteilt)"
+  },
+  "tempban torles_napok": {
+   "name": "loeschtage",
+   "description": "Wie viele Tage an Nachrichten gelöscht werden (0–7)"
+  },
+  "ticket feloldas tag": {
+   "name": "mitglied",
+   "description": "Wessen Sperre hebst du auf?"
+  },
+  "ticket panel_torles azonosito": {
+   "name": "id",
+   "description": "Panel-Nummer (#) aus /ticket panels"
+  },
+  "ticket panel_uj cim": {
+   "name": "titel",
+   "description": "Panel-Titel (leer: wie beim Haupt-Panel)"
+  },
+  "ticket panel_uj csatorna": {
+   "name": "kanal",
+   "description": "Wohin das Panel kommt"
+  },
+  "ticket panel_uj kategoriak": {
+   "name": "kategorien",
+   "description": "Kategorien in diesem Panel, durch Kommas getrennt (leer: wie beim Haupt-Panel)"
+  },
+  "ticket panel_uj leiras": {
+   "name": "beschreibung",
+   "description": "Panel-Text (leer: wie beim Haupt-Panel)"
+  },
+  "ticket panel_uj nev": {
+   "name": "name",
+   "description": "Panel-Name (nur für euch, in der Liste)"
+  },
+  "ticket panel_uj stilus": {
+   "name": "stil",
+   "description": "Menü oder Buttons"
+  },
+  "ticket tiltas indok": {
+   "name": "grund",
+   "description": "Warum? (das Mitglied sieht es beim Versuch, ein Ticket zu öffnen)"
+  },
+  "ticket tiltas tag": {
+   "name": "mitglied",
+   "description": "Wen sperrst du?"
+  },
+  "tiktok hozzaad csatorna": {
+   "name": "kanal",
+   "description": "Wohin die Benachrichtigungen gehen (Standard: dieser Kanal)"
+  },
+  "tiktok hozzaad felhasznalonev": {
+   "name": "nutzername",
+   "description": "Der TikTok-Nutzername (z. B. @jemand) oder Profillink"
+  },
+  "tiktok hozzaad rang": {
+   "name": "rolle",
+   "description": "Rolle, die bei neuen Videos und Lives gepingt wird (optional)"
+  },
+  "timeout idotartam": {
+   "name": "dauer",
+   "description": "Z. B. 10m, 1h30m, 2d (höchstens 28 Tage)"
+  },
+  "timeout indok": {
+   "name": "grund",
+   "description": "Der Grund"
+  },
+  "timeout tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied für den Timeout"
+  },
+  "toplista kategoria": {
+   "name": "kategorie",
+   "description": "Welche Rangliste (Standard: Vermögen)"
+  },
+  "tozsde eladas ceg": {
+   "name": "firma",
+   "description": "Name oder Ticker der Firma"
+  },
+  "tozsde eladas mennyiseg": {
+   "name": "menge",
+   "description": "10 (Stück) • 50 % • max"
+  },
+  "tozsde fedezes ceg": {
+   "name": "firma",
+   "description": "Name oder Ticker der Firma"
+  },
+  "tozsde fedezes mennyiseg": {
+   "name": "menge",
+   "description": "10 (Stück) • 50 % • max"
+  },
+  "tozsde grafikon ceg": {
+   "name": "firma",
+   "description": "Die Firma (oder der PÉTIX-Index)"
+  },
+  "tozsde grafikon idotav": {
+   "name": "zeitraum",
+   "description": "Angezeigter Zeitraum (Standard: 1 Tag)"
+  },
+  "tozsde megbizas ar": {
+   "name": "preis",
+   "description": "Limitpreis oder Stop-Marke (z. B. 18420 oder 452,5)"
+  },
+  "tozsde megbizas ceg": {
+   "name": "firma",
+   "description": "Name oder Ticker der Firma"
+  },
+  "tozsde megbizas darab": {
+   "name": "stueck",
+   "description": "Stückzahl (beim Verkauf auch max)"
+  },
+  "tozsde megbizas tipus": {
+   "name": "art",
+   "description": "Die Art der Order"
+  },
+  "tozsde piac oldal": {
+   "name": "seite",
+   "description": "Welcher Tab sich öffnet (Standard: Markt)"
+  },
+  "tozsde reszveny ceg": {
+   "name": "firma",
+   "description": "Name oder Ticker der Firma (z. B. PENG)"
+  },
+  "tozsde short ceg": {
+   "name": "firma",
+   "description": "Name oder Ticker der Firma"
+  },
+  "tozsde short mennyiseg": {
+   "name": "menge",
+   "description": "10 (Stück) • 50000 Ft (Wert) • max"
+  },
+  "tozsde vetel ceg": {
+   "name": "firma",
+   "description": "Name oder Ticker der Firma"
+  },
+  "tozsde vetel mennyiseg": {
+   "name": "menge",
+   "description": "10 (Stück) • 50000 Ft / 125k (Betrag) • 50 % • max"
+  },
+  "unban felhasznalo": {
+   "name": "nutzer",
+   "description": "Namen oder ID eintippen"
+  },
+  "unban indok": {
+   "name": "grund",
+   "description": "Der Grund (optional)"
+  },
+  "unlock csatorna": {
+   "name": "kanal",
+   "description": "Welcher Kanal (Standard: der aktuelle)"
+  },
+  "unlock indok": {
+   "name": "grund",
+   "description": "Der Grund (optional)"
+  },
+  "untimeout indok": {
+   "name": "grund",
+   "description": "Der Grund (optional)"
+  },
+  "untimeout tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "user_info tag": {
+   "name": "mitglied",
+   "description": "Das zu prüfende Mitglied"
+  },
+  "utalas megjegyzes": {
+   "name": "verwendungszweck",
+   "description": "Verwendungszweck (optional)"
+  },
+  "utalas osszeg": {
+   "name": "betrag",
+   "description": "Betrag: 5000, 125k, 1,5m oder alles"
+  },
+  "utalas tag": {
+   "name": "mitglied",
+   "description": "An wen du überweist"
+  },
+  "vadaszat les csalogato": {
+   "name": "lockmittel",
+   "description": "Dieses Lockmittel benutzen (aus dem Inventar)"
+  },
+  "vadaszat les lesmod": {
+   "name": "ansitz",
+   "description": "Von wo du jagst (auch auf der Karte wählbar)"
+  },
+  "vadaszat statisztika tag": {
+   "name": "mitglied",
+   "description": "Die Statistik von jemand anderem"
+  },
+  "vc kick felhasznalo": {
+   "name": "nutzer",
+   "description": "Wen du rauswirfst"
+  },
+  "vc limit limit": {
+   "name": "limit",
+   "description": "0 = unbegrenzt, max. 99"
+  },
+  "vc lobbi hozzaad csatorna": {
+   "name": "kanal",
+   "description": "Der Sprachkanal, in dem jeder beim Betreten einen eigenen Kanal bekommt"
+  },
+  "vc lobbi hozzaad letszam": {
+   "name": "limit",
+   "description": "Personenlimit der neuen Kanäle (0 = unbegrenzt)"
+  },
+  "vc lobbi hozzaad nevsablon": {
+   "name": "namensvorlage",
+   "description": "Kanalnamen — {name} das Mitglied, {game} was es spielt, {n} Nummer"
+  },
+  "vc lobbi torles csatorna": {
+   "name": "kanal",
+   "description": "Der Sprachkanal der Lobby"
+  },
+  "vc permit felhasznalo": {
+   "name": "nutzer",
+   "description": "Wen du hereinlässt"
+  },
+  "vc reject felhasznalo": {
+   "name": "nutzer",
+   "description": "Wen du aussperrst"
+  },
+  "vc rename nev": {
+   "name": "name",
+   "description": "Der neue Kanalname"
+  },
+  "vc transfer felhasznalo": {
+   "name": "nutzer",
+   "description": "Wem du ihn übergibst"
+  },
+  "verify_info felhasznalo": {
+   "name": "mitglied",
+   "description": "Das zu prüfende Mitglied"
+  },
+  "voice athelyezes csatorna": {
+   "name": "kanal",
+   "description": "Der Ziel-Sprachkanal"
+  },
+  "voice athelyezes tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "voice feloldas csatorna": {
+   "name": "kanal",
+   "description": "Der zu entsperrende Sprachkanal"
+  },
+  "voice kidobas indok": {
+   "name": "grund",
+   "description": "Der Grund"
+  },
+  "voice kidobas tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "voice lezaras csatorna": {
+   "name": "kanal",
+   "description": "Der zu sperrende Sprachkanal"
+  },
+  "voice mind_athelyezese cel": {
+   "name": "ziel",
+   "description": "Wohin"
+  },
+  "voice mind_athelyezese forras": {
+   "name": "quelle",
+   "description": "Woher"
+  },
+  "voice nemitas indok": {
+   "name": "grund",
+   "description": "Der Grund"
+  },
+  "voice nemitas tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "voice nemitas_fel tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "voice suketites indok": {
+   "name": "grund",
+   "description": "Der Grund"
+  },
+  "voice suketites tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "voice suketites_fel tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied"
+  },
+  "warn kereses kulcsszo": {
+   "name": "stichwort",
+   "description": "Gesuchter Text"
+  },
+  "warn lista tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied, dessen Verwarnungen aufgelistet werden"
+  },
+  "warn nullazas indok": {
+   "name": "grund",
+   "description": "Der Grund (optional)"
+  },
+  "warn nullazas tag": {
+   "name": "mitglied",
+   "description": "Das Mitglied, dessen Verwarnungen gelöscht werden"
+  },
+  "warn uj indok": {
+   "name": "grund",
+   "description": "Der Grund (das Mitglied erhält ihn per DM)"
+  },
+  "warn uj tag": {
+   "name": "mitglied",
+   "description": "Das verwarnte Mitglied"
+  },
+  "warn visszavonas eset": {
+   "name": "fall",
+   "description": "Die Fallnummer (#…)"
+  },
+  "warn visszavonas indok": {
+   "name": "grund",
+   "description": "Warum sie zurückgenommen wird (optional)"
+  },
+  "wordfilter torles kifejezes": {
+   "name": "ausdruck",
+   "description": "Der zu entfernende Ausdruck"
+  },
+  "wordfilter uj kifejezes": {
+   "name": "ausdruck",
+   "description": "Z. B. 'schimpfwort' (nur ganzes Wort), 'schimpf*' (auch mit Endungen)"
+  },
+  "wordfilter uj sulyossag": {
+   "name": "schwere",
+   "description": "Für KI-Moderationspunkte: leicht +1, mittel +2, schwer +4, kritisch +8"
+  },
+  "youtube hozzaad csatorna": {
+   "name": "kanal",
+   "description": "Wohin die Benachrichtigungen gehen (Standard: dieser Kanal)"
+  },
+  "youtube hozzaad csatorna_link": {
+   "name": "kanal_link",
+   "description": "Der Kanal: @name, Link oder UC…-ID"
+  },
+  "youtube hozzaad rang": {
+   "name": "rolle",
+   "description": "Rolle, die bei neuen Videos und Lives gepingt wird (optional)"
+  },
+  "zene athelyez honnan": {
+   "name": "von",
+   "description": "Die aktuelle Position des Titels"
+  },
+  "zene athelyez hova": {
+   "name": "nach",
+   "description": "Die neue Position (1 = als Nächstes)"
+  },
+  "zene dalszoveg kereses": {
+   "name": "suche",
+   "description": "Songtext eines anderen Titels, z. B. „Interpret - Titel“ (leer: was gerade läuft)"
+  },
+  "zene hangero szazalek": {
+   "name": "prozent",
+   "description": "Zwischen 0 und 150 (der Standard wird unter /beallitas → Musik eingestellt)"
+  },
+  "zene hangzas szuro": {
+   "name": "profil",
+   "description": "Das Klangprofil („Original“ schaltet es aus)"
+  },
+  "zene ismetles mod": {
+   "name": "modus",
+   "description": "Was wiederholt werden soll"
+  },
+  "zene kovetkezo kereses": {
+   "name": "suche",
+   "description": "Titel oder Link des Titels"
+  },
+  "zene lejatszas kereses": {
+   "name": "suche",
+   "description": "Titel oder ein YouTube-/Spotify-/SoundCloud-Link (auch Playlists)"
+  },
+  "zene sor oldal": {
+   "name": "seite",
+   "description": "Welche Seite (10 Titel pro Seite)"
+  },
+  "zene torles sorszam": {
+   "name": "nummer",
+   "description": "Die Position des Titels in der Warteschlange (1 = als Nächstes)"
+  },
+  "zene ugras idopont": {
+   "name": "zeit",
+   "description": "Z. B. 1:23, 90, +30 oder -15"
+  }
+ },
+ "choices": {
+  "1 akna": "1 Mine",
+  "1 hónap": "1 Monat",
+  "1 nap": "1 Tag",
+  "1. oszlop — 3×": "1. Kolonne — 3×",
+  "12 akna": "12 Minen",
+  "13–24 (2. tucat) — 3×": "13–24 (2. Dutzend) — 3×",
+  "19–36 — 2×": "19–36 — 2×",
+  "1–12 (1. tucat) — 3×": "1–12 (1. Dutzend) — 3×",
+  "1–18 — 2×": "1–18 — 2×",
+  "2. oszlop — 3×": "2. Kolonne — 3×",
+  "25–36 (3. tucat) — 3×": "25–36 (3. Dutzend) — 3×",
+  "3 akna": "3 Minen",
+  "3. oszlop — 3×": "3. Kolonne — 3×",
+  "5 akna": "5 Minen",
+  "5 nap": "5 Tage",
+  "6 hónap": "6 Monate",
+  "8 akna": "8 Minen",
+  "Alacsony": "Niedrig",
+  "Aranyozott villantó": "Vergoldeter Blinker",
+  "Bank": "Bank",
+  "Bojli (csali)": "Boilie (Köder)",
+  "Bányászfarm": "Mining-Farm",
+  "Csemegekukorica (csali)": "Zuckermais (Köder)",
+  "Cserkelés": "Pirsch",
+  "Egy szám — 36×": "Einzelne Zahl — 36×",
+  "Egyedi kulcsszavak (a 'kulcsszavak' paraméterből)": "Eigene Stichwörter (aus der Option 'stichwoerter')",
+  "Eladás (ha az ár eléri a célárat)": "Verkauf (wenn der Kurs das Ziel erreicht)",
+  "Extrém (3 ajtó, 2 csapda)": "Extrem (3 Türen, 2 Fallen)",
+  "Giliszta (csali)": "Wurm (Köder)",
+  "Gombok": "Buttons",
+  "Gyanús spam-tartalom": "Verdächtiger Spam-Inhalt",
+  "Havi": "Monatlich",
+  "Heti": "Wöchentlich",
+  "Hírek": "News",
+  "Kacsahívó síp": "Entenlocker",
+  "Kaszinó chip": "Casino-Chips",
+  "Készpénz": "Bargeld",
+  "Könnyű (4 ajtó, 1 csapda)": "Leicht (4 Türen, 1 Falle)",
+  "Közepes": "Mittel",
+  "Legmagasabb": "Höchste",
+  "Legördülő menü": "Dropdown-Menü",
+  "Magas": "Hoch",
+  "Magasles": "Hochsitz",
+  "Megbízások": "Orders",
+  "Meghívó-linkek tiltása": "Einladungslinks blockieren",
+  "Napi": "Täglich",
+  "Nehéz (2 ajtó, 1 csapda)": "Schwer (2 Türen, 1 Falle)",
+  "Nincs": "Keine",
+  "Normál (3 ajtó, 1 csapda)": "Normal (3 Türen, 1 Falle)",
+  "Piac": "Markt",
+  "Piac és tárca": "Markt und Wallet",
+  "Piszkos pénz": "Schmutziges Geld",
+  "Portfólió": "Portfolio",
+  "Páratlan — 2×": "Ungerade — 2×",
+  "Páros — 2×": "Gerade — 2×",
+  "Pézsmás csalogatóillat": "Moschus-Lockduft",
+  "Ragadozóhívó síp": "Raubwildlocker",
+  "Szabadon engedés + körözés törlése": "Freilassen + Fahndung löschen",
+  "Szarvasbőgő kürt": "Hirschruf-Horn",
+  "Szint beállítása": "Level setzen",
+  "Szolgálati idő": "Dienstzeit",
+  "Szóró mellett": "An der Kirrung",
+  "Sózó és szórócsali": "Salzlecke und Kirrung",
+  "Teljes": "Gesamt",
+  "Teljes nullázás (hírnév, rang, statisztika)": "Vollständiger Reset (Ruf, Rang, Statistik)",
+  "Toplista": "Rangliste",
+  "Trágárság / szexuális tartalom / sértések (beépített listák)": "Vulgäres / sexuelle Inhalte / Beleidigungen (eingebaute Listen)",
+  "Tömeges említés (+10 perc timeout)": "Massenerwähnungen (+10 Minuten Timeout)",
+  "Utolsó 24 óra": "Letzte 24 Stunden",
+  "Utolsó 6 óra": "Letzte 6 Stunden",
+  "Utolsó 7 nap": "Letzte 7 Tage",
+  "Videókártya-bolt": "GPU-Shop",
+  "Vétel (ha az ár a célár alá esik)": "Kauf (wenn der Kurs unter das Ziel fällt)",
+  "XP hozzáadása": "XP hinzufügen",
+  "XP levonása": "XP abziehen",
+  "alatta": "darunter",
+  "felette": "darüber",
+  "Élő csalihal": "Lebender Köderfisch",
+  "Éves": "Jährlich",
+  "₿ Bitcoin": "₿ Bitcoin",
+  "⏩ Gyorsítás": "⏩ Beschleunigen",
+  "▶️ Ha az üzenet ezzel kezdődik": "▶️ Wenn die Nachricht damit beginnt",
+  "⚔️ Klánok": "⚔️ Clans",
+  "⚡ Nightcore": "⚡ Nightcore",
+  "⚡ Villám (2,8×)": "⚡ Blitz (2,8×)",
+  "⚫ Fekete — 2×": "⚫ Schwarz — 2×",
+  "⛔ Kikapcsolva": "⛔ Deaktiviert",
+  "✅ Jóváhagyás": "✅ Genehmigen",
+  "✖️ Elutasítás": "✖️ Ablehnen",
+  "❌ Nincs (kivétel minden szintből)": "❌ Keine (von allen Stufen ausgenommen)",
+  "➡️ Ki": "➡️ Aus",
+  "🌑 Árnyék (8×)": "🌑 Schatten (8×)",
+  "🌙 Slowed + reverb": "🌙 Slowed + Reverb",
+  "🌪️ Tornádó (5,5×)": "🌪️ Tornado (5,5×)",
+  "🌴 Vaporwave": "🌴 Vaporwave",
+  "🍀 Szerencse (12×)": "🍀 Glück (12×)",
+  "🎚️ Hangerő-kiegyenlítés": "🎚️ Lautstärkeausgleich",
+  "🎣 Peca": "🎣 Angeln",
+  "🎧 8D hangzás": "🎧 8D-Klang",
+  "🎧 Stáb": "🎧 Team",
+  "🎯 Csak kijelölt rangok": "🎯 Nur ausgewählte Rollen",
+  "🎯 Ha az üzenet pontosan ez": "🎯 Wenn die Nachricht genau so lautet",
+  "🎯 Küldetések (kitüntetések)": "🎯 Quests (Auszeichnungen)",
+  "🎰 Kaszinó": "🎰 Casino",
+  "🎵 Eredeti hangzás": "🎵 Originalklang",
+  "🏦 Bank": "🏦 Bank",
+  "🏦 Bankár (1,95×)": "🏦 Bank (1,95×)",
+  "🐢 Csiga (20×)": "🐢 Schnecke (20×)",
+  "👑 Tulajdonos": "👑 Eigentümer",
+  "👤 Tag": "👤 Mitglied",
+  "💬 Ha az üzenetben szerepel": "💬 Wenn es in der Nachricht vorkommt",
+  "💰 Vagyon (készpénz + bank)": "💰 Vermögen (Bargeld + Bank)",
+  "💵 Készpénz": "💵 Bargeld",
+  "💼 Karrierpont": "💼 Karrierepunkte",
+  "📈 Szint (XP)": "📈 Level (XP)",
+  "📊 Tőzsde": "📊 Börse",
+  "📝 Sima szöveg (keret nélkül)": "📝 Einfacher Text (ohne Rahmen)",
+  "📢 Közlemény (nagy cím)": "📢 Ankündigung (großer Titel)",
+  "📨 Meghívók": "📨 Einladungen",
+  "🔁 A teljes sor": "🔁 Die ganze Warteschlange",
+  "🔂 Ez a szám": "🔂 Dieser Titel",
+  "🔇 Némítás": "🔇 Timeout",
+  "🔈 Basszuskiemelés": "🔈 Bassverstärkung",
+  "🔐 Szerver-adminisztrátor": "🔐 Server-Administrator",
+  "🔥 Tűzvész (4×)": "🔥 Flächenbrand (4×)",
+  "🔨 Tiltás": "🔨 Bann",
+  "🔴 Eladási limit — eladás, ha az ár eléri a limitet": "🔴 Verkaufslimit — Verkauf, wenn der Kurs das Limit erreicht",
+  "🔴 Kritikus (+8 pont)": "🔴 Kritisch (+8 Punkte)",
+  "🔴 Piros — 2×": "🔴 Rot — 2×",
+  "🕵️ Alvilági hírnév": "🕵️ Unterwelt-Ruf",
+  "🗂️ Kártya (színes keret)": "🗂️ Karte (farbiger Rahmen)",
+  "🙂 Fej": "🙂 Kopf",
+  "🚩 Megjelölés": "🚩 Markierung",
+  "🛑 Stop-loss — eladás, ha az ár a szintre esik": "🛑 Stop-Loss — Verkauf, wenn der Kurs auf die Marke fällt",
+  "🛠️ Adminisztrátor": "🛠️ Administrator",
+  "🛡️ Moderátor": "🛡️ Moderator",
+  "🛡️ Short stop — visszavásárlás, ha az ár a szintre emelkedik": "🛡️ Short-Stop — Rückkauf, wenn der Kurs auf die Marke steigt",
+  "🟠 Súlyos (+4 pont)": "🟠 Schwer (+4 Punkte)",
+  "🟡 Közepes (+2 pont)": "🟡 Mittel (+2 Punkte)",
+  "🟢 Enyhe (+1 pont)": "🟢 Leicht (+1 Punkt)",
+  "🟢 Vételi limit — vétel, ha az ár a limitre vagy alá esik": "🟢 Kauflimit — Kauf, wenn der Kurs auf oder unter das Limit fällt",
+  "🤝 Döntetlen (9×)": "🤝 Unentschieden (9×)",
+  "🦅 Írás": "🦅 Zahl",
+  "🦌 Vadászat": "🦌 Jagd",
+  "🧑 Játékos (2×)": "🧑 Spieler (2×)"
+ }
+}

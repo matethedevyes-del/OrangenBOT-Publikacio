@@ -1,0 +1,15 @@
+{
+ "a_z_utolso_betuje_a_kovetkezo_szonak": "🔤 A(z) **{esc}** utolsó betűje **{letter_text}** — a következő szónak ezzel kell kezdődnie (a **{esc2}** a(z) **{letter_text2}** betűvel kezdődik).",
+ "ketszer_egymas_utan_nem_irhatsz_vard_meg": "👥 {mention}, kétszer egymás után nem írhatsz — várd meg, hogy más folytassa!",
+ "a_z_mar_volt_ebben_a_lancban_mondj": "♻️ A(z) **{esc}** már volt ebben a láncban — mondj másikat!",
+ "uj_rekord_lett_belole": "🏆 **Új rekord** lett belőle!",
+ "rekord_szo": "🏆 Rekord: **{max}** szó",
+ "elszakadt_a_lanc": "💥 Elszakadt a lánc!",
+ "elindult_a_szolanc": "🔤 Elindult a szólánc!",
+ "idaig_jutottatok_szo": "📊 Idáig jutottatok: **{length}** szó • {best}",
+ "uj_lanc_indul_az_elso_szo_barmi_lehet": "🔁 Új lánc indul — az első szó bármi lehet.",
+ "az_elso_szo_a_kovetkezonek_betuvel_kell": "Az első szó: **{esc}** — a következőnek **{letter}** betűvel kell kezdődnie.",
+ "szabalyok_egy_uzenet_egy_szo_a_kovetkezo": "📜 **Szabályok:** egy üzenet = egy szó • a következő szó az előző utolsó betűjével kezdődik • a **cs, dz, dzs, gy, ly, ny, sz, ty, zs** egy betű • **a = á, o = ó …** • kétszer egymás után nem írhatsz • egy szó csak egyszer szerepelhet a láncban",
+ "dontsetek_meg_a_rekordot_minden_jo_szo_a": "🏆 Döntsétek meg a rekordot! Minden jó szó a napi küldetésekbe is beleszámít (`/kuldetesek`).",
+ "valaki_torolte_az_utolso_szot_a": "🗑️ Valaki törölte az utolsó szót (**{esc}**) — a következő szó **{letter_text}** betűvel kezdődik."
+}

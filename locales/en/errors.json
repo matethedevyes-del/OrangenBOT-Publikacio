@@ -1,0 +1,14 @@
+{
+ "jogosultsagi_utkozes": "Permission conflict",
+ "a_discord_elutasitotta_a_muveletet": "Discord rejected the action — usually because the bot's role is below the target's role, or it's missing a permission in this channel.",
+ "mar_nem_letezik": "No longer exists",
+ "a_celpont_uzenet_csatorna_vagy_tag": "The target (message, channel or member) has been deleted in the meantime.",
+ "atmeneti_hiba": "Temporary error",
+ "a_discord_szervereivel_van_gond_probald": "Discord's servers are having trouble. Try again in a few seconds.",
+ "tulterhelt_adatbazis": "Database overloaded",
+ "most_tul_sok_keres_fut_egyszerre_probald": "Too many requests are running at once. Try again in a few seconds.",
+ "adatbazis_nem_elerheto": "Database unavailable",
+ "az_adatbazis_atmenetileg_nem_erheto_el": "The database is temporarily unavailable. Try again later.",
+ "varatlan_hiba": "Unexpected error",
+ "a_hibat_naploztuk_hivatkozasi_kod": "The error has been logged. Reference code: `{eid}`"
+}

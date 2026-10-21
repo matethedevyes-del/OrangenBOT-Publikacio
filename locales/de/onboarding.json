@@ -1,0 +1,15 @@
+{
+ "1_kapcsold_ki_ami_nem_kell_alapbol": "**1.** {link}: Schalte aus, was du nicht brauchst (standardmäßig ist alles an).",
+ "2_add_meg_a_stab_es_a_moderator_rangot": "**2.** {link}: Lege die Rollen **Team** und **Moderator** fest.",
+ "3_valassz_egy_csatornat_a_bot_naplojanak": "**3.** {link}: Wähle einen Kanal für das Protokoll des Bots.",
+ "a_tagok_a_help_paranccsal_latjak_mit": "Mit **/help** sehen Mitglieder, was sie nutzen können.",
+ "minden_beallitas_a_webes_vezerlopultot": "Alle Einstellungen liegen im Web-**Dashboard** — frag den Betreiber des Bots nach der Adresse.",
+ "koszi_hogy_behivtal_a_z_szerverre": "🧡 Danke, dass du mich auf {escape_markdown} eingeladen hast!",
+ "magyar_nyelvu_mindenes_bot_gazdasag": "Ein Alleskönner-Bot: Wirtschaft, Moderation, Tickets, Musik, Level, Namenstage und vieles mehr — auf Ungarisch, Englisch und Deutsch. Ein paar Minuten, und alles ist eingerichtet.",
+ "tipp_a_vezerlopulton_vegzett": "Tipp: Änderungen im Dashboard übernimmt der Bot innerhalb weniger Sekunden. Diese Nachricht bekommst du nur einmal.",
+ "harom_lepes_es_kesz": "### 🚀 Drei Schritte, und fertig\n",
+ "vezerlopult_megnyitasa": "Dashboard öffnen",
+ "modulok": "Module",
+ "rangok_es_jogok": "Rollen und Rechte",
+ "naplok": "Protokolle"
+}

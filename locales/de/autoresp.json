@@ -1,0 +1,23 @@
+{
+ "mod_contains": "wenn es in der Nachricht vorkommt",
+ "mod_exact": "wenn die Nachricht genau so lautet",
+ "mod_startswith": "wenn die Nachricht damit beginnt",
+ "megtelt": "Die Liste ist voll",
+ "legfeljebb": "Ein Server kann höchstens {max} automatische Antworten haben — entferne eine: /autovalasz torles",
+ "mar_van": "Dieses Stichwort gibt es schon",
+ "mar_van_szoveg": "Für dieses Stichwort gibt es schon eine Antwort (`#{id}`). Entferne sie zuerst: /autovalasz torles",
+ "hibas": "Ungültige Eingabe",
+ "hibas_szoveg": "Gib ein Stichwort und einen Antworttext an.",
+ "kesz": "💬 Automatische Antwort erstellt (#{id})",
+ "kesz_szoveg": "**Stichwort:** {trigger}\n**Wann:** {mode}",
+ "elonezet": "**So wird es aussehen:**",
+ "lablec": "Höchstens alle 10 Sekunden pro Regel und Kanal • nie auf Bots",
+ "lista_cim": "💬 Automatische Antworten ({count})",
+ "ures": "Noch keine automatischen Antworten. Neu: /autovalasz uj",
+ "sor": "`#{id}` **{trigger}** · {mode} · {uses}× genutzt\n-# ↳ {answer}",
+ "lista_lablec": "Höchstens {max} • entfernen: /autovalasz torles",
+ "nincs_ilyen": "Keine solche automatische Antwort",
+ "nincs_ilyen_szoveg": "`#{id}` wurde auf diesem Server nicht gefunden.",
+ "torolve": "Entfernt",
+ "torolve_szoveg": "Automatische Antwort `#{id}` entfernt."
+}
