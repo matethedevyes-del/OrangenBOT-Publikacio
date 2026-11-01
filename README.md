@@ -40,3 +40,11 @@ modulonként szétszedve. Egy fájl egyszerű kulcs–érték párokból áll:
 - Ha valamit nem tudsz lefordítani, hagyd angolul – jobb, mint egy rossz fordítás.
 
 Köszönjük mindenkinek, aki segít! ❤️
+
+## Automatikus ellenőrzés
+
+PR előtt futtasd: `python3 tools/check_locales.py` (Python 3.12, külső függőség nélkül).
+Az ellenőrző a magyar fájlokhoz hasonlítja az összes nyelv fájljait, kulcsait és helyőrzőit;
+ellenőrzi a többes számokat, az üres fordításokat és a duplikált JSON-kulcsokat is.
+A `commands.json` parancsneveit és leírásait külön, beágyazott szerkezetként ellenőrzi.
+GitHub Actions minden pushnál és pull requestnél automatikusan lefuttatja.
