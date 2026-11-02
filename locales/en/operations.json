@@ -1,0 +1,12 @@
+{
+  "weekly_title": "Weekly server summary",
+  "messages": "Messages",
+  "joins": "Joins",
+  "leaves": "Leaves",
+  "returning": "Returning active members",
+  "cases": "Moderation cases",
+  "tickets": "New tickets",
+  "response": "Average first response",
+  "weekly_footer": "Aggregate data for the previous completed week. Message content is not stored.",
+  "period": "{start} – {end} (end date excluded)"
+}

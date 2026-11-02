@@ -48,3 +48,6 @@ Az ellenőrző a magyar fájlokhoz hasonlítja az összes nyelv fájljait, kulcs
 ellenőrzi a többes számokat, az üres fordításokat és a duplikált JSON-kulcsokat is.
 A `commands.json` parancsneveit és leírásait külön, beágyazott szerkezetként ellenőrzi.
 GitHub Actions minden pushnál és pull requestnél automatikusan lefuttatja.
+
+
+Közreműködők / Contributors: [Claude és OpenAI Codex](CONTRIBUTORS.md).

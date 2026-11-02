@@ -1,0 +1,12 @@
+{
+  "weekly_title": "Wöchentlicher Serverbericht",
+  "messages": "Nachrichten",
+  "joins": "Beitritte",
+  "leaves": "Austritte",
+  "returning": "Wiederkehrende aktive Mitglieder",
+  "cases": "Moderationsfälle",
+  "tickets": "Neue Tickets",
+  "response": "Durchschnittliche erste Antwort",
+  "weekly_footer": "Zusammenfassung der letzten abgeschlossenen Woche. Nachrichteninhalte werden nicht gespeichert.",
+  "period": "{start} – {end} (ohne Enddatum)"
+}

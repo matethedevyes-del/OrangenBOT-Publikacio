@@ -1,0 +1,12 @@
+{
+  "weekly_title": "Heti szerverösszefoglaló",
+  "messages": "Üzenetek",
+  "joins": "Belépők",
+  "leaves": "Kilépők",
+  "returning": "Visszatérő aktív tagok",
+  "cases": "Moderációs esetek",
+  "tickets": "Új ticketek",
+  "response": "Átlagos első válasz",
+  "weekly_footer": "Az előző lezárt hét összesített adatai. Üzenettartalmat nem tárolunk.",
+  "period": "{start} – {end} (a zárónap nélkül)"
+}
