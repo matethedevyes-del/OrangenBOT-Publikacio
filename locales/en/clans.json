@@ -367,5 +367,6 @@
  "klan_2": "clan",
  "ingyenes": "free",
  "rendszer": "system",
- "off_text": "Clans are disabled on this server ({where})."
+ "off_text": "Clans are disabled on this server ({where}).",
+ "tag_neve_nem_elerheto": "Member ({user_id})"
 }

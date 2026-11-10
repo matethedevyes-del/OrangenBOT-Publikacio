@@ -367,5 +367,6 @@
  "klan_2": "Clan",
  "ingyenes": "kostenlos",
  "rendszer": "System",
- "off_text": "Clans sind auf diesem Server deaktiviert ({where})."
+ "off_text": "Clans sind auf diesem Server deaktiviert ({where}).",
+ "tag_neve_nem_elerheto": "Mitglied ({user_id})"
 }

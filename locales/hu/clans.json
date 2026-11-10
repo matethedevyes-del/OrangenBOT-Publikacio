@@ -367,5 +367,6 @@
  "klan_2": "klán",
  "ingyenes": "ingyenes",
  "rendszer": "rendszer",
- "off_text": "A klánok ezen a szerveren ki vannak kapcsolva ({where})."
+ "off_text": "A klánok ezen a szerveren ki vannak kapcsolva ({where}).",
+ "tag_neve_nem_elerheto": "Tag ({user_id})"
 }
