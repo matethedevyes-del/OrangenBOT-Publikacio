@@ -1,0 +1,51 @@
+{
+  "metaTitle": "Állapot",
+  "metaDescription": "Az OrangenBot, a vezérlőpult és az adatbázis élő állapota.",
+  "eyebrow": "Rendszerállapot",
+  "title": {
+    "operational": "Minden rendszer működik",
+    "degraded": "Részleges fennakadás",
+    "down": "Szolgáltatáskiesés"
+  },
+  "lead": {
+    "operational": "A bot minden shardja él, a vezérlőpult és az adatbázis gyorsan válaszol.",
+    "degraded": "Valamelyik rész lassú vagy nem válaszol — a többi működik.",
+    "down": "A bot vagy az adatbázis most nem érhető el. A webes beállítások a helyreállás után érvényesülnek."
+  },
+  "state": {
+    "operational": "Működik",
+    "degraded": "Akadozik",
+    "down": "Kiesett"
+  },
+  "shardState": {
+    "up": "Működik",
+    "slow": "Lassú",
+    "down": "Nem válaszol"
+  },
+  "components": "Összetevők",
+  "bot": "Discord-bot",
+  "botShards": "{count, plural, one {# shard} other {# shard}}",
+  "web": "Weboldal és vezérlőpult",
+  "webDetail": "Ezt az oldalt is ez szolgálja ki",
+  "database": "Adatbázis",
+  "responseTime": "Válaszidő: {ms} ms",
+  "noResponse": "Nem válaszol",
+  "shards": "Shardok",
+  "shardsHint": "A bot shardonként 30 másodpercenként jelent; 2 perc csend után a shard kiesettnek számít.",
+  "shardLabel": "Shard #{id}",
+  "servers": "Szerver",
+  "members": "Tag",
+  "latency": "Késleltetés",
+  "avgLatency": "Átlagos késleltetés",
+  "ms": "{ms} ms",
+  "lastReport": "Utolsó jelentés: {time}",
+  "checked": "Ellenőrizve: {time}",
+  "autoRefresh": "30 másodpercenként frissül",
+  "refreshNow": "Frissítés most",
+  "refreshing": "Frissítés…",
+  "refreshFailed": "A frissítés nem sikerült — a legutóbbi ismert állapot látszik.",
+  "version": "Bot verzió: {version}",
+  "noShards": "A bot még nem küldött állapotjelentést.",
+  "never": "még nem",
+  "json": "Gépi formátum"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Something went wrong",
+  "text": "An unexpected error occurred. Try again — if it keeps happening, let the operator know.",
+  "code": "Error code: {digest}",
+  "retry": "Try again",
+  "notFoundTitle": "This page doesn’t exist",
+  "notFoundText": "You may have mistyped the address, or the page has been removed.",
+  "tooManyTitle": "Too many requests",
+  "tooManyText": "Too many requests came from this address in a short time. Wait a minute, then refresh the page.",
+  "tooManyPlain": "Too many requests — please wait a minute."
+}

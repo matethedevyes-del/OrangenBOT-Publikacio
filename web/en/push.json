@@ -1,0 +1,12 @@
+{
+  "enable": "Enable notifications",
+  "disable": "Disable notifications",
+  "enableHint": "Push notifications in this browser (new ticket, leave request, reply in a claimed ticket).",
+  "disableHint": "You will no longer get notifications from this server in this browser.",
+  "on": "Notifications enabled.",
+  "off": "Notifications disabled.",
+  "denied": "The browser did not allow notifications.",
+  "failed": "Failed — please try again.",
+  "invalid": "Invalid request.",
+  "tooManyDevices": "You can subscribe at most {max} devices on this server — turn an old one off first."
+}

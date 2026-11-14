@@ -1,0 +1,15 @@
+{
+ "empty": "*Ebben a szezonban még egyetlen klán sem szerzett pontot.*",
+ "row": "{place} {label} — **{points}** pont{me}",
+ "tag": "Szezonbajnok",
+ "headline": "{name} nyerte a {season}-es klán-szezont",
+ "banner_body": "{points} ponttal lettek az első helyen; a kasszájuk {prize} szezondíjat kap.",
+ "card_body": "**{points}** ponttal az első helyen végeztek — a kasszájuk **{prize}** szezondíjat kapott.",
+ "card_role": "\nA tagok megkapták a {role} rangot (a következő bajnokig).",
+ "next": "Új szezon indult — a pontok nulláról indulnak",
+ "role_reason": "Klán-szezon bajnoka",
+ "vault_note": "Szezondíj ({season})",
+ "vault_label": "Szezondíj",
+ "panel_title": "👑 **Klán-szezon {season}** — havi rangsor",
+ "panel_hint": "-# Pont jár a tagok sikeres bűntényeiért, munkájáért, napi bónuszáért, kvízgyőzelméért, vérdíjaiért, szintlépéseiért (tagonként napi 40) és a területharcok helyezéseiért. A hónap végén a bajnok díjat és rangot kap."
+}

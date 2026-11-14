@@ -1,0 +1,14 @@
+{
+ "crash_tag": "Market crash",
+ "boom_tag": "Golden age",
+ "crash_head": "Every market collapsed — bitcoin, stocks and the underworld are all falling",
+ "boom_head": "A golden age has begun — bitcoin, stocks and the underworld are all soaring",
+ "crash_body": "Every market shakes the server at once. Buyers get bargains now — anyone in debt is in trouble.",
+ "boom_body": "Every market soars at once. Sellers make a killing now — but the golden age won't last forever.",
+ "chip_btc": "Bitcoin {pct}",
+ "chip_stocks": "Stocks: {head}",
+ "chip_uw": "Underworld: {name}",
+ "source": "Server-wide",
+ "footer": "Nobody knows how long it will last",
+ "title": "Mega event"
+}

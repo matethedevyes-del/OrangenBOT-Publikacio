@@ -1,0 +1,17 @@
+{
+ "cash": "Geld",
+ "xp": "XP",
+ "none": "Nichts",
+ "chips": "Chips",
+ "jackpot": "Hauptgewinn",
+ "button": "Glücksrad",
+ "off": "Das Glücksrad ist auf diesem Server deaktiviert.",
+ "wait": "🎡 Du hast heute schon gedreht — wieder {when}.",
+ "title": "🎡 Glücksrad",
+ "won_cash": "🎉 Du hast **{fmt}** gewonnen!",
+ "won_chips": "🎰 Du hast **{n} Chips** gewonnen!",
+ "won_xp": "⭐ Du hast **{n} XP** gewonnen!",
+ "won_none": "😅 Diesmal nichts — versuch es morgen wieder!",
+ "won_jackpot": "💎 **HAUPTGEWINN!** Du hast **{fmt}** gewonnen!",
+ "footer": "Ein Gratis-Dreh pro Tag • /penz → Glücksrad"
+}

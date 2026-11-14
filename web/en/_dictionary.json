@@ -1,0 +1,2026 @@
+{
+  "settings": {
+    "currency_symbol": {
+      "label": "Currency symbol",
+      "description": "The currency symbol shown next to amounts"
+    },
+    "server_invite_link": {
+      "label": "Invite link",
+      "description": "The server's invite (shown in the honeypot message)",
+      "zero": "none"
+    },
+    "theme_color": {
+      "label": "Card colour",
+      "description": "The base colour of the bot's cards on this server (status colours — success, error, warning — and feature colours stay the same)",
+      "zero": "default (orange)"
+    },
+    "module_economy": {
+      "label": "Economy",
+      "description": "Economy, jobs, shop — when off, the underworld, bitcoin and stock market stop too"
+    },
+    "module_underworld": {
+      "label": "Underworld",
+      "description": "Underworld: crimes, money laundering, gang heists, world events (together with Economy)"
+    },
+    "module_bitcoin": {
+      "label": "Bitcoin",
+      "description": "Bitcoin: crypto exchange, mining farm, crypto news (together with Economy)"
+    },
+    "module_stocks": {
+      "label": "Stock market",
+      "description": "Stock market: shares, orders, price board (together with Economy)"
+    },
+    "module_casino": {
+      "label": "Casino",
+      "description": "Casino: games, chips, jackpot, lottery"
+    },
+    "module_leveling": {
+      "label": "Levelling",
+      "description": "XP, level-ups, rank card, level rewards"
+    },
+    "module_fun": {
+      "label": "Fun",
+      "description": "Fun commands"
+    },
+    "module_ai": {
+      "label": "AI chat",
+      "description": "AI chat in the configured channel"
+    },
+    "module_quests": {
+      "label": "Quests & badges",
+      "description": "Daily quests, streaks, badges (/kuldetesek)"
+    },
+    "module_music": {
+      "label": "Music",
+      "description": "Music: YouTube / Spotify player (/play, /queue …)"
+    },
+    "module_tickets": {
+      "label": "Tickets",
+      "description": "Tickets: opening from the panel, /ticket — when off, open tickets can still be closed"
+    },
+    "staff_role": {
+      "label": "Staff role",
+      "description": "General staff role — belongs to the “Staff” level of /jogosultsag (more staff, moderator and admin roles: /jogosultsag)",
+      "why": "otherwise only administrators can reach the staff features"
+    },
+    "perm_discord_fallback": {
+      "label": "Accept Discord permissions",
+      "description": "Anyone with the matching Discord permission for a feature (e.g. Ban Members) can also use the bot's command — when off, only the /jogosultsag role levels count"
+    },
+    "member_role": {
+      "label": "Member role",
+      "description": "Members get this role after verifying successfully"
+    },
+    "unverified_role": {
+      "label": "Unverified role",
+      "description": "Given on join, until verification"
+    },
+    "rules_channel": {
+      "label": "Rules channel",
+      "description": "The rules channel (referenced by verification)"
+    },
+    "autorole_member_role": {
+      "label": "Auto role: new members",
+      "description": "Every new member gets it automatically"
+    },
+    "autorole_bot_role": {
+      "label": "Auto role: new bots",
+      "description": "Every new bot gets it automatically"
+    },
+    "welcome_channel": {
+      "label": "Welcome channel",
+      "description": "Welcome cards are posted here",
+      "why": "nobody greets new members"
+    },
+    "welcome_message": {
+      "label": "Welcome text",
+      "description": "Welcome text — {mention} {nev} {szerver} {tagszam} {#csatorna} :emoji:"
+    },
+    "welcome_title": {
+      "label": "Image: headline",
+      "description": "Large headline on the image"
+    },
+    "welcome_subtitle": {
+      "label": "Image: subtitle",
+      "description": "Small caption on the image, below the name"
+    },
+    "welcome_theme": {
+      "label": "Image: theme",
+      "description": "The image theme: narancs, ejfel, aurora, naplemente, ocean, neon, galaxis, erdo, grafit, sajat",
+      "options": {
+        "narancs": "Orange (default)",
+        "ejfel": "Midnight",
+        "aurora": "Aurora",
+        "naplemente": "Sunset",
+        "ocean": "Ocean",
+        "neon": "Neon",
+        "galaxis": "Galaxy",
+        "erdo": "Forest",
+        "grafit": "Graphite",
+        "sajat": "Custom background (upload it in the welcome studio)"
+      }
+    },
+    "welcome_color": {
+      "label": "Image: accent colour",
+      "description": "Accent colour, e.g. #FD8200 (empty = the theme colour)",
+      "zero": "the theme colour"
+    },
+    "welcome_image": {
+      "label": "Welcome image",
+      "description": "Welcome image (avatar, name, caption)"
+    },
+    "welcome_ping": {
+      "label": "Mention the new member",
+      "description": "Mention the new member (they get a notification)"
+    },
+    "welcome_stats": {
+      "label": "Member count & account age",
+      "description": "Member count and account age at the bottom of the card"
+    },
+    "welcome_tip": {
+      "label": "Random tip",
+      "description": "A random tip at the bottom of the card"
+    },
+    "welcome_greet_button": {
+      "label": "“Say hi!” button",
+      "description": "A “Say hi!” button for the other members"
+    },
+    "welcome_cleanup": {
+      "label": "Delete on quick leave",
+      "description": "Delete the welcome if the member leaves within 10 minutes"
+    },
+    "welcome_link_1": {
+      "label": "Link button 1",
+      "description": "Button below the card: channel 1 (e.g. rules)"
+    },
+    "welcome_link_2": {
+      "label": "Link button 2",
+      "description": "Button below the card: channel 2"
+    },
+    "welcome_link_3": {
+      "label": "Link button 3",
+      "description": "Button below the card: channel 3"
+    },
+    "welcome_dm": {
+      "label": "Private welcome (DM)",
+      "description": "Also send the new member a private welcome message (DM)"
+    },
+    "welcome_dm_message": {
+      "label": "Private welcome text",
+      "description": "The text of the private welcome"
+    },
+    "goodbye_channel": {
+      "label": "Goodbye channel",
+      "description": "Goodbye cards are posted here"
+    },
+    "goodbye_message": {
+      "label": "Goodbye text",
+      "description": "Goodbye text — {nev} {szerver} {tagszam} {bucsu}"
+    },
+    "goodbye_title": {
+      "label": "Goodbye image: headline",
+      "description": "Large headline on the goodbye image"
+    },
+    "goodbye_subtitle": {
+      "label": "Goodbye image: subtitle",
+      "description": "Small caption on the goodbye image"
+    },
+    "goodbye_image": {
+      "label": "Goodbye image",
+      "description": "Goodbye image (grey avatar, caption)"
+    },
+    "goodbye_theme": {
+      "label": "Goodbye image: theme",
+      "description": "The goodbye image theme (empty = same as the welcome card): narancs, ejfel, aurora, naplemente, ocean, neon, galaxis, erdo, grafit, sajat",
+      "zero": "same as the welcome card",
+      "options": {
+        "": "Same as the welcome card",
+        "narancs": "Orange (default)",
+        "ejfel": "Midnight",
+        "aurora": "Aurora",
+        "naplemente": "Sunset",
+        "ocean": "Ocean",
+        "neon": "Neon",
+        "galaxis": "Galaxy",
+        "erdo": "Forest",
+        "grafit": "Graphite",
+        "sajat": "Custom background (upload it in the welcome studio)"
+      }
+    },
+    "goodbye_color": {
+      "label": "Goodbye image: accent colour",
+      "description": "Accent colour of the goodbye image, e.g. #FD8200 (empty = same as the welcome card; “tema” = the theme's own colour)",
+      "zero": "same as the welcome card",
+      "options": {
+        "tema": "The theme's own colour"
+      }
+    },
+    "goodbye_stats": {
+      "label": "Goodbye stats",
+      "description": "On goodbye: when they joined, how many are left"
+    },
+    "mod_log_channel": {
+      "label": "Mod log",
+      "description": "Cases, automod hits and appeals",
+      "why": "you can't see what the bot filters and whom it punishes"
+    },
+    "mod_dm_notify": {
+      "label": "DM to sanctioned members",
+      "description": "The sanctioned member gets a DM (with an appeal button)"
+    },
+    "global_mod_enforce": {
+      "label": "Enforce global bans",
+      "description": "Enforces the bot owner's global bans/mutes here too (off: log only)"
+    },
+    "mod_warn_threshold": {
+      "label": "Warning threshold",
+      "description": "Automatic timeout after every this many warnings",
+      "zero": "off"
+    },
+    "mod_warn_timeout_minutes": {
+      "label": "Automatic timeout length",
+      "description": "How long the automatic timeout lasts"
+    },
+    "mod_antispam": {
+      "label": "Anti-spam",
+      "description": "6+ messages within 5 sec → deletion + 5 minute timeout"
+    },
+    "mod_antilink": {
+      "label": "Link filter",
+      "description": "Deletes links to sites that aren't allowed"
+    },
+    "mod_link_allowlist": {
+      "label": "Allowed domains",
+      "description": "Domains allowed by the link filter, comma-separated"
+    },
+    "mod_antiinvite": {
+      "label": "Invite filter",
+      "description": "Deletes Discord invites to other servers"
+    },
+    "mod_caps_mention": {
+      "label": "Mention & CAPS filter",
+      "description": "Filters mass mentions (6+), all-caps messages and walls of text (16+ lines)"
+    },
+    "snapshot_auto": {
+      "label": "Automatic structure backup",
+      "description": "Automatically backs up the server structure (roles, channels, permissions) daily — only if it changed; restore on the dashboard's Backups page"
+    },
+    "mod_antiraid": {
+      "label": "Block brand-new accounts",
+      "description": "Automatically kicks accounts younger than 24 hours"
+    },
+    "mod_auto_slowmode": {
+      "label": "Adaptive slowmode",
+      "description": "Adaptive slowmode during message floods"
+    },
+    "automod_bypass_role": {
+      "label": "Automod-exempt role",
+      "description": "Automatic moderation doesn't apply to anyone with this role (filters, AI moderation, honeypot, the bot's AutoMod rules). Empty: the role named “Bypass”",
+      "zero": "the role named “Bypass”"
+    },
+    "warn_log_channel": {
+      "label": "Warning log",
+      "description": "Log of warnings (/warn, automatic escalation) (empty: the mod log)"
+    },
+    "report_channel": {
+      "label": "Reported messages",
+      "description": "Right-click → “Report message” lands here"
+    },
+    "aimod_enabled": {
+      "label": "AI moderation",
+      "description": "Automatic moderation: deletion, points, mute, DM card"
+    },
+    "aimod_ai": {
+      "label": "AI analysis",
+      "description": "Suspicious messages that pass the rules are also analysed by the AI"
+    },
+    "aimod_ai_all": {
+      "label": "Analyse every message",
+      "description": "Analyses every message, not just the suspicious ones (more AI requests)"
+    },
+    "aimod_profanity": {
+      "label": "Profanity filter",
+      "description": "The built-in Hungarian and English profanity filter"
+    },
+    "aimod_strictness": {
+      "label": "Strictness",
+      "description": "Mutes tied to points: enyhe (lenient), normal or szigoru (strict)",
+      "options": {
+        "enyhe": "Lenient",
+        "normal": "Normal",
+        "szigoru": "Strict"
+      }
+    },
+    "aimod_threshold": {
+      "label": "AI threshold",
+      "description": "The AI acts on its own from this confidence — below it, moderators decide (review)"
+    },
+    "aimod_expiry_days": {
+      "label": "Point expiry",
+      "description": "Points expire after this many days"
+    },
+    "aimod_rules": {
+      "label": "Rules",
+      "description": "The server's rules — the AI also decides based on them, and members can read them from the warning",
+      "zero": "none (general rules)"
+    },
+    "aimod_ignored_channels": {
+      "label": "Exempt channels",
+      "description": "No AI moderation in these channels (channel IDs, comma-separated)",
+      "zero": "none"
+    },
+    "aimod_log_channel": {
+      "label": "AI moderation log",
+      "description": "Log of AI moderation and the cases awaiting review (empty: the mod log)"
+    },
+    "aimod_public_notice": {
+      "label": "Notice in the channel",
+      "description": "A short, self-deleting notice about the deletion in the channel"
+    },
+    "bot_shield_enabled": {
+      "label": "BotShield",
+      "description": "Automatically kicks bots that aren't allowed"
+    },
+    "bot_shield_allowed_bots": {
+      "label": "Allowed bots",
+      "description": "Allowed bot IDs, comma-separated",
+      "zero": "none"
+    },
+    "bot_shield_log_channel": {
+      "label": "BotShield log",
+      "description": "BotShield events"
+    },
+    "honeypot_channel": {
+      "label": "Honeypot channel",
+      "description": "Spam bot trap: whoever writes here gets removed by the bot (can be created with one click on the Panels page)"
+    },
+    "honeypot_action": {
+      "label": "Honeypot penalty",
+      "description": "What happens to those who fall into the trap: softban, ban, kick, timeout or log (log only)",
+      "options": {
+        "softban": "Softban (ban + instant unban: their messages are deleted)",
+        "ban": "Ban",
+        "kick": "Kick",
+        "timeout": "Mute (timeout)",
+        "log": "Log only"
+      }
+    },
+    "honeypot_repeat_ban": {
+      "label": "Honeypot: ban repeat offenders",
+      "description": "Anyone who falls into the trap a second time within 30 days gets a permanent ban"
+    },
+    "log_channel": {
+      "label": "General log",
+      "description": "General log — fallback when a topic has no log of its own",
+      "why": "the bot's events (and the fallback log) show up nowhere"
+    },
+    "audit_messages_channel": {
+      "label": "Message log",
+      "description": "Message deletions and edits"
+    },
+    "audit_members_channel": {
+      "label": "Member log",
+      "description": "Joins, leaves, role and name changes"
+    },
+    "audit_voice_channel": {
+      "label": "Voice log",
+      "description": "Voice channel events"
+    },
+    "audit_mod_channel": {
+      "label": "Sanction log",
+      "description": "Bans, kicks, timeouts"
+    },
+    "audit_server_channel": {
+      "label": "Server log",
+      "description": "Channel, role, emoji and server changes"
+    },
+    "suggestion_channel": {
+      "label": "Suggestion review",
+      "description": "Submitted suggestions land here for review",
+      "why": "submitted suggestions never reach the staff"
+    },
+    "bug_channel": {
+      "label": "Bug report review",
+      "description": "Bug reports land here for review",
+      "why": "bug reports never reach the staff"
+    },
+    "starboard_channel": {
+      "label": "Starboard channel",
+      "description": "Messages with lots of reactions end up here"
+    },
+    "counting_channel": {
+      "label": "Counting channel",
+      "description": "Members count up from 1 in turn; whoever messes up restarts it (with a record)",
+      "zero": "none"
+    },
+    "wordchain_channel": {
+      "label": "Word chain channel",
+      "description": "Word chain: the next word starts with the last letter of the previous one (with Hungarian double letters: cs, gy, ny, sz, zs …)",
+      "zero": "none"
+    },
+    "wordchain_reset_on_fail": {
+      "label": "Word chain: restart on mistakes",
+      "description": "A wrong word restarts the chain (when off, only the wrong word doesn't count)"
+    },
+    "invite_log_channel": {
+      "label": "Invite log channel",
+      "description": "Shows who invited whom (and flags suspiciously new accounts) — tracking requires the bot to have the Manage Server permission",
+      "zero": "none — only /meghivok shows it"
+    },
+    "invite_reward": {
+      "label": "Reward per invite",
+      "description": "The inviter gets this much money for every valid first-time join",
+      "zero": "no reward"
+    },
+    "invite_min_account_days": {
+      "label": "Alt filter: minimum account age",
+      "description": "Accounts younger than this count as suspicious (invalid invite, no reward)",
+      "zero": "off"
+    },
+    "quest_reward_multiplier": {
+      "label": "Reward multiplier",
+      "description": "Multiplier for the money rewards of daily quests, the daily chest and badges",
+      "zero": "no money reward"
+    },
+    "quest_xp": {
+      "label": "XP per quest",
+      "description": "This much XP for each completed daily quest (if levelling is on)",
+      "zero": "no XP"
+    },
+    "achievement_channel": {
+      "label": "Badge channel",
+      "description": "A small card is posted here when someone earns a new badge",
+      "zero": "none — /kuldetesek shows it"
+    },
+    "starboard_threshold": {
+      "label": "Starboard threshold",
+      "description": "A message reaches the starboard from this many reactions"
+    },
+    "starboard_emoji": {
+      "label": "Starboard emoji",
+      "description": "The reaction emoji to watch"
+    },
+    "birthday_channel": {
+      "label": "Birthday greetings",
+      "description": "Birthday greetings (at 8 am)"
+    },
+    "name_day_channel": {
+      "label": "Name day greetings",
+      "description": "Channel for the daily name day greeting"
+    },
+    "name_day_hour": {
+      "label": "Name day greeting time",
+      "description": "At what hour the daily name day greeting goes out"
+    },
+    "name_day_mention": {
+      "label": "Mention celebrants",
+      "description": "The name day greeting mentions members celebrating that day"
+    },
+    "holiday_channel": {
+      "label": "Holiday channel",
+      "description": "Channel for the daily notice about Hungarian holidays and memorial days (what we celebrate, whom we remember)"
+    },
+    "holiday_hour": {
+      "label": "Holiday notice time",
+      "description": "At what hour the holiday notice goes out"
+    },
+    "holiday_mourning": {
+      "label": "Memorial and mourning days too",
+      "description": "Also post on memorial days and national days of mourning (e.g. 6 October, 4 November) — when off, only on holidays"
+    },
+    "holiday_role": {
+      "label": "Holiday notification role",
+      "description": "The holiday notice mentions this role (empty: nobody)"
+    },
+    "level_channel": {
+      "label": "Level-up channel",
+      "description": "The channel for level-up cards",
+      "zero": "where the member wrote"
+    },
+    "level_announce": {
+      "label": "Congratulations card",
+      "description": "A congratulations card in the channel on level-up"
+    },
+    "level_dm": {
+      "label": "Private notification (DM)",
+      "description": "Also a private message (DM) on level-up"
+    },
+    "level_message": {
+      "label": "Custom congratulations",
+      "description": "Custom congratulations: {mention} {nev} {szint} {szerver} {jutalom}",
+      "zero": "the default text"
+    },
+    "level_xp_multiplier": {
+      "label": "XP multiplier",
+      "description": "Multiplier for all message and voice XP: 0.5 = half the XP (slower levelling), 2 = double"
+    },
+    "level_message_xp_min": {
+      "label": "XP per message — minimum",
+      "description": "A message earns at least this much XP (the actual value is random between the minimum and the maximum)"
+    },
+    "level_message_xp_max": {
+      "label": "XP per message — maximum",
+      "description": "A message earns at most this much XP"
+    },
+    "level_message_cooldown": {
+      "label": "Wait between XP messages",
+      "description": "A member’s message can earn XP once every this many seconds (higher = slower levelling, less spam)"
+    },
+    "level_voice_xp_amount": {
+      "label": "XP per minute in voice",
+      "description": "XP earned per minute in a voice channel (when at least two people are talking)"
+    },
+    "level_voice_xp": {
+      "label": "XP in voice channels",
+      "description": "XP is also earned in voice channels (when at least two people are talking)"
+    },
+    "level_money_per_level": {
+      "label": "Money reward per level",
+      "description": "On level-up: level × this much money",
+      "zero": "none"
+    },
+    "level_stack_roles": {
+      "label": "Stack reward roles",
+      "description": "Reward roles stack (off: only the highest one stays)"
+    },
+    "level_theme": {
+      "label": "Rank card theme",
+      "description": "The rank card theme (like the welcome image)",
+      "options": {
+        "narancs": "Orange (default)",
+        "ejfel": "Midnight",
+        "aurora": "Aurora",
+        "naplemente": "Sunset",
+        "ocean": "Ocean",
+        "neon": "Neon",
+        "galaxis": "Galaxy",
+        "erdo": "Forest",
+        "grafit": "Graphite"
+      }
+    },
+    "starting_cash": {
+      "label": "Starting cash",
+      "description": "A new profile starts with this much cash"
+    },
+    "bank_interest_rate": {
+      "label": "Daily bank interest",
+      "description": "Daily interest on money held in the bank"
+    },
+    "transfer_max_amount": {
+      "label": "Transfer limit",
+      "description": "The maximum amount of a single transfer",
+      "zero": "unlimited"
+    },
+    "eco_log_channel": {
+      "label": "Economy log",
+      "description": "Log of economy transactions (transfers, crime, admin)",
+      "why": "you can't see big money movements and big heists"
+    },
+    "shop_log_channel": {
+      "label": "Shop log",
+      "description": "Log of shop purchases"
+    },
+    "community_fund_channel": {
+      "label": "Community fund",
+      "description": "The card for the weekly community fund draw"
+    },
+    "work_cooldown_hours": {
+      "label": "Work: cooldown",
+      "description": "How often members can work"
+    },
+    "work_reward_min": {
+      "label": "Work: minimum pay",
+      "description": "The lowest pay for work"
+    },
+    "work_reward_max": {
+      "label": "Work: maximum pay",
+      "description": "The highest pay for work"
+    },
+    "work_streak_max_days": {
+      "label": "Streak: maximum days",
+      "description": "The work streak bonus grows for this many days"
+    },
+    "work_streak_bonus": {
+      "label": "Streak: daily bonus",
+      "description": "Pay grows by this much with every streak day"
+    },
+    "work_streak_grace_hours": {
+      "label": "Streak: grace period",
+      "description": "The streak breaks after this much time off"
+    },
+    "beg_cooldown_minutes": {
+      "label": "Begging: cooldown",
+      "description": "How often members can beg (/penz → Work)"
+    },
+    "beg_reward_min": {
+      "label": "Begging: minimum",
+      "description": "The lowest begging yield"
+    },
+    "beg_reward_max": {
+      "label": "Begging: maximum",
+      "description": "The highest begging yield"
+    },
+    "repont_cooldown_hours": {
+      "label": "Bottle return: cooldown",
+      "description": "How often bottles can be returned"
+    },
+    "repont_bottle_min": {
+      "label": "Bottle return: minimum bottles",
+      "description": "Finds at least this many bottles"
+    },
+    "repont_bottle_max": {
+      "label": "Bottle return: maximum bottles",
+      "description": "Finds at most this many bottles"
+    },
+    "repont_bottle_value": {
+      "label": "Bottle return: deposit",
+      "description": "The deposit value of one bottle"
+    },
+    "delivery_cooldown_hours": {
+      "label": "Courier: cooldown",
+      "description": "How often members can do courier runs"
+    },
+    "fishing_cooldown_hours": {
+      "label": "Fishing: cooldown",
+      "description": "How often members can fish"
+    },
+    "mining_cooldown_hours": {
+      "label": "Mining: cooldown",
+      "description": "How often members can mine (work)"
+    },
+    "hunting_cooldown_hours": {
+      "label": "Hunting: cooldown",
+      "description": "How often members can hunt"
+    },
+    "underworld_news_channel": {
+      "label": "Underworld news channel",
+      "description": "News of world events, big heists and arrests",
+      "why": "news of events and big heists only shows on the /alvilag bunozes News tab"
+    },
+    "underworld_events": {
+      "label": "Automatic events",
+      "description": "Automatic world events (raid, strike, amnesty …)"
+    },
+    "underworld_event_interval_minutes": {
+      "label": "Event frequency",
+      "description": "On average a new event comes this often"
+    },
+    "crime_min_level": {
+      "label": "Required activity level",
+      "description": "The underworld unlocks from this activity level",
+      "zero": "no limit"
+    },
+    "crime_loot_multiplier": {
+      "label": "Loot multiplier",
+      "description": "Multiplier for the loot of crimes and heists"
+    },
+    "crime_cooldown_multiplier": {
+      "label": "Cooldown multiplier",
+      "description": "Multiplier for crime cooldowns (at least ×0.1 — at 0, crimes could be repeated without limit)"
+    },
+    "crime_global_cooldown_minutes": {
+      "label": "Shared cooldown between crimes",
+      "description": "At least this much time must pass between any two crimes — otherwise chaining many different crimes would mean endless money. 0 = off"
+    },
+    "crime_heat_decay_per_hour": {
+      "label": "Wanted level decay",
+      "description": "The wanted level drops by this much per hour (0–100)"
+    },
+    "crime_bail_per_minute": {
+      "label": "Bail price",
+      "description": "Bail: the price per minute of remaining jail time"
+    },
+    "crime_bribe_per_heat": {
+      "label": "Bribe price",
+      "description": "The price of one heat point when bribing (multiplied per rank)"
+    },
+    "launder_cooldown_minutes": {
+      "label": "Money laundering: cooldown",
+      "description": "How often money can be laundered"
+    },
+    "robbery_cooldown_hours": {
+      "label": "Robbing members: cooldown",
+      "description": "How often a member can be robbed"
+    },
+    "robbery_success_chance": {
+      "label": "Robbing members: base chance",
+      "description": "The base success chance of robbing a member"
+    },
+    "robbery_max_steal_percent": {
+      "label": "Robbing members: max loot",
+      "description": "At most this much of the target's cash can be taken"
+    },
+    "robbery_fine_percent": {
+      "label": "Robbing members: fine",
+      "description": "On failure, the fine is this share of the target's cash"
+    },
+    "robbery_victim_protection_hours": {
+      "label": "Robbing members: victim protection",
+      "description": "A robbed member is protected for this long"
+    },
+    "casino_channel": {
+      "label": "Big wins channel",
+      "description": "Announces big wins and jackpots",
+      "why": "nobody sees the big wins and jackpots"
+    },
+    "casino_max_bet": {
+      "label": "Maximum bet",
+      "description": "The largest bet in a single game",
+      "zero": "unlimited"
+    },
+    "lottery_channel": {
+      "label": "Lottery draw",
+      "description": "The card for the daily lottery draw"
+    },
+    "btc_channel": {
+      "label": "Price channel",
+      "description": "Live, pinned price card (news goes to a separate channel: Crypto news channel)",
+      "why": "no live price card or “Exchange” button on the server"
+    },
+    "btc_electricity_price": {
+      "label": "Electricity cost",
+      "description": "The price of electricity on the mining farm"
+    },
+    "btc_trade_fee_percent": {
+      "label": "Trading fee",
+      "description": "Fee on buying and selling"
+    },
+    "btc_news_hours": {
+      "label": "News frequency",
+      "description": "At least this much time passes between two breaking market news items (and price shocks)",
+      "zero": "no news or shocks"
+    },
+    "btc_news_channel": {
+      "label": "Crypto news channel",
+      "description": "A separate channel for crypto news: shocks, events, block finds, whale alerts, daily report (the price channel stays clean; if empty, news only shows on the /btc News tab)",
+      "why": "crypto news, events and the daily report only show on the /btc News tab"
+    },
+    "btc_event_hours": {
+      "label": "Crypto event frequency",
+      "description": "On average a crypto event starts every this many hours (heatwave, cheap power, GPU shortage, difficulty change …), affecting mining for hours",
+      "zero": "no crypto events"
+    },
+    "btc_daily_report": {
+      "label": "Daily crypto report",
+      "description": "Daily crypto report at 8 pm: price, chart, the day's events and blocks"
+    },
+    "btc_community_news": {
+      "label": "Community crypto news",
+      "description": "Whale alerts (big trades), solo block finds and new all-time highs in the news channel"
+    },
+    "stock_channel": {
+      "label": "Stock market channel",
+      "description": "Live, pinned price board (news goes to a separate channel: Stock news channel)",
+      "why": "no live price board or “Terminal” button on the server"
+    },
+    "stock_news": {
+      "label": "Post breaking news",
+      "description": "Breaking news (takeover, trading halt, crisis …) is posted to the stock news channel"
+    },
+    "stock_fee_percent": {
+      "label": "Broker fee",
+      "description": "Broker fee on every trade (percentage of the trade value)"
+    },
+    "stock_min_fee": {
+      "label": "Minimum broker fee",
+      "description": "The minimum broker fee per trade",
+      "zero": "none"
+    },
+    "stock_tax_percent": {
+      "label": "Stock market tax",
+      "description": "Tax on realised capital gains and dividends",
+      "zero": "tax-free"
+    },
+    "stock_open_hour": {
+      "label": "Opening",
+      "description": "At what hour the market opens (local time)"
+    },
+    "stock_close_hour": {
+      "label": "Closing",
+      "description": "At what hour the market closes (24 = midnight; if equal to opening, it's open around the clock)"
+    },
+    "stock_weekends": {
+      "label": "Weekend trading",
+      "description": "Trading on weekends too"
+    },
+    "stock_short_selling": {
+      "label": "Short selling",
+      "description": "Short positions: members can bet on falling prices too (with margin, borrowing fee and forced closing)"
+    },
+    "ai_channel": {
+      "label": "AI channel",
+      "description": "In this channel the bot replies to every message",
+      "why": "the AI chat doesn't reply anywhere"
+    },
+    "ai_system_prompt": {
+      "label": "AI instructions",
+      "description": "Server-specific instructions for the AI (/ai prompt)",
+      "zero": "none"
+    },
+    "temp_voice_lobby": {
+      "label": "Temporary voice channel lobby",
+      "description": "Everyone who joins gets their own voice channel"
+    },
+    "stats_total_channel": {
+      "label": "Member count: total",
+      "description": "Its name shows the total number of members"
+    },
+    "stats_humans_channel": {
+      "label": "Member count: humans",
+      "description": "Its name shows the number of human members"
+    },
+    "stats_bots_channel": {
+      "label": "Member count: bots",
+      "description": "Its name shows the number of bots"
+    },
+    "module_clans": {
+      "label": "Clans",
+      "description": "Clans: shared treasury, upgrades, turf wars (/klan)"
+    },
+    "clan_create_cost": {
+      "label": "Founding cost",
+      "description": "What founding a clan costs (from cash)",
+      "zero": "free"
+    },
+    "clan_max_members": {
+      "label": "Base member limit",
+      "description": "This many members fit in a clan (upgrading the HQ increases it)"
+    },
+    "clan_role_enabled": {
+      "label": "Clan roles",
+      "description": "Each clan gets its own Discord role (without permissions) — members get it on joining and lose it on leaving (the bot needs the “Manage Roles” permission)"
+    },
+    "clan_log_channel": {
+      "label": "Clan log",
+      "description": "Clan events land here: founding, joining, leaving, ranks, upgrades, payouts",
+      "zero": "none"
+    },
+    "clan_war_channel": {
+      "label": "War news",
+      "description": "Announcements, rounds and results of turf wars",
+      "zero": "none — only the /klan panel shows it"
+    },
+    "clan_war_interval_hours": {
+      "label": "Turf war frequency",
+      "description": "The bot announces a turf war on its own every this many hours (if there are at least two clans)",
+      "zero": "manual only (/klan admin)"
+    },
+    "clan_war_signup_hours": {
+      "label": "Sign-up period",
+      "description": "How long clans can sign up for an announced war"
+    },
+    "clan_war_duration_hours": {
+      "label": "War length",
+      "description": "The war's three rounds take place over this time (in equal parts)"
+    },
+    "clan_war_entry_fee": {
+      "label": "Entry fee",
+      "description": "The entry fee from the clan treasury (split 60 / 25 / 15% among the top three)",
+      "zero": "free"
+    },
+    "clan_war_prize": {
+      "label": "Winner's prize",
+      "description": "An extra prize from the system for the winning clan — only with at least 3 entrants (entry fees are split 60 / 25 / 15% among the top three)",
+      "zero": "none — only the entry fees are shared"
+    },
+    "clan_invite_hours": {
+      "label": "Invite validity",
+      "description": "How long a clan invite stays valid"
+    },
+    "module_fishing": {
+      "label": "Fishing & hunting",
+      "description": "RPG fishing and hunting with a mini game, aquarium, trophy room (/peca, /vadaszat)"
+    },
+    "fishing_cooldown_seconds": {
+      "label": "Fishing: cooldown",
+      "description": "How often members can cast (/peca dobale)",
+      "zero": "no cooldown"
+    },
+    "hunting_cooldown_seconds": {
+      "label": "Hunting: cooldown",
+      "description": "How often members can go on a stakeout (/vadaszat les)",
+      "zero": "no cooldown"
+    },
+    "fishing_reward_multiplier": {
+      "label": "Catch value multiplier",
+      "description": "Multiplier for the value of fish caught and game shot",
+      "zero": "catches are worth no money"
+    },
+    "fishing_weather": {
+      "label": "Weather effects",
+      "description": "The hourly changing weather (sunny, rainy, stormy, snowy …) affects bites and game"
+    },
+    "fishing_events": {
+      "label": "Event effects",
+      "description": "Underworld world events, crypto events and the bitcoin market mood also affect catches (e.g. crypto fever → more goldfish)"
+    },
+    "fishing_announce_channel": {
+      "label": "Legendary catch channel",
+      "description": "A card for every legendary catch is posted here",
+      "zero": "none — only the catcher sees it"
+    },
+    "fishing_collection_limit": {
+      "label": "Collection size",
+      "description": "This many unsold fish fit in the aquarium (and as many trophies in the trophy room) — with a full collection you have to sell first"
+    },
+    "activity_tracking": {
+      "label": "Activity tracking",
+      "description": "Tracks members' last message and voice presence, plus daily counts (never message content) — after switching off, counting starts over"
+    },
+    "inactive_role": {
+      "label": "Inactive role",
+      "description": "The /inaktiv “Assign inactive role” button gives this role (empty: the button asks)",
+      "zero": "none — the button asks"
+    },
+    "inactive_exempt_role": {
+      "label": "Exempt role",
+      "description": "Members with this role never end up on the inactive list (e.g. people on leave, VIPs)",
+      "zero": "none"
+    },
+    "inactive_default_days": {
+      "label": "Inactivity threshold",
+      "description": "/inaktiv treats someone as inactive after this many days of silence, unless you specify otherwise in the command"
+    },
+    "activity_retention_days": {
+      "label": "Daily stats retention",
+      "description": "The daily activity stats (chart, top list) are kept for this many days; members' last activity never expires"
+    },
+    "role_log_channel": {
+      "label": "Role change log",
+      "description": "Detailed role change log: who gained / lost a role, who gave it, with which dangerous permissions (when set, the member log skips its simple role entry)",
+      "zero": "none — the member log records it briefly"
+    },
+    "role_alert_channel": {
+      "label": "Dangerous role alerts",
+      "description": "Alert when someone is manually given a role with Administrator, Ban, Kick or Manage Roles permission (empty: the mod log)",
+      "zero": "the mod log"
+    },
+    "role_alert_ping_role": {
+      "label": "Role pinged on alerts",
+      "description": "The dangerous role alert pings this role",
+      "zero": "no ping"
+    },
+    "xs_casino_championship": {
+      "label": "Cross-server championship",
+      "description": "Members take part in the weekly cross-server casino championship (/casino bajnoksag): points, leaderboard, prize pot — when off, they earn no points, don't appear on the leaderboard and get no prizes"
+    },
+    "xs_global_market": {
+      "label": "Cross-server market impact",
+      "description": "The combined mining and trading appetite of all servers using the bot nudges the PÉTIX index and the bitcoin price slightly — when off, this server doesn't nudge them and its trades aren't counted"
+    },
+    "language": {
+      "label": "Language",
+      "description": "The bot's language on this server: hu (Hungarian), en (English) or de (Deutsch) — every message, card, log, panel, reply — and the / command list too — uses this language",
+      "options": {
+        "hu": "Hungarian",
+        "en": "English",
+        "de": "German"
+      }
+    },
+    "module_duty": {
+      "label": "Duty",
+      "description": "Duty system: clock in/out, time tracking, leave of absence, reports (/szolgalat …)"
+    },
+    "music_default_volume": {
+      "label": "Default volume",
+      "description": "The player starts at this volume (change it while playing with the panel's volume buttons or /music volume)"
+    },
+    "music_idle_leave": {
+      "label": "Leave when idle",
+      "description": "When the queue runs out, the bot leaves the voice channel after this much silence",
+      "zero": "never (24/7)"
+    },
+    "music_alone_leave": {
+      "label": "Leave when alone",
+      "description": "If everyone leaves, the music pauses and the bot leaves after this long (if someone returns, it resumes)",
+      "zero": "never (24/7)"
+    },
+    "music_max_per_user": {
+      "label": "Tracks per member in the queue",
+      "description": "A member can have at most this many tracks in the queue at once",
+      "zero": "unlimited"
+    },
+    "music_max_minutes": {
+      "label": "Longest track",
+      "description": "Tracks longer than this (e.g. 10-hour videos) are not queued (live streams still are)",
+      "zero": "unlimited"
+    },
+    "music_vote_percent": {
+      "label": "Vote skip",
+      "description": "Skipping by vote: MORE THAN this percentage of listeners is needed. The requester, DJs (Manage Channels) and anyone listening alone can skip instantly",
+      "zero": "off (anyone can skip instantly)"
+    },
+    "music_panel_follow": {
+      "label": "Panel follows the chat",
+      "description": "On a new track the panel moves to the bottom of the channel if others wrote in between (so it doesn't get lost in the conversation)"
+    },
+    "music_live_progress": {
+      "label": "Live progress bar on the panel",
+      "description": "While playing, the panel shows a live progress bar (counted by the Discord client, the panel isn't edited constantly)"
+    },
+    "duty_masks": {
+      "label": "Duty types",
+      "description": "Duty types, one per line (e.g. Police, EMS, On call) — each is timed separately. To rename, use /duty rename so the data moves too"
+    },
+    "duty_log_channel": {
+      "label": "Duty log",
+      "description": "Every clock in/out, manual change, forced clock-out, leave and report is posted here",
+      "why": "clock ins and outs are not logged anywhere"
+    },
+    "duty_role": {
+      "label": "On-duty role",
+      "description": "Members get this role while on duty (removed when they clock out)"
+    },
+    "duty_manager_role": {
+      "label": "Duty manager role",
+      "description": "Duty managers can clock others out and review leave requests (Manage Server always counts)"
+    },
+    "duty_ephemeral": {
+      "label": "Hidden replies",
+      "description": "Only the person who used /duty sees the reply"
+    },
+    "duty_voice_channels": {
+      "label": "Voice-channel duty",
+      "description": "Joining these voice channels clocks the member in (into the first type); leaving clocks them out",
+      "zero": "off"
+    },
+    "duty_max_hours": {
+      "label": "Longest shift",
+      "description": "A shift can last at most this many hours, then the bot clocks the member out (time up to then counts)",
+      "zero": "unlimited"
+    },
+    "duty_idle_minutes": {
+      "label": "Activity check",
+      "description": "After this many minutes the bot asks in a DM whether the member is still on duty; without a reply it clocks them out",
+      "zero": "off"
+    },
+    "duty_idle_reply_minutes": {
+      "label": "Time to answer the check",
+      "description": "How long the member has to answer the check DM"
+    },
+    "duty_idle_remove_time": {
+      "label": "Discount unanswered time",
+      "description": "If the member didn't answer, the time since their last confirmation doesn't count"
+    },
+    "duty_sticky_channel": {
+      "label": "Live duty list",
+      "description": "A live list of who is on duty — always kept at the bottom of the channel (moved at most once a minute)"
+    },
+    "duty_panel_title": {
+      "label": "Panel title",
+      "description": "The title of the duty panel"
+    },
+    "duty_panel_text": {
+      "label": "Panel text",
+      "description": "The text of the duty panel"
+    },
+    "duty_quotas": {
+      "label": "Quota roles",
+      "description": "A role after time served, one per line: role ID = minutes [= type] (also settable with a role picker via /duty quota)",
+      "zero": "none"
+    },
+    "duty_loa_enabled": {
+      "label": "Leave requests",
+      "description": "Members can request leave of absence (LOA): /duty loa request, or with the button of the separate absence panel (on the web: Reports → Panels)"
+    },
+    "duty_loa_channel": {
+      "label": "Leave request channel",
+      "description": "Leave requests are posted here for review (with buttons)"
+    },
+    "duty_loa_reviewer_role": {
+      "label": "Leave reviewer role",
+      "description": "This role can also review leave requests (besides duty managers)"
+    },
+    "duty_loa_auto_approve": {
+      "label": "Auto-approve",
+      "description": "Requests are approved instantly, without review"
+    },
+    "duty_loa_role": {
+      "label": "Leave role",
+      "description": "Members get this role while on leave"
+    },
+    "duty_loa_clockout": {
+      "label": "Clock out during leave",
+      "description": "During leave the member is clocked out of every duty and can't clock in"
+    },
+    "duty_loa_tag_nick": {
+      "label": "[LOA] in the nickname",
+      "description": "“[LOA]” is added before the nickname during leave (needs Manage Nicknames)"
+    },
+    "duty_report_period": {
+      "label": "Report frequency",
+      "description": "Automatic report of duty time: off, daily, weekly, monthly or yearly",
+      "options": {
+        "off": "Off",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      }
+    },
+    "duty_report_channel": {
+      "label": "Report channel",
+      "description": "Channel for reports (empty: the duty log)"
+    },
+    "duty_report_hour": {
+      "label": "Report time",
+      "description": "At what hour the report is sent (local time)"
+    },
+    "duty_report_weekday": {
+      "label": "Weekly report day",
+      "description": "Day of the weekly report (1 = Monday … 7 = Sunday)"
+    },
+    "duty_report_monthday": {
+      "label": "Monthly report day",
+      "description": "Day of the month for the monthly (and yearly) report"
+    },
+    "duty_report_month": {
+      "label": "Yearly report month",
+      "description": "Month of the yearly report (1–12)"
+    },
+    "duty_report_output": {
+      "label": "Report format",
+      "description": "Report format: summary (card), csv (file) or both",
+      "options": {
+        "both": "Card and CSV file",
+        "summary": "Card only",
+        "csv": "CSV file only"
+      }
+    },
+    "duty_report_reset": {
+      "label": "Reset period after report",
+      "description": "After the report the period counters are reset (all-time totals stay)"
+    },
+    "duty_report_full_export": {
+      "label": "Full export with report",
+      "description": "Also attach the all-time CSV to the report"
+    },
+    "duty_dm_summary": {
+      "label": "Summary on clock-out (DM)",
+      "description": "On clock-out the member gets a personal DM summary: time on duty (breaks excluded), today / week / month / all-time totals, rank this week, streak, weekly goal and pay"
+    },
+    "duty_weekly_goal_hours": {
+      "label": "Weekly goal",
+      "description": "Weekly goal in hours — personal stats, summaries and the weekly DM all show the progress",
+      "zero": "none"
+    },
+    "duty_hourly_wage": {
+      "label": "Hourly wage",
+      "description": "Hourly wage in the server's currency: summaries, personal stats, reports and payslips also show the pay",
+      "zero": "off"
+    },
+    "duty_goal_reminder": {
+      "label": "Weekly goal reminder",
+      "description": "On Thursday (at the report hour) a DM reminder to anyone far behind their weekly goal"
+    },
+    "duty_loa_cooldown_minutes": {
+      "label": "Wait after a denial",
+      "description": "After a denied request the member can't ask again for this long (a member can only have one pending or active leave at a time anyway)",
+      "zero": "none"
+    },
+    "duty_weekly_dm": {
+      "label": "Weekly summary (DM)",
+      "description": "Personal weekly summary by DM on the weekly report day and hour: this week's time, change from last week, rank, weekly goal"
+    },
+    "duty_payslip_dm": {
+      "label": "Payslip (DM)",
+      "description": "When a period is closed (reset, delete, report with reset) everyone affected gets their closed time and — with an hourly wage — their pay by DM"
+    },
+    "warn_expiry_days": {
+      "label": "Warning expiry",
+      "description": "After this many days a warning expires (expired ones don't count on the ladder)",
+      "zero": "never expires"
+    },
+    "warn_ladder": {
+      "label": "Warning ladder",
+      "description": "The warning ladder (1–10 levels): role and action (none, timeout, kick, ban) by the number of active warnings — editable on the web. Empty: the old threshold setting applies",
+      "zero": "the old threshold setting"
+    },
+    "warn_dm": {
+      "label": "DM about warnings",
+      "description": "The member gets a DM on new, revoked and expired warnings (reason, active count, expiry)"
+    },
+    "duty_access_role": {
+      "label": "Duty access role",
+      "description": "If set, ONLY members with this role can clock in (panel, /szolgalat be, voice channel) — duty managers and admins always can. Anyone who loses it while on duty is clocked out",
+      "zero": "anyone"
+    },
+    "public_page": {
+      "label": "Public page",
+      "description": "The server has a public page on the web (anyone can see it without logging in): name, icon, member count, description, invite"
+    },
+    "public_page_leaderboard": {
+      "label": "Leaderboard on the public page",
+      "description": "The level and economy leaderboards are shown on the public page too"
+    },
+    "public_page_description": {
+      "label": "Description",
+      "description": "Intro text at the top of the public page (at most 300 characters)",
+      "zero": "none"
+    },
+    "push_notifications": {
+      "label": "Push notifications",
+      "description": "Whether the bot may send web push notifications to staff subscribed on the dashboard (new ticket, leave request, reply in a claimed ticket)"
+    },
+    "language_per_user": {
+      "label": "Hidden replies in the member's language",
+      "description": "When on, replies only you can see come in the member's own Discord language (Hungarian / English / German client); public messages stay in the server language"
+    },
+    "hide_staff_commands": {
+      "label": "Hide staff commands from members",
+      "description": "Simpler / list: staff and admin commands (e.g. /ban, /purge, /lock) only show for people with the matching Discord permission (Manage Messages / Timeout Members / Manage Server). If a staff member can’t see their command: give them that permission, allow it under Server Settings → Integrations → bot, or turn this off"
+    },
+    "crime_chance_multiplier": {
+      "label": "Success chance multiplier",
+      "description": "Multiplier on the success chance of every crime, robbery and crew heist (below 1 = harder)"
+    },
+    "crime_fine_multiplier": {
+      "label": "Fine multiplier",
+      "description": "Multiplier on the fines paid when caught"
+    },
+    "crime_jail_multiplier": {
+      "label": "Jail multiplier",
+      "description": "Multiplier on the chance and length of jail when caught"
+    },
+    "underworld_daily_cap": {
+      "label": "Daily loot cap",
+      "description": "A member can earn at most this much dirty money per day from crime (grows with underworld rank: ×1 for Rookie, ×6 for Godfather). 0 = no cap",
+      "zero": "no cap"
+    },
+    "crime_repeat_penalty": {
+      "label": "Repeat penalty",
+      "description": "Each repeat of the same crime on the same day pays this much less (down to 20% at most)"
+    },
+    "crimes_disabled": {
+      "label": "Disabled crimes",
+      "description": "These crimes can't be chosen on this server",
+      "options": {
+        "zseb": "Pickpocketing",
+        "bolt": "Shoplifting",
+        "auto": "Car break-in",
+        "kisbolt": "Corner shop robbery",
+        "benzinkut": "Petrol station robbery",
+        "ekszer": "Jewellery store robbery",
+        "szef": "Safecracking",
+        "kaszino": "Diamond Casino heist",
+        "bank": "National Bank robbery"
+      }
+    },
+    "heists_disabled": {
+      "label": "Disabled crew heists",
+      "description": "These crew heists can't be started on this server",
+      "options": {
+        "penzszallito": "Armoured cash van",
+        "aranyraktar": "Gold depot"
+      }
+    },
+    "robbery_approaches_disabled": {
+      "label": "Disabled robbery methods",
+      "description": "These robbery methods can't be chosen on this server",
+      "options": {
+        "zsebmetszes": "Pickpocketing",
+        "utcai": "Street robbery",
+        "fegyveres": "Armed robbery"
+      }
+    },
+    "robbery_daily_limit": {
+      "label": "Robbery: daily attempts",
+      "description": "A member can try to rob others at most this many times per day",
+      "zero": "unlimited"
+    },
+    "robbery_max_steal_amount": {
+      "label": "Robbery: max amount",
+      "description": "At most this much can be taken in one robbery (regardless of the percentage)",
+      "zero": "no limit"
+    },
+    "robbery_min_victim_cash": {
+      "label": "Robbery: target's minimum cash",
+      "description": "Only members carrying at least this much cash can be targeted (protects members with little money)"
+    },
+    "robbery_report_enabled": {
+      "label": "Robbery: reporting",
+      "description": "The robbed member can report the robber by DM: if caught, part of the loot is returned and the robber may go to jail"
+    },
+    "underworld_event_strength": {
+      "label": "Event strength",
+      "description": "How strongly world events take effect (1 = normal, 2 = twice the effect, 0.5 = half)"
+    },
+    "underworld_max_events": {
+      "label": "Simultaneous events",
+      "description": "At most this many world events run at the same time"
+    },
+    "underworld_events_disabled": {
+      "label": "Disabled events",
+      "description": "These world events never start on this server",
+      "options": {
+        "razzia": "Nationwide raid",
+        "sztrajk": "Police strike",
+        "polgaror": "Neighbourhood watch",
+        "korrupt_kapitany": "Corrupt captain",
+        "amnesztia": "Amnesty",
+        "vasokol": "\"Iron Fist\" judge",
+        "gyemant": "Diamond shipment",
+        "pokerbajnoksag": "Poker championship at the Diamond",
+        "orsegvaltas": "Changing of the guard at the National Bank",
+        "ai_riaszto": "New alarm systems",
+        "aramszunet": "Blackout",
+        "fesztival": "Festival downtown",
+        "fizetesnap": "Payday",
+        "feketepiac": "Black market boom",
+        "bandahaboru": "Gang war",
+        "utvonal": "Leaked route",
+        "aranyrudak": "Gold bars in the depot",
+        "nni": "Undercover detectives",
+        "nav": "Tax audit",
+        "offshore_botrany": "Offshore scandal",
+        "epitoipari_boom": "Construction boom",
+        "kriptolaz": "Crypto fever in the underworld",
+        "kriptorazzia": "Crypto exchange raid",
+        "tuntetes": "Protest downtown",
+        "kommando": "Special forces operation",
+        "helikopter": "Police helicopter",
+        "kamerak": "Cameras are down",
+        "hovihar": "Blizzard",
+        "kanikula": "Heatwave",
+        "meccs": "Derby at the stadium",
+        "valasztas": "Election campaign",
+        "birosag": "Overloaded courts",
+        "inflacio": "Runaway inflation",
+        "recesszio": "Recession",
+        "kartell": "New cartel in town",
+        "fegyverek": "Arms shipment",
+        "besugo": "An informant among the crews",
+        "bankpanik": "Bank panic",
+        "nyaralas": "Summer holidays",
+        "digitalis": "Card payments everywhere",
+        "kriptozuhanas": "Crypto crash",
+        "kriptoszarnyalas": "Crypto boom",
+        "maffiabeke": "Mafia truce",
+        "orgazda": "Car fences",
+        "korrupt_nav": "Corruptible auditor",
+        "kozos_akcio": "Joint police operation",
+        "rendor_korrupcio": "Corrupt precinct",
+        "dronok": "Police drones",
+        "rendor_bal": "Police ball",
+        "arcfelismeres": "Facial recognition",
+        "leleplezett_akta": "Lost case files",
+        "interpol": "Interpol in town",
+        "koztarsasagi_ores": "Vault guard",
+        "bortonlazadas": "Prison riot",
+        "tulzsufolt_borton": "Overcrowded prisons",
+        "statarium": "Martial law",
+        "megvett_ugyesz": "Bought prosecutor",
+        "tanuvedelmi": "Witness program",
+        "szokes": "Mass breakout",
+        "birosagi_sztrajk": "Court strike",
+        "kartell_haboru": "Cartel war",
+        "kokain_hajo": "The ship came in",
+        "dizajnerdrog": "New designer drug",
+        "lefoglalt_szallitmany": "Shipment seized",
+        "fegyverraktar": "Armory looted",
+        "kartellfonok_bukott": "Godfather arrested",
+        "csempeszalagut": "Smuggling tunnel",
+        "maffia_adoszedo": "Mob tax",
+        "bankrendszer_hiba": "Banking system crash",
+        "zsarolovirus_hullam": "Ransomware wave",
+        "kartyaklonozas": "Card skimmers",
+        "kriptokevero": "New crypto mixer",
+        "darkweb_lekapcsolas": "Darknet takedown",
+        "hamis_penz": "Counterfeit notes",
+        "adathalasz_banda": "Phishing gang",
+        "muzeum_kiallitas": "Crown jewels exhibition",
+        "oligarcha_jacht": "The oligarch's yacht",
+        "kaszino_vip_est": "Casino VIP night",
+        "kaszino_ellenorzes": "Casino audit",
+        "arany_aremelkedes": "Gold soars",
+        "pancelautok_ujak": "New armoured trucks",
+        "bennfentes_or": "Inside man",
+        "autoszalon_szallitmany": "Luxury car shipment",
+        "gps_nyomkovetok": "GPS trackers",
+        "szilveszter": "New Year's party",
+        "black_friday": "Black Friday",
+        "koncert": "Stadium concert",
+        "viharos_ejszaka": "Stormy night",
+        "suru_kod": "Thick fog",
+        "arviz": "Flood",
+        "kijarasi_tilalom": "Curfew",
+        "gazdag_turistak": "Rich tourists",
+        "ingatlanbuborek": "Property bubble",
+        "panama_listak": "Leaked lists",
+        "bankszovetseg": "Silent banks",
+        "osszeomlas": "Economic collapse",
+        "aranykor": "Golden age"
+      }
+    },
+    "ticket_thread_mode": {
+      "label": "Tickets as threads",
+      "description": "New tickets open as private threads in the panel's channel (not as separate channels). This keeps the server's channel-creation limit free — Discord blocks it for hours when exceeded. Off: the old mode, every ticket gets its own channel"
+    },
+    "ticket_thread_channel": {
+      "label": "Ticket thread channel",
+      "description": "Ticket threads open in this channel (empty: where the member pressed the panel button). The bot needs here: create private threads, send messages in threads, manage threads"
+    },
+    "bank_interest_cap": {
+      "label": "Interest-bearing amount cap",
+      "description": "Daily interest is paid on at most this much bank balance (anything above earns no interest — so the rich can't run away forever). 0 = no cap",
+      "zero": "no cap"
+    },
+    "daily_reward_base": {
+      "label": "Daily reward",
+      "description": "The first day's amount of the daily reward (/penz → Daily reward)",
+      "zero": "off"
+    },
+    "daily_reward_step": {
+      "label": "Daily reward: daily increase",
+      "description": "The daily reward grows by this much on every consecutive day"
+    },
+    "daily_reward_max_streak": {
+      "label": "Daily reward: streak length",
+      "description": "The daily reward streak keeps growing for this many days"
+    },
+    "stock_news_channel": {
+      "label": "Stock news channel",
+      "description": "A separate channel for breaking market news (takeover, trading halt, crisis …) — the price board channel stays clean; if empty, news only shows on the /tozsde terminal's News tab",
+      "why": "breaking market news only shows in the terminal"
+    },
+    "quiz_channel": {
+      "label": "Quiz channel",
+      "description": "Daily quiz: the bot asks a few times a day (trivia, mental math, scramble, number sequence); the first correct answer wins a reward",
+      "zero": "none"
+    },
+    "quiz_per_day": {
+      "label": "Quiz: questions per day",
+      "description": "On average this many quiz questions per day (between 9:00 and 23:00)"
+    },
+    "quiz_reward": {
+      "label": "Quiz: money reward",
+      "description": "The first correct answer gets this much money",
+      "zero": "none"
+    },
+    "quiz_xp": {
+      "label": "Quiz: XP reward",
+      "description": "The first correct answer gets this much XP",
+      "zero": "none"
+    },
+    "mega_events": {
+      "label": "Market crash / golden age",
+      "description": "Rare mega event: market crash or golden age — bitcoin, stocks and the underworld move at once (whichever are on)"
+    },
+    "mega_event_days": {
+      "label": "Mega event frequency",
+      "description": "On average a mega event every this many days (at least half that between two)"
+    },
+    "mega_event_channel": {
+      "label": "Mega event channel",
+      "description": "The shared banner of the mega event goes here (empty: the crypto, stock or underworld news channel)",
+      "zero": "automatic"
+    },
+    "bounty_min": {
+      "label": "Bounty: minimum",
+      "description": "The smallest bounty that can be placed on a member (10% broker fee; whoever robs or busts the target takes it)"
+    },
+    "clan_season_prize": {
+      "label": "Season prize",
+      "description": "Monthly clan season: at month end the clan with the most points gets this much in its vault (points come from members' activity and territory wars)",
+      "zero": "no prize"
+    },
+    "clan_season_role": {
+      "label": "Season champion role",
+      "description": "Members of the season's champion clan get this role (until the next champion) — empty: no role",
+      "zero": "none"
+    },
+    "wheel_base": {
+      "label": "Lucky wheel: base prize",
+      "description": "Daily lucky wheel (/penz → Lucky wheel): the base of the money prizes — the wheel pays 1–20× this (0 = off)",
+      "zero": "off"
+    },
+    "community_goal_channel": {
+      "label": "Community goal channel",
+      "description": "Weekly community goal: the server works toward a shared goal (messages, voice minutes, jobs …) with a live image card; if reached, every participant gets a reward",
+      "zero": "none"
+    },
+    "community_goal_reward": {
+      "label": "Community goal: reward",
+      "description": "Every member who contributed to a completed weekly goal gets this much",
+      "zero": "none"
+    },
+    "modmail_channel": {
+      "label": "Modmail channel",
+      "description": "Modmail: members can DM the bot and every conversation gets its own thread in this (staff-only) channel",
+      "zero": "no modmail"
+    },
+    "modmail_anonymous": {
+      "label": "Modmail: anonymous replies",
+      "description": "Modmail replies don't show which staff member wrote them"
+    }
+  },
+  "topics": {
+    "Alapok": {
+      "title": "Basics",
+      "summary": "Language, currency symbol, invite link"
+    },
+    "Arculat": {
+      "title": "Branding",
+      "summary": "Card colour on this server — plus the bot's name, avatar, banner and bio"
+    },
+    "Modulok": {
+      "title": "Modules",
+      "summary": "Switch the big features on and off with one click (economy, casino, music, tickets, AI …)"
+    },
+    "Rangok": {
+      "title": "Roles & joining",
+      "summary": "Staff and member role, verification, automatic roles",
+      "commands": "/jogosultsag (rank levels and permissions), /jogaim"
+    },
+    "Üdvözlés": {
+      "title": "Welcome & goodbye",
+      "summary": "Welcome and goodbye channel, text, image, DM — with a live preview"
+    },
+    "Moderáció": {
+      "title": "Moderation",
+      "summary": "Mod log, automatic filters, warnings, global bans",
+      "commands": "/warn, /timeout, /ban, /temprole, /case"
+    },
+    "AI-moderáció": {
+      "title": "AI moderation",
+      "summary": "Points-based automatic moderation: rules, banned and allowed words, strictness, review",
+      "commands": "/aimod pontok, /aimod teszt"
+    },
+    "Védelem": {
+      "title": "Protection",
+      "summary": "BotShield, honeypot trap"
+    },
+    "Naplók": {
+      "title": "Logs",
+      "summary": "Audit log channels: messages, members, voice, sanctions, server"
+    },
+    "Közösség": {
+      "title": "Community",
+      "summary": "Suggestions, bug reports, starboard, counting channel, word chain, birthdays, name days, invites",
+      "commands": "/eszkoz szuletesnap, /nevnap, /meghivok"
+    },
+    "Küldetések": {
+      "title": "Quests & badges",
+      "summary": "Daily quest rewards, XP, the badge announcement channel"
+    },
+    "Szintrendszer": {
+      "title": "Levelling",
+      "summary": "Level-up message, XP multiplier, rewards, rank card"
+    },
+    "Gazdaság": {
+      "title": "Economy",
+      "summary": "Starting balance, bank interest, daily reward, transfer limit, economy and shop log"
+    },
+    "Munka": {
+      "title": "Work & earnings",
+      "summary": "Wages, cooldowns, work streak bonus, begging"
+    },
+    "Alvilág": {
+      "title": "Underworld",
+      "summary": "News channel, world events, loot, wanted level, bail, robbing members"
+    },
+    "Kaszinó": {
+      "title": "Casino",
+      "summary": "Big wins channel, bet limit, lottery, cross-server tournament"
+    },
+    "Bitcoin": {
+      "title": "Bitcoin",
+      "summary": "Live price, crypto news and events, daily report, electricity cost, trading fee",
+      "commands": "/btc tozsde (also the Mining farm and News tabs)"
+    },
+    "Tőzsde": {
+      "title": "Stock market",
+      "summary": "Live price board, trading hours, broker fee, tax, short positions"
+    },
+    "AI": {
+      "title": "AI chat",
+      "summary": "The AI channel and server-specific instructions"
+    },
+    "Hang és statisztika": {
+      "title": "Voice & stats",
+      "summary": "Lobby for temporary voice channels, member count channels"
+    },
+    "Klánok": {
+      "title": "Clans & turf wars",
+      "summary": "Founding cost, size, clan ranks, log, how often turf wars run, their entry fee and the winner's prize"
+    },
+    "Peca": {
+      "title": "Fishing & hunting",
+      "summary": "RPG fishing and hunting: cooldowns, catch value, effects of weather and events, collection, legendary catch channel"
+    },
+    "Aktivitás": {
+      "title": "Activity & inactive members",
+      "summary": "Tracking messages and voice minutes, filtering inactive members, inactive role, exemptions, how long daily stats are kept"
+    },
+    "Szolgálat": {
+      "title": "Duty",
+      "summary": "Clock in/out, duty types, log, automatic clock-out, quota roles, panel, live list, voice-channel duty",
+      "commands": "/szolgalat be, /szolgalat ki"
+    },
+    "Távollét és riportok": {
+      "title": "Duty: leave and reports",
+      "summary": "Reviewing leave-of-absence (LOA) requests, the leave role and nickname tag; automatic daily / weekly / monthly / yearly reports with CSV"
+    },
+    "Zene": {
+      "title": "Music player",
+      "summary": "Default volume, leave timers, queue and track-length limits, vote skip, panel behaviour"
+    },
+    "Nyilvános oldal": {
+      "title": "Public page and notifications",
+      "summary": "The server's public page on the web (description, leaderboard) and the dashboard's push notifications (new ticket, leave request)"
+    },
+    "Alvilág szabályai": {
+      "title": "Underworld rules",
+      "summary": "Difficulty, daily loot cap, robbery limits, disabled crimes and events, event strength",
+      "commands": "/alvilag bunozes"
+    },
+    "Ticketek": {
+      "title": "Tickets",
+      "summary": "Tickets as private threads or separate channels, where the threads open"
+    }
+  },
+  "moduleGroups": {
+    "game": "Games & economy",
+    "community": "Community",
+    "safety": "Moderation & insights"
+  },
+  "modules": {
+    "economy": {
+      "title": "Economy",
+      "summary": "Balance, bank, jobs, shop, investments — when off, the underworld, bitcoin and stock market stop too"
+    },
+    "underworld": {
+      "title": "Underworld",
+      "summary": "Crimes, money laundering, gang heists, world events"
+    },
+    "bitcoin": {
+      "title": "Bitcoin",
+      "summary": "Crypto exchange, mining farm, crypto news and events"
+    },
+    "stocks": {
+      "title": "Stock market",
+      "summary": "Share market, shorting, orders, live price board"
+    },
+    "casino": {
+      "title": "Casino",
+      "summary": "Games, chips, jackpot, lottery, cross-server tournament"
+    },
+    "fishing": {
+      "title": "Fishing & hunting",
+      "summary": "RPG fishing and hunting, aquarium, trophy room"
+    },
+    "clans": {
+      "title": "Clans",
+      "summary": "Clans, shared treasury, upgrades, turf wars"
+    },
+    "quests": {
+      "title": "Quests",
+      "summary": "Daily quests, streaks, badges"
+    },
+    "leveling": {
+      "title": "Levelling",
+      "summary": "XP, level-ups, rank card, level rewards"
+    },
+    "fun": {
+      "title": "Fun",
+      "summary": "Mini games, ship, 8ball and friends",
+      "hint": "the legal notices stay available even when off"
+    },
+    "ai": {
+      "title": "AI chat",
+      "summary": "AI channel, “AI: Explain” and “AI: Translate” menu"
+    },
+    "music": {
+      "title": "Music",
+      "summary": "YouTube / Spotify player with a control panel"
+    },
+    "tickets": {
+      "title": "Tickets",
+      "summary": "Opening tickets from the panel",
+      "hint": "when off, no new ticket can be opened; open tickets and the staff tools (/ticket) keep working"
+    },
+    "aimod": {
+      "title": "AI moderation",
+      "summary": "Automatic moderation with points and rules",
+      "hint": "its settings: web dashboard → AI moderation",
+      "offEffect": "automatic moderation stops (its settings are kept)"
+    },
+    "activity": {
+      "title": "Activity tracking",
+      "summary": "Tracks messages and voice minutes (/inaktiv, /aktivitas)",
+      "offEffect": "no new activity data is collected — /inaktiv and /aktivitas work from existing data"
+    },
+    "duty": {
+      "title": "Duty",
+      "summary": "Clock in/out, duty time, leave of absence, reports (/duty)",
+      "hint": "even when off, members can clock out and data can be exported"
+    }
+  },
+  "shop": {
+    "kinds": {
+      "role": "Role",
+      "item": "Item"
+    },
+    "items": {
+      "pickaxe_basic": "Stone pickaxe",
+      "pickaxe_pro": "Diamond-tipped pickaxe",
+      "rod_fiber": "Carbon fibre fishing rod",
+      "rifle_hunting": "Scoped hunting rifle",
+      "lockpick": "Titanium lockpick set",
+      "briefcase": "Diplomat briefcase",
+      "mask": "Balaclava",
+      "energy_drink": "Premium energy drink",
+      "insurance": "24-hour insurance",
+      "alarm": "Alarm system (48 hours)",
+      "rod_bamboo": "Bamboo fishing rod",
+      "rod_master": "Master angler spinning rod",
+      "bow_recurve": "Recurve bow",
+      "shotgun": "Hunting shotgun",
+      "bait_worm": "Earthworm (bait)",
+      "bait_corn": "Sweetcorn (bait)",
+      "bait_boilie": "Boilie (bait)",
+      "bait_live": "Live baitfish",
+      "lure_gold": "Gold-plated spoon lure",
+      "call_duck": "Duck call",
+      "call_fox": "Predator call",
+      "bait_salt": "Salt lick and scatter bait",
+      "call_deer": "Deer roar horn",
+      "scent_musk": "Musk lure scent"
+    }
+  },
+  "levels": {
+    "0": {
+      "label": "Member",
+      "requirement": "everyone",
+      "description": "Every member of the server"
+    },
+    "1": {
+      "label": "Staff",
+      "requirement": "Staff or higher",
+      "description": "Global (general) staff role: recognised by every staff feature (tickets, basic moderation)"
+    },
+    "2": {
+      "label": "Moderator",
+      "requirement": "Moderator or higher",
+      "description": "Moderators: sanctions, channels, messages"
+    },
+    "3": {
+      "label": "Administrator",
+      "requirement": "Administrator or higher",
+      "description": "The bot's admins: settings, /say, panels"
+    },
+    "4": {
+      "label": "Server administrator",
+      "requirement": "Discord administrator or the owner",
+      "description": "Anyone with the Administrator permission on Discord (cannot be granted via roles)"
+    },
+    "5": {
+      "label": "Owner",
+      "requirement": "only the server owner",
+      "description": "The server owner — has access to everything"
+    },
+    "90": {
+      "label": "Selected roles only",
+      "requirement": "one of the selected roles (or a server admin)",
+      "description": "Only the extra roles you specify (and server administrators)"
+    },
+    "99": {
+      "label": "Disabled",
+      "requirement": "nobody — the feature is disabled",
+      "description": "Nobody can use it"
+    }
+  },
+  "capabilityGroups": {
+    "mod": "Moderation",
+    "tickets": "Ticket system",
+    "server": "Server & bot",
+    "eco": "Economy & games",
+    "community": "Community",
+    "use": "Who can use the features?"
+  },
+  "capabilities": {
+    "mod.warn": {
+      "label": "Warnings, notes, cases",
+      "description": "Issuing and revoking warnings, internal notes, case log, member profile",
+      "commands": "/warn, /note, /case, /user_info, right-click → Warn"
+    },
+    "mod.timeout": {
+      "label": "Timeouts",
+      "description": "Timing out members and lifting timeouts",
+      "commands": "/timeout, /untimeout, /globaltimeout (proposal)"
+    },
+    "mod.kick": {
+      "label": "Kicking",
+      "description": "Kicking members from the server"
+    },
+    "mod.ban": {
+      "label": "Banning",
+      "description": "Banning (also temporarily, with a duration) and unbanning",
+      "commands": "/ban [idotartam], /unban, /globalban (proposal)"
+    },
+    "mod.messages": {
+      "label": "Deleting messages",
+      "description": "Bulk message deletion (with filters)"
+    },
+    "mod.channels": {
+      "label": "Locking channels, slowmode",
+      "description": "Locking and unlocking text and voice channels, slowmode, controlling any temporary voice channel"
+    },
+    "mod.voice": {
+      "label": "Voice moderation",
+      "description": "Moving every member of a voice channel to another one"
+    },
+    "mod.temprole": {
+      "label": "Temporary roles",
+      "description": "Giving a role for a set time: removed automatically when it expires, and the member gets a DM both times (roles with dangerous permissions can only be given by a server admin)"
+    },
+    "mod.roles": {
+      "label": "Assigning roles",
+      "description": "Adding and removing roles (roles with dangerous permissions can only be assigned by a server admin)"
+    },
+    "mod.cases": {
+      "label": "Editing cases",
+      "description": "Changing the reason of a case, clearing all warnings of a member"
+    },
+    "mod.mass": {
+      "label": "Bulk & emergency actions",
+      "description": "Locking / unlocking every channel, mass ban, role for everyone, bulk nickname fixing, mass-kicking inactive members"
+    },
+    "mod.security": {
+      "label": "Automatic protection",
+      "description": "Trying out AI moderation (every protection setting is on the web dashboard)",
+      "commands": "/aimod teszt"
+    },
+    "mod.aimod": {
+      "label": "AI moderation review",
+      "description": "Deciding the AI's uncertain cases, banned and allowed words, revoking points, viewing members' points",
+      "commands": "/aimod pontok, the log buttons"
+    },
+    "tickets.staff": {
+      "label": "Handling tickets",
+      "description": "Sees and handles tickets: claiming, closing, staff tools, list, statistics, ticket bans",
+      "commands": "/ticket lista, statisztika, tiltas, feloldas + the ticket buttons"
+    },
+    "tickets.admin": {
+      "label": "Ticket admins",
+      "description": "Releasing tickets claimed by others and seeing the tickets of “category roles only” categories (the ticket system is set up on the web dashboard)",
+      "commands": "the ticket buttons"
+    },
+    "settings": {
+      "label": "Bot settings",
+      "description": "The bot's per-server settings (channels, modules, values; only a server admin can set the Staff role)",
+      "commands": "web dashboard"
+    },
+    "say": {
+      "label": "Messages as the bot",
+      "description": "Sending and editing Components V2 messages as the bot",
+      "commands": "/say (announcements too: stilus:Közlemény, ping:@everyone)"
+    },
+    "tiktok": {
+      "label": "TikTok alerts",
+      "description": "Following TikTok accounts: announces new videos and live streams in a channel — server admins and the owner only (cannot be relaxed)"
+    },
+    "youtube": {
+      "label": "YouTube alerts",
+      "description": "Following YouTube channels: announces new videos, Shorts and live streams in a channel — server admins and the owner only (cannot be relaxed)"
+    },
+    "ai.config": {
+      "label": "AI settings",
+      "description": "The AI channel and the server's AI personality"
+    },
+    "ai.reset": {
+      "label": "Clearing the AI conversation",
+      "description": "Starting a new conversation in the AI channel"
+    },
+    "eco.admin": {
+      "label": "Economy admin",
+      "description": "Crediting and deducting money, profiles, underworld reset"
+    },
+    "shop.admin": {
+      "label": "Managing the shop",
+      "description": "Adding and editing custom shop products (roles, items)"
+    },
+    "underworld.events": {
+      "label": "Underworld events",
+      "description": "Manually starting and stopping world events",
+      "commands": "/alvilag bunozes → News tab"
+    },
+    "bitcoin.events": {
+      "label": "Crypto events",
+      "description": "Manually starting and stopping crypto events (heatwave, GPU shortage, cheap power …)",
+      "commands": "/btc tozsde → News tab, admin row"
+    },
+    "levels.admin": {
+      "label": "Managing levels",
+      "description": "Level-up channel, reward roles, adjusting XP"
+    },
+    "community.review": {
+      "label": "Reviewing suggestions & bug reports",
+      "description": "Accepting, rejecting, marking as done",
+      "commands": "the buttons on suggestion and bug cards"
+    },
+    "giveaway": {
+      "label": "Giveaways",
+      "description": "Starting, ending and rerolling giveaways"
+    },
+    "verify.info": {
+      "label": "Verification data",
+      "description": "Who accepted the rules and when"
+    },
+    "use.economy": {
+      "label": "Economy",
+      "description": "Balance, work, bank, transfers, shop, investments"
+    },
+    "use.underworld": {
+      "label": "Underworld",
+      "description": "Crimes, robbing members, money laundering, gang heists"
+    },
+    "use.casino": {
+      "label": "Casino",
+      "description": "Casino games, chips, daily bonus, lottery"
+    },
+    "use.bitcoin": {
+      "label": "Bitcoin",
+      "description": "Bitcoin terminal, mining farm, price"
+    },
+    "use.stocks": {
+      "label": "Stock market",
+      "description": "Share trading, portfolio, orders"
+    },
+    "use.music": {
+      "label": "Music",
+      "description": "Music playback and the player panel (e.g. DJ role only)"
+    },
+    "use.ai": {
+      "label": "AI",
+      "description": "The AI channel and the right-click AI features",
+      "commands": "AI channel, AI: Explain / Translate"
+    },
+    "use.fun": {
+      "label": "Fun",
+      "description": "Mini games and fun commands"
+    },
+    "use.tools": {
+      "label": "Tools",
+      "description": "Reminders, polls, AFK, birthdays"
+    },
+    "use.levels": {
+      "label": "Levelling",
+      "description": "Rank card, leaderboard, rewards"
+    },
+    "use.tickets": {
+      "label": "Opening tickets",
+      "description": "Who can open a ticket from the ticket panel",
+      "commands": "the ticket panel, /ticket jegyeim"
+    },
+    "clans.admin": {
+      "label": "Managing clans",
+      "description": "Deleting clans, manually starting and stopping turf wars, a full clan reset"
+    },
+    "use.clans": {
+      "label": "Clans",
+      "description": "Founding a clan and clan life: treasury, upgrades, turf wars"
+    },
+    "use.fishing": {
+      "label": "Fishing & hunting",
+      "description": "RPG fishing and hunting, aquarium, trophy room, gear shop"
+    },
+    "analytics": {
+      "label": "Activity insights",
+      "description": "List of inactive members and server activity chart; mass-assigning the inactive role or kicking also needs Assigning roles / Kicking and Bulk actions"
+    },
+    "duty.manage": {
+      "label": "Manage duty",
+      "description": "Clock out other members, review leave requests, quota roles, rename duty types"
+    },
+    "duty.admin": {
+      "label": "Duty time and data (admin)",
+      "description": "Add / remove time, reset, permanent deletion, export, reports, leaderboard and viewing other members' time — every step is logged"
+    },
+    "use.duty": {
+      "label": "Duty",
+      "description": "Clock in and out, own duty time, leave requests"
+    }
+  },
+  "units": {
+    "%": "%",
+    "XP": "XP",
+    "chip": "chips",
+    "db": "pcs",
+    "fő": "people",
+    "mp": "sec",
+    "nap": "days",
+    "perc": "min",
+    "pont/óra": "points/hour",
+    "reakció": "reactions",
+    "szint": "levels",
+    "¤": "¤",
+    "¤ × szint": "¤ × level",
+    "¤/hőpont": "¤/heat point",
+    "¤/kWh": "¤/kWh",
+    "¤/perc": "¤/min",
+    "óra": "hours",
+    "¤/óra": "¤/hour",
+    "XP / perc": "XP / min"
+  }
+}

@@ -1,0 +1,2073 @@
+{
+  "settings": {
+    "language": {
+      "label": "Nyelv",
+      "description": "A bot nyelve ezen a szerveren: hu (magyar), en (English) vagy de (Deutsch) — minden üzenet, kártya, napló, panel, válasz — és a / parancslista is — ezen a nyelven jelenik meg",
+      "options": {
+        "hu": "Magyar",
+        "en": "English",
+        "de": "Deutsch"
+      }
+    },
+    "language_per_user": {
+      "label": "Rejtett válaszok a tag nyelvén",
+      "description": "Bekapcsolva a csak neked látszó (rejtett) válaszok a tag saját Discord-nyelvén jönnek (magyar / angol / német kliensnél), a nyilvános üzenetek maradnak a szerver nyelvén"
+    },
+    "hide_staff_commands": {
+      "label": "Stábparancsok elrejtése a tagok elől",
+      "description": "Egyszerűbb / lista: a stáb- és adminparancsokat (pl. /ban, /purge, /lock) csak azok látják a / listában, akiknek megvan hozzá a Discord-joguk (Üzenetek kezelése / Tagok időkorlátozása / Szerver kezelése). Ha egy stábtag nem látja a parancsát: adj neki ilyen jogot, vagy a Szerverbeállítások → Integrációk → bot alatt engedélyezd neki, vagy kapcsold ki ezt"
+    },
+    "currency_symbol": {
+      "label": "Pénznem jele",
+      "description": "A pénznem jele az összegek mellett"
+    },
+    "server_invite_link": {
+      "label": "Meghívó link",
+      "description": "A szerver meghívója (a honeypot-üzenetben jelenik meg)",
+      "zero": "nincs"
+    },
+    "theme_color": {
+      "label": "Kártyák színe",
+      "description": "A bot kártyáinak alapszíne ezen a szerveren (az állapotszínek — siker, hiba, figyelmeztetés — és a funkciók saját színei maradnak)",
+      "zero": "alap (narancs)"
+    },
+    "module_economy": {
+      "label": "Gazdaság",
+      "description": "Gazdaság, munka, bolt — kikapcsolva az alvilág, a bitcoin és a tőzsde sem fut"
+    },
+    "module_underworld": {
+      "label": "Alvilág",
+      "description": "Alvilág: bűntények, pénzmosás, bandás balhék, világesemények (a Gazdasággal együtt)"
+    },
+    "module_bitcoin": {
+      "label": "Bitcoin",
+      "description": "Bitcoin: kriptotőzsde, bányászfarm, kriptohírek (a Gazdasággal együtt)"
+    },
+    "module_stocks": {
+      "label": "Tőzsde",
+      "description": "Tőzsde: részvénypiac, megbízások, árfolyamtábla (a Gazdasággal együtt)"
+    },
+    "module_casino": {
+      "label": "Kaszinó",
+      "description": "Kaszinó: játékok, chipek, jackpot, lottó"
+    },
+    "module_leveling": {
+      "label": "Szintrendszer",
+      "description": "XP, szintlépés, rangkártya, szintjutalmak"
+    },
+    "module_fun": {
+      "label": "Szórakozás",
+      "description": "Szórakoztató parancsok"
+    },
+    "module_ai": {
+      "label": "AI chat",
+      "description": "AI chat a beállított csatornában"
+    },
+    "module_quests": {
+      "label": "Küldetések és kitüntetések",
+      "description": "Napi küldetések, sorozat, kitüntetések (/kuldetesek)"
+    },
+    "module_music": {
+      "label": "Zene",
+      "description": "Zene: YouTube / Spotify lejátszó (/zene lejatszas, /zene sor …)"
+    },
+    "module_duty": {
+      "label": "Szolgálat",
+      "description": "Szolgálati rendszer: be- és kiléptetés, idők, távollét, riportok (/szolgalat …)"
+    },
+    "module_tickets": {
+      "label": "Ticketek",
+      "description": "Ticketek: jegynyitás a panelről, /ticket — kikapcsolva a nyitott jegyek még lezárhatók"
+    },
+    "ticket_thread_mode": {
+      "label": "Jegyek szálként",
+      "description": "Az új jegyek privát szálként nyílnak a panel csatornájában (nem külön csatornaként). Így nem fogy el a szerver csatornanyitási kerete — a Discord ezt túllépéskor órákra letiltja. Kikapcsolva a régi mód: minden jegy saját csatorna"
+    },
+    "ticket_thread_channel": {
+      "label": "Jegy-szálak csatornája",
+      "description": "Ebben a csatornában nyílnak a jegy-szálak (üresen: abban, ahol a tag a panel gombját megnyomta). A botnak itt kell: privát szál létrehozása, üzenet szálban, szálak kezelése"
+    },
+    "staff_role": {
+      "label": "Stáb rang",
+      "description": "Általános stáb rang — a /jogosultsag „Stáb” szintjéhez tartozik (további stáb-, moderátor- és admin rangok: /jogosultsag)",
+      "why": "a stáb-funkciókat így csak az adminisztrátorok érik el"
+    },
+    "perm_discord_fallback": {
+      "label": "Discord-jogok elfogadása",
+      "description": "Akinek a Discordon megvan a funkcióhoz illő joga (pl. Tagok kitiltása), az a bot parancsát is használhatja — kikapcsolva csak a /jogosultsag rangszintjei számítanak"
+    },
+    "member_role": {
+      "label": "Tag rang",
+      "description": "Sikeres verifikáció után ezt a rangot kapja a tag"
+    },
+    "unverified_role": {
+      "label": "Verifikálatlan rang",
+      "description": "Belépéskor kapja, a verifikációig"
+    },
+    "rules_channel": {
+      "label": "Szabályzat csatorna",
+      "description": "A szabályzat csatornája (a verifikáció hivatkozik rá)"
+    },
+    "autorole_member_role": {
+      "label": "Automatikus rang: új tagok",
+      "description": "Minden új tag automatikusan megkapja"
+    },
+    "autorole_bot_role": {
+      "label": "Automatikus rang: új botok",
+      "description": "Minden új bot automatikusan megkapja"
+    },
+    "welcome_channel": {
+      "label": "Üdvözlő csatorna",
+      "description": "Ide érkeznek az üdvözlő kártyák",
+      "why": "az új tagokat senki nem köszönti"
+    },
+    "welcome_message": {
+      "label": "Üdvözlő szöveg",
+      "description": "Üdvözlő szöveg — {mention} {nev} {szerver} {tagszam} {#csatorna} :emoji:"
+    },
+    "welcome_title": {
+      "label": "Kép: nagy felirat",
+      "description": "Nagy felirat a képen"
+    },
+    "welcome_subtitle": {
+      "label": "Kép: kis felirat",
+      "description": "Kis felirat a képen a név alatt"
+    },
+    "welcome_theme": {
+      "label": "Kép: téma",
+      "description": "A kép témája: narancs, ejfel, aurora, naplemente, ocean, neon, galaxis, erdo, grafit, sajat",
+      "options": {
+        "narancs": "Narancs (alap)",
+        "ejfel": "Éjfél",
+        "aurora": "Aurora",
+        "naplemente": "Naplemente",
+        "ocean": "Óceán",
+        "neon": "Neon",
+        "galaxis": "Galaxis",
+        "erdo": "Erdő",
+        "grafit": "Grafit",
+        "sajat": "Saját háttérkép (az Üdvözlő-stúdióban tölthető fel)"
+      }
+    },
+    "welcome_color": {
+      "label": "Kép: kiemelő szín",
+      "description": "Kiemelő szín, pl. #FD8200 (üres = a téma színe)",
+      "zero": "a téma színe"
+    },
+    "welcome_image": {
+      "label": "Üdvözlő kép",
+      "description": "Üdvözlő kép (avatar, név, felirat)"
+    },
+    "welcome_ping": {
+      "label": "Az új tag megemlítése",
+      "description": "Az új tag megemlítése (értesítést kap)"
+    },
+    "welcome_stats": {
+      "label": "Tagszám és fiókkor",
+      "description": "Tagszám és fiók kora a kártya alján"
+    },
+    "welcome_tip": {
+      "label": "Véletlen tipp",
+      "description": "Véletlen tipp a kártya alján"
+    },
+    "welcome_greet_button": {
+      "label": "„Köszöntsd!” gomb",
+      "description": "„Köszöntsd!” gomb a többi tagnak"
+    },
+    "welcome_cleanup": {
+      "label": "Törlés gyors kilépésnél",
+      "description": "Az üdvözlő törlése, ha a tag 10 percen belül kilép"
+    },
+    "welcome_link_1": {
+      "label": "Linkgomb 1",
+      "description": "Gomb a kártya alatt: 1. csatorna (pl. szabályzat)"
+    },
+    "welcome_link_2": {
+      "label": "Linkgomb 2",
+      "description": "Gomb a kártya alatt: 2. csatorna"
+    },
+    "welcome_link_3": {
+      "label": "Linkgomb 3",
+      "description": "Gomb a kártya alatt: 3. csatorna"
+    },
+    "welcome_dm": {
+      "label": "Privát üdvözlő (DM)",
+      "description": "Privát üdvözlő üzenet (DM) is az új tagnak"
+    },
+    "welcome_dm_message": {
+      "label": "Privát üdvözlő szövege",
+      "description": "A privát üdvözlő szövege"
+    },
+    "goodbye_channel": {
+      "label": "Búcsúzó csatorna",
+      "description": "Ide érkeznek a búcsúzó kártyák"
+    },
+    "goodbye_message": {
+      "label": "Búcsúzó szöveg",
+      "description": "Búcsúzó szöveg — {nev} {szerver} {tagszam} {bucsu}"
+    },
+    "goodbye_title": {
+      "label": "Búcsúkép: nagy felirat",
+      "description": "Nagy felirat a búcsúképen"
+    },
+    "goodbye_subtitle": {
+      "label": "Búcsúkép: kis felirat",
+      "description": "Kis felirat a búcsúképen"
+    },
+    "goodbye_image": {
+      "label": "Búcsúkép",
+      "description": "Búcsúkép (szürke avatar, felirat)"
+    },
+    "goodbye_theme": {
+      "label": "Búcsúkép: téma",
+      "description": "A búcsúkép témája (üres = ugyanaz, mint az üdvözlőé): narancs, ejfel, aurora, naplemente, ocean, neon, galaxis, erdo, grafit, sajat",
+      "zero": "ugyanaz, mint az üdvözlőé",
+      "options": {
+        "": "Ugyanaz, mint az üdvözlőé",
+        "narancs": "Narancs (alap)",
+        "ejfel": "Éjfél",
+        "aurora": "Aurora",
+        "naplemente": "Naplemente",
+        "ocean": "Óceán",
+        "neon": "Neon",
+        "galaxis": "Galaxis",
+        "erdo": "Erdő",
+        "grafit": "Grafit",
+        "sajat": "Saját háttérkép (az Üdvözlő-stúdióban tölthető fel)"
+      }
+    },
+    "goodbye_color": {
+      "label": "Búcsúkép: kiemelő szín",
+      "description": "A búcsúkép kiemelő színe, pl. #FD8200 (üres = ugyanaz, mint az üdvözlőé; „tema” = a téma saját színe)",
+      "zero": "ugyanaz, mint az üdvözlőé",
+      "options": {
+        "tema": "A téma saját színe"
+      }
+    },
+    "goodbye_stats": {
+      "label": "Búcsú-statisztika",
+      "description": "Búcsúnál: mikor csatlakozott, hányan maradtak"
+    },
+    "mod_log_channel": {
+      "label": "Moderációs napló",
+      "description": "Esetek, automod-találatok és fellebbezések",
+      "why": "nem látod, mit szűr és kit büntet a bot"
+    },
+    "modmail_channel": {
+      "label": "Modmail csatorna",
+      "description": "Modmail: a tagok privát üzenetben írhatnak a botnak, és minden beszélgetés külön szálat kap ebben a (csak a stáb által látható) csatornában",
+      "zero": "nincs modmail"
+    },
+    "modmail_anonymous": {
+      "label": "Modmail: névtelen válaszok",
+      "description": "A modmail-válaszokban nem látszik, melyik stábtag írta őket"
+    },
+    "mod_dm_notify": {
+      "label": "DM a szankcionált tagnak",
+      "description": "A szankcionált tag DM-et kap (fellebbezés gombbal)"
+    },
+    "global_mod_enforce": {
+      "label": "Globális tiltások végrehajtása",
+      "description": "A bot tulajdonosának globális tiltásait/némításait itt is végrehajtja (ki: csak naplóz)"
+    },
+    "mod_warn_threshold": {
+      "label": "Figyelmeztetési küszöb",
+      "description": "Ennyi figyelmeztetésenként automatikus timeout",
+      "zero": "kikapcsolva"
+    },
+    "mod_warn_timeout_minutes": {
+      "label": "Automatikus timeout hossza",
+      "description": "Az automatikus timeout hossza"
+    },
+    "mod_antispam": {
+      "label": "Antispam",
+      "description": "5 mp alatt 6+ üzenet → törlés + 5 perc timeout"
+    },
+    "mod_antilink": {
+      "label": "Linkszűrő",
+      "description": "A nem engedélyezett oldalak linkjeinek törlése"
+    },
+    "mod_link_allowlist": {
+      "label": "Engedélyezett domainek",
+      "description": "A linkszűrőnél engedélyezett domainek, vesszővel"
+    },
+    "mod_antiinvite": {
+      "label": "Meghívó-szűrő",
+      "description": "Más szerverek Discord-meghívóinak törlése"
+    },
+    "mod_caps_mention": {
+      "label": "Említés- és CAPS-szűrő",
+      "description": "Tömeges említés (6+), csupa nagybetű és falspam (16+ sor) szűrése"
+    },
+    "snapshot_auto": {
+      "label": "Automatikus szerkezet-mentés",
+      "description": "Naponta automatikus mentés a szerver szerkezetéről (rangok, csatornák, hozzáférések) — csak ha változott; visszaállítás a vezérlőpult Mentések oldalán"
+    },
+    "mod_antiraid": {
+      "label": "Friss fiókok kizárása",
+      "description": "24 óránál fiatalabb fiókok automatikus kirúgása"
+    },
+    "mod_auto_slowmode": {
+      "label": "Adaptív lassított mód",
+      "description": "Adaptív lassított mód üzenetáradatnál"
+    },
+    "automod_bypass_role": {
+      "label": "Automod-mentes rang",
+      "description": "Akinek ez a rangja megvan, arra az automatikus moderáció nem hat (szűrők, AI-moderáció, honeypot, a bot AutoMod-szabályai). Üresen: a „Bypass” nevű rang",
+      "zero": "a „Bypass” nevű rang"
+    },
+    "warn_log_channel": {
+      "label": "Figyelmeztetések naplója",
+      "description": "A figyelmeztetések (/warn, automatikus eszkaláció) naplója (üresen: a moderációs napló)"
+    },
+    "warn_expiry_days": {
+      "label": "Figyelmeztetések lejárata",
+      "description": "Ennyi nap után jár le egy figyelmeztetés (a lejárt nem számít a létrán)",
+      "zero": "sosem jár le"
+    },
+    "warn_ladder": {
+      "label": "Figyelmeztetési létra",
+      "description": "A figyelmeztetési létra (1–10 szint): az aktív figyelmeztetések száma szerinti rang és művelet (semmi, timeout, kirúgás, kitiltás) — a weben szerkeszthető. Üresen a régi küszöb-beállítás él",
+      "zero": "a régi küszöb-beállítás"
+    },
+    "warn_dm": {
+      "label": "DM a figyelmeztetésekről",
+      "description": "A tag DM-et kap új, visszavont és lejárt figyelmeztetésnél (indok, aktív szám, lejárat)"
+    },
+    "report_channel": {
+      "label": "Jelentett üzenetek",
+      "description": "Jobbklikk → „Üzenet jelentése” ide érkezik"
+    },
+    "aimod_enabled": {
+      "label": "AI-moderáció",
+      "description": "Automatikus moderáció: törlés, pontok, némítás, DM-kártya"
+    },
+    "aimod_ai": {
+      "label": "AI-elemzés",
+      "description": "A szabályokon átjutó gyanús üzeneteket az AI is elemzi"
+    },
+    "aimod_ai_all": {
+      "label": "Minden üzenet elemzése",
+      "description": "Minden üzenetet elemez, nem csak a gyanúsakat (több AI-kérés)"
+    },
+    "aimod_profanity": {
+      "label": "Káromkodás-szűrő",
+      "description": "A beépített magyar és angol káromkodás-szűrő"
+    },
+    "aimod_strictness": {
+      "label": "Szigorúság",
+      "description": "A pontokhoz tartozó némítások: enyhe, normal vagy szigoru",
+      "options": {
+        "enyhe": "Enyhe",
+        "normal": "Normál",
+        "szigoru": "Szigorú"
+      }
+    },
+    "aimod_threshold": {
+      "label": "AI-küszöb",
+      "description": "Az AI ennyi biztosságtól intézkedik magától — alatta a moderátorok döntenek (felülvizsgálat)"
+    },
+    "aimod_expiry_days": {
+      "label": "Pontok lejárata",
+      "description": "Ennyi nap után járnak le a pontok"
+    },
+    "aimod_rules": {
+      "label": "Szabályzat",
+      "description": "A szerver szabályzata — az AI ez alapján is dönt, a tagok a figyelmeztetésből elolvashatják",
+      "zero": "nincs (általános szabályok)"
+    },
+    "aimod_ignored_channels": {
+      "label": "Kivételes csatornák",
+      "description": "Ezekben a csatornákban nincs AI-moderáció (csatorna-azonosítók vesszővel)",
+      "zero": "nincs"
+    },
+    "aimod_log_channel": {
+      "label": "AI-moderáció naplója",
+      "description": "Az AI-moderáció naplója és a felülvizsgálandó esetek (üresen: a moderációs napló)"
+    },
+    "aimod_public_notice": {
+      "label": "Jelzés a csatornában",
+      "description": "Rövid, magától eltűnő jelzés a csatornában a törlésről"
+    },
+    "bot_shield_enabled": {
+      "label": "BotShield",
+      "description": "Nem engedélyezett botok automatikus kirúgása"
+    },
+    "bot_shield_allowed_bots": {
+      "label": "Engedélyezett botok",
+      "description": "Engedélyezett bot ID-k vesszővel elválasztva",
+      "zero": "nincs"
+    },
+    "bot_shield_log_channel": {
+      "label": "BotShield napló",
+      "description": "A BotShield eseményei"
+    },
+    "honeypot_channel": {
+      "label": "Honeypot csatorna",
+      "description": "Spambot-csapda: aki ide ír, azt a bot eltávolítja (a Panelek oldalon egy kattintással létrehozható)"
+    },
+    "honeypot_action": {
+      "label": "Honeypot büntetés",
+      "description": "Mi történjen a csapdába írókkal: softban, ban, kick, timeout vagy log (csak napló)",
+      "options": {
+        "softban": "Softban (kitiltás + azonnali feloldás: az üzenetei törlődnek)",
+        "ban": "Kitiltás",
+        "kick": "Kirúgás",
+        "timeout": "Némítás (timeout)",
+        "log": "Csak naplózás"
+      }
+    },
+    "honeypot_repeat_ban": {
+      "label": "Honeypot: ismétlőknek kitiltás",
+      "description": "Aki 30 napon belül másodszor is a csapdába ír, végleges kitiltást kap"
+    },
+    "log_channel": {
+      "label": "Általános napló",
+      "description": "Általános napló — tartalék, ha egy témának nincs saját naplója",
+      "why": "a bot eseményei (és a tartalék napló) nem jelennek meg sehol"
+    },
+    "audit_messages_channel": {
+      "label": "Üzenetnapló",
+      "description": "Üzenet törlések és szerkesztések"
+    },
+    "audit_members_channel": {
+      "label": "Tagnapló",
+      "description": "Belépések, kilépések, rang- és névváltozások"
+    },
+    "audit_voice_channel": {
+      "label": "Hangnapló",
+      "description": "Hangcsatorna-események"
+    },
+    "audit_mod_channel": {
+      "label": "Szankciónapló",
+      "description": "Kitiltások, kirúgások, timeoutok"
+    },
+    "audit_server_channel": {
+      "label": "Szervernapló",
+      "description": "Csatorna-, rang-, emoji- és szerverváltozások"
+    },
+    "suggestion_channel": {
+      "label": "Ötletek elbírálása",
+      "description": "Ide kerülnek elbírálásra a beküldött ötletek",
+      "why": "a beküldött ötletek nem jutnak el a stábhoz"
+    },
+    "bug_channel": {
+      "label": "Hibajegyek elbírálása",
+      "description": "Ide kerülnek elbírálásra a hibajegyek",
+      "why": "a hibabejelentések nem jutnak el a stábhoz"
+    },
+    "starboard_channel": {
+      "label": "Starboard csatorna",
+      "description": "Ide kerülnek a sok reakciót kapott üzenetek"
+    },
+    "counting_channel": {
+      "label": "Számolós csatorna",
+      "description": "A tagok sorban számolnak 1-től; aki elrontja, újrakezdődik (rekorddal)",
+      "zero": "nincs"
+    },
+    "wordchain_channel": {
+      "label": "Szólánc csatorna",
+      "description": "Szólánc: a következő szó az előző utolsó betűjével kezdődik (a magyar kettős betűkkel: cs, gy, ny, sz, zs …)",
+      "zero": "nincs"
+    },
+    "community_goal_channel": {
+      "label": "Közösségi cél csatorna",
+      "description": "Heti közösségi cél: a szerver közösen teljesít egy célt (üzenetek, hangpercek, munkák …), élő, képes kártyával; ha összejön, minden résztvevő jutalmat kap",
+      "zero": "nincs"
+    },
+    "community_goal_reward": {
+      "label": "Közösségi cél: jutalom",
+      "description": "Ennyit kap minden tag, aki hozzájárult a teljesült heti célhoz",
+      "zero": "nincs"
+    },
+    "quiz_channel": {
+      "label": "Kvíz csatorna",
+      "description": "Napi kvíz: a bot naponta néhányszor kérdez (tudáskérdés, fejszámolás, betűkeverés, számsor), az első helyes válasz jutalmat ér",
+      "zero": "nincs"
+    },
+    "quiz_per_day": {
+      "label": "Kvíz: kérdések naponta",
+      "description": "Átlagosan ennyi kvízkérdés jön naponta (9 és 23 óra között)"
+    },
+    "quiz_reward": {
+      "label": "Kvíz: pénzjutalom",
+      "description": "Ennyi pénzt kap, aki elsőként helyesen válaszol",
+      "zero": "nincs"
+    },
+    "quiz_xp": {
+      "label": "Kvíz: XP-jutalom",
+      "description": "Ennyi XP-t kap, aki elsőként helyesen válaszol",
+      "zero": "nincs"
+    },
+    "wordchain_reset_on_fail": {
+      "label": "Szólánc: hibánál újrakezdés",
+      "description": "Rossz szónál újrakezdődik a lánc (kikapcsolva csak a rossz szó nem számít)"
+    },
+    "invite_log_channel": {
+      "label": "Meghívó-napló csatorna",
+      "description": "Ide kerül, ki kit hívott meg (és ha valaki gyanúsan új fiókkal jön) — a követéshez a botnak Szerver kezelése jog kell",
+      "zero": "nincs — csak a /meghivok mutatja"
+    },
+    "invite_reward": {
+      "label": "Jutalom meghívásonként",
+      "description": "Ennyi pénz jár a meghívónak minden érvényes, első belépésért",
+      "zero": "nincs jutalom"
+    },
+    "invite_min_account_days": {
+      "label": "Álfiók-szűrő: a fiók minimális kora",
+      "description": "Az ennél fiatalabb fiókkal érkezők gyanúsnak számítanak (nem érvényes meghívás, nincs jutalom)",
+      "zero": "kikapcsolva"
+    },
+    "quest_reward_multiplier": {
+      "label": "Jutalmak szorzója",
+      "description": "A napi küldetések, a napi láda és a kitüntetések pénzjutalmának szorzója",
+      "zero": "nincs pénzjutalom"
+    },
+    "quest_xp": {
+      "label": "XP küldetésenként",
+      "description": "Ennyi XP jár egy teljesített napi küldetésért (ha megy a szintrendszer)",
+      "zero": "nincs XP"
+    },
+    "achievement_channel": {
+      "label": "Kitüntetések csatornája",
+      "description": "Ide kerül egy kis kártya, ha valaki új kitüntetést szerez",
+      "zero": "nincs — a /kuldetesek mutatja"
+    },
+    "starboard_threshold": {
+      "label": "Starboard küszöb",
+      "description": "Ennyi reakciótól kerül ki egy üzenet a starboardra"
+    },
+    "starboard_emoji": {
+      "label": "Starboard emoji",
+      "description": "A figyelt reakció-emoji"
+    },
+    "birthday_channel": {
+      "label": "Születésnapi köszöntő",
+      "description": "Születésnapi köszöntések (reggel 8-kor)"
+    },
+    "name_day_channel": {
+      "label": "Névnap-köszöntő",
+      "description": "A napi névnap-köszöntő csatornája"
+    },
+    "name_day_hour": {
+      "label": "Névnap-köszöntő ideje",
+      "description": "Hány órakor menjen ki a napi névnap-köszöntő"
+    },
+    "name_day_mention": {
+      "label": "Ünneplők megemlítése",
+      "description": "A névnap-köszöntő megemlíti az aznap ünneplő tagokat"
+    },
+    "holiday_channel": {
+      "label": "Ünnepnapok csatornája",
+      "description": "A magyar ünnepekről és emléknapokról szóló napi tájékoztató csatornája (mit ünneplünk, kire emlékezünk)"
+    },
+    "holiday_hour": {
+      "label": "Ünnepnapi tájékoztató ideje",
+      "description": "Hány órakor menjen ki az ünnepnapi tájékoztató"
+    },
+    "holiday_mourning": {
+      "label": "Emlék- és gyásznapok is",
+      "description": "Az emléknapokon és a nemzeti gyásznapokon is menjen tájékoztató (pl. október 6., november 4.) — kikapcsolva csak az ünnepnapokon"
+    },
+    "holiday_role": {
+      "label": "Ünnepnapi értesítési rang",
+      "description": "Ezt a rangot megemlíti az ünnepnapi tájékoztató (üresen senkit)"
+    },
+    "level_channel": {
+      "label": "Szintlépési csatorna",
+      "description": "A szintlépési kártyák csatornája",
+      "zero": "ahol a tag írt"
+    },
+    "level_announce": {
+      "label": "Gratuláló kártya",
+      "description": "Szintlépéskor gratuláló kártya a csatornában"
+    },
+    "level_dm": {
+      "label": "Privát értesítés (DM)",
+      "description": "Szintlépéskor privát üzenet (DM) is"
+    },
+    "level_message": {
+      "label": "Saját gratuláció",
+      "description": "Saját gratuláció: {mention} {nev} {szint} {szerver} {jutalom}",
+      "zero": "az alapszöveg"
+    },
+    "level_xp_multiplier": {
+      "label": "XP-szorzó",
+      "description": "Minden üzenet- és hang-XP szorzója: 0,5 = fele annyi XP (lassabb szintlépés), 2 = dupla"
+    },
+    "level_message_xp_min": {
+      "label": "XP üzenetenként — legkisebb",
+      "description": "Egy üzenetért legalább ennyi XP jár (a tényleges érték véletlen a legkisebb és a legnagyobb között)"
+    },
+    "level_message_xp_max": {
+      "label": "XP üzenetenként — legnagyobb",
+      "description": "Egy üzenetért legfeljebb ennyi XP jár"
+    },
+    "level_message_cooldown": {
+      "label": "Várakozás két XP-s üzenet között",
+      "description": "Ennyi másodpercenként érhet XP-t egy tag üzenete (nagyobb érték = lassabb szintlépés, kevesebb spam)"
+    },
+    "level_voice_xp_amount": {
+      "label": "XP percenként hangcsatornában",
+      "description": "Hangcsatornában percenként ennyi XP jár (ha legalább ketten beszélgetnek)"
+    },
+    "level_voice_xp": {
+      "label": "XP hangcsatornában",
+      "description": "Hangcsatornában is jár XP (ha legalább ketten beszélgetnek)"
+    },
+    "level_money_per_level": {
+      "label": "Pénzjutalom szintenként",
+      "description": "Szintlépéskor szint × ennyi pénz jár",
+      "zero": "nincs"
+    },
+    "level_stack_roles": {
+      "label": "Jutalomrangok halmozása",
+      "description": "A jutalomrangok halmozódnak (ki: csak a legmagasabb marad)"
+    },
+    "level_theme": {
+      "label": "Rangkártya témája",
+      "description": "A rangkártya témája (mint az üdvözlőképnél)",
+      "options": {
+        "narancs": "Narancs (alap)",
+        "ejfel": "Éjfél",
+        "aurora": "Aurora",
+        "naplemente": "Naplemente",
+        "ocean": "Óceán",
+        "neon": "Neon",
+        "galaxis": "Galaxis",
+        "erdo": "Erdő",
+        "grafit": "Grafit"
+      }
+    },
+    "wheel_base": {
+      "label": "Szerencsekerék: alapnyeremény",
+      "description": "Napi szerencsekerék (/penz → Szerencsekerék): a pénznyeremények alapja — a kerék ennek 1–20-szorosát adja (0 = kikapcsolva)",
+      "zero": "kikapcsolva"
+    },
+    "mega_events": {
+      "label": "Piaci összeomlás / aranykor",
+      "description": "Ritka mega-esemény: piaci összeomlás vagy aranykor — egyszerre mozdul a bitcoin, a tőzsde és az alvilág (ami be van kapcsolva)"
+    },
+    "mega_event_days": {
+      "label": "Mega-esemény gyakorisága",
+      "description": "Átlagosan ennyi naponta jön mega-esemény (az előző után legalább a fele ennyi nap szünet)"
+    },
+    "mega_event_channel": {
+      "label": "Mega-esemény csatorna",
+      "description": "Ide megy a mega-esemény közös bannere (üresen a kripto-, a tőzsdei vagy az alvilági hírcsatornába)",
+      "zero": "automatikus"
+    },
+    "starting_cash": {
+      "label": "Kezdő készpénz",
+      "description": "Ennyi készpénzzel indul egy új profil"
+    },
+    "bank_interest_rate": {
+      "label": "Napi banki kamat",
+      "description": "A bankban tartott pénz napi kamata"
+    },
+    "transfer_max_amount": {
+      "label": "Utalási felső határ",
+      "description": "Egy utalás felső határa",
+      "zero": "korlátlan"
+    },
+    "bank_interest_cap": {
+      "label": "Kamatozó összeg felső határa",
+      "description": "A napi kamat legfeljebb ennyi bankbetét után jár (a fölötte lévő rész nem kamatozik — így a gazdagok sem szaladnak el végtelenül). 0 = nincs korlát",
+      "zero": "nincs korlát"
+    },
+    "daily_reward_base": {
+      "label": "Napi jutalom",
+      "description": "A napi jutalom (/penz → Napi jutalom) első napi összege",
+      "zero": "kikapcsolva"
+    },
+    "daily_reward_step": {
+      "label": "Napi jutalom: emelés naponta",
+      "description": "Ennyivel nő a napi jutalom minden egymást követő napon"
+    },
+    "daily_reward_max_streak": {
+      "label": "Napi jutalom: sorozat hossza",
+      "description": "Ennyi napig nő a napi jutalom sorozata"
+    },
+    "eco_log_channel": {
+      "label": "Gazdasági napló",
+      "description": "Gazdasági tranzakciók naplója (utalás, bűnözés, admin)",
+      "why": "nem látod a nagy pénzmozgásokat és a nagy balhékat"
+    },
+    "shop_log_channel": {
+      "label": "Bolti napló",
+      "description": "Bolti vásárlások naplója"
+    },
+    "community_fund_channel": {
+      "label": "Közösségi kassza",
+      "description": "A heti közösségi kassza sorsolásának kártyája"
+    },
+    "work_cooldown_hours": {
+      "label": "Munka: újratöltés",
+      "description": "Ennyi időnként lehet dolgozni"
+    },
+    "work_reward_min": {
+      "label": "Munka: minimum fizetés",
+      "description": "A munka legkisebb fizetése"
+    },
+    "work_reward_max": {
+      "label": "Munka: maximum fizetés",
+      "description": "A munka legnagyobb fizetése"
+    },
+    "work_streak_max_days": {
+      "label": "Sorozat: maximum napok",
+      "description": "Ennyi napig nő a munkasorozat bónusza"
+    },
+    "work_streak_bonus": {
+      "label": "Sorozat: napi bónusz",
+      "description": "Ennyivel nő a fizetés minden sorozatnappal"
+    },
+    "work_streak_grace_hours": {
+      "label": "Sorozat: türelmi idő",
+      "description": "Ennyi kihagyott idő után szakad meg a sorozat"
+    },
+    "beg_cooldown_minutes": {
+      "label": "Koldulás: újratöltés",
+      "description": "Ennyi időnként lehet koldulni (/penz → Munka)"
+    },
+    "beg_reward_min": {
+      "label": "Koldulás: minimum",
+      "description": "A koldulás legkisebb hozama"
+    },
+    "beg_reward_max": {
+      "label": "Koldulás: maximum",
+      "description": "A koldulás legnagyobb hozama"
+    },
+    "repont_cooldown_hours": {
+      "label": "Repont: újratöltés",
+      "description": "Ennyi időnként lehet palackot visszaváltani"
+    },
+    "repont_bottle_min": {
+      "label": "Repont: minimum palack",
+      "description": "Legkevesebb ennyi palackot talál"
+    },
+    "repont_bottle_max": {
+      "label": "Repont: maximum palack",
+      "description": "Legfeljebb ennyi palackot talál"
+    },
+    "repont_bottle_value": {
+      "label": "Repont: palackár",
+      "description": "Egy palack visszaváltási értéke"
+    },
+    "delivery_cooldown_hours": {
+      "label": "Futár: újratöltés",
+      "description": "Ennyi időnként lehet futárkodni"
+    },
+    "fishing_cooldown_hours": {
+      "label": "Horgászat: újratöltés",
+      "description": "Ennyi időnként lehet horgászni"
+    },
+    "mining_cooldown_hours": {
+      "label": "Bányászat: újratöltés",
+      "description": "Ennyi időnként lehet bányászni (munka)"
+    },
+    "hunting_cooldown_hours": {
+      "label": "Vadászat: újratöltés",
+      "description": "Ennyi időnként lehet vadászni"
+    },
+    "underworld_news_channel": {
+      "label": "Alvilági hírcsatorna",
+      "description": "A világesemények, nagy balhék és letartóztatások hírei",
+      "why": "az események és a nagy balhék hírei csak a /alvilag bunozes Hírek lapján látszanak"
+    },
+    "underworld_events": {
+      "label": "Automatikus események",
+      "description": "Automatikus világesemények (razzia, sztrájk, közkegyelem …)"
+    },
+    "underworld_event_interval_minutes": {
+      "label": "Esemény-gyakoriság",
+      "description": "Átlagosan ennyi időnként jön új esemény"
+    },
+    "crime_min_level": {
+      "label": "Szükséges aktivitási szint",
+      "description": "Ettől az aktivitási szinttől érhető el az alvilág",
+      "zero": "nincs korlát"
+    },
+    "crime_loot_multiplier": {
+      "label": "Zsákmány-szorzó",
+      "description": "A bűntények és balhék zsákmányának szorzója"
+    },
+    "crime_cooldown_multiplier": {
+      "label": "Várakozás-szorzó",
+      "description": "A bűntények várakozási idejének szorzója (legalább ×0,1 — 0-nál a bűntények korlátlanul ismételhetők lennének)"
+    },
+    "crime_heat_decay_per_hour": {
+      "label": "Körözés csökkenése",
+      "description": "Óránként ennyivel csökken a körözési szint (0–100)"
+    },
+    "crime_bail_per_minute": {
+      "label": "Óvadék ára",
+      "description": "Az óvadék: a hátralévő börtönidő percenkénti ára"
+    },
+    "crime_bribe_per_heat": {
+      "label": "Kenőpénz ára",
+      "description": "Egy hőpont ára megvesztegetéskor (rangonként többszöröződik)"
+    },
+    "crime_global_cooldown_minutes": {
+      "label": "Közös várakozás a bűntények között",
+      "description": "Két bűntény között legalább ennyi idő teljen el (bármelyik bűntényről legyen szó) — enélkül a sok különböző bűntény egymás után végtelen pénzt hozna. 0 = nincs"
+    },
+    "launder_cooldown_minutes": {
+      "label": "Pénzmosás: újratöltés",
+      "description": "Ennyi időnként lehet pénzt mosni"
+    },
+    "robbery_cooldown_hours": {
+      "label": "Tagrablás: újratöltés",
+      "description": "Ennyi időnként lehet tagot kirabolni"
+    },
+    "robbery_success_chance": {
+      "label": "Tagrablás: alapesély",
+      "description": "A tagrablás alap-sikeresélye"
+    },
+    "robbery_max_steal_percent": {
+      "label": "Tagrablás: max zsákmány",
+      "description": "A célpont készpénzéből legfeljebb ennyi vihető el"
+    },
+    "robbery_fine_percent": {
+      "label": "Tagrablás: bírság",
+      "description": "Bukáskor a bírság a célpont készpénzének ennyi része"
+    },
+    "robbery_victim_protection_hours": {
+      "label": "Tagrablás: áldozat védelme",
+      "description": "Egy kirabolt tag ennyi ideig védett"
+    },
+    "bounty_min": {
+      "label": "Vérdíj: minimum",
+      "description": "Legalább ekkora vérdíjat lehet kitűzni egy tagra (10% közvetítői díj levonódik; aki kirabolja vagy lebuktatja a célpontot, viszi)"
+    },
+    "crime_chance_multiplier": {
+      "label": "Sikeresély-szorzó",
+      "description": "Minden bűntény, rablás és bandás balhé sikeresélyének szorzója (1 alatt nehezebb)"
+    },
+    "crime_fine_multiplier": {
+      "label": "Bírság-szorzó",
+      "description": "A bukáskor fizetendő bírságok szorzója"
+    },
+    "crime_jail_multiplier": {
+      "label": "Börtön-szorzó",
+      "description": "A börtön esélyének és hosszának szorzója bukáskor"
+    },
+    "underworld_daily_cap": {
+      "label": "Napi zsákmány-plafon",
+      "description": "Egy tag naponta legfeljebb ennyi piszkos pénzt szerezhet bűnözéssel (az alvilági rangonként nő: Kezdőnél ×1, Keresztapánál ×6). 0 = nincs plafon",
+      "zero": "nincs plafon"
+    },
+    "crime_repeat_penalty": {
+      "label": "Ismétlési levonás",
+      "description": "Ugyanaz a bűntény aznap minden újabb alkalommal ennyivel kevesebbet hoz (legfeljebb a 20%-ára esik)"
+    },
+    "crimes_disabled": {
+      "label": "Kikapcsolt bűntények",
+      "description": "Ezek a bűntények ezen a szerveren nem választhatók",
+      "options": {
+        "zseb": "Zsebtolvajlás",
+        "bolt": "Bolti lopás",
+        "auto": "Autófeltörés",
+        "kisbolt": "Kisbolt kirablása",
+        "benzinkut": "Benzinkút kirablása",
+        "ekszer": "Ékszerbolt kirablása",
+        "szef": "Széffúrás",
+        "kaszino": "Diamond Casino kifosztása",
+        "bank": "Nemzeti Bank kirablása"
+      }
+    },
+    "heists_disabled": {
+      "label": "Kikapcsolt bandás balhék",
+      "description": "Ezek a bandás balhék ezen a szerveren nem indíthatók",
+      "options": {
+        "penzszallito": "Pénzszállító autó",
+        "aranyraktar": "Aranyraktár"
+      }
+    },
+    "robbery_approaches_disabled": {
+      "label": "Kikapcsolt rablási módok",
+      "description": "Ezek a rablási módok ezen a szerveren nem választhatók",
+      "options": {
+        "zsebmetszes": "Zsebmetszés",
+        "utcai": "Utcai rablás",
+        "fegyveres": "Fegyveres rablás"
+      }
+    },
+    "robbery_daily_limit": {
+      "label": "Tagrablás: napi próbálkozások",
+      "description": "Egy tag naponta legfeljebb ennyiszer próbálhat tagot kirabolni",
+      "zero": "korlátlan"
+    },
+    "robbery_max_steal_amount": {
+      "label": "Tagrablás: max összeg",
+      "description": "Egy rablással legfeljebb ennyi vihető el (a százaléktól függetlenül)",
+      "zero": "nincs korlát"
+    },
+    "robbery_min_victim_cash": {
+      "label": "Tagrablás: célpont minimum készpénze",
+      "description": "Csak annál lehet próbálkozni, akinél legalább ennyi készpénz van (a kis pénzű tagok védelme)"
+    },
+    "robbery_report_enabled": {
+      "label": "Tagrablás: feljelentés",
+      "description": "A kirabolt tag DM-ben feljelentheti a rablót: ha elkapják, a zsákmány egy része visszajár és a rabló börtönbe kerülhet"
+    },
+    "underworld_event_strength": {
+      "label": "Események erőssége",
+      "description": "A világesemények hatásának erőssége (1 = alap, 2 = kétszer akkora hatás, 0,5 = fele)"
+    },
+    "underworld_max_events": {
+      "label": "Egyszerre zajló események",
+      "description": "Legfeljebb ennyi világesemény zajlik egyszerre"
+    },
+    "underworld_events_disabled": {
+      "label": "Kikapcsolt események",
+      "description": "Ezek a világesemények ezen a szerveren nem indulnak el",
+      "options": {
+        "razzia": "Országos razzia",
+        "sztrajk": "Rendőrsztrájk",
+        "polgaror": "Polgárőrség",
+        "korrupt_kapitany": "Korrupt kapitány",
+        "amnesztia": "Közkegyelem",
+        "vasokol": "„Vasököl” bíró",
+        "gyemant": "Gyémántszállítmány",
+        "pokerbajnoksag": "Pókerbajnokság a Diamondban",
+        "orsegvaltas": "Őrségváltás a Nemzeti Bankban",
+        "ai_riaszto": "Új riasztórendszerek",
+        "aramszunet": "Áramszünet",
+        "fesztival": "Fesztivál a belvárosban",
+        "fizetesnap": "Fizetésnap",
+        "feketepiac": "Felpörgött a feketepiac",
+        "bandahaboru": "Bandaháború",
+        "utvonal": "Kiszivárgott útvonal",
+        "aranyrudak": "Aranyrudak a raktárban",
+        "nni": "Beépített nyomozók",
+        "nav": "NAV-vizsgálat",
+        "offshore_botrany": "Offshore-botrány",
+        "epitoipari_boom": "Építőipari boom",
+        "kriptolaz": "Kriptoláz az alvilágban",
+        "kriptorazzia": "Kriptotőzsde-razzia",
+        "tuntetes": "Tüntetés a belvárosban",
+        "kommando": "Kommandós akció",
+        "helikopter": "Rendőrhelikopter",
+        "kamerak": "Leálltak a kamerák",
+        "hovihar": "Hóvihar",
+        "kanikula": "Kánikula",
+        "meccs": "Rangadó a stadionban",
+        "valasztas": "Választási kampány",
+        "birosag": "Túlterhelt bíróságok",
+        "inflacio": "Elszabadult infláció",
+        "recesszio": "Gazdasági válság",
+        "kartell": "Új kartell a városban",
+        "fegyverek": "Fegyverszállítmány",
+        "besugo": "Besúgó a bandákban",
+        "bankpanik": "Bankpánik",
+        "nyaralas": "Nyári szabadságolás",
+        "digitalis": "Kártyás fizetés mindenhol",
+        "kriptozuhanas": "Kriptózuhanás",
+        "kriptoszarnyalas": "Kriptoszárnyalás",
+        "maffiabeke": "Maffiabéke",
+        "orgazda": "Autós orgazdák",
+        "korrupt_nav": "Megvesztegethető ellenőr",
+        "kozos_akcio": "Közös rendőri akció",
+        "rendor_korrupcio": "Korrupt őrs",
+        "dronok": "Rendőrségi drónok",
+        "rendor_bal": "Rendőrbál",
+        "arcfelismeres": "Arcfelismerő kamerák",
+        "leleplezett_akta": "Elveszett akták",
+        "interpol": "Interpol a városban",
+        "koztarsasagi_ores": "Őrség a trezoroknál",
+        "bortonlazadas": "Börtönlázadás",
+        "tulzsufolt_borton": "Túlzsúfolt börtönök",
+        "statarium": "Statárium",
+        "megvett_ugyesz": "Megvett ügyész",
+        "tanuvedelmi": "Koronatanú-program",
+        "szokes": "Tömeges szökés",
+        "birosagi_sztrajk": "Bírósági sztrájk",
+        "kartell_haboru": "Kartellháború",
+        "kokain_hajo": "Befutott a hajó",
+        "dizajnerdrog": "Új dizájnerdrog",
+        "lefoglalt_szallitmany": "Lefoglalt szállítmány",
+        "fegyverraktar": "Kifosztott fegyverraktár",
+        "kartellfonok_bukott": "Elfogták a keresztapát",
+        "csempeszalagut": "Csempészalagút",
+        "maffia_adoszedo": "Maffiaadó",
+        "bankrendszer_hiba": "Összeomlott a bankrendszer",
+        "zsarolovirus_hullam": "Zsarolóvírus-hullám",
+        "kartyaklonozas": "Kártyaklónozók",
+        "kriptokevero": "Új kriptokeverő",
+        "darkweb_lekapcsolas": "Darkweb-lekapcsolás",
+        "hamis_penz": "Hamis bankjegyek",
+        "adathalasz_banda": "Adathalász banda",
+        "muzeum_kiallitas": "Koronaékszer-kiállítás",
+        "oligarcha_jacht": "Az oligarcha jachtja",
+        "kaszino_vip_est": "VIP-est a kaszinóban",
+        "kaszino_ellenorzes": "Kaszinóellenőrzés",
+        "arany_aremelkedes": "Szárnyal az arany",
+        "pancelautok_ujak": "Új páncélautók",
+        "bennfentes_or": "Beépített őr",
+        "autoszalon_szallitmany": "Luxusautó-szállítmány",
+        "gps_nyomkovetok": "GPS-nyomkövetők",
+        "szilveszter": "Szilveszteri buli",
+        "black_friday": "Black Friday",
+        "koncert": "Stadionkoncert",
+        "viharos_ejszaka": "Viharos éjszaka",
+        "suru_kod": "Sűrű köd",
+        "arviz": "Árvíz",
+        "kijarasi_tilalom": "Kijárási tilalom",
+        "gazdag_turistak": "Gazdag turisták",
+        "ingatlanbuborek": "Ingatlanbuborék",
+        "panama_listak": "Kiszivárgott listák",
+        "osszeomlas": "Gazdasági összeomlás",
+        "aranykor": "Aranykor",
+        "bankszovetseg": "Hallgatag bankok"
+      }
+    },
+    "casino_channel": {
+      "label": "Nagy nyeremények csatornája",
+      "description": "Nagy nyeremények és jackpotok hirdetése",
+      "why": "a nagy nyereményeket és jackpotokat senki nem látja"
+    },
+    "casino_max_bet": {
+      "label": "Legnagyobb tét",
+      "description": "A legnagyobb tét egy játékban",
+      "zero": "korlátlan"
+    },
+    "lottery_channel": {
+      "label": "Lottósorsolás",
+      "description": "A napi lottósorsolás kártyája"
+    },
+    "btc_channel": {
+      "label": "Árfolyam-csatorna",
+      "description": "Élő, kitűzött árfolyam-kártya (a hírek külön csatornába mennek: Kriptohírek csatornája)",
+      "why": "nincs élő árfolyam-kártya és „Tőzsde” gomb a szerveren"
+    },
+    "btc_electricity_price": {
+      "label": "Áramdíj",
+      "description": "Az áram ára a bányászfarmon"
+    },
+    "btc_trade_fee_percent": {
+      "label": "Kereskedési díj",
+      "description": "Díj vételkor és eladáskor"
+    },
+    "btc_news_hours": {
+      "label": "Hírek gyakorisága",
+      "description": "Két rendkívüli piaci hír (és árfolyamsokk) között legalább ennyi idő telik el",
+      "zero": "nincsenek hírek és sokkok"
+    },
+    "btc_news_channel": {
+      "label": "Kriptohírek csatornája",
+      "description": "Külön csatorna a kriptohíreknek: sokkok, események, blokkleletek, bálna-riasztások, napi jelentés (az árfolyam-csatorna tiszta marad; üresen a hírek csak a /btc Hírek lapján látszanak)",
+      "why": "a kriptohírek, események és a napi jelentés csak a /btc Hírek lapján látszanak"
+    },
+    "btc_event_hours": {
+      "label": "Kriptoesemények gyakorisága",
+      "description": "Átlagosan ennyi óránként indul kriptoesemény (hőhullám, olcsó áram, GPU-hiány, nehézség-változás …), amely órákig módosítja a bányászatot",
+      "zero": "nincsenek kriptoesemények"
+    },
+    "btc_daily_report": {
+      "label": "Napi kriptojelentés",
+      "description": "Napi kriptojelentés este 8-kor: árfolyam, grafikon, a nap eseményei és blokkjai"
+    },
+    "btc_community_news": {
+      "label": "Közösségi kriptohírek",
+      "description": "Bálna-riasztások (nagy kötések), solo blokkleletek és új árfolyamcsúcsok a hírcsatornában"
+    },
+    "stock_channel": {
+      "label": "Tőzsdecsatorna",
+      "description": "Élő, kitűzött árfolyamtábla (a hírek külön csatornába mennek: Tőzsdei hírek csatornája)",
+      "why": "nincs élő árfolyamtábla és „Terminál” gomb a szerveren"
+    },
+    "stock_news_channel": {
+      "label": "Tőzsdei hírek csatornája",
+      "description": "Külön csatorna a rendkívüli tőzsdei híreknek (felvásárlás, kereskedési szünet, válság …) — az árfolyamtábla csatornája tiszta marad; üresen a hírek csak a /tozsde terminál Hírek lapján látszanak",
+      "why": "a rendkívüli tőzsdei hírek csak a terminálban látszanak"
+    },
+    "stock_news": {
+      "label": "Rendkívüli hírek posztolása",
+      "description": "A rendkívüli hírek (felvásárlás, szünet, válság …) kikerülnek a tőzsdei hírek csatornájába"
+    },
+    "stock_fee_percent": {
+      "label": "Brókerdíj",
+      "description": "Brókerdíj minden kötésnél (a kötési érték százaléka)"
+    },
+    "stock_min_fee": {
+      "label": "Minimális brókerdíj",
+      "description": "A brókerdíj legkisebb összege kötésenként",
+      "zero": "nincs"
+    },
+    "stock_tax_percent": {
+      "label": "Tőzsdei adó",
+      "description": "Adó a realizált árfolyamnyereségen és az osztalékon",
+      "zero": "adómentes"
+    },
+    "stock_open_hour": {
+      "label": "Nyitás",
+      "description": "Hány órakor nyit a tőzsde (helyi idő)"
+    },
+    "stock_close_hour": {
+      "label": "Zárás",
+      "description": "Hány órakor zár a tőzsde (24 = éjfél; ha egyenlő a nyitással, éjjel-nappal nyitva van)"
+    },
+    "stock_weekends": {
+      "label": "Hétvégi kereskedés",
+      "description": "Hétvégén is van kereskedés"
+    },
+    "stock_short_selling": {
+      "label": "Short ügyletek",
+      "description": "Short ügylet: esésre is lehet játszani (fedezettel, kölcsönzési díjjal, kényszerzárással)"
+    },
+    "ai_channel": {
+      "label": "AI csatorna",
+      "description": "Ebben a csatornában a bot minden üzenetre válaszol",
+      "why": "az AI chat nem válaszol sehol"
+    },
+    "ai_system_prompt": {
+      "label": "AI utasítások",
+      "description": "Szerverre szabott utasítások az AI-nak (/ai prompt)",
+      "zero": "nincs"
+    },
+    "temp_voice_lobby": {
+      "label": "Ideiglenes hangcsatornák lobbija",
+      "description": "Belépéskor mindenki saját hangcsatornát kap"
+    },
+    "stats_total_channel": {
+      "label": "Tagszám: összes",
+      "description": "A neve mutatja az összes tag számát"
+    },
+    "stats_humans_channel": {
+      "label": "Tagszám: emberek",
+      "description": "A neve mutatja az emberi tagok számát"
+    },
+    "stats_bots_channel": {
+      "label": "Tagszám: botok",
+      "description": "A neve mutatja a botok számát"
+    },
+    "module_clans": {
+      "label": "Klánok",
+      "description": "Klánok: közös kassza, fejlesztések, területharcok (/klan)"
+    },
+    "clan_create_cost": {
+      "label": "Alapítás ára",
+      "description": "Ennyibe kerül egy klán alapítása (a készpénzből)",
+      "zero": "ingyenes"
+    },
+    "clan_max_members": {
+      "label": "Alap létszám-limit",
+      "description": "Ennyi tag fér egy klánba (a főhadiszállás fejlesztése növeli)"
+    },
+    "clan_role_enabled": {
+      "label": "Klánrangok",
+      "description": "Minden klán saját Discord-rangot kap (jogok nélkül) — a tagok belépéskor megkapják, kilépéskor elveszítik (a botnak „Rangok kezelése” jog kell)"
+    },
+    "clan_log_channel": {
+      "label": "Klánnapló",
+      "description": "Ide kerülnek a klánok eseményei: alapítás, belépés, kilépés, rangok, fejlesztések, kifizetések",
+      "zero": "nincs"
+    },
+    "clan_war_channel": {
+      "label": "Háborús hírek",
+      "description": "A területharcok kiírása, körei és eredménye",
+      "zero": "nincs — csak a /klan panel mutatja"
+    },
+    "clan_war_interval_hours": {
+      "label": "Területharc gyakorisága",
+      "description": "Ennyi óránként ír ki magától a bot területharcot (ha van legalább két klán)",
+      "zero": "csak kézzel (/klan admin)"
+    },
+    "clan_war_signup_hours": {
+      "label": "Jelentkezési idő",
+      "description": "Ennyi ideig lehet jelentkezni egy kiírt háborúra"
+    },
+    "clan_war_duration_hours": {
+      "label": "Háború hossza",
+      "description": "A háború három köre ennyi idő alatt zajlik le (egyenlő részekben)"
+    },
+    "clan_war_entry_fee": {
+      "label": "Nevezési díj",
+      "description": "A nevezési díj a klánkasszából (60 / 25 / 15%-ban az első háromnál oszlik meg)",
+      "zero": "ingyenes"
+    },
+    "clan_war_prize": {
+      "label": "Győztes díja",
+      "description": "A rendszer plusz díja a győztes klánnak — csak legalább 3 induló esetén (a nevezési díjak 60 / 25 / 15%-ban oszlanak meg az első háromnál)",
+      "zero": "nincs — csak a nevezési díjak oszlanak meg"
+    },
+    "clan_season_prize": {
+      "label": "Szezondíj",
+      "description": "Havi klán-szezon: a hónap végén a legtöbb pontot gyűjtött klán kasszája ennyit kap (a pontok a tagok tevékenységéből és a területharcokból jönnek)",
+      "zero": "nincs díj"
+    },
+    "clan_season_role": {
+      "label": "Szezonbajnok rang",
+      "description": "A szezon bajnok klánjának tagjai ezt a rangot kapják (a következő bajnokig) — üresen nincs rang",
+      "zero": "nincs"
+    },
+    "clan_invite_hours": {
+      "label": "Meghívó érvényessége",
+      "description": "Ennyi ideig érvényes egy klánmeghívó"
+    },
+    "module_fishing": {
+      "label": "Halászat és vadászat",
+      "description": "RPG pecázás és vadászat mini-játékkal, akvárium, trófeaterem (/peca, /vadaszat)"
+    },
+    "fishing_cooldown_seconds": {
+      "label": "Pecázás: újratöltés",
+      "description": "Ennyi időnként lehet bedobni (/peca dobale)",
+      "zero": "nincs várakozás"
+    },
+    "hunting_cooldown_seconds": {
+      "label": "Vadászat: újratöltés",
+      "description": "Ennyi időnként lehet lesre menni (/vadaszat les)",
+      "zero": "nincs várakozás"
+    },
+    "fishing_reward_multiplier": {
+      "label": "Fogások értékének szorzója",
+      "description": "A kifogott halak és az elejtett vadak értékének szorzója",
+      "zero": "a fogások nem érnek pénzt"
+    },
+    "fishing_weather": {
+      "label": "Időjárás hatása",
+      "description": "Az óránként változó időjárás (napos, esős, viharos, havas …) befolyásolja a kapást és a vadat"
+    },
+    "fishing_events": {
+      "label": "Események hatása",
+      "description": "Az alvilági világesemények, a kriptoesemények és a bitcoin-piac hangulata is hat a fogásokra (pl. kriptoláz → több aranyhal)"
+    },
+    "fishing_announce_channel": {
+      "label": "Legendás fogások csatornája",
+      "description": "Ide kerül egy kártya minden legendás fogásról",
+      "zero": "nincs — csak a fogó látja"
+    },
+    "fishing_collection_limit": {
+      "label": "Gyűjtemény mérete",
+      "description": "Ennyi eladatlan hal fér az akváriumba (és ennyi trófea a trófeaterembe) — tele gyűjteménnyel előbb el kell adni"
+    },
+    "activity_tracking": {
+      "label": "Aktivitás követése",
+      "description": "A tagok utolsó üzenetének és hangcsatornás jelenlétének, valamint a napi számoknak a követése (üzenettartalom soha) — kikapcsolás után a számlálás újraindul"
+    },
+    "inactive_role": {
+      "label": "Inaktív rang",
+      "description": "A /inaktiv „Inaktív rang kiosztása” gombja ezt a rangot adja (üres: a gomb rákérdez)",
+      "zero": "nincs — a gomb rákérdez"
+    },
+    "inactive_exempt_role": {
+      "label": "Mentesített rang",
+      "description": "Akinek ez a rangja megvan, sosem kerül az inaktív listára (pl. szabadságon lévők, VIP-ek)",
+      "zero": "nincs"
+    },
+    "inactive_default_days": {
+      "label": "Inaktivitási küszöb",
+      "description": "A /inaktiv ennyi nap csend után tekint valakit inaktívnak, ha a parancsnál nem adsz meg mást"
+    },
+    "activity_retention_days": {
+      "label": "Napi statisztika megőrzése",
+      "description": "A napi aktivitási statisztika (grafikon, toplista) ennyi napig marad meg; a tagok utolsó aktivitása nem évül el"
+    },
+    "role_log_channel": {
+      "label": "Rangváltozások naplója",
+      "description": "Részletes rangváltozás-napló: ki kapott / vesztett rangot, ki adta, milyen veszélyes jogokkal (beállítva a tagnapló egyszerű rangbejegyzése elmarad)",
+      "zero": "nincs — a tagnapló rögzíti röviden"
+    },
+    "role_alert_channel": {
+      "label": "Veszélyes rangok riasztása",
+      "description": "Riasztás, ha valaki kézzel Adminisztrátor, Kitiltás, Kirúgás vagy Rangok kezelése jogú rangot kap (üres: a moderációs napló)",
+      "zero": "a moderációs napló"
+    },
+    "role_alert_ping_role": {
+      "label": "Riasztáskor pingelt rang",
+      "description": "Ezt a rangot pingeli a veszélyes rang riasztása",
+      "zero": "nincs ping"
+    },
+    "xs_casino_championship": {
+      "label": "Szerverek közötti bajnokság",
+      "description": "A tagok részt vesznek a szerverek közötti heti kaszinó-bajnokságban (/casino bajnoksag): pontok, ranglista, nyereménykalap — kikapcsolva nem kapnak pontot, nem látszanak a ranglistán és nem kapnak díjat"
+    },
+    "xs_global_market": {
+      "label": "Szerverek közötti piaci hatás",
+      "description": "A botot használó szerverek együttes bányászati és kereskedési kedve minimálisan húzza a PÉTIX indexet és a bitcoin árfolyamát — kikapcsolva ezt a szervert nem húzza, és a kötései sem számítanak bele"
+    },
+    "music_default_volume": {
+      "label": "Alap hangerő",
+      "description": "Ezen a hangerőn indul a lejátszó (menet közben a panel / gombjaival vagy a /zene hangero paranccsal állítható)"
+    },
+    "music_idle_leave": {
+      "label": "Kilépés tétlenség után",
+      "description": "Ha elfogyott a sor, ennyi csend után kilép a hangcsatornából",
+      "zero": "soha (24/7)"
+    },
+    "music_alone_leave": {
+      "label": "Kilépés, ha egyedül marad",
+      "description": "Ha mindenki kiment, a zene szünetel, és ennyi idő múlva kilép (ha közben valaki visszajön, onnan folytatja)",
+      "zero": "soha (24/7)"
+    },
+    "music_max_per_user": {
+      "label": "Számok tagonként a sorban",
+      "description": "Egy tagnak egyszerre legfeljebb ennyi száma lehet a sorban",
+      "zero": "korlátlan"
+    },
+    "music_max_minutes": {
+      "label": "Leghosszabb szám",
+      "description": "Az ennél hosszabb számok (pl. 10 órás videók) nem kerülnek a sorba (élő adás ettől még mehet)",
+      "zero": "korlátlan"
+    },
+    "music_vote_percent": {
+      "label": "Átugrás szavazással",
+      "description": "Átugrás szavazással: a hallgatók TÖBB MINT ennyi százaléka kell hozzá. A szám kérője, a DJ-k (Csatornák kezelése jog) és aki egyedül hallgatja, azonnal ugorhat",
+      "zero": "kikapcsolva (bárki azonnal ugorhat)"
+    },
+    "music_panel_follow": {
+      "label": "A panel követi a csevegést",
+      "description": "Új számnál a panel a csatorna aljára kerül, ha közben mások is írtak (így nem csúszik el a beszélgetésben)"
+    },
+    "music_live_progress": {
+      "label": "Élő idősáv a panelen",
+      "description": "Lejátszás közben a panel élő idősávot mutat (a Discord-kliens számolja, a panel nem frissül folyton)"
+    },
+    "duty_masks": {
+      "label": "Szolgálattípusok",
+      "description": "A szolgálattípusok, soronként egy (pl. Rendőr, Mentő, Ügyelet) — mindegyik ideje külön számolódik. Átnevezéshez a /szolgalat atnevez parancs viszi az adatokat is"
+    },
+    "duty_log_channel": {
+      "label": "Szolgálati napló",
+      "description": "Ide kerül minden be- és kilépés, kézi módosítás, kiléptetés, távollét és riport",
+      "why": "a be- és kilépések nem naplózódnak sehol"
+    },
+    "duty_role": {
+      "label": "Szolgálatban rang",
+      "description": "Ezt a rangot kapja, aki szolgálatban van (kilépéskor lekerül)"
+    },
+    "duty_manager_role": {
+      "label": "Szolgálatvezető rang",
+      "description": "A szolgálatvezetők rangja: kiléptethetnek, módosíthatják az időket, elbírálják a távolléteket (a Szerver kezelése jog mindig elég)"
+    },
+    "duty_access_role": {
+      "label": "Szolgálati hozzáférés rangja",
+      "description": "Ha meg van adva, CSAK ennek a rangnak a tagjai léphetnek szolgálatba (panel, /szolgalat be, hangcsatorna) — a szolgálatvezetők és az adminok mindig. Aki szolgálat közben elveszíti, azt a bot kilépteti",
+      "zero": "bárki"
+    },
+    "duty_ephemeral": {
+      "label": "Rejtett válaszok",
+      "description": "A /szolgalat válaszait csak a parancs használója látja"
+    },
+    "duty_voice_channels": {
+      "label": "Hangcsatornás szolgálat",
+      "description": "Ha valaki belép ezekbe a hangcsatornákba, magától szolgálatba lép (az első típusban), kilépéskor kilép",
+      "zero": "kikapcsolva"
+    },
+    "duty_max_hours": {
+      "label": "Leghosszabb szolgálat",
+      "description": "Egy szolgálat legfeljebb ennyi óráig tarthat, utána a bot kilépteti (az idő eddig számít)",
+      "zero": "korlátlan"
+    },
+    "duty_idle_minutes": {
+      "label": "Aktivitás-ellenőrzés",
+      "description": "Ennyi perc után a bot DM-ben megkérdezi, szolgálatban van-e még a tag; ha nem válaszol, kilépteti",
+      "zero": "kikapcsolva"
+    },
+    "duty_idle_reply_minutes": {
+      "label": "Válaszidő az ellenőrzésre",
+      "description": "Ennyi ideje van a tagnak válaszolni az ellenőrző DM-re"
+    },
+    "duty_idle_remove_time": {
+      "label": "A válasz nélküli idő levonása",
+      "description": "Ha a tag nem válaszolt, az utolsó visszajelzése óta eltelt idő nem számít bele"
+    },
+    "duty_sticky_channel": {
+      "label": "Élő szolgálati lista",
+      "description": "Élő lista a szolgálatban lévőkről — mindig a csatorna aljára kerül (percenként legfeljebb egyszer)"
+    },
+    "duty_panel_title": {
+      "label": "Panel címe",
+      "description": "A szolgálati panel címe"
+    },
+    "duty_panel_text": {
+      "label": "Panel szövege",
+      "description": "A szolgálati panel szövege"
+    },
+    "duty_quotas": {
+      "label": "Kvóta-rangok",
+      "description": "Rang a ledolgozott idő után, soronként: rang-azonosító = perc [= típus] (a /szolgalat kvota paranccsal rangválasztóval is beállítható)",
+      "zero": "nincs"
+    },
+    "duty_dm_summary": {
+      "label": "Összegzés kilépéskor (DM)",
+      "description": "Kilépéskor a tag DM-ben személyes összegzést kap: a szolgálat ideje (szünetek nélkül), mai / heti / havi / összes idő, helyezés a héten, sorozat, heti cél és bér"
+    },
+    "duty_weekly_goal_hours": {
+      "label": "Heti cél",
+      "description": "Heti cél órában — a saját statisztika, az összegzések és a heti DM is mutatja a haladást",
+      "zero": "nincs"
+    },
+    "duty_hourly_wage": {
+      "label": "Óradíj",
+      "description": "Óradíj a szerver pénznemében: az összegzések, a saját statisztika, a riportok és a bérjegyzék a bért is mutatják",
+      "zero": "kikapcsolva"
+    },
+    "duty_goal_reminder": {
+      "label": "Emlékeztető a heti célhoz",
+      "description": "Csütörtökön (a riport órájában) DM-emlékeztető annak, aki nagyon le van maradva a heti céltól"
+    },
+    "duty_loa_enabled": {
+      "label": "Távollét-kérelmek",
+      "description": "A tagok távollétet (LOA) kérhetnek: /szolgalat loa kerelem, vagy a külön távollét-panel gombjával (a weben: Jelentések → Panelek)"
+    },
+    "duty_loa_channel": {
+      "label": "Távollét-kérelmek csatornája",
+      "description": "Ide kerülnek a távollét-kérelmek elbírálásra (gombokkal)"
+    },
+    "duty_loa_reviewer_role": {
+      "label": "Távollét-elbíráló rang",
+      "description": "Ez a rang is elbírálhatja a távolléteket (a szolgálatvezetők mellett)"
+    },
+    "duty_loa_auto_approve": {
+      "label": "Automatikus jóváhagyás",
+      "description": "A kérelmek elbírálás nélkül azonnal jóváhagyódnak"
+    },
+    "duty_loa_role": {
+      "label": "Távollét rang",
+      "description": "Ezt a rangot kapja a tag, amíg távol van"
+    },
+    "duty_loa_clockout": {
+      "label": "Kiléptetés távollét alatt",
+      "description": "Távollét alatt a tag kilép minden szolgálatból, és nem is léphet be"
+    },
+    "duty_loa_tag_nick": {
+      "label": "[LOA] a becenévben",
+      "description": "A becenév elé „[LOA]” kerül a távollét idejére (Becenevek kezelése jog kell)"
+    },
+    "duty_loa_cooldown_minutes": {
+      "label": "Várakozás elutasítás után",
+      "description": "Egy elutasított kérelem után ennyi ideig nem kérhet újat a tag (egyszerre úgyis csak egy függő vagy aktív távolléte lehet)",
+      "zero": "nincs"
+    },
+    "duty_weekly_dm": {
+      "label": "Heti összegzés (DM)",
+      "description": "Heti személyes összegzés DM-ben a heti riport napján és órájában: a hét ideje, változás az előző héthez, helyezés, heti cél"
+    },
+    "duty_payslip_dm": {
+      "label": "Bérjegyzék (DM)",
+      "description": "Az időszak lezárásakor (nullázás, törlés, riport nullázással) minden érintett DM-ben megkapja a lezárt idejét és — óradíjnál — a bérét"
+    },
+    "duty_report_period": {
+      "label": "Riport gyakorisága",
+      "description": "Automatikus riport a szolgálati időkről: off, daily, weekly, monthly vagy yearly",
+      "options": {
+        "off": "Kikapcsolva",
+        "daily": "Naponta",
+        "weekly": "Hetente",
+        "monthly": "Havonta",
+        "yearly": "Évente"
+      }
+    },
+    "duty_report_channel": {
+      "label": "Riport csatornája",
+      "description": "A riportok csatornája (üresen: a szolgálati napló)"
+    },
+    "duty_report_hour": {
+      "label": "Riport ideje",
+      "description": "Hány órakor menjen ki a riport (helyi idő)"
+    },
+    "duty_report_weekday": {
+      "label": "Heti riport napja",
+      "description": "A heti riport napja (1 = hétfő … 7 = vasárnap)"
+    },
+    "duty_report_monthday": {
+      "label": "Havi riport napja",
+      "description": "A havi (és az éves) riport napja a hónapban"
+    },
+    "duty_report_month": {
+      "label": "Éves riport hónapja",
+      "description": "Az éves riport hónapja (1–12)"
+    },
+    "duty_report_output": {
+      "label": "Riport formája",
+      "description": "A riport formája: summary (kártya), csv (fájl) vagy both",
+      "options": {
+        "both": "Kártya és CSV-fájl",
+        "summary": "Csak kártya",
+        "csv": "Csak CSV-fájl"
+      }
+    },
+    "duty_report_reset": {
+      "label": "Időszak nullázása riport után",
+      "description": "A riport után az időszak számlálói nullázódnak (az összesített idő megmarad)"
+    },
+    "duty_report_full_export": {
+      "label": "Teljes export a riporthoz",
+      "description": "A riport mellé az összesített (minden idők) CSV is"
+    },
+    "public_page": {
+      "label": "Nyilvános oldal",
+      "description": "A szervernek van nyilvános oldala a weben (bárki láthatja belépés nélkül): név, ikon, taglétszám, bemutatkozás, meghívó"
+    },
+    "public_page_leaderboard": {
+      "label": "Ranglista a nyilvános oldalon",
+      "description": "A nyilvános oldalon a szint- és gazdasági ranglista is látszik"
+    },
+    "public_page_description": {
+      "label": "Bemutatkozás",
+      "description": "Bemutatkozó szöveg a nyilvános oldal tetején (legfeljebb 300 karakter)",
+      "zero": "nincs"
+    },
+    "push_notifications": {
+      "label": "Push-értesítések",
+      "description": "A bot küldhet-e webes push-értesítést a vezérlőpultra feliratkozott stábtagoknak (új jegy, távollét-kérelem, válasz a vállalt jegyben)"
+    }
+  },
+  "topics": {
+    "Alapok": {
+      "title": "Alapok",
+      "summary": "Nyelv, pénznem jele, meghívó link"
+    },
+    "Arculat": {
+      "title": "Arculat",
+      "summary": "A kártyák színe ezen a szerveren — és a bot neve, profilképe, szalagképe, bemutatkozása"
+    },
+    "Modulok": {
+      "title": "Modulok",
+      "summary": "A nagy funkciók be- és kikapcsolása egy kattintással (gazdaság, kaszinó, zene, ticketek, AI …)"
+    },
+    "Rangok": {
+      "title": "Rangok és belépés",
+      "summary": "Stáb és tag rang, verifikáció, automatikus rangok",
+      "commands": "/jogosultsag (rangszintek és jogok), /jogaim"
+    },
+    "Üdvözlés": {
+      "title": "Üdvözlés és búcsú",
+      "summary": "Üdvözlő és búcsúzó csatorna, szöveg, kép, DM — élő előnézettel"
+    },
+    "Moderáció": {
+      "title": "Moderáció",
+      "summary": "Moderációs napló, automata szűrők, figyelmeztetések, globális tiltások",
+      "commands": "/warn, /timeout, /ban, /temprole, /case"
+    },
+    "AI-moderáció": {
+      "title": "AI-moderáció",
+      "summary": "Automatikus moderáció pontrendszerrel: szabályzat, tiltott és engedélyezett szavak, szigorúság, felülvizsgálat",
+      "commands": "/aimod pontok, /aimod teszt"
+    },
+    "Védelem": {
+      "title": "Védelem",
+      "summary": "BotShield, honeypot csapda"
+    },
+    "Naplók": {
+      "title": "Naplók",
+      "summary": "Az audit napló csatornái: üzenetek, tagok, hang, szankciók, szerver"
+    },
+    "Közösség": {
+      "title": "Közösség",
+      "summary": "Ötletek, hibajegyek, starboard, számolós csatorna, szólánc, születésnapok, névnapok, meghívók",
+      "commands": "/eszkoz szuletesnap, /nevnap, /meghivok"
+    },
+    "Küldetések": {
+      "title": "Küldetések és kitüntetések",
+      "summary": "Napi küldetések jutalma, XP, a kitüntetések értesítő csatornája",
+      "commands": "/kuldetesek"
+    },
+    "Szintrendszer": {
+      "title": "Szintrendszer",
+      "summary": "Szintlépési üzenet, XP-szorzó, jutalmak, rangkártya",
+      "commands": "/level"
+    },
+    "Gazdaság": {
+      "title": "Gazdaság",
+      "summary": "Kezdőtőke, banki kamat, napi jutalom, utalási korlát, gazdasági és bolti napló",
+      "commands": "/penz (bank, utalás, bolt, napi jutalom)"
+    },
+    "Munka": {
+      "title": "Munka és keresetek",
+      "summary": "Fizetések, újratöltési idők, munkasorozat-bónusz, kéregetés",
+      "commands": "/penz → Munka"
+    },
+    "Alvilág": {
+      "title": "Alvilág",
+      "summary": "Hírcsatorna, világesemények, zsákmány, körözés, óvadék, tagrablás",
+      "commands": "/alvilag bunozes, /alvilag penzmosas"
+    },
+    "Alvilág szabályai": {
+      "title": "Alvilág szabályai",
+      "summary": "Nehézség, napi zsákmányplafon, tagrablás korlátai, kikapcsolt bűntények és események, az események erőssége",
+      "commands": "/alvilag bunozes"
+    },
+    "Kaszinó": {
+      "title": "Kaszinó",
+      "summary": "Nagy nyeremények csatornája, tétkorlát, lottó, szerverek közötti bajnokság",
+      "commands": "/casino lobbi, /casino bajnoksag"
+    },
+    "Bitcoin": {
+      "title": "Bitcoin",
+      "summary": "Élő árfolyam, kriptohírek és -események, napi jelentés, áramdíj, kereskedési díj",
+      "commands": "/btc (Bányászfarm és Hírek lap is)"
+    },
+    "Tőzsde": {
+      "title": "Tőzsde",
+      "summary": "Élő árfolyamtábla, kereskedési idő, brókerdíj, adó, short ügyletek",
+      "commands": "/tozsde (minden egy helyen: piac, portfólió, kereskedés, grafikon)"
+    },
+    "AI": {
+      "title": "AI chat",
+      "summary": "Az AI csatornája és a szerverre szabott utasítások",
+      "commands": "/ai"
+    },
+    "Ticketek": {
+      "title": "Ticketek",
+      "summary": "Jegyek privát szálként vagy külön csatornaként, a szálak helye",
+      "commands": "/ticket"
+    },
+    "Hang és statisztika": {
+      "title": "Hang és statisztika",
+      "summary": "Ideiglenes hangcsatornák lobbija, tagszám-csatornák"
+    },
+    "Klánok": {
+      "title": "Klánok és területharc",
+      "summary": "Alapítás ára, létszám, klánrangok, napló, a területharcok gyakorisága, nevezési díja és a győztes díja",
+      "commands": "/klan panel, /klan admin"
+    },
+    "Peca": {
+      "title": "Peca és vadászat",
+      "summary": "RPG pecázás és vadászat: újratöltési idők, a fogások értéke, az időjárás és az események hatása, gyűjtemény, legendás fogások csatornája",
+      "commands": "/peca, /vadaszat"
+    },
+    "Aktivitás": {
+      "title": "Aktivitás és inaktív tagok",
+      "summary": "Üzenetek és hangpercek követése, inaktív tagok szűrése, inaktív rang, mentesség, a napi statisztika megőrzése",
+      "commands": "/inaktiv, /aktivitas"
+    },
+    "Szolgálat": {
+      "title": "Szolgálat (duty)",
+      "summary": "Be- és kiléptetés, szolgálattípusok, napló, automatikus kiléptetés, kvóta-rangok, panel, élő lista, hangcsatornás szolgálat",
+      "commands": "/szolgalat be, /szolgalat ki"
+    },
+    "Távollét és riportok": {
+      "title": "Szolgálat: távollét és riportok",
+      "summary": "Távollét-kérelmek (LOA) elbírálása, rangja és becenév-jelölése; automatikus napi / heti / havi / éves riportok CSV-vel",
+      "commands": "/szolgalat loa kerelem, /szolgalat riport"
+    },
+    "Nyilvános oldal": {
+      "title": "Nyilvános oldal és értesítések",
+      "summary": "A szerver nyilvános oldala a weben (bemutatkozás, ranglista) és a vezérlőpult push-értesítései (új jegy, távollét-kérelem)"
+    },
+    "Zene": {
+      "title": "Zenelejátszó",
+      "summary": "Alap hangerő, kilépési idők, sor- és számhossz-korlát, átugrási szavazás, a panel viselkedése",
+      "commands": "/zene lejatszas, /zene panel, /zene sor"
+    }
+  },
+  "moduleGroups": {
+    "game": "Játék és gazdaság",
+    "community": "Közösség",
+    "safety": "Moderáció és elemzés"
+  },
+  "modules": {
+    "economy": {
+      "title": "Gazdaság",
+      "summary": "Egyenleg, bank, munka, bolt, befektetések — kikapcsolva az alvilág, a bitcoin és a tőzsde sem fut"
+    },
+    "underworld": {
+      "title": "Alvilág",
+      "summary": "Bűntények, pénzmosás, bandás balhék, világesemények"
+    },
+    "bitcoin": {
+      "title": "Bitcoin",
+      "summary": "Kriptotőzsde, bányászfarm, kriptohírek és -események"
+    },
+    "stocks": {
+      "title": "Tőzsde",
+      "summary": "Részvénypiac, short, megbízások, élő árfolyamtábla"
+    },
+    "casino": {
+      "title": "Kaszinó",
+      "summary": "Játékok, chipek, jackpot, lottó, szerverek közötti bajnokság"
+    },
+    "fishing": {
+      "title": "Peca és vadászat",
+      "summary": "RPG pecázás és vadászat, akvárium, trófeaterem"
+    },
+    "clans": {
+      "title": "Klánok",
+      "summary": "Klánok, közös kassza, fejlesztések, területharcok"
+    },
+    "quests": {
+      "title": "Küldetések",
+      "summary": "Napi küldetések, sorozat, kitüntetések"
+    },
+    "leveling": {
+      "title": "Szintrendszer",
+      "summary": "XP, szintlépés, rangkártya, szintjutalmak"
+    },
+    "fun": {
+      "title": "Szórakozás",
+      "summary": "Mini játékok, ship, 8ball és társaik",
+      "hint": "a jogi tájékoztatók kikapcsolva is elérhetők"
+    },
+    "ai": {
+      "title": "AI chat",
+      "summary": "AI-csatorna, „AI: Magyarázat” és „AI: Fordítás” menü"
+    },
+    "music": {
+      "title": "Zene",
+      "summary": "YouTube / Spotify lejátszó panellel"
+    },
+    "duty": {
+      "title": "Szolgálat",
+      "summary": "Be- és kiléptetés, szolgálati idők, távollét, riportok (/szolgalat)",
+      "hint": "kikapcsolva is ki lehet lépni a szolgálatból, és az adatok exportálhatók"
+    },
+    "tickets": {
+      "title": "Ticketek",
+      "summary": "Jegynyitás a panelről",
+      "hint": "kikapcsolva új jegy nem nyitható; a nyitott jegyek és a stábeszközök (/ticket) működnek"
+    },
+    "aimod": {
+      "title": "AI-moderáció",
+      "summary": "Automatikus moderáció pontrendszerrel és szabályzattal",
+      "hint": "a beállításai: webes vezérlőpult →  AI-moderáció",
+      "offEffect": "az automatikus moderáció leáll (a beállításai megmaradnak)"
+    },
+    "activity": {
+      "title": "Aktivitás-követés",
+      "summary": "Üzenetek és hangpercek követése (/inaktiv, /aktivitas)",
+      "offEffect": "új aktivitási adat nem gyűlik — a /inaktiv és a /aktivitas a meglévő adatokból dolgozik"
+    }
+  },
+  "shop": {
+    "kinds": {
+      "role": "Rang",
+      "item": "Tárgy"
+    },
+    "items": {
+      "pickaxe_basic": "Kőcsákány",
+      "pickaxe_pro": "Gyémánthegyű csákány",
+      "rod_fiber": "Karbonszálas horgászbot",
+      "rifle_hunting": "Távcsöves vadászpuska",
+      "lockpick": "Titán álkulcskészlet",
+      "briefcase": "Diplomatatáska",
+      "mask": "Símaszk",
+      "energy_drink": "Prémium energiaital",
+      "insurance": "24 órás biztosítás",
+      "alarm": "Riasztórendszer (48 óra)",
+      "rod_bamboo": "Bambusz horgászbot",
+      "rod_master": "Mesterhorgász pergetőbot",
+      "bow_recurve": "Reflexíj",
+      "shotgun": "Sörétes vadászpuska",
+      "bait_worm": "Giliszta (csali)",
+      "bait_corn": "Csemegekukorica (csali)",
+      "bait_boilie": "Bojli (csali)",
+      "bait_live": "Élő csalihal",
+      "lure_gold": "Aranyozott villantó",
+      "call_duck": "Kacsahívó síp",
+      "call_fox": "Ragadozóhívó síp",
+      "bait_salt": "Sózó és szórócsali",
+      "call_deer": "Szarvasbőgő kürt",
+      "scent_musk": "Pézsmás csalogatóillat"
+    }
+  },
+  "levels": {
+    "0": {
+      "label": "Tag",
+      "requirement": "mindenki",
+      "description": "A szerver minden tagja"
+    },
+    "1": {
+      "label": "Stáb",
+      "requirement": "Stáb vagy magasabb szint",
+      "description": "Globális (általános) stáb rang: minden stábfunkció felismeri (jegyek, alap moderáció)"
+    },
+    "2": {
+      "label": "Moderátor",
+      "requirement": "Moderátor vagy magasabb szint",
+      "description": "Moderátorok: szankciók, csatornák, üzenetek"
+    },
+    "3": {
+      "label": "Adminisztrátor",
+      "requirement": "Adminisztrátor vagy magasabb szint",
+      "description": "A bot adminjai: beállítások, /say, panelek"
+    },
+    "4": {
+      "label": "Szerver-adminisztrátor",
+      "requirement": "Discord-adminisztrátor vagy a tulajdonos",
+      "description": "Akinek a Discordon Adminisztrátor joga van (rangokkal nem adható)"
+    },
+    "5": {
+      "label": "Tulajdonos",
+      "requirement": "csak a szerver tulajdonosa",
+      "description": "A szerver tulajdonosa — mindenhez hozzáfér"
+    },
+    "90": {
+      "label": "Csak kijelölt rangok",
+      "requirement": "a kijelölt rangok egyike (vagy szerver-admin)",
+      "description": "Csak a megadott plusz rangok (és a szerver-adminisztrátorok)"
+    },
+    "99": {
+      "label": "Kikapcsolva",
+      "requirement": "senki — a funkció ki van kapcsolva",
+      "description": "Senki nem használhatja"
+    }
+  },
+  "capabilityGroups": {
+    "mod": "Moderáció",
+    "tickets": "Ticket rendszer",
+    "server": "Szerver és bot",
+    "eco": "Gazdaság és játék",
+    "community": "Közösség",
+    "use": "Ki használhatja a funkciókat?"
+  },
+  "capabilities": {
+    "mod.warn": {
+      "label": "Figyelmeztetés, jegyzetek, esetek",
+      "description": "Figyelmeztetés adása és visszavonása, belső jegyzetek, esetnapló, tag-adatlap",
+      "commands": "/warn, /note, /case, /user_info, jobbklikk → Figyelmeztetés"
+    },
+    "mod.timeout": {
+      "label": "Időkorlátozás",
+      "description": "Tagok időkorlátozása (timeout) és annak feloldása",
+      "commands": "/timeout, /untimeout, /globaltimeout (javaslat)"
+    },
+    "mod.kick": {
+      "label": "Kirúgás",
+      "description": "Tagok kirúgása a szerverről",
+      "commands": "/kick"
+    },
+    "mod.ban": {
+      "label": "Kitiltás",
+      "description": "Kitiltás (időtartammal ideiglenesen is), feloldás",
+      "commands": "/ban [idotartam], /unban, /globalban (javaslat)"
+    },
+    "mod.messages": {
+      "label": "Üzenetek törlése",
+      "description": "Tömeges üzenettörlés (szűrőkkel)",
+      "commands": "/purge"
+    },
+    "mod.channels": {
+      "label": "Csatornák lezárása, lassítás",
+      "description": "Szöveg- és hangcsatornák lezárása, feloldása, lassított mód, bármely ideiglenes hangcsatorna irányítása",
+      "commands": "/lock, /unlock, /slowmode, /voice lezaras, /voice feloldas, /vc …"
+    },
+    "mod.voice": {
+      "label": "Hang-moderáció",
+      "description": "Egy hangcsatorna minden tagjának áthelyezése egy másikba",
+      "commands": "/voice mind_athelyezese"
+    },
+    "mod.temprole": {
+      "label": "Ideiglenes rangok",
+      "description": "Rang adása megadott időre: lejáratkor magától lekerül, a tag mindkét esetben privát üzenetet kap (veszélyes jogú rangot csak szerver-admin adhat)",
+      "commands": "/temprole"
+    },
+    "mod.roles": {
+      "label": "Rangok kiosztása",
+      "description": "Rangok adása és elvétele (veszélyes jogú rangot csak szerver-admin oszthat ki)",
+      "commands": "/role"
+    },
+    "mod.cases": {
+      "label": "Esetek szerkesztése",
+      "description": "Esetek indokának módosítása, egy tag összes figyelmeztetésének törlése",
+      "commands": "/case szerkesztes, /warn nullazas"
+    },
+    "mod.mass": {
+      "label": "Tömeges és vészhelyzeti műveletek",
+      "description": "Minden csatorna lezárása / feloldása, tömeges kitiltás, rang mindenkinek, tömeges becenév-javítás, inaktív tagok tömeges kirúgása",
+      "commands": "/lockdown_all, /unlock_all, /mass kitiltas, /role ad_mindenkinek, /role elvesz_mindenkitol, /nick javitas, /inaktiv"
+    },
+    "mod.security": {
+      "label": "Automata védelem",
+      "description": "Az AI-moderáció kipróbálása (a védelem minden beállítása a webes vezérlőpulton van)",
+      "commands": "/aimod teszt"
+    },
+    "mod.aimod": {
+      "label": "AI-moderáció felülvizsgálata",
+      "description": "Az AI bizonytalan eseteinek elbírálása, tiltott és engedélyezett szavak, pontok visszavonása, tagok pontjainak megtekintése",
+      "commands": "/aimod pontok, a napló gombjai"
+    },
+    "tickets.staff": {
+      "label": "Jegyek kezelése",
+      "description": "Látja és kezeli a jegyeket: elvállalás, lezárás, stábeszközök, lista, statisztika, ticket-tiltás",
+      "commands": "/ticket lista, statisztika, tiltas, feloldas + a jegy gombjai"
+    },
+    "tickets.admin": {
+      "label": "Ticket-adminok",
+      "description": "Más által elvállalt jegy elengedése, a „csak a kategória rangjai” kategóriák jegyeinek látása (a ticket-rendszert a webes vezérlőpulton állíthatod be)",
+      "commands": "a jegyek gombjai"
+    },
+    "settings": {
+      "label": "Bot-beállítások",
+      "description": "A bot szerverenkénti beállításai (csatornák, modulok, értékek; a Stáb rangot csak szerver-admin állíthatja)",
+      "commands": "webes vezérlőpult"
+    },
+    "say": {
+      "label": "Üzenet a bot nevében",
+      "description": "Components V2 üzenetek küldése és szerkesztése a bot nevében",
+      "commands": "/say (közlemény is: stilus:Közlemény, ping:@everyone)"
+    },
+    "tiktok": {
+      "label": "TikTok-értesítő",
+      "description": "TikTok-fiókok követése: új videó és élő adás jelzése egy csatornában — csak a szerver adminjai és a tulajdonos (lazítani nem lehet)",
+      "commands": "/tiktok"
+    },
+    "youtube": {
+      "label": "YouTube-értesítő",
+      "description": "YouTube-csatornák követése: új videó, Shorts és élő adás jelzése egy csatornában — csak a szerver adminjai és a tulajdonos (lazítani nem lehet)",
+      "commands": "/youtube"
+    },
+    "ai.config": {
+      "label": "AI beállítások",
+      "description": "Az AI-csatorna és a szerver AI-személyisége",
+      "commands": "/ai csatorna, prompt, beallitasok"
+    },
+    "ai.reset": {
+      "label": "AI-beszélgetés törlése",
+      "description": "Új beszélgetés indítása az AI-csatornában",
+      "commands": "/ai reset"
+    },
+    "eco.admin": {
+      "label": "Gazdasági admin",
+      "description": "Pénz jóváírása és levonása, profilok, alvilági nullázás",
+      "commands": "/ecoadmin"
+    },
+    "shop.admin": {
+      "label": "Bolt kezelése",
+      "description": "Saját bolttermékek (rangok, tárgyak) felvétele és szerkesztése",
+      "commands": "/shopadmin"
+    },
+    "underworld.events": {
+      "label": "Alvilági események",
+      "description": "Világesemények kézi indítása és leállítása",
+      "commands": "/alvilag bunozes → Hírek lap"
+    },
+    "bitcoin.events": {
+      "label": "Kriptoesemények",
+      "description": "Kriptoesemények (hőhullám, GPU-hiány, olcsó áram …) kézi indítása és leállítása",
+      "commands": "/btc → Hírek lap, admin sor"
+    },
+    "levels.admin": {
+      "label": "Szintrendszer kezelése",
+      "description": "Szintlépési csatorna, jutalomrangok, XP módosítása",
+      "commands": "/level csatorna, jutalom, xp"
+    },
+    "duty.manage": {
+      "label": "Szolgálat kezelése",
+      "description": "Más tagok kiléptetése, távollétek elbírálása, kvóta-rangok, típus átnevezése",
+      "commands": "/szolgalat kileptet|atnevez|kvota, /szolgalat loa dontes|lista"
+    },
+    "duty.admin": {
+      "label": "Szolgálati idők és adatok (admin)",
+      "description": "Idő jóváírása / levonása, nullázás, végleges törlés, export, riport, toplista és más tagok idejének lekérése — minden lépés naplózva",
+      "commands": "/szolgalat hozzaad|nullazas|torles|export|riport|osszesito, /szolgalat adatok tag:"
+    },
+    "community.review": {
+      "label": "Ötletek és hibajegyek elbírálása",
+      "description": "Elfogadás, elutasítás, kész jelölés",
+      "commands": "az ötlet- és hibajegy-kártyák gombjai"
+    },
+    "giveaway": {
+      "label": "Nyereményjátékok",
+      "description": "Nyereményjáték indítása, lezárása, újrasorsolása",
+      "commands": "/nyeremeny inditas, lezaras, ujrasorsolas"
+    },
+    "verify.info": {
+      "label": "Verifikációs adatok",
+      "description": "Ki mikor fogadta el a szabályzatot",
+      "commands": "/verify_info"
+    },
+    "use.economy": {
+      "label": "Gazdaság",
+      "description": "Egyenleg, munka, bank, utalás, bolt, befektetések",
+      "commands": "/penz"
+    },
+    "use.underworld": {
+      "label": "Alvilág",
+      "description": "Bűntények, tagrablás, pénzmosás, bandás balhék",
+      "commands": "/alvilag bunozes, /alvilag penzmosas"
+    },
+    "use.casino": {
+      "label": "Kaszinó",
+      "description": "A kaszinó játékai, chipek, napi bónusz, lottó",
+      "commands": "/casino"
+    },
+    "use.bitcoin": {
+      "label": "Bitcoin",
+      "description": "Bitcoin-terminál, bányászfarm, árfolyam",
+      "commands": "/btc"
+    },
+    "use.stocks": {
+      "label": "Tőzsde",
+      "description": "Részvénykereskedés, portfólió, megbízások",
+      "commands": "/tozsde"
+    },
+    "use.duty": {
+      "label": "Szolgálat",
+      "description": "Be- és kiléptetés, saját idők, távollét-kérelem",
+      "commands": "/szolgalat be|ki|adatok|loa, a panel"
+    },
+    "use.music": {
+      "label": "Zene",
+      "description": "Zenelejátszás és a lejátszó panelje (pl. csak DJ rang)",
+      "commands": "/zene …, a zenepanel"
+    },
+    "use.ai": {
+      "label": "AI",
+      "description": "Az AI-csatorna és a jobbklikkes AI-funkciók",
+      "commands": "AI-csatorna, AI: Magyarázat / Fordítás"
+    },
+    "use.fun": {
+      "label": "Szórakozás",
+      "description": "Mini játékok és szórakoztató parancsok",
+      "commands": "/fun …"
+    },
+    "use.tools": {
+      "label": "Eszközök",
+      "description": "Emlékeztető, szavazás, AFK, születésnap",
+      "commands": "/eszkoz …"
+    },
+    "use.levels": {
+      "label": "Szintrendszer",
+      "description": "Rangkártya, ranglista, jutalmak",
+      "commands": "/level kartya, jutalmak, /toplista"
+    },
+    "use.tickets": {
+      "label": "Jegynyitás",
+      "description": "Ki nyithat jegyet a ticket-panelen",
+      "commands": "a ticket-panel, /ticket jegyeim"
+    },
+    "clans.admin": {
+      "label": "Klánok kezelése",
+      "description": "Klán törlése, területharc kézi indítása és leállítása, a klánok teljes nullázása",
+      "commands": "/klan admin"
+    },
+    "use.clans": {
+      "label": "Klánok",
+      "description": "Klán alapítása és a klánélet: kassza, fejlesztések, területharc",
+      "commands": "/klan …"
+    },
+    "use.fishing": {
+      "label": "Halászat és vadászat",
+      "description": "RPG pecázás és vadászat, akvárium, trófeaterem, felszerelésbolt",
+      "commands": "/peca, /vadaszat"
+    },
+    "analytics": {
+      "label": "Aktivitás-elemzés",
+      "description": "Inaktív tagok listája és szerver-aktivitási grafikon; az inaktív rang tömeges kiosztásához és a kirúgáshoz a Rangok kiosztása / Kirúgás és a Tömeges műveletek jog is kell",
+      "commands": "/inaktiv, /aktivitas"
+    }
+  },
+  "units": {
+    "db": "db",
+    "perc": "perc",
+    "nap": "nap",
+    "%": "%",
+    "¤": "¤",
+    "XP": "XP",
+    "reakció": "reakció",
+    "mp": "mp",
+    "XP / perc": "XP / perc",
+    "¤ × szint": "¤ × szint",
+    "óra": "óra",
+    "szint": "szint",
+    "pont/óra": "pont/óra",
+    "¤/perc": "¤/perc",
+    "¤/hőpont": "¤/hőpont",
+    "chip": "chip",
+    "¤/kWh": "¤/kWh",
+    "fő": "fő",
+    "¤/óra": "¤/óra"
+  }
+}

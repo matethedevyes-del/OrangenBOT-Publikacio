@@ -1,0 +1,19 @@
+{
+ "from_member": "{name} wrote",
+ "staff_named": "Reply from {name} ({guild} staff)",
+ "staff_anon": "Reply from the {guild} staff",
+ "reply_hint": "To reply, just write here in DMs.",
+ "close": "Close",
+ "new_title": "📨 New modmail",
+ "new_sub": "{mention} • `{id}` • account: {created}",
+ "how_to": "Write in this thread — the bot forwards it to the member by DM. Messages starting with `//` are internal notes (not sent).",
+ "pick_guild": "Pick a server…",
+ "which_guild": "📨 Modmail is available on several servers. Which staff are you writing to?",
+ "picked": "📨 Done, forwarded to the **{guild}** staff.",
+ "failed": "❌ Couldn't reach the staff right now — please try again later.",
+ "opened": "📨 Your message reached the **{guild}** staff. They'll reply here; anything else you write goes to them too.",
+ "dm_closed": "⚠️ The member doesn't accept DMs — the reply wasn't delivered.",
+ "already_closed": "This conversation is already closed.",
+ "closed_by": "🔒 {mention} closed the conversation.",
+ "closed_dm": "🔒 The **{guild}** staff closed the conversation. Writing again opens a new thread."
+}

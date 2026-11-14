@@ -1,0 +1,42 @@
+{
+  "metaTitle": "Tickets",
+  "eyebrow": "Community",
+  "title": "Ticket inbox",
+  "description": "All tickets of the server in one place: search, full transcript, reply, claim and close — the bot carries it out on Discord.",
+  "tabs": {
+    "open": "Open",
+    "closed": "Closed",
+    "all": "All"
+  },
+  "search": "Search: #number, subject, category, user ID",
+  "emptyTitle": "No tickets",
+  "emptyText": "There are no tickets in this view yet.",
+  "emptySearch": "No ticket matches the search.",
+  "older": "Older",
+  "pick": "Pick a ticket from the list to open its transcript.",
+  "closedAgo": "closed {when}",
+  "claimedBy": "claimed by {name}",
+  "open": "Open",
+  "closed": "Closed",
+  "transcript": "Transcript",
+  "claim": "Claim",
+  "close": "Close",
+  "closeTitle": "Close ticket {code}?",
+  "closeText": "The member gets the transcript in DM and can rate the help, just like on Discord.",
+  "closeReason": "Reason (optional)",
+  "noMessages": "No saved messages in this ticket yet.",
+  "staff": "staff",
+  "fromWeb": "from web",
+  "edited": "edited",
+  "deleted": "This message was deleted.",
+  "replyPlaceholder": "Reply to the member…",
+  "replyHint": "The bot posts it in the ticket channel under your name. Ctrl+Enter: send.",
+  "send": "Send",
+  "sending": "The bot is working on it…",
+  "closedInfo": "Ticket closed: {when}",
+  "server": {
+    "invalid": "Invalid data (at most {max} characters).",
+    "failed": "Could not send the action to the bot.",
+    "missing": "Ticket not found."
+  }
+}

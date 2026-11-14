@@ -1,0 +1,42 @@
+{
+  "metaTitle": "Tickets",
+  "eyebrow": "Community",
+  "title": "Ticket-Eingang",
+  "description": "Alle Tickets des Servers an einem Ort: Suche, vollständiges Transkript, Antworten, Übernehmen und Schließen — der Bot führt es auf Discord aus.",
+  "tabs": {
+    "open": "Offen",
+    "closed": "Geschlossen",
+    "all": "Alle"
+  },
+  "search": "Suche: #Nummer, Betreff, Kategorie, Nutzer-ID",
+  "emptyTitle": "Keine Tickets",
+  "emptyText": "In dieser Ansicht gibt es noch keine Tickets.",
+  "emptySearch": "Kein Ticket passt zur Suche.",
+  "older": "Ältere",
+  "pick": "Wähle ein Ticket aus der Liste, um das Transkript zu öffnen.",
+  "closedAgo": "geschlossen {when}",
+  "claimedBy": "übernommen von {name}",
+  "open": "Offen",
+  "closed": "Geschlossen",
+  "transcript": "Transkript",
+  "claim": "Übernehmen",
+  "close": "Schließen",
+  "closeTitle": "Ticket {code} schließen?",
+  "closeText": "Das Mitglied erhält das Transkript per DM und kann die Hilfe bewerten – wie auf Discord.",
+  "closeReason": "Grund (optional)",
+  "noMessages": "In diesem Ticket gibt es noch keine gespeicherten Nachrichten.",
+  "staff": "Team",
+  "fromWeb": "vom Web",
+  "edited": "bearbeitet",
+  "deleted": "Diese Nachricht wurde gelöscht.",
+  "replyPlaceholder": "Antwort an das Mitglied…",
+  "replyHint": "Der Bot sendet sie unter deinem Namen in den Ticket-Kanal. Strg+Enter: senden.",
+  "send": "Senden",
+  "sending": "Der Bot führt es aus…",
+  "closedInfo": "Ticket geschlossen: {when}",
+  "server": {
+    "invalid": "Ungültige Daten (höchstens {max} Zeichen).",
+    "failed": "Die Aktion konnte nicht an den Bot gesendet werden.",
+    "missing": "Ticket nicht gefunden."
+  }
+}

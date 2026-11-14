@@ -1,0 +1,15 @@
+{
+  "number": "Enter a number.",
+  "integer": "Enter a whole number.",
+  "tooSmall": "Too small — at least {min}.",
+  "tooBig": "Too large — at most {max}.",
+  "text": "Enter some text.",
+  "pick": "Choose from the list.",
+  "hex": "Enter a hex colour code, e.g. #FD8200.",
+  "channelIds": "It may only contain channel IDs.",
+  "tooLong": "Too long — at most {max} characters.",
+  "bool": "Enter an on/off value.",
+  "invalid": "Invalid value.",
+  "negative": "Can’t be negative.",
+  "required": "Required field."
+}

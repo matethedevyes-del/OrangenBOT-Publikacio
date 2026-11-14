@@ -1,0 +1,22 @@
+{
+  "cancel": "Abbrechen",
+  "confirm": "Ja, fortfahren",
+  "save": "Speichern",
+  "saving": "Wird gespeichert…",
+  "search": "Suche",
+  "searchPlaceholder": "Suchen…",
+  "noResults": "Keine Treffer",
+  "close": "Schließen",
+  "menu": "Menü",
+  "loading": "Wird geladen",
+  "add": "Hinzufügen",
+  "noneSelected": "Nichts ausgewählt",
+  "unknownItem": "unbekannt ({id})",
+  "removeItem": "{label} entfernen",
+  "atMost": "max. {max}",
+  "yes": "ja",
+  "no": "nein",
+  "deltaNew": "neu",
+  "deltaTitle": "Im Vergleich zum vorherigen, gleich langen Zeitraum",
+  "skipToContent": "Zum Inhalt springen"
+}

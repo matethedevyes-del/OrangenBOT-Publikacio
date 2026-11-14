@@ -1,0 +1,83 @@
+{
+  "metaTitle": "Beüzemelés",
+  "eyebrow": "Beállítás",
+  "title": "Beüzemelés és mentések",
+  "description": "Pár lépésben kész a bot: nyelv, csatornák, Stáb rang, modulok. Itt mentheted, töltheted vissza és másolhatod a beállításokat, vagy indulhatsz egy kész sablonból.",
+  "steps": {
+    "language": "Nyelv",
+    "channels": "Csatornák",
+    "staff": "Stáb",
+    "modules": "Modulok",
+    "done": "Kész"
+  },
+  "languageText": "Milyen nyelven beszéljen a bot ezen a szerveren? (Az üzenetek, panelek és a / parancslista is.)",
+  "channelsText": "Hová írjon a bot? Később bármikor átállíthatod a Beállításokban.",
+  "none": "— nincs —",
+  "staffText": "A Stáb rang tagjai kezelhetik a jegyeket, a szolgálatot és a moderációs eszközöket.",
+  "staffRole": "Stáb rang",
+  "modulesText": "Kapcsold be, amire szükséged van — a kikapcsolt modul parancsai el is tűnnek.",
+  "back": "Vissza",
+  "next": "Tovább",
+  "finish": "Mentés",
+  "again": "Újra",
+  "doneTitle": "Kész!",
+  "doneText": "A bot pár másodpercen belül átveszi az új beállításokat.",
+  "saved": "Elmentve ({count} változás).",
+  "skipped": "{count} beállítás kimaradt: {keys}",
+  "backupTitle": "Mentés és visszatöltés",
+  "backupText": "Töltsd le a szerver beállításait JSON-fájlba, és bármikor töltsd vissza.",
+  "export": "Letöltés",
+  "import": "Visszatöltés",
+  "tooBig": "A fájl túl nagy.",
+  "badFile": "Ez nem érvényes JSON-fájl.",
+  "imported": "Beállítások visszatöltve.",
+  "copyTitle": "Másolás másik szerverre",
+  "copyText": "Ugyanezek a beállítások egy másik szerveredre — a csatornák és rangok nélkül (azok szerverenként mások).",
+  "noOtherGuilds": "Nincs másik szerver, ahol kezelő vagy és a bot is fut.",
+  "copyTarget": "Célszerver",
+  "copy": "Másolás",
+  "copyConfirm": "Másolod a beállításokat ide: {name}?",
+  "copyConfirmText": "A célszerver azonos beállításai felülíródnak.",
+  "copied": "Átmásolva.",
+  "templatesTitle": "Kész sablonok",
+  "templatesText": "Indulj egy szervertípusra szabott modulválasztással.",
+  "apply": "Alkalmazás",
+  "templateConfirm": "Alkalmazod a(z) „{name}” sablont?",
+  "templateConfirmText": "A modulok be- és kikapcsolása a sablon szerint változik; a többi beállítás marad.",
+  "templateApplied": "Sablon alkalmazva.",
+  "templates": {
+    "community": {
+      "title": "Közösségi szerver",
+      "text": "Szintek, szórakozás, küldetések, jegyek, zene, AI"
+    },
+    "gaming": {
+      "title": "Gamer szerver",
+      "text": "Teljes gazdaság, alvilág, kaszinó, tőzsde, klánok, horgászat"
+    },
+    "roleplay": {
+      "title": "Roleplay / frakció",
+      "text": "Szolgálati rendszer, jegyek, szintek, gazdaság"
+    },
+    "minimal": {
+      "title": "Minimál",
+      "text": "Csak a jegyrendszer — minden más kikapcsolva"
+    },
+    "support": {
+      "title": "Ügyfélszolgálat",
+      "text": "Ticketek és közösségi segítség, a játékmodulok nélkül."
+    }
+  },
+  "server": {
+    "invalid": "Érvénytelen kérés.",
+    "failed": "Nem sikerült elmenteni.",
+    "notBackup": "Ez nem OrangenBot-beállításmentés.",
+    "stale": "A beállítások közben megváltoztak. Készíts új előnézetet."
+  },
+  "previewTitle": "Módosítások előnézete",
+  "previewText": "Ezek a beállítások változnak. Mentés előtt ellenőrizd a csatornákat és rangokat.",
+  "before": "Jelenlegi",
+  "after": "Új",
+  "preview": "Előnézet",
+  "previewOn": "Bekapcsolva",
+  "previewOff": "Kikapcsolva"
+}

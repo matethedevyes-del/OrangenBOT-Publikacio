@@ -1,0 +1,12 @@
+{
+  "enable": "Értesítések bekapcsolása",
+  "disable": "Értesítések kikapcsolása",
+  "enableHint": "Push-értesítés ebben a böngészőben (új jegy, távollét-kérelem, válasz a vállalt jegyben).",
+  "disableHint": "Ebben a böngészőben nem kapsz több értesítést erről a szerverről.",
+  "on": "Értesítések bekapcsolva.",
+  "off": "Értesítések kikapcsolva.",
+  "denied": "A böngésző nem engedélyezte az értesítéseket.",
+  "failed": "Nem sikerült — próbáld újra.",
+  "invalid": "Érvénytelen kérés.",
+  "tooManyDevices": "Legfeljebb {max} eszközt iratkoztathatsz fel ezen a szerveren — egy régit kapcsolj ki előbb."
+}

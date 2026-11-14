@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Modules",
+  "title": "Turn features on and off",
+  "description": "One click turns a module on or off on this server. A disabled module’s commands don’t run — members get a friendly message instead. The sub-modules (underworld, bitcoin, stocks) stop together with Economy.",
+  "on": "{title}: on",
+  "off": "{title}: off",
+  "onText": "The bot will pick it up within a few seconds.",
+  "offText": "The module’s commands won’t run on this server.",
+  "failed": "That didn’t work",
+  "partOf": "part of {parent}",
+  "blocked": "Not running because {parent} is turned off.",
+  "settings": "Settings",
+  "turnOff": "Turn off {title}",
+  "turnOn": "Turn on {title}",
+  "aiLocked": "On this server, AI features can only be allowed by the OrangenBot operator."
+}

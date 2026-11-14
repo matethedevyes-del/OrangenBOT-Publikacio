@@ -1,0 +1,156 @@
+{
+  "metaTitle": "Beállítások",
+  "title": "Beállítások",
+  "description": "{total} beállítás {topics} témában. Ami nincs módosítva, az a bot alapértéke.",
+  "searchHint": "Keresés a {total} beállítás között — pl. „üdvözlő csatorna”, „napló”, „kamat”",
+  "missing": "{count} hiányzik",
+  "changed": "{changed} / {total} módosítva",
+  "off": "kikapcsolva",
+  "eyebrow": "Beállítások",
+  "moduleOff": "A téma modulja most ki van kapcsolva — a beállítások megmaradnak, de amíg be nem kapcsolod, nem hatnak.",
+  "modulesLink": "Modulok",
+  "resourcesUnavailable": "A szerver csatornái és rangjai most nem tölthetők be (Discord-hiba) — ezek a mezők ideiglenesen nem szerkeszthetők.",
+  "commands": "Discord-parancsok:",
+  "topicsNav": "Beállítás-témák",
+  "allTopics": "Minden téma",
+  "missingRecommended": "Hiányzó ajánlott beállítás",
+  "topic": "Téma",
+  "topicOff": "{title} (kikapcsolva)",
+  "topicWarning": "{title} (hiányos)",
+  "invalidFields": "Néhány mező hibás",
+  "invalidFieldsText": "Javítsd a pirossal jelölt mezőket.",
+  "saved": "Mentve",
+  "savedText": "A bot néhány másodpercen belül átveszi a változást.",
+  "saveFailed": "A mentés nem sikerült",
+  "unsaved": "Nem mentett változások",
+  "savingProgress": "Mentés folyamatban…",
+  "unsavedCount": "{count, plural, one {# nem mentett változás} other {# nem mentett változás}}",
+  "undo": "Visszavonás",
+  "saveTitle": "Mentés (Ctrl + S)",
+  "save": "Mentés",
+  "leavePrompt": "Nem mentett változásaid vannak. Biztosan elhagyod az oldalt? A változások elvesznek.",
+  "field": {
+    "recommended": "Ajánlott",
+    "modified": "módosítva",
+    "zero": "0 / üres: {zero}",
+    "locked": "Csak a tulajdonos vagy egy Discord-adminisztrátor módosíthatja.",
+    "resetTitle": "Vissza a bot alapértékére",
+    "reset": "Alapérték",
+    "notSet": "— Nincs beállítva —",
+    "unknownChannel": "Törölt / ismeretlen csatorna ({id})",
+    "unknownRole": "Törölt / ismeretlen rang ({id})",
+    "integration": " (integráció)",
+    "dangerousRole": " — admin jogot ad, csak szerver-admin választhatja",
+    "colorPicker": "Színválasztó",
+    "colorEmpty": "üresen: {zero}",
+    "channel": "Csatorna",
+    "textChannels": "Szöveges csatornák",
+    "otherChannels": "Hang- és egyéb csatornák",
+    "previewWelcome": "Így jelenik meg az üdvözlő kártyán",
+    "previewGoodbye": "Így jelenik meg a búcsúzó kártyán",
+    "previewDm": "Így kapja meg az új tag privátban",
+    "previewLevel": "Így jelenik meg a szintlépés",
+    "previewDefault": " (a bot alapszövege)",
+    "hide": "elrejtés",
+    "show": "megjelenítés",
+    "editOnWarnsPage": "Szerkesztés a Figyelmeztetések oldalon →",
+    "multiNone": "Nincs kikapcsolva semmi"
+  },
+  "units": {
+    "growth": "% / nap",
+    "hour": "óra"
+  },
+  "channelKinds": {
+    "announcement": "bejelentés",
+    "forum": "fórum",
+    "voice": "hang",
+    "stage": "színpad"
+  },
+  "stats": {
+    "topics": "Témák",
+    "topicsNote": "{total} beállítás összesen",
+    "changed": "Módosítva",
+    "changedNote": "/ {total}",
+    "missing": "Hiányzó ajánlott",
+    "missingNote": "Ezek nélkül egyes funkciók nem működnek teljesen",
+    "missingNone": "Minden ajánlott beállítás megvan",
+    "modulesOff": "Kikapcsolt modul",
+    "modulesLink": "Modulok kezelése"
+  },
+  "missingTitle": "Ajánlott beállítások, amik még hiányoznak",
+  "missingText": "Kattints egyre, és egyenesen a mezőhöz ugrasz.",
+  "missingMore": "és még {count}",
+  "groups": {
+    "core": {
+      "title": "Alapok",
+      "text": "Nyelv, arculat, rangok, üdvözlés és a nyilvános oldal"
+    },
+    "safety": {
+      "title": "Moderáció és biztonság",
+      "text": "Figyelmeztetések, szűrők, AI-moderáció, védelem és naplók"
+    },
+    "community": {
+      "title": "Közösség",
+      "text": "Szintek, küldetések, aktivitás, hang, AI chat és zene"
+    },
+    "duty": {
+      "title": "Szolgálat",
+      "text": "Be- és kilépés, kvóták, távollét és riportok"
+    },
+    "economy": {
+      "title": "Gazdaság és játékok",
+      "text": "Pénz, munka, alvilág, kaszinó, kripto, tőzsde, klánok és peca"
+    },
+    "other": {
+      "title": "Egyéb",
+      "text": "További témák"
+    }
+  },
+  "settingsCount": "{count} beállítás",
+  "changedShort": "{count} módosítva",
+  "moduleActive": "Modul bekapcsolva",
+  "moduleInactive": "Modul kikapcsolva",
+  "changedOf": "{changed} / {total} módosítva",
+  "sections": {
+    "links": {
+      "title": "Csatornák és rangok",
+      "text": "Hová írjon a bot, és kik mit kapnak"
+    },
+    "toggles": {
+      "title": "Kapcsolók",
+      "text": "Funkciók be- és kikapcsolása"
+    },
+    "values": {
+      "title": "Értékek és korlátok",
+      "text": "Számok, idők, választások"
+    },
+    "texts": {
+      "title": "Szövegek és sablonok",
+      "text": "Üzenetek, listák, hosszabb szövegek"
+    }
+  },
+  "filter": {
+    "placeholder": "Szűrés ebben a témában…",
+    "onlyChanged": "Csak a módosítottak",
+    "noResults": "Nincs a szűrésnek megfelelő beállítás.",
+    "clear": "Szűrés törlése"
+  },
+  "logRoute": {
+    "title": "Naplózás másik szerverre is",
+    "description": "Válassz egy naplószervert (ahol „Szerver kezelése” jogod van, és a bot is bent van). Utána minden naplótípusnál eldöntheted, hogy ennek a szervernek vagy a naplószervernek melyik csatornájába menjen — így a fő szerver átláthatóbb, a naplók mégis megmaradnak.",
+    "label": "Naplószerver",
+    "hint": "A naplócsatorna-választókban külön csoportként jelennek meg a csatornái.",
+    "thisOnly": "Csak ez a szerver",
+    "save": "Mentés",
+    "saved": "Naplószerver mentve",
+    "cleared": "A naplók ezen a szerveren maradnak",
+    "active": "A naplócsatornák a(z) {name} csatornái közül is választhatók (lent).",
+    "noChoices": "Nincs másik szerver, ahol jogod van, és a bot is bent van — hívd meg a botot a naplószerverre.",
+    "groupPrefix": "Naplószerver: {name}",
+    "invalid": "Érvénytelen kérés.",
+    "sameGuild": "Másik szervert válassz.",
+    "noAccessTarget": "A kiválasztott szerveren nincs „Szerver kezelése” jogod.",
+    "botMissing": "A bot nincs bent a kiválasztott szerveren.",
+    "failed": "A mentés nem sikerült."
+  }
+}

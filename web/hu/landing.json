@@ -1,0 +1,253 @@
+{
+  "chapters": "Fejezetek",
+  "heroTitle1": "A szervered botja —",
+  "heroTitle2": "narancssárgában.",
+  "heroLead": "Moderál, fizet, számol és figyel helyetted. Te csak kattintasz a vezérlőpulton — a többit az OrangenBot intézi.",
+  "invite": "Bot meghívása",
+  "pillsLabel": "Főbb funkciók",
+  "pills": {
+    "economy": "Gazdaság",
+    "moderation": "Moderáció",
+    "tickets": "Ticketek",
+    "stats": "Statisztika",
+    "music": "Zene"
+  },
+  "heroModules": {
+    "economy": "Gazdaság",
+    "casino": "Kaszinó",
+    "aimod": "AI-moderáció",
+    "tickets": "Ticketek",
+    "nameday": "Névnap"
+  },
+  "applied": "A bot átvette a változást",
+  "overviewAlt": "A vezérlőpult áttekintő oldala",
+  "settingsAlt": "Az Üdvözlés beállításai élő Discord-előnézettel",
+  "numbers": {
+    "servers": "szerver használja",
+    "modules": "kapcsolható modul",
+    "settings": "beállítás a weben",
+    "free": "örökre ingyenes",
+    "freeValue": "0 Ft"
+  },
+  "modules": {
+    "eyebrow": "Modulok",
+    "title": "Kapcsold be, ami kell. A többi nem zavar.",
+    "text": "{count} modul, mindegyik egyetlen kapcsoló. Amit kikapcsolsz, annak a parancsai is eltűnnek — a beállításai megmaradnak, ha visszahívod.",
+    "activeCount": "{on} / {total} bekapcsolva",
+    "exampleLabel": "Példa: modulok"
+  },
+  "settings": {
+    "eyebrow": "Beállítások",
+    "title": "Előbb te látod, aztán a tagok.",
+    "text": "Minden beállítás érthető magyar névvel és magyarázattal. Az üdvözlő-, búcsúzó- és szintlépés-üzenetet gépelés közben pontosan úgy látod, ahogy a Discordon megjelenik.",
+    "shortcut": "bármelyik beállításra egy pillanat alatt"
+  },
+  "features": {
+    "eyebrow": "Minden funkció",
+    "title": "Minden, ami egy élő közösséghez kell.",
+    "economy": {
+      "title": "Gazdaság és alvilág",
+      "text": "Munkák, bank, bolt, bűntények és világesemények, a szerver saját pénznemével."
+    },
+    "stocks": {
+      "title": "Tőzsde és bitcoin",
+      "text": "Percenként mozgó árfolyamok, grafikonok, bányászat és kriptohírek."
+    },
+    "casino": {
+      "title": "Kaszinó",
+      "text": "16 játék, jackpot, napi lottó és szerverek közötti bajnokság."
+    },
+    "moderation": {
+      "title": "Moderáció",
+      "text": "Esetnapló, szűrők, figyelmeztetések, fellebbezés gombbal."
+    },
+    "ai": {
+      "title": "AI-moderáció és AI chat",
+      "text": "Pontrendszeres automatikus moderáció és a szerverre szabott asszisztens."
+    },
+    "tickets": {
+      "title": "Ticketek",
+      "text": "Kategóriák kérdésekkel, AI-ügyintéző, átiratok és értékelés."
+    },
+    "rolePanels": {
+      "title": "Rangválasztók",
+      "text": "Gombos vagy menüs panelek, ideiglenes rangok, feltételek."
+    },
+    "social": {
+      "title": "YouTube és TikTok",
+      "text": "Értesítés új videóról, Shortsról és élő adásról."
+    },
+    "levels": {
+      "title": "Szintrendszer",
+      "text": "XP üzenetért és hangért, szintkártyák, jutalomrangok."
+    },
+    "namedays": {
+      "title": "Névnap és születésnap",
+      "text": "Napi köszöntő a szerver idejében, magyar névnaptárral."
+    },
+    "clans": {
+      "title": "Klánok és küldetések",
+      "text": "Közös kassza, területharc, napi küldetések, kitüntetések."
+    },
+    "music": {
+      "title": "Zene és közösség",
+      "text": "Lejátszó panellel, üdvözlő kártyák, starboard, szólánc."
+    }
+  },
+  "how": {
+    "eyebrow": "Hogyan működik",
+    "title": "Két perc az egész.",
+    "invite": {
+      "title": "Hívd meg",
+      "text": "Egy kattintás, és a bot már a szervereden. Privátban küldi a vezérlőpult linkjét."
+    },
+    "login": {
+      "title": "Lépj be Discorddal",
+      "text": "Se jelszó, se e-mail. Csak azokat a szervereket látod, amiket kezelhetsz."
+    },
+    "configure": {
+      "title": "Szabd testre",
+      "text": "Modulok, csatornák, rangok, panelek — a bot másodperceken belül átveszi."
+    }
+  },
+  "security": {
+    "eyebrow": "Biztonság",
+    "title": "Zárva, ahol kell.",
+    "permitted": {
+      "title": "Csak a jogosultak",
+      "text": "Adminisztrátor vagy Szerver kezelése jog kell, és a botnak is a szerveren kell lennie — minden kérésnél újra ellenőrizve."
+    },
+    "token": {
+      "title": "Nincs tárolt token",
+      "text": "HttpOnly, Secure süti. A Discord-token nem kerül a böngészőbe, és adatbázisba sem írjuk."
+    },
+    "input": {
+      "title": "Ellenőrzött bemenet",
+      "text": "Minden mező sémán megy át; a csatornákat és rangokat a szerver valós adataival vetjük össze."
+    },
+    "audit": {
+      "title": "Napló mindenről",
+      "text": "Minden módosítás látszik a szerver naplójában: ki, mit, mikor."
+    }
+  },
+  "faq": {
+    "eyebrow": "Kérdések",
+    "title": "Amit mindenki megkérdez.",
+    "price": {
+      "q": "Mennyibe kerül?",
+      "a": "Semmibe. A bot és a vezérlőpult is ingyenes."
+    },
+    "scopes": {
+      "q": "Milyen jogot kér a belépés?",
+      "a": "Csak a nevedet és a szervereid listáját (Discord „identify” és „guilds”). E-mail címet, üzeneteket nem látunk, és a nevedben semmit nem teszünk a Discordon."
+    },
+    "who": {
+      "q": "Ki állíthatja a szervert?",
+      "a": "Akinek a Discordon Adminisztrátor vagy Szerver kezelése joga van, azon a szerveren, ahol a bot is bent van. A bot saját szintjeit (Stáb, Moderátor, Admin) a Rangok és jogok lapon adod meg."
+    },
+    "delay": {
+      "q": "Mennyi idő, amíg a bot átveszi?",
+      "a": "Pár másodperc. A beállítást a bot 15 másodpercen belül újratölti, a panelek kirakását 5 másodpercen belül elvégzi."
+    },
+    "commands": {
+      "q": "Kell parancsokat tanulni?",
+      "a": "Nem. Minden beállítás a weben van; a tagok a /help-ből látják, mit tudnak használni."
+    },
+    "language": {
+      "q": "Milyen nyelven beszél a bot?",
+      "a": "A bot magyarul, angolul vagy németül beszél — szerverenként állítható a vezérlőpulton (Alapok → Nyelv), és minden válasza ezen a nyelven jelenik meg. A vezérlőpult magyarul, angolul és németül is használható — a nyelvet a menüben választhatod ki."
+    }
+  },
+  "cta": {
+    "title1": "Legyen a szervered is",
+    "title2": "narancssárga."
+  },
+  "preview": {
+    "welcome": "## Szia, {mention}!\nÜdv a **{szerver}** szerveren. Nézz be a {#szabályzat} csatornába, és érezd magad otthon.\n-# Te vagy a(z) {tagszam}. tagunk",
+    "guildName": "Narancs Klub",
+    "rulesChannel": "szabályzat"
+  },
+  "saving": "Mentés…",
+  "designEyebrow": "Discord, egyszerűbben.",
+  "designPreview": "Előnézet",
+  "designPreviewNote": "Átlátható beállítások. Csak az, amire szükséged van.",
+  "tour": {
+    "overview": {
+      "label": "Áttekintés",
+      "path": "Narancs Klub / Áttekintés",
+      "alt": "A vezérlőpult áttekintő oldala: modulok, üzenetek, nyitott ticketek, aktivitás és a legutóbbi módosítások"
+    },
+    "stats": {
+      "label": "Statisztika",
+      "path": "Narancs Klub / Statisztika",
+      "alt": "Aktivitás és növekedés: üzenetek, hangidő, aktív tagok és tagnövekedés grafikonokon"
+    },
+    "inbox": {
+      "label": "Jegyek",
+      "path": "Narancs Klub / Jegyek",
+      "alt": "Beérkező jegyek: a teljes beszélgetés, válasz és lezárás közvetlenül a webről"
+    },
+    "duty": {
+      "label": "Szolgálat",
+      "path": "Narancs Klub / Szolgálat",
+      "alt": "Szolgálati idők: napi grafikon, ki van bent, összesítők és export"
+    },
+    "leaderboard": {
+      "label": "Ranglista",
+      "path": "Narancs Klub / Ranglista",
+      "alt": "A szerver ranglistái: szint és vagyon szerint, dobogóval"
+    }
+  },
+  "heroKicker": "Közösségeknek, frakcióknak, csapatoknak",
+  "mock": {
+    "channel": "szolgálat",
+    "time": "Ma 19:42",
+    "dutyTitle": "Szolgálati panel — Rendőrség",
+    "onDuty": "Szolgálatban: {count}",
+    "onBreak": "szünetel",
+    "teamToday": "A csapat mai ideje",
+    "clockIn": "Belépek",
+    "break": "Szünet",
+    "clockOut": "Kilépek",
+    "ticketTitle": "Új jegy #0142 — Támogatás",
+    "ticketText": "Nem kaptam meg a fizetésemet a mai szolgálat után.",
+    "claim": "Átveszem",
+    "label": "Példa: így néz ki a bot a Discordon"
+  },
+  "tourSection": {
+    "eyebrow": "Vezérlőpult",
+    "title": "A bot agya a böngésződben.",
+    "text": "Minden beállítás, jegy, statisztika és napló egy helyen — parancsok bemagolása nélkül, telefonról is."
+  },
+  "bento": {
+    "eyebrow": "Funkciók",
+    "title": "Minden, amitől egy szerver él.",
+    "faction": {
+      "title": "FiveM-frakcióknak",
+      "text": "Szolgálati panel élő listával, óradíj és bérjegyzék, távollétek, jelentések egyedi űrlapokkal — mind a vezérlőpulton is.",
+      "goal": "Heti cél",
+      "days": "H,K,Sze,Cs,P,Szo,V",
+      "hours": "Szolgálati órák ezen a héten"
+    },
+    "tickets": {
+      "open": "Nyitott",
+      "claimed": "Átvéve",
+      "closed": "Lezárva",
+      "s1": "Hiányzó fizetés",
+      "s2": "Fellebbezés kitiltás ellen",
+      "s3": "Frakciójelentkezés"
+    },
+    "economy": {
+      "ticker": "NARANCS",
+      "change": "+12,4% ma"
+    },
+    "moderation": {
+      "s1": "Figyelmeztetés",
+      "s2": "Timeout 10 percre",
+      "s3": "Kirúgás",
+      "s4": "Kitiltás 7 napra",
+      "level": "{n}. szint"
+    },
+    "more": "És még"
+  }
+}

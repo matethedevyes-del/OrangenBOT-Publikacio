@@ -1,0 +1,15 @@
+{
+  "metricLabel": "Mutató",
+  "messages": "Üzenetek",
+  "voiceMinutes": "Hangpercek",
+  "activeMembers": "Aktív tagok",
+  "unitMessages": "üzenet",
+  "unitMinutes": "perc",
+  "unitMembers": "tag",
+  "previousPeriod": "Előző időszak",
+  "activityLabel": "{metric} naponta, az előző időszakkal összevetve",
+  "growthLabel": "Belépők és kilépők naponta",
+  "joins": "Belépők",
+  "leaves": "Kilépők",
+  "day": "Nap"
+}

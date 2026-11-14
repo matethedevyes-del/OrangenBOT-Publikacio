@@ -1,0 +1,15 @@
+{
+  "working": "Der Bot arbeitet…",
+  "sendFailed": "Konnte nicht gesendet werden (Netzwerkfehler, oder die Seite wurde inzwischen neu geladen) — lade neu und versuche es erneut.",
+  "failed": "Das hat nicht geklappt",
+  "done": "Fertig",
+  "doneText": "Fertig.",
+  "sent": "An den Bot gesendet — ein paar Sekunden.",
+  "open": "Öffnen",
+  "notExecuted": "Der Bot konnte es nicht ausführen",
+  "inProgress": "Der Bot arbeitet daran…",
+  "noPickup": "Der Bot hat die Anfrage nicht angenommen — wahrscheinlich läuft er nicht oder startet gerade neu. Sobald er läuft, führt er sie aus.",
+  "notResponding": "Der Bot antwortet nicht",
+  "stillRunningText": "Der Bot ist noch nicht fertig — sieh auf Discord nach oder versuche es später erneut.",
+  "stillRunning": "Der Bot arbeitet noch"
+}

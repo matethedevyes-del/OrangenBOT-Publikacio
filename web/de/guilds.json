@@ -1,0 +1,32 @@
+{
+  "metaTitle": "Meine Server",
+  "title": "Deine Server",
+  "greeting": "Hallo {name}! Wähle den Server aus, den du einrichten möchtest.",
+  "adminPanelText": "Alle Server, Nutzer, Sanktionen und das vollständige Protokoll.",
+  "adminDenied": "Du hast keinen Zugriff auf das Admin-Panel. Wenn dich der Inhaber gerade hinzugefügt hat, melde dich ab und wieder an.",
+  "unavailable": "Der Server konnte gerade nicht geöffnet werden: Die Datenbank oder Discord hat nicht geantwortet. Versuche es in einer Minute erneut — wenn es so bleibt, steht der genaue Fehler im Cloudflare-Workers-Log (Workers & Pages → der Worker → Logs).",
+  "openDiag": "Fehlersuche öffnen →",
+  "denied": "Du hast keinen Zugriff auf diesen Server: Du brauchst auf Discord die Berechtigung Administrator oder Server verwalten, und der Bot muss ebenfalls auf dem Server sein (laut den Aufzeichnungen des Bots). Wenn du den Bot gerade eingeladen hast, warte eine Minute.",
+  "listFailed": "Deine Serverliste kann gerade nicht geladen werden",
+  "listFailedText": "Discord oder die Datenbank antwortet gerade nicht. Lade die Seite in einer Minute neu.",
+  "searchPlaceholder": "Server suchen…",
+  "searchLabel": "Server suchen",
+  "filterLabel": "Filter",
+  "filterAll": "Alle",
+  "filterActive": "Mit Bot",
+  "filterInvite": "Einladbar",
+  "owner": "Inhaber",
+  "active": "Aktiv",
+  "botMissing": "Der Bot ist noch nicht hier",
+  "invite": "Einladen",
+  "noneManageable": "Du hast auf keinem Server die Berechtigung Administrator oder Server verwalten.",
+  "noMatch": "Kein Server entspricht deiner Suche.",
+  "switch": "Server wechseln",
+  "current": "aktuell",
+  "allServers": "Alle meine Server",
+  "access": {
+    "readonly": "Nur lesen",
+    "panel": "Panel-Admin",
+    "manager": "Verwalter"
+  }
+}

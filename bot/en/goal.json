@@ -1,0 +1,17 @@
+{
+ "unit_messages": "messages",
+ "unit_voice": "minutes in voice",
+ "unit_work": "jobs done",
+ "unit_crimes": "successful crimes",
+ "unit_casino": "casino games",
+ "tag": "Weekly community goal",
+ "tag_done": "Goal reached!",
+ "headline": "{target} {unit}",
+ "body": "{contributors} members helping • reward: {reward} each",
+ "ends_label": "Until Sunday midnight",
+ "running_text": "Reach it together this week — ends {ends}. Everyone who helps gets **{reward}** if it's reached!",
+ "done_text": "🎉 Done! Every participant received **{reward}**.",
+ "top": "**Top helpers**",
+ "footer": "{contributors} members have contributed • the card refreshes every few minutes",
+ "celebrate": "🎉 **The weekly community goal is complete!** {emoji} {contributors} members received **{reward}**. Great job, everyone!"
+}

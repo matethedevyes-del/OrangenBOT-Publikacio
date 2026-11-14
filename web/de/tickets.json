@@ -1,0 +1,236 @@
+{
+  "metaTitle": "Tickets",
+  "eyebrow": "Support",
+  "title": "Ticketsystem",
+  "description": "Tickets über ein Panel, pro Kategorie mit eigenen Fragen, eigenem Team und KI-Sachbearbeiter. Der Bot übernimmt Einstellungen in wenigen Sekunden; das veröffentlichte Panel aktualisierst du im Reiter Panel.",
+  "tabs": {
+    "basics": "Grundlagen",
+    "panel": "Panel",
+    "categories": "Kategorien",
+    "ai": "KI-Sachbearbeiter",
+    "blacklist": "Sperrliste"
+  },
+  "saved": "Gespeichert — der Bot übernimmt es in wenigen Sekunden.",
+  "failed": "Das hat nicht geklappt",
+  "none": "Keiner",
+  "save": "Speichern",
+  "noCategory": "Keine (der Bot ordnet keiner Kategorie zu)",
+  "openCategory": "Kategorie für offene Tickets",
+  "closedCategory": "Kategorie für geschlossene Tickets",
+  "staffRole": "Team-Rolle",
+  "staffRoleHint": "Sie sehen und bearbeiten die Tickets",
+  "staffRoleNone": "Keine (die Team-Stufe des Bots)",
+  "staffPing": "Team anpingen",
+  "logChannel": "Protokollkanal",
+  "transcriptChannel": "Kanal für Transkripte",
+  "maxOpen": "Offene Tickets pro Mitglied",
+  "autoClose": "Automatisch schließen",
+  "cooldown": "Wartezeit zwischen zwei Tickets",
+  "deleteClosed": "Geschlossene Tickets löschen",
+  "nameTemplate": "Vorlage für Kanalnamen",
+  "nameTemplateHint": "Platzhalter: {placeholders} — leer: {fallback}",
+  "welcome": "Willkommensnachricht im Ticket",
+  "welcomeHint": "Leer: die Standardnachricht",
+  "pingModes": {
+    "urgent": "Nur bei dringenden Tickets (P1–P2)",
+    "always": "Bei jedem neuen Ticket",
+    "never": "Nie (nur im Protokoll)"
+  },
+  "switches": {
+    "allowUserClose": {
+      "label": "Mitglieder können ihr eigenes Ticket schließen",
+      "description": "Ausgeschaltet kann nur das Team schließen"
+    },
+    "requireCloseReason": {
+      "label": "Schließgrund erforderlich (Team)",
+      "description": "Das Team kann nur mit Begründung schließen"
+    },
+    "dmTranscript": {
+      "label": "Transkript per DM an den Ersteller",
+      "description": "Beim Schließen erhält das Mitglied den Verlauf"
+    },
+    "ratingEnabled": {
+      "label": "Beim Schließen um Bewertung bitten",
+      "description": "1–5 Sterne und schriftliches Feedback per DM"
+    }
+  },
+  "duration": {
+    "off": "Aus",
+    "week": "1 Woche",
+    "days": "{count, plural, one {# Tag} other {# Tage}}",
+    "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+    "minutes": "{count, plural, one {# Minute} other {# Minuten}}",
+    "noCooldown": "Keine Wartezeit",
+    "never": "Nie (manuell löschbar)"
+  },
+  "panelChannel": "Kanal des Panels",
+  "pickChannel": "Kanal auswählen…",
+  "panelTitle": "Titel",
+  "panelDescription": "Beschreibung",
+  "panelStyle": "Kategorieauswahl",
+  "styles": {
+    "menu": {
+      "label": "Auswahlmenü",
+      "description": "Ein Menü mit allen Kategorien (bis 25)"
+    },
+    "buttons": {
+      "label": "Buttons",
+      "description": "Ein Button pro Kategorie (bis 15 Kategorien)"
+    }
+  },
+  "color": "Farbe",
+  "colorHint": "z. B. #FD8200 — leer: Orange",
+  "image": "Bild (https)",
+  "footer": "Fußzeile",
+  "myTickets": "Button „Meine Tickets“",
+  "help": "Button „Hilfe“",
+  "savedPanel": "Gespeichert — aktualisiere das veröffentlichte Panel.",
+  "post": "Veröffentlichen",
+  "panelLive": "Das Panel ist veröffentlicht — aktualisiere es nach Änderungen an Einstellungen oder Kategorien.",
+  "panelNotLive": "Das Panel ist noch nicht veröffentlicht.",
+  "saveFirst": "Speichere zuerst die Änderungen.",
+  "posting": "Panel wird veröffentlicht…",
+  "updatePanel": "Panel aktualisieren",
+  "postPanel": "Panel veröffentlichen",
+  "orderSaved": "Reihenfolge gespeichert.",
+  "turnedOff": "Ausgeschaltet.",
+  "turnedOn": "Eingeschaltet.",
+  "categoriesText": "Eingeschaltete Kategorien erscheinen auf dem Panel. Nach dem Bearbeiten einer eingebauten Kategorie stellt „Zurücksetzen“ den Standard wieder her.",
+  "customCategory": "Eigene Kategorie",
+  "newCategory": "Neue Kategorie",
+  "editCategory": "Kategorie bearbeiten",
+  "cancel": "Abbrechen",
+  "emoji": "Emoji auf dem Discord-Button",
+  "emojiHint": "Ein Unicode-Emoji oder ein eigenes Emoji des Servers (<:name:id>).",
+  "name": "Name",
+  "priority": "Priorität",
+  "priorityOption": "{priority} · {label}",
+  "shortDescription": "Kurzbeschreibung (im Menü)",
+  "questions": "Fragen beim Öffnen eines Tickets",
+  "questionsMax": "(höchstens {max})",
+  "question": "Frage",
+  "questionAria": "Frage {n}",
+  "helper": "Hilfetext",
+  "helperAria": "Hilfetext zu Frage {n}",
+  "long": "lang",
+  "required": "Pflicht",
+  "deleteQuestion": "Frage löschen",
+  "addQuestion": "Frage",
+  "ownStaff": "Eigene Team-Rollen",
+  "ownStaffHint": "Leer: die Team-Rolle des Ticketsystems",
+  "pingRoles": "Bei neuen Tickets anzupingende Rollen",
+  "discordCategory": "Discord-Kategorie",
+  "discordCategoryHint": "Leer: die allgemeine",
+  "general": "Die allgemeine",
+  "aiAgent": "KI-Sachbearbeiter",
+  "aiInherit": "Wie im übrigen System",
+  "aiOn": "Immer an",
+  "aiOff": "In dieser Kategorie aus",
+  "ownWelcome": "Eigene Willkommensnachricht",
+  "generalPlaceholder": "die allgemeine",
+  "allowFiles": "Dateien können angehängt werden",
+  "staffOnly": "Nur das Team kann es öffnen",
+  "custom": "eigene",
+  "customized": "angepasst",
+  "enabledAria": "{label} eingeschaltet",
+  "up": "Nach oben",
+  "down": "Nach unten",
+  "edit": "Bearbeiten",
+  "delete": "Löschen",
+  "reset": "Zurücksetzen",
+  "deleteTitle": "Kategorie löschen?",
+  "resetTitle": "Auf Standard zurücksetzen?",
+  "deleteText": "Bestehende Tickets bleiben erhalten.",
+  "resetText": "Alle Anpassungen der Kategorie gehen verloren.",
+  "deleted": "Gelöscht.",
+  "resetDone": "Zurückgesetzt.",
+  "aiEnabled": "KI-Sachbearbeiter in Tickets",
+  "aiEnabledText": "Beantwortet häufige Fragen und gibt dem Team Bescheid, wenn ein Mensch gebraucht wird.",
+  "persona": "Persönlichkeit / Anweisungen",
+  "personaPlaceholder": "z. B. Du bist ein freundlicher Support-Mitarbeiter, der duzt…",
+  "knowledge": "Wissensdatenbank",
+  "knowledgeHint": "Regeln, FAQ, Preise — woraus die KI antwortet",
+  "skillsTitle": "Was darf die KI?",
+  "skills": {
+    "ideas": {
+      "label": "Vorschläge entgegennehmen",
+      "description": "Fragt nach, fasst zusammen und schickt es zur Vorschlagsprüfung"
+    },
+    "bugs": {
+      "label": "Fehlermeldungen entgegennehmen",
+      "description": "Fragt die Details ab und schickt es zur Fehlerprüfung"
+    },
+    "roles": {
+      "label": "Rollen aus der Rollenauswahl",
+      "description": "Vergibt / entfernt Rollen der Rollenauswahl nach den Regeln des Panels"
+    },
+    "nickname": {
+      "label": "Spitznamen ändern",
+      "description": "Ändert den Spitznamen des Erstellers — ohne verbotene Wörter, Links oder Erwähnungen"
+    },
+    "lookup": {
+      "label": "Eigene Daten",
+      "description": "Kontostand, Level, Einladungen, Verwarnungen — nur die des Ticket-Erstellers"
+    },
+    "report": {
+      "label": "Mitglied melden",
+      "description": "Schickt den Moderatoren eine Meldung mit Verweis auf das Ticket"
+    },
+    "move": {
+      "label": "In die richtige Kategorie verschieben",
+      "description": "Wenn das Ticket eindeutig in der falschen Kategorie geöffnet wurde"
+    },
+    "close": {
+      "label": "Mit Zustimmung des Mitglieds schließen",
+      "description": "Fragt, ob es das Ticket schließen darf, und schließt es bei Ja"
+    }
+  },
+  "blacklistText": "Wer hier steht, kann auf diesem Server keine Tickets öffnen.",
+  "blacklistAdded": "Zur Sperrliste hinzugefügt.",
+  "userId": "Nutzer-ID",
+  "reason": "Grund (optional)",
+  "reasonAria": "Grund",
+  "ban": "Sperren",
+  "blacklistEmpty": "Die Sperrliste ist leer.",
+  "unbanned": "Entsperrt.",
+  "unban": "Entsperren",
+  "priorities": {
+    "P1": "Kritisch",
+    "P2": "Hoch",
+    "P3": "Mittel",
+    "P4": "Niedrig"
+  },
+  "extra": {
+    "title": "Zusätzliche Ticket-Panels",
+    "description": "Poste mehrere Panels in verschiedene Kanäle, jedes mit eigenen Kategorien (z. B. #kauf nur mit Kauf-Kategorien, #support mit technischen). Leerer Titel, Text oder Stil übernimmt das Haupt-Panel.",
+    "add": "Neues Panel",
+    "empty": "Noch keine zusätzlichen Panels.",
+    "live": "gepostet",
+    "notLive": "nicht gepostet",
+    "sameAsMain": "wie im Haupt-Panel",
+    "repost": "Posten / aktualisieren",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "deleteTitle": "Panel {name} löschen?",
+    "deleteText": "Der Bot entfernt auch die gepostete Nachricht. Offene Tickets sind nicht betroffen.",
+    "deleting": "Löschen…",
+    "posting": "Posten…",
+    "newTitle": "Neues Ticket-Panel",
+    "editTitle": "Panel bearbeiten",
+    "cancel": "Abbrechen",
+    "channel": "Kanal",
+    "pickChannel": "Kanal wählen…",
+    "name": "Name",
+    "nameHint": "Nur für euch in der Liste (leer: der Kanalname)",
+    "categories": "Kategorien in diesem Panel",
+    "categoriesHint": "Zum Auswählen klicken; ohne Auswahl erscheinen die Kategorien des Haupt-Panels",
+    "panelTitle": "Titel",
+    "panelDescription": "Text",
+    "inheritHint": "Leer: wie im Haupt-Panel",
+    "style": "Stil",
+    "styleInherit": "Wie im Haupt-Panel",
+    "styleMenu": "Dropdown-Menü",
+    "styleButtons": "Buttons",
+    "saveAndPost": "Speichern und posten"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Általános Szerződési Feltételek",
+  "intro": "A vezérlőpult használatával elfogadod az alábbi feltételeket. A bot Discordon belüli használatára a bot <code>/aszf</code> parancsában olvasható feltételek is vonatkoznak.",
+  "s1": {
+    "title": "1. A szolgáltatás",
+    "text": "A vezérlőpult ({name} üzemelteti) az OrangenBot Discord bot szerverenkénti beállításainak webes kezelésére szolgál. A szolgáltatás ingyenes, és „ahogy van” alapon érhető el."
+  },
+  "s2": {
+    "title": "2. Hozzáférés",
+    "account": "A belépés Discord-fiókkal történik; a fiókod biztonságáért te felelsz.",
+    "permission": "Egy szerver beállításait csak az kezelheti, akinek ott Adminisztrátor vagy Szerver kezelése joga van, és a bot is tagja a szervernek. A jogosultságot minden műveletnél a Discordtól ellenőrizzük.",
+    "responsibility": "A módosításaidért a szerver tulajdonosa és stábja felé te felelsz."
+  },
+  "s3": {
+    "title": "3. Tiltott használat",
+    "bypass": "A rendszer biztonsági megoldásainak megkerülése, más szerverek beállításaihoz való jogosulatlan hozzáférés kísérlete.",
+    "load": "Automatizált, túlzott terhelést okozó kérések (a szolgáltatás sebességkorlátot alkalmaz).",
+    "unlawful": "A szolgáltatás felhasználása jogszabályba vagy a Discord feltételeibe ütköző célra.",
+    "note": "Visszaélés esetén a hozzáférést korlátozhatjuk vagy megszüntethetjük."
+  },
+  "s4": {
+    "title": "4. Felelősség",
+    "text": "Mindent megteszünk a folyamatos és hibamentes működésért, de nem garantáljuk. A bot által kezelt virtuális egyenlegek (pl. Ft, BTC) valós anyagi értékkel nem rendelkeznek. A jogszabály által megengedett mértékig nem felelünk a szolgáltatás kieséséből vagy egy hibás beállításból eredő közvetett károkért."
+  },
+  "s5": {
+    "title": "5. Módosítás és kapcsolat",
+    "text": "A feltételeket módosíthatjuk; a lényeges változásokat az oldalon jelezzük. Kérdés esetén: {contact}."
+  }
+}

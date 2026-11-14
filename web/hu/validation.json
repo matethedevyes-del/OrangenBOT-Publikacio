@@ -1,0 +1,15 @@
+{
+  "number": "Számot adj meg.",
+  "integer": "Egész számot adj meg.",
+  "tooSmall": "Túl kicsi — legalább {min}.",
+  "tooBig": "Túl nagy — legfeljebb {max}.",
+  "text": "Szöveget adj meg.",
+  "pick": "Válassz a listából.",
+  "hex": "Hex-színkódot adj meg, pl. #FD8200.",
+  "channelIds": "Csak csatorna-azonosítók lehetnek benne.",
+  "tooLong": "Túl hosszú — legfeljebb {max} karakter.",
+  "bool": "Be/ki értéket adj meg.",
+  "invalid": "Érvénytelen érték.",
+  "negative": "Nem lehet negatív.",
+  "required": "Kötelező mező."
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Terms of Service",
+  "intro": "By using the dashboard you accept the terms below. Use of the bot within Discord is also subject to the terms shown by the bot’s <code>/aszf</code> command.",
+  "s1": {
+    "title": "1. The service",
+    "text": "The dashboard (operated by {name}) is used to manage the per-server settings of the OrangenBot Discord bot on the web. The service is free of charge and provided “as is”."
+  },
+  "s2": {
+    "title": "2. Access",
+    "account": "You log in with a Discord account; you are responsible for the security of your account.",
+    "permission": "A server’s settings can only be managed by someone who has the Administrator or Manage Server permission there, and only if the bot is also a member of the server. We check the permission with Discord for every action.",
+    "responsibility": "You are responsible for your changes towards the server’s owner and staff."
+  },
+  "s3": {
+    "title": "3. Prohibited use",
+    "bypass": "Circumventing the system’s security measures, or attempting unauthorised access to other servers’ settings.",
+    "load": "Automated requests that cause excessive load (the service applies rate limits).",
+    "unlawful": "Using the service for purposes that violate the law or Discord’s terms.",
+    "note": "In case of abuse we may restrict or terminate access."
+  },
+  "s4": {
+    "title": "4. Liability",
+    "text": "We do our best to keep the service running continuously and without errors, but we cannot guarantee it. Virtual balances managed by the bot (e.g. Ft, BTC) have no real monetary value. To the extent permitted by law, we are not liable for indirect damage resulting from an outage of the service or from an incorrect setting."
+  },
+  "s5": {
+    "title": "5. Changes and contact",
+    "text": "We may change these terms; significant changes will be announced on the site. For questions: {contact}."
+  }
+}

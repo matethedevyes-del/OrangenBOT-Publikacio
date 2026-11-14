@@ -1,0 +1,33 @@
+{
+  "metaTitle": "Moderációs esetek",
+  "eyebrow": "Moderáció",
+  "title": "Moderációs esetek",
+  "description": "A szerver összes moderációs esete (/warn, /timeout, /ban, AI-moderáció …) — összesen {total}.",
+  "user": "Felhasználó azonosítója",
+  "type": "Típus",
+  "allTypes": "Minden típus",
+  "filter": "Szűrés",
+  "emptyTitle": "Nincs eset",
+  "noMatch": "Ezzel a szűréssel nincs találat.",
+  "none": "Még nem volt moderációs eset ezen a szerveren.",
+  "onlyThisMember": "Csak ennek a tagnak az esetei",
+  "automatic": "A bot automatikusan intézkedett",
+  "moderator": "Moderátor: {who}",
+  "older": "Régebbiek",
+  "types": {
+    "ban": "Kitiltás",
+    "tempban": "Ideiglenes kitiltás",
+    "softban": "Softban",
+    "kick": "Kirúgás",
+    "auto_kick": "Automatikus kirúgás",
+    "timeout": "Némítás",
+    "mute": "Némítás",
+    "auto_timeout": "Automatikus némítás",
+    "automod": "Automoderáció",
+    "warn": "Figyelmeztetés",
+    "note": "Megjegyzés",
+    "unban": "Kitiltás feloldása",
+    "untimeout": "Némítás feloldása",
+    "unmute": "Némítás feloldása"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "label": "Language",
+  "change": "Language: {current} — change",
+  "botSynced": "The bot’s language on this server is now {language} too."
+}

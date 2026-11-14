@@ -1,0 +1,18 @@
+{
+  "title": "Cookies and privacy",
+  "text": "We use cookies that are needed for logging in, for your chosen language and for security. No tracking or advertising cookies — any other cookie only with your consent. Details: <link>Privacy policy</link>.",
+  "necessary": "Necessary",
+  "necessaryText": "Login, CSRF protection, language, this choice",
+  "alwaysOn": "Always on",
+  "preferences": "Preferences",
+  "preferencesText": "Remembering convenience features",
+  "analytics": "Statistics",
+  "analyticsText": "Anonymous visitor statistics",
+  "saveChoice": "Save choice",
+  "customize": "Customise",
+  "necessaryOnly": "Necessary only",
+  "acceptAll": "Accept all",
+  "saved": "Cookie settings saved",
+  "savedText": "You can change them at any time with the “Cookie settings” link in the footer.",
+  "settingsLink": "Cookie settings"
+}

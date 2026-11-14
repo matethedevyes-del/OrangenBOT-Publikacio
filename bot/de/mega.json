@@ -1,0 +1,14 @@
+{
+ "crash_tag": "Marktcrash",
+ "boom_tag": "Goldenes Zeitalter",
+ "crash_head": "Alle Märkte brechen ein — Bitcoin, Börse und Unterwelt fallen",
+ "boom_head": "Ein goldenes Zeitalter beginnt — Bitcoin, Börse und Unterwelt steigen",
+ "crash_body": "Alle Märkte erschüttern den Server gleichzeitig. Käufer machen jetzt Schnäppchen — wer Schulden hat, steckt in der Klemme.",
+ "boom_body": "Alle Märkte steigen gleichzeitig. Verkäufer machen jetzt Kasse — aber das goldene Zeitalter währt nicht ewig.",
+ "chip_btc": "Bitcoin {pct}",
+ "chip_stocks": "Börse: {head}",
+ "chip_uw": "Unterwelt: {name}",
+ "source": "Serverweit",
+ "footer": "Niemand weiß, wie lange es dauert",
+ "title": "Mega-Ereignis"
+}

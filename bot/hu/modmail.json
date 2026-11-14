@@ -1,0 +1,19 @@
+{
+ "from_member": "{name} írta",
+ "staff_named": "{name} válasza ({guild} stábja)",
+ "staff_anon": "A(z) {guild} stábjának válasza",
+ "reply_hint": "Válaszolni egyszerűen ide, a privát üzenetbe írhatsz.",
+ "close": "Lezárás",
+ "new_title": "📨 Új modmail",
+ "new_sub": "{mention} • `{id}` • fiók: {created}",
+ "how_to": "Írj ebbe a szálba — a bot továbbítja a tagnak privát üzenetben. A `//`-rel kezdődő üzenet belső jegyzet (nem megy ki).",
+ "pick_guild": "Válassz szervert…",
+ "which_guild": "📨 Több szerveren is elérhető a modmail. Melyiknek a stábjának írsz?",
+ "picked": "📨 Rendben, a(z) **{guild}** stábjának továbbítottam.",
+ "failed": "❌ Most nem sikerült üzenetet küldeni a stábnak — próbáld újra később.",
+ "opened": "📨 Az üzeneted megérkezett a(z) **{guild}** stábjához. Ide fognak válaszolni; amit még írsz, az is hozzájuk megy.",
+ "dm_closed": "⚠️ A tag nem fogad privát üzenetet — a válasz nem ment ki.",
+ "already_closed": "Ez a beszélgetés már le van zárva.",
+ "closed_by": "🔒 {mention} lezárta a beszélgetést.",
+ "closed_dm": "🔒 A(z) **{guild}** stábja lezárta a beszélgetést. Ha újra írsz, új szál nyílik."
+}

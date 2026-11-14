@@ -1,0 +1,20 @@
+{
+  "title": "Gyorskereső",
+  "description": "Oldalak, beállítások és szerverek keresése. Nyilakkal lépkedhetsz, Enterrel nyitod meg.",
+  "placeholder": "Mit keresel? (pl. üdvözlő csatorna, ticket, napló)",
+  "results": "Találatok",
+  "noResults": "Nincs találat erre: „{query}”",
+  "navigate": "lépkedés",
+  "open": "megnyitás",
+  "anywhere": "Bárhonnan:",
+  "groups": {
+    "pages": "Oldalak",
+    "topics": "Beállítás-témák",
+    "settings": "Beállítások",
+    "modules": "Modulok",
+    "servers": "Szerver váltása"
+  },
+  "module": "{title} modul",
+  "moduleKeywords": "be kikapcsolas modul",
+  "serverHint": "Ugrás ennek a szervernek a vezérlőpultjára"
+}

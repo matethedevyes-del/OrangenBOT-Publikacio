@@ -1,0 +1,2026 @@
+{
+  "settings": {
+    "currency_symbol": {
+      "label": "Währungssymbol",
+      "description": "Das Währungssymbol neben Beträgen"
+    },
+    "server_invite_link": {
+      "label": "Einladungslink",
+      "description": "Die Einladung des Servers (erscheint in der Honeypot-Nachricht)",
+      "zero": "keiner"
+    },
+    "theme_color": {
+      "label": "Kartenfarbe",
+      "description": "Die Grundfarbe der Bot-Karten auf diesem Server (Statusfarben — Erfolg, Fehler, Warnung — und die Farben der Funktionen bleiben erhalten)",
+      "zero": "Standard (Orange)"
+    },
+    "module_economy": {
+      "label": "Wirtschaft",
+      "description": "Wirtschaft, Arbeit, Shop — ausgeschaltet laufen auch Unterwelt, Bitcoin und Börse nicht"
+    },
+    "module_underworld": {
+      "label": "Unterwelt",
+      "description": "Unterwelt: Verbrechen, Geldwäsche, Banden-Coups, Weltereignisse (zusammen mit Wirtschaft)"
+    },
+    "module_bitcoin": {
+      "label": "Bitcoin",
+      "description": "Bitcoin: Krypto-Börse, Mining-Farm, Krypto-News (zusammen mit Wirtschaft)"
+    },
+    "module_stocks": {
+      "label": "Börse",
+      "description": "Börse: Aktienmarkt, Orders, Kurstafel (zusammen mit Wirtschaft)"
+    },
+    "module_casino": {
+      "label": "Casino",
+      "description": "Casino: Spiele, Chips, Jackpot, Lotterie"
+    },
+    "module_leveling": {
+      "label": "Levelsystem",
+      "description": "XP, Level-ups, Rangkarte, Level-Belohnungen"
+    },
+    "module_fun": {
+      "label": "Spaß",
+      "description": "Spaßbefehle"
+    },
+    "module_ai": {
+      "label": "KI-Chat",
+      "description": "KI-Chat im eingestellten Kanal"
+    },
+    "module_quests": {
+      "label": "Quests & Abzeichen",
+      "description": "Tagesquests, Serien, Abzeichen (/kuldetesek)"
+    },
+    "module_music": {
+      "label": "Musik",
+      "description": "Musik: YouTube-/Spotify-Player (/play, /queue …)"
+    },
+    "module_tickets": {
+      "label": "Tickets",
+      "description": "Tickets: Eröffnen über das Panel, /ticket — ausgeschaltet lassen sich offene Tickets weiterhin schließen"
+    },
+    "staff_role": {
+      "label": "Teamrolle",
+      "description": "Allgemeine Teamrolle — gehört zur Stufe „Team“ von /jogosultsag (weitere Team-, Moderator- und Admin-Rollen: /jogosultsag)",
+      "why": "sonst erreichen nur Administratoren die Team-Funktionen"
+    },
+    "perm_discord_fallback": {
+      "label": "Discord-Berechtigungen anerkennen",
+      "description": "Wer auf Discord die passende Berechtigung für eine Funktion hat (z. B. Mitglieder bannen), darf auch den Bot-Befehl nutzen — ausgeschaltet zählen nur die Rollenstufen von /jogosultsag"
+    },
+    "member_role": {
+      "label": "Mitgliederrolle",
+      "description": "Diese Rolle erhalten Mitglieder nach erfolgreicher Verifizierung"
+    },
+    "unverified_role": {
+      "label": "Unverifiziert-Rolle",
+      "description": "Wird beim Beitritt bis zur Verifizierung vergeben"
+    },
+    "rules_channel": {
+      "label": "Regelkanal",
+      "description": "Der Kanal mit den Regeln (die Verifizierung verweist darauf)"
+    },
+    "autorole_member_role": {
+      "label": "Auto-Rolle: neue Mitglieder",
+      "description": "Jedes neue Mitglied erhält sie automatisch"
+    },
+    "autorole_bot_role": {
+      "label": "Auto-Rolle: neue Bots",
+      "description": "Jeder neue Bot erhält sie automatisch"
+    },
+    "welcome_channel": {
+      "label": "Begrüßungskanal",
+      "description": "Hier erscheinen die Begrüßungskarten",
+      "why": "neue Mitglieder werden von niemandem begrüßt"
+    },
+    "welcome_message": {
+      "label": "Begrüßungstext",
+      "description": "Begrüßungstext — {mention} {nev} {szerver} {tagszam} {#csatorna} :emoji:"
+    },
+    "welcome_title": {
+      "label": "Bild: große Überschrift",
+      "description": "Große Überschrift auf dem Bild"
+    },
+    "welcome_subtitle": {
+      "label": "Bild: Untertitel",
+      "description": "Kleine Bildunterschrift unter dem Namen"
+    },
+    "welcome_theme": {
+      "label": "Bild: Design",
+      "description": "Das Design des Bildes: narancs, ejfel, aurora, naplemente, ocean, neon, galaxis, erdo, grafit, sajat",
+      "options": {
+        "narancs": "Orange (Standard)",
+        "ejfel": "Mitternacht",
+        "aurora": "Aurora",
+        "naplemente": "Sonnenuntergang",
+        "ocean": "Ozean",
+        "neon": "Neon",
+        "galaxis": "Galaxie",
+        "erdo": "Wald",
+        "grafit": "Graphit",
+        "sajat": "Eigenes Hintergrundbild (im Begrüßungs-Studio hochladen)"
+      }
+    },
+    "welcome_color": {
+      "label": "Bild: Akzentfarbe",
+      "description": "Akzentfarbe, z. B. #FD8200 (leer = Farbe des Designs)",
+      "zero": "Farbe des Designs"
+    },
+    "welcome_image": {
+      "label": "Begrüßungsbild",
+      "description": "Begrüßungsbild (Avatar, Name, Beschriftung)"
+    },
+    "welcome_ping": {
+      "label": "Neues Mitglied erwähnen",
+      "description": "Das neue Mitglied erwähnen (es erhält eine Benachrichtigung)"
+    },
+    "welcome_stats": {
+      "label": "Mitgliederzahl & Kontoalter",
+      "description": "Mitgliederzahl und Kontoalter unten auf der Karte"
+    },
+    "welcome_tip": {
+      "label": "Zufälliger Tipp",
+      "description": "Ein zufälliger Tipp unten auf der Karte"
+    },
+    "welcome_greet_button": {
+      "label": "„Sag Hallo!“-Button",
+      "description": "Ein „Sag Hallo!“-Button für die anderen Mitglieder"
+    },
+    "welcome_cleanup": {
+      "label": "Löschen bei schnellem Verlassen",
+      "description": "Die Begrüßung löschen, wenn das Mitglied innerhalb von 10 Minuten wieder geht"
+    },
+    "welcome_link_1": {
+      "label": "Link-Button 1",
+      "description": "Button unter der Karte: Kanal 1 (z. B. Regeln)"
+    },
+    "welcome_link_2": {
+      "label": "Link-Button 2",
+      "description": "Button unter der Karte: Kanal 2"
+    },
+    "welcome_link_3": {
+      "label": "Link-Button 3",
+      "description": "Button unter der Karte: Kanal 3"
+    },
+    "welcome_dm": {
+      "label": "Private Begrüßung (DM)",
+      "description": "Dem neuen Mitglied zusätzlich eine private Begrüßung (DM) senden"
+    },
+    "welcome_dm_message": {
+      "label": "Text der privaten Begrüßung",
+      "description": "Der Text der privaten Begrüßung"
+    },
+    "goodbye_channel": {
+      "label": "Abschiedskanal",
+      "description": "Hier erscheinen die Abschiedskarten"
+    },
+    "goodbye_message": {
+      "label": "Abschiedstext",
+      "description": "Abschiedstext — {nev} {szerver} {tagszam} {bucsu}"
+    },
+    "goodbye_title": {
+      "label": "Abschiedsbild: große Überschrift",
+      "description": "Große Überschrift auf dem Abschiedsbild"
+    },
+    "goodbye_subtitle": {
+      "label": "Abschiedsbild: Untertitel",
+      "description": "Kleine Beschriftung auf dem Abschiedsbild"
+    },
+    "goodbye_image": {
+      "label": "Abschiedsbild",
+      "description": "Abschiedsbild (graues Avatar, Beschriftung)"
+    },
+    "goodbye_theme": {
+      "label": "Abschiedsbild: Design",
+      "description": "Das Design des Abschiedsbilds (leer = wie bei der Begrüßung): narancs, ejfel, aurora, naplemente, ocean, neon, galaxis, erdo, grafit, sajat",
+      "zero": "wie bei der Begrüßung",
+      "options": {
+        "": "Wie bei der Begrüßung",
+        "narancs": "Orange (Standard)",
+        "ejfel": "Mitternacht",
+        "aurora": "Aurora",
+        "naplemente": "Sonnenuntergang",
+        "ocean": "Ozean",
+        "neon": "Neon",
+        "galaxis": "Galaxie",
+        "erdo": "Wald",
+        "grafit": "Graphit",
+        "sajat": "Eigenes Hintergrundbild (im Begrüßungs-Studio hochladen)"
+      }
+    },
+    "goodbye_color": {
+      "label": "Abschiedsbild: Akzentfarbe",
+      "description": "Akzentfarbe des Abschiedsbilds, z. B. #FD8200 (leer = wie bei der Begrüßung; „tema“ = eigene Farbe des Designs)",
+      "zero": "wie bei der Begrüßung",
+      "options": {
+        "tema": "Eigene Farbe des Designs"
+      }
+    },
+    "goodbye_stats": {
+      "label": "Abschiedsstatistik",
+      "description": "Beim Abschied: wann beigetreten, wie viele noch da sind"
+    },
+    "mod_log_channel": {
+      "label": "Mod-Log",
+      "description": "Fälle, AutoMod-Treffer und Einsprüche",
+      "why": "du siehst nicht, was der Bot filtert und wen er bestraft"
+    },
+    "mod_dm_notify": {
+      "label": "DM an sanktionierte Mitglieder",
+      "description": "Das sanktionierte Mitglied erhält eine DM (mit Einspruchs-Button)"
+    },
+    "global_mod_enforce": {
+      "label": "Globale Sperren durchsetzen",
+      "description": "Setzt die globalen Banns/Stummschaltungen des Bot-Eigentümers auch hier durch (aus: nur protokollieren)"
+    },
+    "mod_warn_threshold": {
+      "label": "Verwarnungsgrenze",
+      "description": "Automatischer Timeout nach jeweils so vielen Verwarnungen",
+      "zero": "deaktiviert"
+    },
+    "mod_warn_timeout_minutes": {
+      "label": "Dauer des automatischen Timeouts",
+      "description": "Wie lange der automatische Timeout dauert"
+    },
+    "mod_antispam": {
+      "label": "Anti-Spam",
+      "description": "6+ Nachrichten in 5 Sek. → Löschen + 5 Minuten Timeout"
+    },
+    "mod_antilink": {
+      "label": "Linkfilter",
+      "description": "Löscht Links zu nicht erlaubten Seiten"
+    },
+    "mod_link_allowlist": {
+      "label": "Erlaubte Domains",
+      "description": "Vom Linkfilter erlaubte Domains, durch Kommas getrennt"
+    },
+    "mod_antiinvite": {
+      "label": "Einladungsfilter",
+      "description": "Löscht Discord-Einladungen zu anderen Servern"
+    },
+    "mod_caps_mention": {
+      "label": "Erwähnungs- & CAPS-Filter",
+      "description": "Filtert Massenerwähnungen (6+), Großbuchstaben-Nachrichten und Textwände (16+ Zeilen)"
+    },
+    "snapshot_auto": {
+      "label": "Automatische Struktursicherung",
+      "description": "Sichert die Serverstruktur (Rollen, Kanäle, Berechtigungen) täglich automatisch — nur bei Änderungen; Wiederherstellung auf der Seite „Sicherungen“ im Dashboard"
+    },
+    "mod_antiraid": {
+      "label": "Brandneue Konten fernhalten",
+      "description": "Kickt automatisch Konten, die jünger als 24 Stunden sind"
+    },
+    "mod_auto_slowmode": {
+      "label": "Adaptiver Slowmode",
+      "description": "Adaptiver Slowmode bei Nachrichtenfluten"
+    },
+    "automod_bypass_role": {
+      "label": "Automod-freie Rolle",
+      "description": "Für Mitglieder mit dieser Rolle gilt die automatische Moderation nicht (Filter, KI-Moderation, Honeypot, die AutoMod-Regeln des Bots). Leer: die Rolle namens „Bypass“",
+      "zero": "die Rolle namens „Bypass“"
+    },
+    "warn_log_channel": {
+      "label": "Verwarnungs-Log",
+      "description": "Log der Verwarnungen (/warn, automatische Eskalation) (leer: das Mod-Log)"
+    },
+    "report_channel": {
+      "label": "Gemeldete Nachrichten",
+      "description": "Rechtsklick → „Nachricht melden“ landet hier"
+    },
+    "aimod_enabled": {
+      "label": "KI-Moderation",
+      "description": "Automatische Moderation: Löschen, Punkte, Stummschalten, DM-Karte"
+    },
+    "aimod_ai": {
+      "label": "KI-Analyse",
+      "description": "Verdächtige Nachrichten, die durch die Regeln rutschen, analysiert zusätzlich die KI"
+    },
+    "aimod_ai_all": {
+      "label": "Jede Nachricht analysieren",
+      "description": "Analysiert jede Nachricht, nicht nur die verdächtigen (mehr KI-Anfragen)"
+    },
+    "aimod_profanity": {
+      "label": "Schimpfwortfilter",
+      "description": "Der eingebaute ungarische und englische Schimpfwortfilter"
+    },
+    "aimod_strictness": {
+      "label": "Strenge",
+      "description": "Stummschaltungen je nach Punkten: enyhe (mild), normal oder szigoru (streng)",
+      "options": {
+        "enyhe": "Mild",
+        "normal": "Normal",
+        "szigoru": "Streng"
+      }
+    },
+    "aimod_threshold": {
+      "label": "KI-Schwelle",
+      "description": "Ab dieser Sicherheit handelt die KI selbst — darunter entscheiden die Moderatoren (Überprüfung)"
+    },
+    "aimod_expiry_days": {
+      "label": "Ablauf der Punkte",
+      "description": "Punkte verfallen nach so vielen Tagen"
+    },
+    "aimod_rules": {
+      "label": "Regeln",
+      "description": "Die Regeln des Servers — die KI entscheidet auch danach, Mitglieder können sie aus der Verwarnung heraus lesen",
+      "zero": "keine (allgemeine Regeln)"
+    },
+    "aimod_ignored_channels": {
+      "label": "Ausgenommene Kanäle",
+      "description": "In diesen Kanälen gibt es keine KI-Moderation (Kanal-IDs, durch Kommas getrennt)",
+      "zero": "keine"
+    },
+    "aimod_log_channel": {
+      "label": "KI-Moderations-Log",
+      "description": "Log der KI-Moderation und der zu prüfenden Fälle (leer: das Mod-Log)"
+    },
+    "aimod_public_notice": {
+      "label": "Hinweis im Kanal",
+      "description": "Ein kurzer, sich selbst löschender Hinweis zur Löschung im Kanal"
+    },
+    "bot_shield_enabled": {
+      "label": "BotShield",
+      "description": "Kickt automatisch nicht erlaubte Bots"
+    },
+    "bot_shield_allowed_bots": {
+      "label": "Erlaubte Bots",
+      "description": "Erlaubte Bot-IDs, durch Kommas getrennt",
+      "zero": "keiner"
+    },
+    "bot_shield_log_channel": {
+      "label": "BotShield-Log",
+      "description": "Ereignisse des BotShields"
+    },
+    "honeypot_channel": {
+      "label": "Honeypot-Kanal",
+      "description": "Spambot-Falle: Wer hier schreibt, wird vom Bot entfernt (auf der Seite Panels mit einem Klick erstellbar)"
+    },
+    "honeypot_action": {
+      "label": "Honeypot-Strafe",
+      "description": "Was mit den Erwischten passiert: softban, ban, kick, timeout oder log (nur protokollieren)",
+      "options": {
+        "softban": "Softban (Bann + sofortige Aufhebung: die Nachrichten werden gelöscht)",
+        "ban": "Bann",
+        "kick": "Kick",
+        "timeout": "Stummschalten (Timeout)",
+        "log": "Nur protokollieren"
+      }
+    },
+    "honeypot_repeat_ban": {
+      "label": "Honeypot: Wiederholungstäter bannen",
+      "description": "Wer innerhalb von 30 Tagen ein zweites Mal in die Falle schreibt, wird dauerhaft gebannt"
+    },
+    "log_channel": {
+      "label": "Allgemeines Log",
+      "description": "Allgemeines Log — Ersatz, wenn ein Bereich kein eigenes Log hat",
+      "why": "die Ereignisse des Bots (und das Ersatz-Log) erscheinen nirgends"
+    },
+    "audit_messages_channel": {
+      "label": "Nachrichten-Log",
+      "description": "Gelöschte und bearbeitete Nachrichten"
+    },
+    "audit_members_channel": {
+      "label": "Mitglieder-Log",
+      "description": "Beitritte, Austritte, Rollen- und Namensänderungen"
+    },
+    "audit_voice_channel": {
+      "label": "Voice-Log",
+      "description": "Ereignisse in Sprachkanälen"
+    },
+    "audit_mod_channel": {
+      "label": "Sanktions-Log",
+      "description": "Banns, Kicks, Timeouts"
+    },
+    "audit_server_channel": {
+      "label": "Server-Log",
+      "description": "Kanal-, Rollen-, Emoji- und Serveränderungen"
+    },
+    "suggestion_channel": {
+      "label": "Vorschläge prüfen",
+      "description": "Eingereichte Vorschläge landen hier zur Prüfung",
+      "why": "eingereichte Vorschläge erreichen das Team nicht"
+    },
+    "bug_channel": {
+      "label": "Bug-Reports prüfen",
+      "description": "Bug-Reports landen hier zur Prüfung",
+      "why": "Fehlermeldungen erreichen das Team nicht"
+    },
+    "starboard_channel": {
+      "label": "Starboard-Kanal",
+      "description": "Nachrichten mit vielen Reaktionen landen hier"
+    },
+    "counting_channel": {
+      "label": "Zählkanal",
+      "description": "Die Mitglieder zählen der Reihe nach ab 1; wer sich vertut, startet neu (mit Rekord)",
+      "zero": "keiner"
+    },
+    "wordchain_channel": {
+      "label": "Wortketten-Kanal",
+      "description": "Wortkette: Das nächste Wort beginnt mit dem letzten Buchstaben des vorherigen (mit ungarischen Doppelbuchstaben: cs, gy, ny, sz, zs …)",
+      "zero": "keiner"
+    },
+    "wordchain_reset_on_fail": {
+      "label": "Wortkette: bei Fehler neu starten",
+      "description": "Ein falsches Wort startet die Kette neu (ausgeschaltet zählt nur das falsche Wort nicht)"
+    },
+    "invite_log_channel": {
+      "label": "Einladungs-Log-Kanal",
+      "description": "Zeigt, wer wen eingeladen hat (und ob jemand mit einem verdächtig neuen Konto kommt) — zum Erfassen braucht der Bot die Berechtigung Server verwalten",
+      "zero": "keiner — nur /meghivok zeigt es"
+    },
+    "invite_reward": {
+      "label": "Belohnung pro Einladung",
+      "description": "So viel Geld bekommt der Einladende für jeden gültigen Erstbeitritt",
+      "zero": "keine Belohnung"
+    },
+    "invite_min_account_days": {
+      "label": "Zweitkonto-Filter: Mindestalter des Kontos",
+      "description": "Jüngere Konten gelten als verdächtig (keine gültige Einladung, keine Belohnung)",
+      "zero": "deaktiviert"
+    },
+    "quest_reward_multiplier": {
+      "label": "Belohnungsmultiplikator",
+      "description": "Multiplikator für die Geldbelohnungen von Tagesquests, Tageskiste und Abzeichen",
+      "zero": "keine Geldbelohnung"
+    },
+    "quest_xp": {
+      "label": "XP pro Quest",
+      "description": "So viel XP gibt es pro erledigter Tagesquest (wenn das Levelsystem läuft)",
+      "zero": "keine XP"
+    },
+    "achievement_channel": {
+      "label": "Abzeichen-Kanal",
+      "description": "Hier erscheint eine kleine Karte, wenn jemand ein neues Abzeichen erhält",
+      "zero": "keiner — /kuldetesek zeigt es"
+    },
+    "starboard_threshold": {
+      "label": "Starboard-Schwelle",
+      "description": "Ab so vielen Reaktionen landet eine Nachricht im Starboard"
+    },
+    "starboard_emoji": {
+      "label": "Starboard-Emoji",
+      "description": "Das beobachtete Reaktions-Emoji"
+    },
+    "birthday_channel": {
+      "label": "Geburtstagsgrüße",
+      "description": "Geburtstagsgrüße (um 8 Uhr morgens)"
+    },
+    "name_day_channel": {
+      "label": "Namenstagsgrüße",
+      "description": "Kanal für den täglichen Namenstagsgruß"
+    },
+    "name_day_hour": {
+      "label": "Uhrzeit des Namenstagsgrußes",
+      "description": "Um wie viel Uhr der tägliche Namenstagsgruß erscheint"
+    },
+    "name_day_mention": {
+      "label": "Feiernde erwähnen",
+      "description": "Der Namenstagsgruß erwähnt die Mitglieder, die an dem Tag feiern"
+    },
+    "holiday_channel": {
+      "label": "Feiertags-Kanal",
+      "description": "Kanal für die tägliche Meldung zu ungarischen Feier- und Gedenktagen (was wir feiern, wessen wir gedenken)"
+    },
+    "holiday_hour": {
+      "label": "Uhrzeit der Feiertagsmeldung",
+      "description": "Zu welcher Stunde die Feiertagsmeldung gesendet wird"
+    },
+    "holiday_mourning": {
+      "label": "Auch Gedenk- und Trauertage",
+      "description": "Auch an Gedenktagen und nationalen Trauertagen senden (z. B. 6. Oktober, 4. November) — aus: nur an Feiertagen"
+    },
+    "holiday_role": {
+      "label": "Rolle für Feiertagsmeldungen",
+      "description": "Diese Rolle wird in der Feiertagsmeldung erwähnt (leer: niemand)"
+    },
+    "level_channel": {
+      "label": "Level-up-Kanal",
+      "description": "Der Kanal für Level-up-Karten",
+      "zero": "wo das Mitglied geschrieben hat"
+    },
+    "level_announce": {
+      "label": "Glückwunschkarte",
+      "description": "Beim Level-up eine Glückwunschkarte im Kanal"
+    },
+    "level_dm": {
+      "label": "Private Benachrichtigung (DM)",
+      "description": "Beim Level-up zusätzlich eine private Nachricht (DM)"
+    },
+    "level_message": {
+      "label": "Eigener Glückwunsch",
+      "description": "Eigener Glückwunsch: {mention} {nev} {szint} {szerver} {jutalom}",
+      "zero": "der Standardtext"
+    },
+    "level_xp_multiplier": {
+      "label": "XP-Multiplikator",
+      "description": "Multiplikator für alle Nachrichten- und Sprach-XP: 0,5 = halb so viel XP (langsameres Leveln), 2 = doppelt"
+    },
+    "level_message_xp_min": {
+      "label": "XP pro Nachricht — Minimum",
+      "description": "Eine Nachricht bringt mindestens so viel XP (der tatsächliche Wert ist zufällig zwischen Minimum und Maximum)"
+    },
+    "level_message_xp_max": {
+      "label": "XP pro Nachricht — Maximum",
+      "description": "Eine Nachricht bringt höchstens so viel XP"
+    },
+    "level_message_cooldown": {
+      "label": "Wartezeit zwischen XP-Nachrichten",
+      "description": "Die Nachricht eines Mitglieds kann alle so viele Sekunden XP bringen (höher = langsameres Leveln, weniger Spam)"
+    },
+    "level_voice_xp_amount": {
+      "label": "XP pro Minute im Sprachkanal",
+      "description": "XP pro Minute im Sprachkanal (wenn mindestens zwei Personen sprechen)"
+    },
+    "level_voice_xp": {
+      "label": "XP in Sprachkanälen",
+      "description": "Auch in Sprachkanälen gibt es XP (wenn sich mindestens zwei unterhalten)"
+    },
+    "level_money_per_level": {
+      "label": "Geldbelohnung pro Level",
+      "description": "Beim Level-up gibt es Level × so viel Geld",
+      "zero": "keiner"
+    },
+    "level_stack_roles": {
+      "label": "Belohnungsrollen stapeln",
+      "description": "Belohnungsrollen werden gestapelt (aus: nur die höchste bleibt)"
+    },
+    "level_theme": {
+      "label": "Design der Rangkarte",
+      "description": "Das Design der Rangkarte (wie beim Begrüßungsbild)",
+      "options": {
+        "narancs": "Orange (Standard)",
+        "ejfel": "Mitternacht",
+        "aurora": "Aurora",
+        "naplemente": "Sonnenuntergang",
+        "ocean": "Ozean",
+        "neon": "Neon",
+        "galaxis": "Galaxie",
+        "erdo": "Wald",
+        "grafit": "Graphit"
+      }
+    },
+    "starting_cash": {
+      "label": "Startguthaben",
+      "description": "Mit so viel Bargeld startet ein neues Profil"
+    },
+    "bank_interest_rate": {
+      "label": "Tägliche Bankzinsen",
+      "description": "Täglicher Zins auf das Geld in der Bank"
+    },
+    "transfer_max_amount": {
+      "label": "Überweisungslimit",
+      "description": "Der Höchstbetrag einer einzelnen Überweisung",
+      "zero": "unbegrenzt"
+    },
+    "eco_log_channel": {
+      "label": "Wirtschafts-Log",
+      "description": "Log der Wirtschaftstransaktionen (Überweisungen, Verbrechen, Admin)",
+      "why": "du siehst keine großen Geldbewegungen und großen Coups"
+    },
+    "shop_log_channel": {
+      "label": "Shop-Log",
+      "description": "Log der Shop-Käufe"
+    },
+    "community_fund_channel": {
+      "label": "Gemeinschaftskasse",
+      "description": "Die Karte zur wöchentlichen Verlosung der Gemeinschaftskasse"
+    },
+    "work_cooldown_hours": {
+      "label": "Arbeit: Abklingzeit",
+      "description": "So oft kann gearbeitet werden"
+    },
+    "work_reward_min": {
+      "label": "Arbeit: Mindestlohn",
+      "description": "Der niedrigste Lohn für Arbeit"
+    },
+    "work_reward_max": {
+      "label": "Arbeit: Höchstlohn",
+      "description": "Der höchste Lohn für Arbeit"
+    },
+    "work_streak_max_days": {
+      "label": "Serie: maximale Tage",
+      "description": "So viele Tage wächst der Arbeitsserien-Bonus"
+    },
+    "work_streak_bonus": {
+      "label": "Serie: Tagesbonus",
+      "description": "Um so viel steigt der Lohn mit jedem Serientag"
+    },
+    "work_streak_grace_hours": {
+      "label": "Serie: Schonfrist",
+      "description": "Nach so viel ausgelassener Zeit reißt die Serie"
+    },
+    "beg_cooldown_minutes": {
+      "label": "Betteln: Abklingzeit",
+      "description": "So oft kann gebettelt werden (/penz → Arbeit)"
+    },
+    "beg_reward_min": {
+      "label": "Betteln: Minimum",
+      "description": "Der niedrigste Ertrag beim Betteln"
+    },
+    "beg_reward_max": {
+      "label": "Betteln: Maximum",
+      "description": "Der höchste Ertrag beim Betteln"
+    },
+    "repont_cooldown_hours": {
+      "label": "Pfandflaschen: Abklingzeit",
+      "description": "So oft können Flaschen zurückgegeben werden"
+    },
+    "repont_bottle_min": {
+      "label": "Pfandflaschen: Minimum",
+      "description": "Findet mindestens so viele Flaschen"
+    },
+    "repont_bottle_max": {
+      "label": "Pfandflaschen: Maximum",
+      "description": "Findet höchstens so viele Flaschen"
+    },
+    "repont_bottle_value": {
+      "label": "Pfandflaschen: Pfandwert",
+      "description": "Der Pfandwert einer Flasche"
+    },
+    "delivery_cooldown_hours": {
+      "label": "Kurier: Abklingzeit",
+      "description": "So oft kann als Kurier gearbeitet werden"
+    },
+    "fishing_cooldown_hours": {
+      "label": "Angeln: Abklingzeit",
+      "description": "So oft kann geangelt werden"
+    },
+    "mining_cooldown_hours": {
+      "label": "Bergbau: Abklingzeit",
+      "description": "So oft kann im Bergbau gearbeitet werden (Arbeit)"
+    },
+    "hunting_cooldown_hours": {
+      "label": "Jagen: Abklingzeit",
+      "description": "So oft kann gejagt werden"
+    },
+    "underworld_news_channel": {
+      "label": "Unterwelt-Nachrichtenkanal",
+      "description": "Nachrichten über Weltereignisse, große Coups und Festnahmen",
+      "why": "Nachrichten zu Ereignissen und großen Coups gibt es nur im Reiter Nachrichten von /alvilag bunozes"
+    },
+    "underworld_events": {
+      "label": "Automatische Ereignisse",
+      "description": "Automatische Weltereignisse (Razzia, Streik, Amnestie …)"
+    },
+    "underworld_event_interval_minutes": {
+      "label": "Ereignishäufigkeit",
+      "description": "Durchschnittlich kommt so oft ein neues Ereignis"
+    },
+    "crime_min_level": {
+      "label": "Erforderliche Aktivitätsstufe",
+      "description": "Ab dieser Aktivitätsstufe ist die Unterwelt verfügbar",
+      "zero": "keine Begrenzung"
+    },
+    "crime_loot_multiplier": {
+      "label": "Beute-Multiplikator",
+      "description": "Multiplikator für die Beute aus Verbrechen und Coups"
+    },
+    "crime_cooldown_multiplier": {
+      "label": "Abklingzeit-Multiplikator",
+      "description": "Multiplikator für die Abklingzeiten von Verbrechen (mindestens ×0,1 — bei 0 ließen sich Verbrechen unbegrenzt wiederholen)"
+    },
+    "crime_global_cooldown_minutes": {
+      "label": "Gemeinsame Wartezeit zwischen Verbrechen",
+      "description": "Zwischen zwei beliebigen Verbrechen muss mindestens so viel Zeit vergehen — sonst brächte das Aneinanderreihen vieler verschiedener Verbrechen endlos Geld. 0 = aus"
+    },
+    "crime_heat_decay_per_hour": {
+      "label": "Abbau der Fahndungsstufe",
+      "description": "Die Fahndungsstufe sinkt pro Stunde um so viel (0–100)"
+    },
+    "crime_bail_per_minute": {
+      "label": "Kautionspreis",
+      "description": "Kaution: Preis pro Minute verbleibender Haftzeit"
+    },
+    "crime_bribe_per_heat": {
+      "label": "Bestechungspreis",
+      "description": "Der Preis eines Hitzepunkts beim Bestechen (vervielfacht sich je Rang)"
+    },
+    "launder_cooldown_minutes": {
+      "label": "Geldwäsche: Abklingzeit",
+      "description": "So oft kann Geld gewaschen werden"
+    },
+    "robbery_cooldown_hours": {
+      "label": "Ausrauben: Abklingzeit",
+      "description": "So oft kann ein Mitglied ausgeraubt werden"
+    },
+    "robbery_success_chance": {
+      "label": "Ausrauben: Grundchance",
+      "description": "Die Grund-Erfolgschance beim Ausrauben eines Mitglieds"
+    },
+    "robbery_max_steal_percent": {
+      "label": "Ausrauben: maximale Beute",
+      "description": "Höchstens so viel vom Bargeld des Opfers kann mitgenommen werden"
+    },
+    "robbery_fine_percent": {
+      "label": "Ausrauben: Strafe",
+      "description": "Bei Misserfolg beträgt die Strafe diesen Anteil vom Bargeld des Opfers"
+    },
+    "robbery_victim_protection_hours": {
+      "label": "Ausrauben: Opferschutz",
+      "description": "Ein ausgeraubtes Mitglied ist so lange geschützt"
+    },
+    "casino_channel": {
+      "label": "Kanal für große Gewinne",
+      "description": "Verkündet große Gewinne und Jackpots",
+      "why": "niemand sieht die großen Gewinne und Jackpots"
+    },
+    "casino_max_bet": {
+      "label": "Höchsteinsatz",
+      "description": "Der höchste Einsatz in einem Spiel",
+      "zero": "unbegrenzt"
+    },
+    "lottery_channel": {
+      "label": "Lotterieziehung",
+      "description": "Die Karte der täglichen Lotterieziehung"
+    },
+    "btc_channel": {
+      "label": "Kurskanal",
+      "description": "Live angepinnte Kurskarte (Nachrichten gehen in einen eigenen Kanal: Krypto-News-Kanal)",
+      "why": "keine Live-Kurskarte und kein „Börse“-Button auf dem Server"
+    },
+    "btc_electricity_price": {
+      "label": "Strompreis",
+      "description": "Der Strompreis auf der Mining-Farm"
+    },
+    "btc_trade_fee_percent": {
+      "label": "Handelsgebühr",
+      "description": "Gebühr beim Kauf und Verkauf"
+    },
+    "btc_news_hours": {
+      "label": "Häufigkeit der Nachrichten",
+      "description": "Zwischen zwei außergewöhnlichen Marktnachrichten (und Kursschocks) vergeht mindestens so viel Zeit",
+      "zero": "keine Nachrichten und Schocks"
+    },
+    "btc_news_channel": {
+      "label": "Krypto-News-Kanal",
+      "description": "Eigener Kanal für Krypto-News: Schocks, Ereignisse, Blockfunde, Wal-Alarme, Tagesbericht (der Kurskanal bleibt sauber; leer erscheinen die Nachrichten nur im /btc-Nachrichten-Tab)",
+      "why": "Krypto-News, Ereignisse und der Tagesbericht erscheinen nur im /btc-Nachrichten-Tab"
+    },
+    "btc_event_hours": {
+      "label": "Häufigkeit der Krypto-Ereignisse",
+      "description": "Durchschnittlich startet alle so viele Stunden ein Krypto-Ereignis (Hitzewelle, billiger Strom, GPU-Mangel, Schwierigkeitsänderung …), das das Mining stundenlang beeinflusst",
+      "zero": "keine Krypto-Ereignisse"
+    },
+    "btc_daily_report": {
+      "label": "Täglicher Krypto-Bericht",
+      "description": "Täglicher Krypto-Bericht um 20 Uhr: Kurs, Chart, Ereignisse und Blöcke des Tages"
+    },
+    "btc_community_news": {
+      "label": "Community-Krypto-News",
+      "description": "Wal-Alarme (große Trades), Solo-Blockfunde und neue Allzeithochs im Nachrichtenkanal"
+    },
+    "stock_channel": {
+      "label": "Börsenkanal",
+      "description": "Live angepinnte Kurstafel (Nachrichten gehen in einen eigenen Kanal: Börsennachrichten-Kanal)",
+      "why": "keine Live-Kurstafel und kein „Terminal“-Button auf dem Server"
+    },
+    "stock_news": {
+      "label": "Eilmeldungen posten",
+      "description": "Außergewöhnliche Nachrichten (Übernahme, Handelsstopp, Krise …) erscheinen im Börsennachrichten-Kanal"
+    },
+    "stock_fee_percent": {
+      "label": "Maklergebühr",
+      "description": "Maklergebühr bei jedem Trade (Prozent des Handelswerts)"
+    },
+    "stock_min_fee": {
+      "label": "Mindest-Maklergebühr",
+      "description": "Die niedrigste Maklergebühr pro Trade",
+      "zero": "keiner"
+    },
+    "stock_tax_percent": {
+      "label": "Börsensteuer",
+      "description": "Steuer auf realisierte Kursgewinne und Dividenden",
+      "zero": "steuerfrei"
+    },
+    "stock_open_hour": {
+      "label": "Öffnung",
+      "description": "Um wie viel Uhr die Börse öffnet (Ortszeit)"
+    },
+    "stock_close_hour": {
+      "label": "Schließung",
+      "description": "Um wie viel Uhr die Börse schließt (24 = Mitternacht; gleich der Öffnung = rund um die Uhr geöffnet)"
+    },
+    "stock_weekends": {
+      "label": "Wochenendhandel",
+      "description": "Auch am Wochenende wird gehandelt"
+    },
+    "stock_short_selling": {
+      "label": "Leerverkäufe",
+      "description": "Leerverkäufe: Es kann auch auf fallende Kurse gesetzt werden (mit Sicherheiten, Leihgebühr und Zwangsschließung)"
+    },
+    "ai_channel": {
+      "label": "KI-Kanal",
+      "description": "In diesem Kanal antwortet der Bot auf jede Nachricht",
+      "why": "der KI-Chat antwortet nirgends"
+    },
+    "ai_system_prompt": {
+      "label": "KI-Anweisungen",
+      "description": "Serverspezifische Anweisungen für die KI (/ai prompt)",
+      "zero": "keiner"
+    },
+    "temp_voice_lobby": {
+      "label": "Lobby für temporäre Sprachkanäle",
+      "description": "Wer beitritt, bekommt einen eigenen Sprachkanal"
+    },
+    "stats_total_channel": {
+      "label": "Mitgliederzahl: gesamt",
+      "description": "Der Name zeigt die Gesamtzahl der Mitglieder"
+    },
+    "stats_humans_channel": {
+      "label": "Mitgliederzahl: Menschen",
+      "description": "Der Name zeigt die Zahl der menschlichen Mitglieder"
+    },
+    "stats_bots_channel": {
+      "label": "Mitgliederzahl: Bots",
+      "description": "Der Name zeigt die Zahl der Bots"
+    },
+    "module_clans": {
+      "label": "Clans",
+      "description": "Clans: gemeinsame Kasse, Upgrades, Revierkämpfe (/klan)"
+    },
+    "clan_create_cost": {
+      "label": "Gründungskosten",
+      "description": "So viel kostet die Gründung eines Clans (aus dem Bargeld)",
+      "zero": "kostenlos"
+    },
+    "clan_max_members": {
+      "label": "Grundlimit für Mitglieder",
+      "description": "So viele Mitglieder passen in einen Clan (ein Ausbau des Hauptquartiers erhöht das)"
+    },
+    "clan_role_enabled": {
+      "label": "Clan-Rollen",
+      "description": "Jeder Clan erhält eine eigene Discord-Rolle (ohne Berechtigungen) — Mitglieder bekommen sie beim Beitritt und verlieren sie beim Austritt (der Bot braucht die Berechtigung „Rollen verwalten“)"
+    },
+    "clan_log_channel": {
+      "label": "Clan-Log",
+      "description": "Hier landen die Clan-Ereignisse: Gründung, Beitritt, Austritt, Ränge, Upgrades, Auszahlungen",
+      "zero": "keiner"
+    },
+    "clan_war_channel": {
+      "label": "Kriegsnachrichten",
+      "description": "Ausschreibung, Runden und Ergebnis der Revierkämpfe",
+      "zero": "keiner — nur das /klan-Panel zeigt es"
+    },
+    "clan_war_interval_hours": {
+      "label": "Häufigkeit der Revierkämpfe",
+      "description": "Alle so viele Stunden schreibt der Bot von selbst einen Revierkampf aus (wenn es mindestens zwei Clans gibt)",
+      "zero": "nur manuell (/klan admin)"
+    },
+    "clan_war_signup_hours": {
+      "label": "Anmeldezeitraum",
+      "description": "So lange kann man sich für einen ausgeschriebenen Krieg anmelden"
+    },
+    "clan_war_duration_hours": {
+      "label": "Kriegsdauer",
+      "description": "Die drei Runden des Krieges laufen in dieser Zeit ab (zu gleichen Teilen)"
+    },
+    "clan_war_entry_fee": {
+      "label": "Startgebühr",
+      "description": "Die Startgebühr aus der Clankasse (wird zu 60 / 25 / 15 % unter den ersten drei aufgeteilt)",
+      "zero": "kostenlos"
+    },
+    "clan_war_prize": {
+      "label": "Siegerprämie",
+      "description": "Eine zusätzliche Prämie des Systems für den Siegerclan — nur bei mindestens 3 Teilnehmern (die Startgebühren werden zu 60 / 25 / 15 % unter den ersten drei aufgeteilt)",
+      "zero": "keine — nur die Startgebühren werden verteilt"
+    },
+    "clan_invite_hours": {
+      "label": "Gültigkeit der Einladung",
+      "description": "So lange ist eine Clan-Einladung gültig"
+    },
+    "module_fishing": {
+      "label": "Angeln & Jagen",
+      "description": "RPG-Angeln und -Jagen mit Minispiel, Aquarium, Trophäenraum (/peca, /vadaszat)"
+    },
+    "fishing_cooldown_seconds": {
+      "label": "Angeln: Abklingzeit",
+      "description": "So oft kann ausgeworfen werden (/peca dobale)",
+      "zero": "keine Wartezeit"
+    },
+    "hunting_cooldown_seconds": {
+      "label": "Jagen: Abklingzeit",
+      "description": "So oft kann man auf den Ansitz gehen (/vadaszat les)",
+      "zero": "keine Wartezeit"
+    },
+    "fishing_reward_multiplier": {
+      "label": "Multiplikator für den Wert der Fänge",
+      "description": "Multiplikator für den Wert gefangener Fische und erlegten Wilds",
+      "zero": "Fänge bringen kein Geld"
+    },
+    "fishing_weather": {
+      "label": "Einfluss des Wetters",
+      "description": "Das stündlich wechselnde Wetter (sonnig, regnerisch, stürmisch, verschneit …) beeinflusst Bisse und Wild"
+    },
+    "fishing_events": {
+      "label": "Einfluss von Ereignissen",
+      "description": "Weltereignisse der Unterwelt, Krypto-Ereignisse und die Stimmung am Bitcoin-Markt wirken sich ebenfalls auf die Fänge aus (z. B. Krypto-Fieber → mehr Goldfische)"
+    },
+    "fishing_announce_channel": {
+      "label": "Kanal für legendäre Fänge",
+      "description": "Hier erscheint für jeden legendären Fang eine Karte",
+      "zero": "keiner — nur der Fänger sieht es"
+    },
+    "fishing_collection_limit": {
+      "label": "Größe der Sammlung",
+      "description": "So viele unverkaufte Fische passen ins Aquarium (und so viele Trophäen in den Trophäenraum) — ist die Sammlung voll, muss erst verkauft werden"
+    },
+    "activity_tracking": {
+      "label": "Aktivität erfassen",
+      "description": "Erfasst die letzte Nachricht und Voice-Anwesenheit der Mitglieder sowie die Tageszahlen (nie Nachrichteninhalte) — nach dem Ausschalten beginnt die Zählung von vorn"
+    },
+    "inactive_role": {
+      "label": "Inaktiv-Rolle",
+      "description": "Der Button „Inaktiv-Rolle vergeben“ von /inaktiv vergibt diese Rolle (leer: der Button fragt nach)",
+      "zero": "keine — der Button fragt nach"
+    },
+    "inactive_exempt_role": {
+      "label": "Ausgenommene Rolle",
+      "description": "Mitglieder mit dieser Rolle landen nie auf der Inaktiv-Liste (z. B. Urlauber, VIPs)",
+      "zero": "keiner"
+    },
+    "inactive_default_days": {
+      "label": "Inaktivitätsschwelle",
+      "description": "/inaktiv betrachtet jemanden nach so vielen stillen Tagen als inaktiv, wenn du im Befehl nichts anderes angibst"
+    },
+    "activity_retention_days": {
+      "label": "Aufbewahrung der Tagesstatistik",
+      "description": "Die tägliche Aktivitätsstatistik (Diagramm, Topliste) bleibt so viele Tage erhalten; die letzte Aktivität der Mitglieder verfällt nie"
+    },
+    "role_log_channel": {
+      "label": "Log der Rollenänderungen",
+      "description": "Ausführliches Log der Rollenänderungen: wer eine Rolle bekommen / verloren hat, wer sie vergeben hat, mit welchen gefährlichen Rechten (wenn gesetzt, entfällt der einfache Rolleneintrag im Mitglieder-Log)",
+      "zero": "keiner — das Mitglieder-Log hält es kurz fest"
+    },
+    "role_alert_channel": {
+      "label": "Alarm bei gefährlichen Rollen",
+      "description": "Alarm, wenn jemand manuell eine Rolle mit Administrator-, Bann-, Kick- oder Rollen-verwalten-Berechtigung erhält (leer: das Mod-Log)",
+      "zero": "das Mod-Log"
+    },
+    "role_alert_ping_role": {
+      "label": "Bei Alarm gepingte Rolle",
+      "description": "Der Alarm bei gefährlichen Rollen pingt diese Rolle",
+      "zero": "kein Ping"
+    },
+    "xs_casino_championship": {
+      "label": "Serverübergreifende Meisterschaft",
+      "description": "Mitglieder nehmen an der wöchentlichen serverübergreifenden Casino-Meisterschaft teil (/casino bajnoksag): Punkte, Bestenliste, Preistopf — ausgeschaltet gibt es keine Punkte, keinen Platz in der Bestenliste und keine Preise"
+    },
+    "xs_global_market": {
+      "label": "Serverübergreifender Markteinfluss",
+      "description": "Die gemeinsame Mining- und Handelslust aller Server mit dem Bot bewegt den PÉTIX-Index und den Bitcoin-Kurs minimal — ausgeschaltet zieht dieser Server nicht mit, und seine Trades zählen nicht mit"
+    },
+    "language": {
+      "label": "Sprache",
+      "description": "Die Sprache des Bots auf diesem Server: hu (Ungarisch), en (Englisch) oder de (Deutsch) — alle Nachrichten, Karten, Protokolle, Panels, Antworten — und auch die /-Befehlsliste — erscheinen in dieser Sprache",
+      "options": {
+        "hu": "Ungarisch",
+        "en": "Englisch",
+        "de": "Deutsch"
+      }
+    },
+    "module_duty": {
+      "label": "Dienst",
+      "description": "Dienstsystem: Ein-/Ausstempeln, Zeiterfassung, Abwesenheit, Berichte (/szolgalat …)"
+    },
+    "music_default_volume": {
+      "label": "Standardlautstärke",
+      "description": "Mit dieser Lautstärke startet der Player (während der Wiedergabe über die Lautstärke-Buttons im Panel oder /musik lautstaerke änderbar)"
+    },
+    "music_idle_leave": {
+      "label": "Verlassen bei Leerlauf",
+      "description": "Ist die Warteschlange leer, verlässt der Bot den Sprachkanal nach so viel Stille",
+      "zero": "nie (24/7)"
+    },
+    "music_alone_leave": {
+      "label": "Verlassen, wenn allein",
+      "description": "Gehen alle, pausiert die Musik und der Bot geht nach dieser Zeit (kommt jemand zurück, geht es weiter)",
+      "zero": "nie (24/7)"
+    },
+    "music_max_per_user": {
+      "label": "Titel pro Mitglied in der Warteschlange",
+      "description": "Ein Mitglied kann höchstens so viele Titel gleichzeitig in der Warteschlange haben",
+      "zero": "unbegrenzt"
+    },
+    "music_max_minutes": {
+      "label": "Längster Titel",
+      "description": "Längere Titel (z. B. 10-Stunden-Videos) werden nicht eingereiht (Livestreams schon)",
+      "zero": "unbegrenzt"
+    },
+    "music_vote_percent": {
+      "label": "Überspringen per Abstimmung",
+      "description": "Überspringen per Abstimmung: MEHR ALS dieser Prozentsatz der Zuhörer ist nötig. Wer den Titel gewünscht hat, DJs (Kanäle verwalten) und wer allein zuhört, können sofort überspringen",
+      "zero": "aus (jeder kann sofort überspringen)"
+    },
+    "music_panel_follow": {
+      "label": "Panel folgt dem Chat",
+      "description": "Bei einem neuen Titel wandert das Panel ans Kanalende, wenn andere dazwischen geschrieben haben"
+    },
+    "music_live_progress": {
+      "label": "Live-Fortschritt im Panel",
+      "description": "Während der Wiedergabe zeigt das Panel einen Live-Fortschrittsbalken (vom Discord-Client gezählt, das Panel wird nicht ständig bearbeitet)"
+    },
+    "duty_masks": {
+      "label": "Diensttypen",
+      "description": "Diensttypen, einer pro Zeile (z. B. Polizei, Rettungsdienst, Bereitschaft) — jeder wird separat gezählt. Zum Umbenennen /dienst umbenennen nutzen, damit die Daten mitgehen"
+    },
+    "duty_log_channel": {
+      "label": "Dienstprotokoll",
+      "description": "Jedes Ein-/Ausstempeln, jede manuelle Änderung, jedes Ausstempeln durch andere, Abwesenheiten und Berichte landen hier",
+      "why": "Ein- und Ausstempeln wird nirgends protokolliert"
+    },
+    "duty_role": {
+      "label": "Im-Dienst-Rolle",
+      "description": "Mitglieder erhalten diese Rolle im Dienst (beim Ausstempeln wird sie entfernt)"
+    },
+    "duty_manager_role": {
+      "label": "Dienstleiter-Rolle",
+      "description": "Dienstleiter können andere ausstempeln und Abwesenheiten prüfen (Server verwalten reicht immer)"
+    },
+    "duty_ephemeral": {
+      "label": "Versteckte Antworten",
+      "description": "Nur wer /dienst nutzt, sieht die Antwort"
+    },
+    "duty_voice_channels": {
+      "label": "Sprachkanal-Dienst",
+      "description": "Wer diese Sprachkanäle betritt, wird eingestempelt (in den ersten Typ); beim Verlassen ausgestempelt",
+      "zero": "aus"
+    },
+    "duty_max_hours": {
+      "label": "Längste Schicht",
+      "description": "Eine Schicht dauert höchstens so viele Stunden, dann stempelt der Bot aus (die Zeit bis dahin zählt)",
+      "zero": "unbegrenzt"
+    },
+    "duty_idle_minutes": {
+      "label": "Aktivitätsprüfung",
+      "description": "Nach so vielen Minuten fragt der Bot per DM, ob das Mitglied noch im Dienst ist; ohne Antwort stempelt er aus",
+      "zero": "aus"
+    },
+    "duty_idle_reply_minutes": {
+      "label": "Antwortzeit für die Prüfung",
+      "description": "So lange hat das Mitglied Zeit, auf die Prüf-DM zu antworten"
+    },
+    "duty_idle_remove_time": {
+      "label": "Unbeantwortete Zeit abziehen",
+      "description": "Ohne Antwort zählt die Zeit seit der letzten Bestätigung nicht"
+    },
+    "duty_sticky_channel": {
+      "label": "Live-Dienstliste",
+      "description": "Eine Live-Liste der Diensthabenden — immer am Kanalende (höchstens einmal pro Minute verschoben)"
+    },
+    "duty_panel_title": {
+      "label": "Panel-Titel",
+      "description": "Der Titel des Dienst-Panels"
+    },
+    "duty_panel_text": {
+      "label": "Panel-Text",
+      "description": "Der Text des Dienst-Panels"
+    },
+    "duty_quotas": {
+      "label": "Kontingent-Rollen",
+      "description": "Eine Rolle nach geleisteter Zeit, eine pro Zeile: Rollen-ID = Minuten [= Typ] (auch per Rollenauswahl mit /dienst kontingent)",
+      "zero": "keine"
+    },
+    "duty_loa_enabled": {
+      "label": "Abwesenheitsanträge",
+      "description": "Mitglieder können Abwesenheit (LOA) beantragen: /dienst abwesenheit antrag, oder mit dem Knopf des eigenen Abwesenheits-Panels (im Web: Meldungen → Panels)"
+    },
+    "duty_loa_channel": {
+      "label": "Kanal für Abwesenheitsanträge",
+      "description": "Anträge werden hier zur Prüfung gepostet (mit Buttons)"
+    },
+    "duty_loa_reviewer_role": {
+      "label": "Prüfer-Rolle für Abwesenheit",
+      "description": "Diese Rolle kann Abwesenheiten ebenfalls prüfen (neben den Dienstleitern)"
+    },
+    "duty_loa_auto_approve": {
+      "label": "Automatisch genehmigen",
+      "description": "Anträge werden ohne Prüfung sofort genehmigt"
+    },
+    "duty_loa_role": {
+      "label": "Abwesenheitsrolle",
+      "description": "Mitglieder erhalten diese Rolle während der Abwesenheit"
+    },
+    "duty_loa_clockout": {
+      "label": "Ausstempeln während Abwesenheit",
+      "description": "Während der Abwesenheit wird das Mitglied aus allen Diensten ausgestempelt und kann nicht einstempeln"
+    },
+    "duty_loa_tag_nick": {
+      "label": "[LOA] im Nickname",
+      "description": "Während der Abwesenheit steht „[LOA]“ vor dem Nickname (benötigt Nicknames verwalten)"
+    },
+    "duty_report_period": {
+      "label": "Berichtshäufigkeit",
+      "description": "Automatischer Bericht über Dienstzeiten: off, daily, weekly, monthly oder yearly",
+      "options": {
+        "off": "Aus",
+        "daily": "Täglich",
+        "weekly": "Wöchentlich",
+        "monthly": "Monatlich",
+        "yearly": "Jährlich"
+      }
+    },
+    "duty_report_channel": {
+      "label": "Berichtskanal",
+      "description": "Kanal für Berichte (leer: das Dienstprotokoll)"
+    },
+    "duty_report_hour": {
+      "label": "Berichtszeit",
+      "description": "Um wie viel Uhr der Bericht gesendet wird (Ortszeit)"
+    },
+    "duty_report_weekday": {
+      "label": "Tag des Wochenberichts",
+      "description": "Tag des Wochenberichts (1 = Montag … 7 = Sonntag)"
+    },
+    "duty_report_monthday": {
+      "label": "Tag des Monatsberichts",
+      "description": "Tag im Monat für den Monats- (und Jahres-)bericht"
+    },
+    "duty_report_month": {
+      "label": "Monat des Jahresberichts",
+      "description": "Monat des Jahresberichts (1–12)"
+    },
+    "duty_report_output": {
+      "label": "Berichtsformat",
+      "description": "Berichtsformat: summary (Karte), csv (Datei) oder both",
+      "options": {
+        "both": "Karte und CSV-Datei",
+        "summary": "Nur Karte",
+        "csv": "Nur CSV-Datei"
+      }
+    },
+    "duty_report_reset": {
+      "label": "Zeitraum nach Bericht zurücksetzen",
+      "description": "Nach dem Bericht werden die Zeitraum-Zähler zurückgesetzt (Gesamtzeiten bleiben)"
+    },
+    "duty_report_full_export": {
+      "label": "Vollständiger Export zum Bericht",
+      "description": "Zusätzlich die Gesamt-CSV (alle Zeiten) anhängen"
+    },
+    "duty_dm_summary": {
+      "label": "Zusammenfassung beim Ausstempeln (DM)",
+      "description": "Beim Ausstempeln bekommt das Mitglied eine persönliche DM: Dienstzeit (ohne Pausen), heute / Woche / Monat / gesamt, Platz in dieser Woche, Serie, Wochenziel und Lohn"
+    },
+    "duty_weekly_goal_hours": {
+      "label": "Wochenziel",
+      "description": "Wochenziel in Stunden — eigene Statistik, Zusammenfassungen und die Wochen-DM zeigen den Fortschritt",
+      "zero": "keins"
+    },
+    "duty_hourly_wage": {
+      "label": "Stundenlohn",
+      "description": "Stundenlohn in der Serverwährung: Zusammenfassungen, eigene Statistik, Berichte und Lohnzettel zeigen auch den Lohn",
+      "zero": "aus"
+    },
+    "duty_goal_reminder": {
+      "label": "Erinnerung ans Wochenziel",
+      "description": "Donnerstags (zur Berichtsstunde) eine DM-Erinnerung an alle, die weit hinter ihrem Wochenziel liegen"
+    },
+    "duty_loa_cooldown_minutes": {
+      "label": "Wartezeit nach Ablehnung",
+      "description": "Nach einem abgelehnten Antrag kann das Mitglied so lange keinen neuen stellen (gleichzeitig ist ohnehin nur eine offene oder aktive Abwesenheit möglich)",
+      "zero": "keine"
+    },
+    "duty_weekly_dm": {
+      "label": "Wochenzusammenfassung (DM)",
+      "description": "Persönliche Wochenzusammenfassung per DM am Tag und zur Stunde des Wochenberichts: Zeit der Woche, Veränderung zur Vorwoche, Platz, Wochenziel"
+    },
+    "duty_payslip_dm": {
+      "label": "Lohnzettel (DM)",
+      "description": "Beim Abschluss eines Zeitraums (Zurücksetzen, Löschen, Bericht mit Zurücksetzen) bekommen alle Betroffenen ihre Zeit und — mit Stundenlohn — ihren Lohn per DM"
+    },
+    "warn_expiry_days": {
+      "label": "Ablauf der Verwarnungen",
+      "description": "Nach so vielen Tagen läuft eine Verwarnung ab (abgelaufene zählen nicht auf der Leiter)",
+      "zero": "läuft nie ab"
+    },
+    "warn_ladder": {
+      "label": "Verwarnungsleiter",
+      "description": "Die Verwarnungsleiter (1–10 Stufen): Rolle und Aktion (keine, Timeout, Kick, Bann) nach Zahl der aktiven Verwarnungen — im Web bearbeitbar. Leer: die alte Schwellen-Einstellung gilt",
+      "zero": "die alte Schwellen-Einstellung"
+    },
+    "warn_dm": {
+      "label": "DM zu Verwarnungen",
+      "description": "Das Mitglied erhält eine DM bei neuen, zurückgezogenen und abgelaufenen Verwarnungen (Grund, aktive Zahl, Ablauf)"
+    },
+    "duty_access_role": {
+      "label": "Dienst-Zugangsrolle",
+      "description": "Wenn gesetzt, können NUR Mitglieder mit dieser Rolle einstempeln (Panel, /szolgalat be, Sprachkanal) — Dienstleitung und Admins immer. Wer sie im Dienst verliert, wird ausgestempelt",
+      "zero": "jeder"
+    },
+    "public_page": {
+      "label": "Öffentliche Seite",
+      "description": "Der Server hat eine öffentliche Seite im Web (ohne Anmeldung sichtbar): Name, Icon, Mitgliederzahl, Beschreibung, Einladung"
+    },
+    "public_page_leaderboard": {
+      "label": "Rangliste auf der öffentlichen Seite",
+      "description": "Auch die Level- und Wirtschafts-Ranglisten werden auf der öffentlichen Seite gezeigt"
+    },
+    "public_page_description": {
+      "label": "Beschreibung",
+      "description": "Vorstellungstext oben auf der öffentlichen Seite (höchstens 300 Zeichen)",
+      "zero": "keine"
+    },
+    "push_notifications": {
+      "label": "Push-Benachrichtigungen",
+      "description": "Ob der Bot Web-Push-Benachrichtigungen an im Dashboard angemeldete Teammitglieder senden darf (neues Ticket, Abwesenheitsantrag, Antwort im übernommenen Ticket)"
+    },
+    "language_per_user": {
+      "label": "Versteckte Antworten in der Sprache des Mitglieds",
+      "description": "Wenn an, kommen Antworten, die nur du siehst, in der eigenen Discord-Sprache des Mitglieds (ungarischer / englischer / deutscher Client); öffentliche Nachrichten bleiben in der Serversprache"
+    },
+    "hide_staff_commands": {
+      "label": "Team-Befehle vor Mitgliedern verbergen",
+      "description": "Einfachere /-Liste: Team- und Admin-Befehle (z. B. /ban, /purge, /lock) sehen nur Personen mit der passenden Discord-Berechtigung (Nachrichten verwalten / Mitglieder timeouten / Server verwalten). Sieht ein Teammitglied seinen Befehl nicht: gib ihm diese Berechtigung, erlaube es unter Servereinstellungen → Integrationen → Bot, oder schalte dies aus"
+    },
+    "crime_chance_multiplier": {
+      "label": "Erfolgschance-Faktor",
+      "description": "Faktor auf die Erfolgschance jedes Verbrechens, Raubs und Banden-Coups (unter 1 = schwerer)"
+    },
+    "crime_fine_multiplier": {
+      "label": "Strafen-Faktor",
+      "description": "Faktor auf die Strafen beim Erwischtwerden"
+    },
+    "crime_jail_multiplier": {
+      "label": "Gefängnis-Faktor",
+      "description": "Faktor auf Chance und Dauer der Haft beim Erwischtwerden"
+    },
+    "underworld_daily_cap": {
+      "label": "Tägliches Beutelimit",
+      "description": "Ein Mitglied kann pro Tag höchstens so viel Schwarzgeld durch Verbrechen verdienen (steigt mit dem Unterwelt-Rang: ×1 als Anfänger, ×6 als Pate). 0 = kein Limit",
+      "zero": "kein Limit"
+    },
+    "crime_repeat_penalty": {
+      "label": "Wiederholungsabzug",
+      "description": "Jede Wiederholung desselben Verbrechens am selben Tag bringt so viel weniger (höchstens bis auf 20%)"
+    },
+    "crimes_disabled": {
+      "label": "Deaktivierte Verbrechen",
+      "description": "Diese Verbrechen sind auf diesem Server nicht wählbar",
+      "options": {
+        "zseb": "Taschendiebstahl",
+        "bolt": "Ladendiebstahl",
+        "auto": "Autoaufbruch",
+        "kisbolt": "Überfall auf einen Kiosk",
+        "benzinkut": "Tankstellenüberfall",
+        "ekszer": "Juwelierraub",
+        "szef": "Tresorknacken",
+        "kaszino": "Diamond-Casino-Coup",
+        "bank": "Nationalbank-Raub"
+      }
+    },
+    "heists_disabled": {
+      "label": "Deaktivierte Banden-Coups",
+      "description": "Diese Banden-Coups können auf diesem Server nicht gestartet werden",
+      "options": {
+        "penzszallito": "Geldtransporter",
+        "aranyraktar": "Goldlager"
+      }
+    },
+    "robbery_approaches_disabled": {
+      "label": "Deaktivierte Raubmethoden",
+      "description": "Diese Raubmethoden sind auf diesem Server nicht wählbar",
+      "options": {
+        "zsebmetszes": "Taschendiebstahl",
+        "utcai": "Straßenraub",
+        "fegyveres": "Bewaffneter Raub"
+      }
+    },
+    "robbery_daily_limit": {
+      "label": "Raub: tägliche Versuche",
+      "description": "Ein Mitglied kann höchstens so oft pro Tag versuchen, andere auszurauben",
+      "zero": "unbegrenzt"
+    },
+    "robbery_max_steal_amount": {
+      "label": "Raub: Höchstbetrag",
+      "description": "Pro Raub kann höchstens so viel erbeutet werden (unabhängig vom Prozentsatz)",
+      "zero": "kein Limit"
+    },
+    "robbery_min_victim_cash": {
+      "label": "Raub: Mindestbargeld des Ziels",
+      "description": "Nur Mitglieder mit mindestens so viel Bargeld können Ziel sein (schützt Mitglieder mit wenig Geld)"
+    },
+    "robbery_report_enabled": {
+      "label": "Raub: Anzeige",
+      "description": "Das ausgeraubte Mitglied kann den Räuber per DM anzeigen: wird er gefasst, gibt es einen Teil zurück und er kann ins Gefängnis"
+    },
+    "underworld_event_strength": {
+      "label": "Ereignis-Stärke",
+      "description": "Wie stark die Weltereignisse wirken (1 = normal, 2 = doppelte Wirkung, 0,5 = halb)"
+    },
+    "underworld_max_events": {
+      "label": "Gleichzeitige Ereignisse",
+      "description": "Höchstens so viele Weltereignisse laufen gleichzeitig"
+    },
+    "underworld_events_disabled": {
+      "label": "Deaktivierte Ereignisse",
+      "description": "Diese Weltereignisse starten auf diesem Server nie",
+      "options": {
+        "razzia": "Landesweite Razzia",
+        "sztrajk": "Polizeistreik",
+        "polgaror": "Bürgerwehr",
+        "korrupt_kapitany": "Korrupter Hauptmann",
+        "amnesztia": "Amnestie",
+        "vasokol": "Richter „Eiserne Faust“",
+        "gyemant": "Diamantenlieferung",
+        "pokerbajnoksag": "Pokerturnier im Diamond",
+        "orsegvaltas": "Wachwechsel bei der Nationalbank",
+        "ai_riaszto": "Neue Alarmanlagen",
+        "aramszunet": "Stromausfall",
+        "fesztival": "Festival in der Innenstadt",
+        "fizetesnap": "Zahltag",
+        "feketepiac": "Schwarzmarkt boomt",
+        "bandahaboru": "Bandenkrieg",
+        "utvonal": "Durchgesickerte Route",
+        "aranyrudak": "Goldbarren im Lager",
+        "nni": "Verdeckte Ermittler",
+        "nav": "Steuerprüfung",
+        "offshore_botrany": "Offshore-Skandal",
+        "epitoipari_boom": "Bauboom",
+        "kriptolaz": "Kryptofieber in der Unterwelt",
+        "kriptorazzia": "Razzia bei einer Kryptobörse",
+        "tuntetes": "Demonstration in der Innenstadt",
+        "kommando": "Spezialeinsatz",
+        "helikopter": "Polizeihubschrauber",
+        "kamerak": "Kameras ausgefallen",
+        "hovihar": "Schneesturm",
+        "kanikula": "Hitzewelle",
+        "meccs": "Derby im Stadion",
+        "valasztas": "Wahlkampf",
+        "birosag": "Überlastete Gerichte",
+        "inflacio": "Galoppierende Inflation",
+        "recesszio": "Rezession",
+        "kartell": "Neues Kartell in der Stadt",
+        "fegyverek": "Waffenlieferung",
+        "besugo": "Ein Spitzel in den Banden",
+        "bankpanik": "Bankpanik",
+        "nyaralas": "Sommerferien",
+        "digitalis": "Kartenzahlung überall",
+        "kriptozuhanas": "Krypto-Crash",
+        "kriptoszarnyalas": "Krypto-Boom",
+        "maffiabeke": "Mafia-Frieden",
+        "orgazda": "Auto-Hehler",
+        "korrupt_nav": "Bestechlicher Prüfer",
+        "kozos_akcio": "Gemeinsamer Polizeieinsatz",
+        "rendor_korrupcio": "Korruptes Revier",
+        "dronok": "Polizeidrohnen",
+        "rendor_bal": "Polizeiball",
+        "arcfelismeres": "Gesichtserkennung",
+        "leleplezett_akta": "Verlorene Akten",
+        "interpol": "Interpol in der Stadt",
+        "koztarsasagi_ores": "Tresorwache",
+        "bortonlazadas": "Gefängnisrevolte",
+        "tulzsufolt_borton": "Überfüllte Gefängnisse",
+        "statarium": "Standrecht",
+        "megvett_ugyesz": "Gekaufter Staatsanwalt",
+        "tanuvedelmi": "Kronzeugenprogramm",
+        "szokes": "Massenausbruch",
+        "birosagi_sztrajk": "Gerichtsstreik",
+        "kartell_haboru": "Kartellkrieg",
+        "kokain_hajo": "Das Schiff ist da",
+        "dizajnerdrog": "Neue Designerdroge",
+        "lefoglalt_szallitmany": "Lieferung beschlagnahmt",
+        "fegyverraktar": "Waffenlager geplündert",
+        "kartellfonok_bukott": "Pate verhaftet",
+        "csempeszalagut": "Schmuggeltunnel",
+        "maffia_adoszedo": "Mafiasteuer",
+        "bankrendszer_hiba": "Bankensystem abgestürzt",
+        "zsarolovirus_hullam": "Erpressungswelle",
+        "kartyaklonozas": "Kartenklauer",
+        "kriptokevero": "Neuer Krypto-Mixer",
+        "darkweb_lekapcsolas": "Darknet-Razzia",
+        "hamis_penz": "Falschgeld",
+        "adathalasz_banda": "Phishing-Bande",
+        "muzeum_kiallitas": "Kronjuwelen-Ausstellung",
+        "oligarcha_jacht": "Die Jacht des Oligarchen",
+        "kaszino_vip_est": "Casino-VIP-Abend",
+        "kaszino_ellenorzes": "Casinoprüfung",
+        "arany_aremelkedes": "Gold steigt",
+        "pancelautok_ujak": "Neue Panzerwagen",
+        "bennfentes_or": "Insider",
+        "autoszalon_szallitmany": "Luxusauto-Lieferung",
+        "gps_nyomkovetok": "GPS-Tracker",
+        "szilveszter": "Silvesterparty",
+        "black_friday": "Black Friday",
+        "koncert": "Stadionkonzert",
+        "viharos_ejszaka": "Stürmische Nacht",
+        "suru_kod": "Dichter Nebel",
+        "arviz": "Hochwasser",
+        "kijarasi_tilalom": "Ausgangssperre",
+        "gazdag_turistak": "Reiche Touristen",
+        "ingatlanbuborek": "Immobilienblase",
+        "panama_listak": "Geleakte Listen",
+        "bankszovetseg": "Schweigsame Banken",
+        "osszeomlas": "Wirtschaftskollaps",
+        "aranykor": "Goldenes Zeitalter"
+      }
+    },
+    "ticket_thread_mode": {
+      "label": "Tickets als Threads",
+      "description": "Neue Tickets öffnen sich als private Threads im Kanal des Panels (nicht als eigene Kanäle). So bleibt das Kanal-Erstellungslimit des Servers frei — Discord sperrt es bei Überschreitung stundenlang. Aus: der alte Modus, jedes Ticket bekommt einen eigenen Kanal"
+    },
+    "ticket_thread_channel": {
+      "label": "Kanal für Ticket-Threads",
+      "description": "In diesem Kanal öffnen sich die Ticket-Threads (leer: dort, wo das Mitglied den Panel-Knopf gedrückt hat). Der Bot braucht hier: private Threads erstellen, in Threads schreiben, Threads verwalten"
+    },
+    "bank_interest_cap": {
+      "label": "Obergrenze für Verzinsung",
+      "description": "Tageszinsen gibt es höchstens auf so viel Bankguthaben (der Rest wird nicht verzinst — so laufen die Reichen nicht endlos davon). 0 = keine Grenze",
+      "zero": "keine Grenze"
+    },
+    "daily_reward_base": {
+      "label": "Tägliche Belohnung",
+      "description": "Betrag der täglichen Belohnung am ersten Tag (/penz → Tägliche Belohnung)",
+      "zero": "aus"
+    },
+    "daily_reward_step": {
+      "label": "Tägliche Belohnung: Steigerung pro Tag",
+      "description": "Um so viel steigt die tägliche Belohnung an jedem aufeinanderfolgenden Tag"
+    },
+    "daily_reward_max_streak": {
+      "label": "Tägliche Belohnung: Serienlänge",
+      "description": "So viele Tage lang wächst die Serie der täglichen Belohnung"
+    },
+    "stock_news_channel": {
+      "label": "Börsennachrichten-Kanal",
+      "description": "Eigener Kanal für außergewöhnliche Börsennachrichten (Übernahme, Handelsstopp, Krise …) — der Kurstafel-Kanal bleibt sauber; leer erscheinen die Nachrichten nur im Nachrichten-Tab des /tozsde-Terminals",
+      "why": "außergewöhnliche Börsennachrichten erscheinen nur im Terminal"
+    },
+    "quiz_channel": {
+      "label": "Quiz-Kanal",
+      "description": "Tägliches Quiz: Der Bot fragt mehrmals am Tag (Wissen, Kopfrechnen, Buchstabensalat, Zahlenfolge); die erste richtige Antwort gewinnt",
+      "zero": "keiner"
+    },
+    "quiz_per_day": {
+      "label": "Quiz: Fragen pro Tag",
+      "description": "Durchschnittlich so viele Quizfragen pro Tag (zwischen 9 und 23 Uhr)"
+    },
+    "quiz_reward": {
+      "label": "Quiz: Geldpreis",
+      "description": "So viel Geld erhält die erste richtige Antwort",
+      "zero": "keiner"
+    },
+    "quiz_xp": {
+      "label": "Quiz: XP-Preis",
+      "description": "So viel XP erhält die erste richtige Antwort",
+      "zero": "keiner"
+    },
+    "mega_events": {
+      "label": "Marktcrash / goldenes Zeitalter",
+      "description": "Seltenes Mega-Ereignis: Marktcrash oder goldenes Zeitalter — Bitcoin, Börse und Unterwelt bewegen sich gleichzeitig (sofern aktiv)"
+    },
+    "mega_event_days": {
+      "label": "Häufigkeit der Mega-Ereignisse",
+      "description": "Durchschnittlich alle so viele Tage ein Mega-Ereignis (mindestens die Hälfte davon Pause)"
+    },
+    "mega_event_channel": {
+      "label": "Mega-Ereignis-Kanal",
+      "description": "Hierhin geht das gemeinsame Banner (leer: Krypto-, Börsen- oder Unterwelt-Nachrichtenkanal)",
+      "zero": "automatisch"
+    },
+    "bounty_min": {
+      "label": "Kopfgeld: Minimum",
+      "description": "Das kleinste Kopfgeld auf ein Mitglied (10 % Vermittlergebühr; wer das Ziel ausraubt oder auffliegen lässt, kassiert)"
+    },
+    "clan_season_prize": {
+      "label": "Saisonpreis",
+      "description": "Monatliche Clan-Saison: Am Monatsende erhält der Clan mit den meisten Punkten so viel in die Kasse (Punkte aus der Aktivität der Mitglieder und Gebietskriegen)",
+      "zero": "kein Preis"
+    },
+    "clan_season_role": {
+      "label": "Saisonsieger-Rolle",
+      "description": "Die Mitglieder des Saisonsieger-Clans erhalten diese Rolle (bis zum nächsten Sieger) — leer: keine Rolle",
+      "zero": "keine"
+    },
+    "wheel_base": {
+      "label": "Glücksrad: Grundgewinn",
+      "description": "Tägliches Glücksrad (/penz → Glücksrad): Basis der Geldgewinne — das Rad zahlt das 1–20-Fache (0 = aus)",
+      "zero": "aus"
+    },
+    "community_goal_channel": {
+      "label": "Community-Ziel-Kanal",
+      "description": "Wöchentliches Community-Ziel: der Server arbeitet gemeinsam auf ein Ziel hin (Nachrichten, Sprachminuten, Arbeiten …) mit Live-Bildkarte; bei Erfolg erhält jeder Teilnehmer eine Belohnung",
+      "zero": "keiner"
+    },
+    "community_goal_reward": {
+      "label": "Community-Ziel: Belohnung",
+      "description": "So viel erhält jedes Mitglied, das zu einem erreichten Wochenziel beigetragen hat",
+      "zero": "keine"
+    },
+    "modmail_channel": {
+      "label": "Modmail-Kanal",
+      "description": "Modmail: Mitglieder können dem Bot eine DM schreiben, jedes Gespräch bekommt einen eigenen Thread in diesem (nur fürs Team sichtbaren) Kanal",
+      "zero": "kein Modmail"
+    },
+    "modmail_anonymous": {
+      "label": "Modmail: anonyme Antworten",
+      "description": "In Modmail-Antworten ist nicht sichtbar, welches Teammitglied sie geschrieben hat"
+    }
+  },
+  "topics": {
+    "Alapok": {
+      "title": "Grundlagen",
+      "summary": "Sprache, Währungssymbol, Einladungslink"
+    },
+    "Arculat": {
+      "title": "Erscheinungsbild",
+      "summary": "Kartenfarbe auf diesem Server — dazu Name, Profilbild, Banner und Info-Text des Bots"
+    },
+    "Modulok": {
+      "title": "Module",
+      "summary": "Die großen Funktionen mit einem Klick an- und ausschalten (Wirtschaft, Casino, Musik, Tickets, KI …)"
+    },
+    "Rangok": {
+      "title": "Rollen & Beitritt",
+      "summary": "Team- und Mitgliederrolle, Verifizierung, automatische Rollen",
+      "commands": "/jogosultsag (Rangstufen und Rechte), /jogaim"
+    },
+    "Üdvözlés": {
+      "title": "Begrüßung & Abschied",
+      "summary": "Begrüßungs- und Abschiedskanal, Text, Bild, DM — mit Live-Vorschau"
+    },
+    "Moderáció": {
+      "title": "Moderation",
+      "summary": "Mod-Log, automatische Filter, Verwarnungen, globale Sperren",
+      "commands": "/warn, /timeout, /ban, /temprole, /case"
+    },
+    "AI-moderáció": {
+      "title": "KI-Moderation",
+      "summary": "Automatische Moderation mit Punktesystem: Regeln, verbotene und erlaubte Wörter, Strenge, Überprüfung",
+      "commands": "/aimod pontok, /aimod teszt"
+    },
+    "Védelem": {
+      "title": "Schutz",
+      "summary": "BotShield, Honeypot-Falle"
+    },
+    "Naplók": {
+      "title": "Logs",
+      "summary": "Kanäle des Audit-Logs: Nachrichten, Mitglieder, Voice, Sanktionen, Server"
+    },
+    "Közösség": {
+      "title": "Community",
+      "summary": "Vorschläge, Bug-Reports, Starboard, Zählkanal, Wortkette, Geburtstage, Namenstage, Einladungen",
+      "commands": "/eszkoz szuletesnap, /nevnap, /meghivok"
+    },
+    "Küldetések": {
+      "title": "Quests & Abzeichen",
+      "summary": "Belohnungen für Tagesquests, XP, der Kanal für Abzeichen-Meldungen"
+    },
+    "Szintrendszer": {
+      "title": "Levelsystem",
+      "summary": "Level-up-Nachricht, XP-Multiplikator, Belohnungen, Rangkarte"
+    },
+    "Gazdaság": {
+      "title": "Wirtschaft",
+      "summary": "Startkapital, Bankzinsen, tägliche Belohnung, Überweisungslimit, Wirtschafts- und Shop-Log"
+    },
+    "Munka": {
+      "title": "Arbeit & Verdienst",
+      "summary": "Löhne, Abklingzeiten, Arbeitsserien-Bonus, Betteln"
+    },
+    "Alvilág": {
+      "title": "Unterwelt",
+      "summary": "Nachrichtenkanal, Weltereignisse, Beute, Fahndung, Kaution, Mitglieder ausrauben"
+    },
+    "Kaszinó": {
+      "title": "Casino",
+      "summary": "Kanal für große Gewinne, Einsatzlimit, Lotterie, serverübergreifendes Turnier"
+    },
+    "Bitcoin": {
+      "title": "Bitcoin",
+      "summary": "Live-Kurs, Krypto-News und -Ereignisse, Tagesbericht, Stromkosten, Handelsgebühr",
+      "commands": "/btc tozsde (auch die Tabs Mining-Farm und News)"
+    },
+    "Tőzsde": {
+      "title": "Börse",
+      "summary": "Live-Kurstafel, Handelszeiten, Maklergebühr, Steuer, Leerverkäufe"
+    },
+    "AI": {
+      "title": "KI-Chat",
+      "summary": "Der KI-Kanal und serverspezifische Anweisungen"
+    },
+    "Hang és statisztika": {
+      "title": "Voice & Statistik",
+      "summary": "Lobby für temporäre Sprachkanäle, Mitgliederzähler-Kanäle"
+    },
+    "Klánok": {
+      "title": "Clans & Revierkämpfe",
+      "summary": "Gründungskosten, Größe, Clanränge, Log, Häufigkeit der Revierkämpfe, Startgebühr und Siegerprämie"
+    },
+    "Peca": {
+      "title": "Angeln & Jagen",
+      "summary": "RPG-Angeln und -Jagen: Abklingzeiten, Wert der Fänge, Einfluss von Wetter und Ereignissen, Sammlung, Kanal für legendäre Fänge"
+    },
+    "Aktivitás": {
+      "title": "Aktivität & inaktive Mitglieder",
+      "summary": "Nachrichten und Voice-Minuten erfassen, inaktive Mitglieder filtern, Inaktiv-Rolle, Ausnahmen, Aufbewahrung der Tagesstatistik"
+    },
+    "Szolgálat": {
+      "title": "Dienst",
+      "summary": "Ein-/Ausstempeln, Diensttypen, Protokoll, automatisches Ausstempeln, Kontingent-Rollen, Panel, Live-Liste, Sprachkanal-Dienst",
+      "commands": "/szolgalat be, /szolgalat ki"
+    },
+    "Távollét és riportok": {
+      "title": "Dienst: Abwesenheit und Berichte",
+      "summary": "Prüfung von Abwesenheitsanträgen (LOA), Abwesenheitsrolle und Nickname-Markierung; automatische tägliche / wöchentliche / monatliche / jährliche Berichte mit CSV"
+    },
+    "Zene": {
+      "title": "Musikplayer",
+      "summary": "Standardlautstärke, Verlassen-Zeiten, Warteschlangen- und Titellängen-Limit, Abstimmung zum Überspringen, Panel-Verhalten"
+    },
+    "Nyilvános oldal": {
+      "title": "Öffentliche Seite und Benachrichtigungen",
+      "summary": "Die öffentliche Seite des Servers im Web (Beschreibung, Rangliste) und die Push-Benachrichtigungen des Dashboards (neues Ticket, Abwesenheitsantrag)"
+    },
+    "Alvilág szabályai": {
+      "title": "Unterwelt-Regeln",
+      "summary": "Schwierigkeit, tägliches Beutelimit, Raub-Grenzen, deaktivierte Verbrechen und Ereignisse, Ereignis-Stärke",
+      "commands": "/alvilag bunozes"
+    },
+    "Ticketek": {
+      "title": "Tickets",
+      "summary": "Tickets als private Threads oder eigene Kanäle, wo die Threads geöffnet werden"
+    }
+  },
+  "moduleGroups": {
+    "game": "Spiele & Wirtschaft",
+    "community": "Community",
+    "safety": "Moderation & Analyse"
+  },
+  "modules": {
+    "economy": {
+      "title": "Wirtschaft",
+      "summary": "Kontostand, Bank, Arbeit, Shop, Investments — ausgeschaltet laufen auch Unterwelt, Bitcoin und Börse nicht"
+    },
+    "underworld": {
+      "title": "Unterwelt",
+      "summary": "Verbrechen, Geldwäsche, Banden-Coups, Weltereignisse"
+    },
+    "bitcoin": {
+      "title": "Bitcoin",
+      "summary": "Krypto-Börse, Mining-Farm, Krypto-News und -Ereignisse"
+    },
+    "stocks": {
+      "title": "Börse",
+      "summary": "Aktienmarkt, Leerverkäufe, Orders, Live-Kurstafel"
+    },
+    "casino": {
+      "title": "Casino",
+      "summary": "Spiele, Chips, Jackpot, Lotterie, serverübergreifendes Turnier"
+    },
+    "fishing": {
+      "title": "Angeln & Jagen",
+      "summary": "RPG-Angeln und -Jagen, Aquarium, Trophäenraum"
+    },
+    "clans": {
+      "title": "Clans",
+      "summary": "Clans, gemeinsame Kasse, Upgrades, Revierkämpfe"
+    },
+    "quests": {
+      "title": "Quests",
+      "summary": "Tagesquests, Serien, Abzeichen"
+    },
+    "leveling": {
+      "title": "Levelsystem",
+      "summary": "XP, Level-ups, Rangkarte, Level-Belohnungen"
+    },
+    "fun": {
+      "title": "Spaß",
+      "summary": "Minispiele, Ship, 8ball und Co.",
+      "hint": "die rechtlichen Hinweise bleiben auch ausgeschaltet abrufbar"
+    },
+    "ai": {
+      "title": "KI-Chat",
+      "summary": "KI-Kanal, Menü „KI: Erklären“ und „KI: Übersetzen“"
+    },
+    "music": {
+      "title": "Musik",
+      "summary": "YouTube-/Spotify-Player mit Bedienfeld"
+    },
+    "tickets": {
+      "title": "Tickets",
+      "summary": "Tickets über das Panel eröffnen",
+      "hint": "ausgeschaltet können keine neuen Tickets eröffnet werden; offene Tickets und die Team-Werkzeuge (/ticket) funktionieren weiter"
+    },
+    "aimod": {
+      "title": "KI-Moderation",
+      "summary": "Automatische Moderation mit Punktesystem und Regelwerk",
+      "hint": "Einstellungen: Web-Dashboard → KI-Moderation",
+      "offEffect": "die automatische Moderation stoppt (die Einstellungen bleiben erhalten)"
+    },
+    "activity": {
+      "title": "Aktivitätserfassung",
+      "summary": "Erfasst Nachrichten und Voice-Minuten (/inaktiv, /aktivitas)",
+      "offEffect": "es werden keine neuen Aktivitätsdaten gesammelt — /inaktiv und /aktivitas arbeiten mit den vorhandenen Daten"
+    },
+    "duty": {
+      "title": "Dienst",
+      "summary": "Ein-/Ausstempeln, Dienstzeiten, Abwesenheit, Berichte (/dienst)",
+      "hint": "auch ausgeschaltet kann man ausstempeln und die Daten exportieren"
+    }
+  },
+  "shop": {
+    "kinds": {
+      "role": "Rolle",
+      "item": "Gegenstand"
+    },
+    "items": {
+      "pickaxe_basic": "Steinspitzhacke",
+      "pickaxe_pro": "Diamantspitzhacke",
+      "rod_fiber": "Carbon-Angelrute",
+      "rifle_hunting": "Jagdgewehr mit Zielfernrohr",
+      "lockpick": "Titan-Dietrichset",
+      "briefcase": "Diplomatenkoffer",
+      "mask": "Sturmhaube",
+      "energy_drink": "Premium-Energydrink",
+      "insurance": "24-Stunden-Versicherung",
+      "alarm": "Alarmanlage (48 Stunden)",
+      "rod_bamboo": "Bambus-Angelrute",
+      "rod_master": "Meisterangler-Spinnrute",
+      "bow_recurve": "Recurvebogen",
+      "shotgun": "Jagdflinte",
+      "bait_worm": "Regenwurm (Köder)",
+      "bait_corn": "Zuckermais (Köder)",
+      "bait_boilie": "Boilie (Köder)",
+      "bait_live": "Lebender Köderfisch",
+      "lure_gold": "Vergoldeter Blinker",
+      "call_duck": "Entenlocker",
+      "call_fox": "Raubwildlocker",
+      "bait_salt": "Salzlecke und Streuköder",
+      "call_deer": "Hirschruf-Horn",
+      "scent_musk": "Moschus-Lockduft"
+    }
+  },
+  "levels": {
+    "0": {
+      "label": "Mitglied",
+      "requirement": "alle",
+      "description": "Jedes Mitglied des Servers"
+    },
+    "1": {
+      "label": "Team",
+      "requirement": "Team oder höher",
+      "description": "Globale (allgemeine) Teamrolle: wird von allen Team-Funktionen erkannt (Tickets, einfache Moderation)"
+    },
+    "2": {
+      "label": "Moderator",
+      "requirement": "Moderator oder höher",
+      "description": "Moderatoren: Sanktionen, Kanäle, Nachrichten"
+    },
+    "3": {
+      "label": "Administrator",
+      "requirement": "Administrator oder höher",
+      "description": "Die Admins des Bots: Einstellungen, /say, Panels"
+    },
+    "4": {
+      "label": "Server-Administrator",
+      "requirement": "Discord-Administrator oder der Eigentümer",
+      "description": "Wer auf Discord die Administrator-Berechtigung hat (nicht über Rollen vergebbar)"
+    },
+    "5": {
+      "label": "Eigentümer",
+      "requirement": "nur der Servereigentümer",
+      "description": "Der Servereigentümer — hat Zugriff auf alles"
+    },
+    "90": {
+      "label": "Nur ausgewählte Rollen",
+      "requirement": "eine der ausgewählten Rollen (oder ein Server-Admin)",
+      "description": "Nur die angegebenen zusätzlichen Rollen (und Server-Administratoren)"
+    },
+    "99": {
+      "label": "Deaktiviert",
+      "requirement": "niemand — die Funktion ist deaktiviert",
+      "description": "Niemand kann sie nutzen"
+    }
+  },
+  "capabilityGroups": {
+    "mod": "Moderation",
+    "tickets": "Ticketsystem",
+    "server": "Server & Bot",
+    "eco": "Wirtschaft & Spiele",
+    "community": "Community",
+    "use": "Wer darf die Funktionen nutzen?"
+  },
+  "capabilities": {
+    "mod.warn": {
+      "label": "Verwarnungen, Notizen, Fälle",
+      "description": "Verwarnungen erteilen und zurücknehmen, interne Notizen, Fallprotokoll, Mitgliederprofil",
+      "commands": "/warn, /note, /case, /user_info, Rechtsklick → Verwarnen"
+    },
+    "mod.timeout": {
+      "label": "Timeouts",
+      "description": "Mitglieder in den Timeout schicken und Timeouts aufheben",
+      "commands": "/timeout, /untimeout, /globaltimeout (Vorschlag)"
+    },
+    "mod.kick": {
+      "label": "Kicken",
+      "description": "Mitglieder vom Server kicken"
+    },
+    "mod.ban": {
+      "label": "Bannen",
+      "description": "Bannen (mit Dauer auch temporär) und Entbannen",
+      "commands": "/ban [idotartam], /unban, /globalban (Vorschlag)"
+    },
+    "mod.messages": {
+      "label": "Nachrichten löschen",
+      "description": "Massenhaftes Löschen von Nachrichten (mit Filtern)"
+    },
+    "mod.channels": {
+      "label": "Kanäle sperren, Slowmode",
+      "description": "Text- und Sprachkanäle sperren und entsperren, Slowmode, Steuerung beliebiger temporärer Sprachkanäle"
+    },
+    "mod.voice": {
+      "label": "Voice-Moderation",
+      "description": "Alle Mitglieder eines Sprachkanals in einen anderen verschieben"
+    },
+    "mod.temprole": {
+      "label": "Temporäre Rollen",
+      "description": "Eine Rolle auf Zeit vergeben: Sie wird bei Ablauf automatisch entfernt, und das Mitglied bekommt beide Male eine DM (Rollen mit gefährlichen Rechten darf nur ein Server-Admin vergeben)"
+    },
+    "mod.roles": {
+      "label": "Rollen vergeben",
+      "description": "Rollen vergeben und entziehen (Rollen mit gefährlichen Rechten darf nur ein Server-Admin vergeben)"
+    },
+    "mod.cases": {
+      "label": "Fälle bearbeiten",
+      "description": "Begründung von Fällen ändern, alle Verwarnungen eines Mitglieds löschen"
+    },
+    "mod.mass": {
+      "label": "Massen- & Notfallaktionen",
+      "description": "Alle Kanäle sperren / entsperren, Massenbann, Rolle für alle, massenhafte Spitznamen-Korrektur, inaktive Mitglieder massenhaft kicken"
+    },
+    "mod.security": {
+      "label": "Automatischer Schutz",
+      "description": "KI-Moderation ausprobieren (alle Schutzeinstellungen sind im Web-Dashboard)",
+      "commands": "/aimod teszt"
+    },
+    "mod.aimod": {
+      "label": "Überprüfung der KI-Moderation",
+      "description": "Unsichere Fälle der KI entscheiden, verbotene und erlaubte Wörter, Punkte zurücknehmen, Punkte von Mitgliedern einsehen",
+      "commands": "/aimod pontok, die Buttons im Log"
+    },
+    "tickets.staff": {
+      "label": "Tickets bearbeiten",
+      "description": "Sieht und bearbeitet Tickets: übernehmen, schließen, Team-Werkzeuge, Liste, Statistik, Ticket-Sperren",
+      "commands": "/ticket lista, statisztika, tiltas, feloldas + die Ticket-Buttons"
+    },
+    "tickets.admin": {
+      "label": "Ticket-Admins",
+      "description": "Von anderen übernommene Tickets freigeben und die Tickets von „nur Kategorie-Rollen“-Kategorien sehen (das Ticketsystem wird im Web-Dashboard eingerichtet)",
+      "commands": "die Ticket-Buttons"
+    },
+    "settings": {
+      "label": "Bot-Einstellungen",
+      "description": "Die serverbezogenen Einstellungen des Bots (Kanäle, Module, Werte; die Teamrolle darf nur ein Server-Admin festlegen)",
+      "commands": "Web-Dashboard"
+    },
+    "say": {
+      "label": "Nachrichten im Namen des Bots",
+      "description": "Components-V2-Nachrichten im Namen des Bots senden und bearbeiten",
+      "commands": "/say (auch Ankündigungen: stilus:Közlemény, ping:@everyone)"
+    },
+    "tiktok": {
+      "label": "TikTok-Benachrichtigungen",
+      "description": "TikTok-Konten folgen: neue Videos und Livestreams in einem Kanal melden — nur Server-Admins und der Eigentümer (nicht lockerbar)"
+    },
+    "youtube": {
+      "label": "YouTube-Benachrichtigungen",
+      "description": "YouTube-Kanälen folgen: neue Videos, Shorts und Livestreams in einem Kanal melden — nur Server-Admins und der Eigentümer (nicht lockerbar)"
+    },
+    "ai.config": {
+      "label": "KI-Einstellungen",
+      "description": "Der KI-Kanal und die KI-Persönlichkeit des Servers"
+    },
+    "ai.reset": {
+      "label": "KI-Unterhaltung zurücksetzen",
+      "description": "Eine neue Unterhaltung im KI-Kanal beginnen"
+    },
+    "eco.admin": {
+      "label": "Wirtschafts-Admin",
+      "description": "Geld gutschreiben und abziehen, Profile, Unterwelt zurücksetzen"
+    },
+    "shop.admin": {
+      "label": "Shop verwalten",
+      "description": "Eigene Shop-Produkte (Rollen, Gegenstände) anlegen und bearbeiten"
+    },
+    "underworld.events": {
+      "label": "Unterwelt-Ereignisse",
+      "description": "Weltereignisse manuell starten und beenden",
+      "commands": "/alvilag bunozes → News-Tab"
+    },
+    "bitcoin.events": {
+      "label": "Krypto-Ereignisse",
+      "description": "Krypto-Ereignisse (Hitzewelle, GPU-Mangel, billiger Strom …) manuell starten und beenden",
+      "commands": "/btc tozsde → News-Tab, Admin-Zeile"
+    },
+    "levels.admin": {
+      "label": "Levelsystem verwalten",
+      "description": "Level-up-Kanal, Belohnungsrollen, XP anpassen"
+    },
+    "community.review": {
+      "label": "Vorschläge & Bug-Reports bewerten",
+      "description": "Annehmen, ablehnen, als erledigt markieren",
+      "commands": "die Buttons auf den Vorschlags- und Fehlerkarten"
+    },
+    "giveaway": {
+      "label": "Gewinnspiele",
+      "description": "Gewinnspiele starten, beenden und neu auslosen"
+    },
+    "verify.info": {
+      "label": "Verifizierungsdaten",
+      "description": "Wer wann die Regeln akzeptiert hat"
+    },
+    "use.economy": {
+      "label": "Wirtschaft",
+      "description": "Kontostand, Arbeit, Bank, Überweisungen, Shop, Investments"
+    },
+    "use.underworld": {
+      "label": "Unterwelt",
+      "description": "Verbrechen, Mitglieder ausrauben, Geldwäsche, Banden-Coups"
+    },
+    "use.casino": {
+      "label": "Casino",
+      "description": "Casinospiele, Chips, Tagesbonus, Lotterie"
+    },
+    "use.bitcoin": {
+      "label": "Bitcoin",
+      "description": "Bitcoin-Terminal, Mining-Farm, Kurs"
+    },
+    "use.stocks": {
+      "label": "Börse",
+      "description": "Aktienhandel, Portfolio, Orders"
+    },
+    "use.music": {
+      "label": "Musik",
+      "description": "Musikwiedergabe und das Player-Panel (z. B. nur DJ-Rolle)"
+    },
+    "use.ai": {
+      "label": "KI",
+      "description": "Der KI-Kanal und die KI-Funktionen im Rechtsklickmenü",
+      "commands": "KI-Kanal, KI: Erklären / Übersetzen"
+    },
+    "use.fun": {
+      "label": "Spaß",
+      "description": "Minispiele und Spaßbefehle"
+    },
+    "use.tools": {
+      "label": "Werkzeuge",
+      "description": "Erinnerungen, Umfragen, AFK, Geburtstage"
+    },
+    "use.levels": {
+      "label": "Levelsystem",
+      "description": "Rangkarte, Bestenliste, Belohnungen"
+    },
+    "use.tickets": {
+      "label": "Tickets eröffnen",
+      "description": "Wer über das Ticket-Panel ein Ticket eröffnen darf",
+      "commands": "das Ticket-Panel, /ticket jegyeim"
+    },
+    "clans.admin": {
+      "label": "Clans verwalten",
+      "description": "Clans löschen, Revierkämpfe manuell starten und beenden, alle Clans komplett zurücksetzen"
+    },
+    "use.clans": {
+      "label": "Clans",
+      "description": "Clan gründen und Clanleben: Kasse, Upgrades, Revierkämpfe"
+    },
+    "use.fishing": {
+      "label": "Angeln & Jagen",
+      "description": "RPG-Angeln und -Jagen, Aquarium, Trophäenraum, Ausrüstungsshop"
+    },
+    "analytics": {
+      "label": "Aktivitätsanalyse",
+      "description": "Liste inaktiver Mitglieder und Aktivitätsdiagramm des Servers; für das massenhafte Vergeben der Inaktiv-Rolle und das Kicken sind zusätzlich Rollen vergeben / Kicken und Massenaktionen nötig"
+    },
+    "duty.manage": {
+      "label": "Dienst verwalten",
+      "description": "Andere Mitglieder ausstempeln, Abwesenheiten prüfen, Kontingent-Rollen, Diensttypen umbenennen"
+    },
+    "duty.admin": {
+      "label": "Dienstzeiten und Daten (Admin)",
+      "description": "Zeit gutschreiben / abziehen, zurücksetzen, endgültig löschen, Export, Berichte, Rangliste und Zeiten anderer Mitglieder abrufen — jeder Schritt wird protokolliert"
+    },
+    "use.duty": {
+      "label": "Dienst",
+      "description": "Ein- und Ausstempeln, eigene Dienstzeit, Abwesenheitsanträge"
+    }
+  },
+  "units": {
+    "%": "%",
+    "XP": "XP",
+    "chip": "Chips",
+    "db": "Stk.",
+    "fő": "Pers.",
+    "mp": "Sek.",
+    "nap": "Tage",
+    "perc": "Min.",
+    "pont/óra": "Punkte/Std.",
+    "reakció": "Reaktionen",
+    "szint": "Level",
+    "¤": "¤",
+    "¤ × szint": "¤ × Level",
+    "¤/hőpont": "¤/Hitzepunkt",
+    "¤/kWh": "¤/kWh",
+    "¤/perc": "¤/Min.",
+    "óra": "Std.",
+    "¤/óra": "¤/Std.",
+    "XP / perc": "XP / Min."
+  }
+}

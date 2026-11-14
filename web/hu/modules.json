@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Modulok",
+  "title": "Funkciók be- és kikapcsolása",
+  "description": "Egy kattintás, és a modul ezen a szerveren be- vagy kikapcsol. Kikapcsolt modul parancsai nem futnak — a tagok barátságos üzenetet kapnak. Az al-modulok (alvilág, bitcoin, tőzsde) a Gazdasággal együtt állnak le.",
+  "on": "{title}: bekapcsolva",
+  "off": "{title}: kikapcsolva",
+  "onText": "A bot néhány másodpercen belül átveszi.",
+  "offText": "A modul parancsai ezen a szerveren nem futnak.",
+  "failed": "Nem sikerült",
+  "partOf": "a(z) {parent} része",
+  "blocked": "Nem fut, mert a(z) {parent} ki van kapcsolva.",
+  "settings": "Beállítások",
+  "turnOff": "{title} kikapcsolása",
+  "turnOn": "{title} bekapcsolása",
+  "aiLocked": "Az AI-funkciókat ezen a szerveren csak az OrangenBot üzemeltetője engedélyezheti."
+}

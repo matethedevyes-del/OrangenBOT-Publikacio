@@ -1,0 +1,253 @@
+{
+  "chapters": "Chapters",
+  "heroTitle1": "Your server's bot —",
+  "heroTitle2": "in orange.",
+  "heroLead": "It moderates, pays, counts and keeps watch for you. You just click in the dashboard — OrangenBot handles the rest.",
+  "invite": "Invite the bot",
+  "pillsLabel": "Key features",
+  "pills": {
+    "economy": "Economy",
+    "moderation": "Moderation",
+    "tickets": "Tickets",
+    "stats": "Statistics",
+    "music": "Music"
+  },
+  "heroModules": {
+    "economy": "Economy",
+    "casino": "Casino",
+    "aimod": "AI moderation",
+    "tickets": "Tickets",
+    "nameday": "Name days"
+  },
+  "applied": "The bot has applied the change",
+  "overviewAlt": "The dashboard overview page",
+  "settingsAlt": "The Welcome settings with a live Discord preview",
+  "numbers": {
+    "servers": "servers use it",
+    "modules": "toggleable modules",
+    "settings": "settings on the web",
+    "free": "free forever",
+    "freeValue": "€0"
+  },
+  "modules": {
+    "eyebrow": "Modules",
+    "title": "Switch on what you need. The rest stays out of the way.",
+    "text": "{count} modules, each a single switch. Turn one off and its commands disappear too — its settings stay put for when you bring it back.",
+    "activeCount": "{on} / {total} enabled",
+    "exampleLabel": "Example: modules"
+  },
+  "settings": {
+    "eyebrow": "Settings",
+    "title": "You see it first. Then your members do.",
+    "text": "Every setting has a clear name and explanation. Welcome, goodbye and level-up messages preview exactly as they'll appear on Discord while you type.",
+    "shortcut": "jump to any setting in an instant"
+  },
+  "features": {
+    "eyebrow": "All features",
+    "title": "Everything a lively community needs.",
+    "economy": {
+      "title": "Economy and underworld",
+      "text": "Jobs, bank, shop, crimes and world events, in the server’s own currency."
+    },
+    "stocks": {
+      "title": "Stocks and bitcoin",
+      "text": "Prices that move every minute, charts, mining and crypto news."
+    },
+    "casino": {
+      "title": "Casino",
+      "text": "16 games, jackpot, daily lottery and a cross-server championship."
+    },
+    "moderation": {
+      "title": "Moderation",
+      "text": "Case log, filters, warnings, appeals with a button."
+    },
+    "ai": {
+      "title": "AI moderation and AI chat",
+      "text": "Points-based automatic moderation and an assistant tailored to your server."
+    },
+    "tickets": {
+      "title": "Tickets",
+      "text": "Categories with questions, an AI agent, transcripts and ratings."
+    },
+    "rolePanels": {
+      "title": "Role pickers",
+      "text": "Button or menu panels, temporary roles, requirements."
+    },
+    "social": {
+      "title": "YouTube and TikTok",
+      "text": "Notifications for new videos, Shorts and live streams."
+    },
+    "levels": {
+      "title": "Levelling",
+      "text": "XP for messages and voice, level cards, reward roles."
+    },
+    "namedays": {
+      "title": "Name days and birthdays",
+      "text": "A daily greeting in the server’s time zone, with the Hungarian name-day calendar."
+    },
+    "clans": {
+      "title": "Clans and quests",
+      "text": "Shared treasury, territory wars, daily quests, medals."
+    },
+    "music": {
+      "title": "Music and community",
+      "text": "A player with a control panel, welcome cards, starboard, word chain."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Two minutes, start to finish.",
+    "invite": {
+      "title": "Invite it",
+      "text": "One click and the bot is on your server. It DMs you the dashboard link."
+    },
+    "login": {
+      "title": "Log in with Discord",
+      "text": "No password, no email. You only see the servers you can manage."
+    },
+    "configure": {
+      "title": "Make it yours",
+      "text": "Modules, channels, roles, panels — the bot picks it up within seconds."
+    }
+  },
+  "security": {
+    "eyebrow": "Security",
+    "title": "Locked where it matters.",
+    "permitted": {
+      "title": "Authorised users only",
+      "text": "You need the Administrator or Manage Server permission, and the bot must be on the server too — checked again on every request."
+    },
+    "token": {
+      "title": "No stored tokens",
+      "text": "HttpOnly, Secure cookie. The Discord token never reaches the browser, and we never write it to a database."
+    },
+    "input": {
+      "title": "Validated input",
+      "text": "Every field goes through a schema; channels and roles are checked against the server’s real data."
+    },
+    "audit": {
+      "title": "Everything is logged",
+      "text": "Every change shows up in the server’s log: who, what, when."
+    }
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "What everyone asks.",
+    "price": {
+      "q": "How much does it cost?",
+      "a": "Nothing. Both the bot and the dashboard are free."
+    },
+    "scopes": {
+      "q": "What permissions does logging in ask for?",
+      "a": "Only your name and your list of servers (Discord “identify” and “guilds”). We can’t see your email address or messages, and we never do anything on Discord in your name."
+    },
+    "who": {
+      "q": "Who can configure a server?",
+      "a": "Anyone with the Administrator or Manage Server permission on Discord, on a server where the bot is present. The bot’s own levels (Staff, Moderator, Admin) are set on the Roles and permissions page."
+    },
+    "delay": {
+      "q": "How long until the bot picks up a change?",
+      "a": "A few seconds. The bot reloads settings within 15 seconds and posts panels within 5 seconds."
+    },
+    "commands": {
+      "q": "Do I need to learn commands?",
+      "a": "No. Every setting is on the web; members see what they can use in /help."
+    },
+    "language": {
+      "q": "Which language does the bot speak?",
+      "a": "The bot speaks Hungarian, English or German — set it per server on the dashboard (Basics → Language), and every reply uses that language. The dashboard is available in Hungarian, English and German — choose your language in the menu."
+    }
+  },
+  "cta": {
+    "title1": "Make your server",
+    "title2": "orange too."
+  },
+  "preview": {
+    "welcome": "## Hi {mention}!\nWelcome to **{szerver}**. Have a look at {#rules} and make yourself at home.\n-# You are member #{tagszam}",
+    "guildName": "Orange Club",
+    "rulesChannel": "rules"
+  },
+  "saving": "Saving…",
+  "designEyebrow": "Discord, simplified.",
+  "designPreview": "Preview",
+  "designPreviewNote": "Clear settings. Just the things you need.",
+  "tour": {
+    "overview": {
+      "label": "Overview",
+      "path": "Narancs Klub / Overview",
+      "alt": "The dashboard overview: modules, messages, open tickets, activity and recent changes"
+    },
+    "stats": {
+      "label": "Statistics",
+      "path": "Narancs Klub / Statistics",
+      "alt": "Activity and growth: messages, voice time, active members and member growth in charts"
+    },
+    "inbox": {
+      "label": "Tickets",
+      "path": "Narancs Klub / Tickets",
+      "alt": "Ticket inbox: the full conversation, reply and close right from the web"
+    },
+    "duty": {
+      "label": "Duty",
+      "path": "Narancs Klub / Duty",
+      "alt": "Duty times: daily chart, who is on duty, totals and export"
+    },
+    "leaderboard": {
+      "label": "Leaderboard",
+      "path": "Narancs Klub / Leaderboard",
+      "alt": "The server's leaderboards by level and wealth, with a podium"
+    }
+  },
+  "heroKicker": "For communities, factions and crews",
+  "mock": {
+    "channel": "duty",
+    "time": "Today at 19:42",
+    "dutyTitle": "Duty panel — Police",
+    "onDuty": "On duty: {count}",
+    "onBreak": "on break",
+    "teamToday": "Team time today",
+    "clockIn": "Clock in",
+    "break": "Break",
+    "clockOut": "Clock out",
+    "ticketTitle": "New ticket #0142 — Support",
+    "ticketText": "I didn’t get paid after today’s shift.",
+    "claim": "Claim",
+    "label": "Example: what the bot looks like on Discord"
+  },
+  "tourSection": {
+    "eyebrow": "Dashboard",
+    "title": "Your bot's brain, in your browser.",
+    "text": "Every setting, ticket, stat and log in one place — no commands to memorise, and it works on your phone too."
+  },
+  "bento": {
+    "eyebrow": "Features",
+    "title": "Everything that keeps a server alive.",
+    "faction": {
+      "title": "For FiveM factions",
+      "text": "Duty panel with a live list, hourly wage and payslips, leave of absence, reports with custom forms — all on the dashboard too.",
+      "goal": "Weekly goal",
+      "days": "Mo,Tu,We,Th,Fr,Sa,Su",
+      "hours": "Duty hours this week"
+    },
+    "tickets": {
+      "open": "Open",
+      "claimed": "Claimed",
+      "closed": "Closed",
+      "s1": "Missing payment",
+      "s2": "Ban appeal",
+      "s3": "Faction application"
+    },
+    "economy": {
+      "ticker": "ORANGE",
+      "change": "+12.4% today"
+    },
+    "moderation": {
+      "s1": "Warning",
+      "s2": "10-minute timeout",
+      "s3": "Kick",
+      "s4": "7-day ban",
+      "level": "Level {n}"
+    },
+    "more": "And more"
+  }
+}

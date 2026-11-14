@@ -1,0 +1,20 @@
+{
+  "title": "Quick search",
+  "description": "Search pages, settings and servers. Use the arrow keys to move and Enter to open.",
+  "placeholder": "What are you looking for? (e.g. welcome channel, ticket, log)",
+  "results": "Results",
+  "noResults": "No results for “{query}”",
+  "navigate": "navigate",
+  "open": "open",
+  "anywhere": "From anywhere:",
+  "groups": {
+    "pages": "Pages",
+    "topics": "Setting topics",
+    "settings": "Settings",
+    "modules": "Modules",
+    "servers": "Switch server"
+  },
+  "module": "{title} module",
+  "moduleKeywords": "enable disable on off toggle module",
+  "serverHint": "Go to this server’s dashboard"
+}

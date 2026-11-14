@@ -1,0 +1,15 @@
+{
+  "metricLabel": "Kennzahl",
+  "messages": "Nachrichten",
+  "voiceMinutes": "Sprachminuten",
+  "activeMembers": "Aktive Mitglieder",
+  "unitMessages": "Nachrichten",
+  "unitMinutes": "Min.",
+  "unitMembers": "Mitglieder",
+  "previousPeriod": "Vorheriger Zeitraum",
+  "activityLabel": "{metric} pro Tag, verglichen mit dem vorherigen Zeitraum",
+  "growthLabel": "Beitritte und Austritte pro Tag",
+  "joins": "Beitritte",
+  "leaves": "Austritte",
+  "day": "Tag"
+}

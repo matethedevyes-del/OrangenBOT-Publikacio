@@ -1,0 +1,42 @@
+{
+  "metaTitle": "Jegyek",
+  "eyebrow": "Közösség",
+  "title": "Beérkező jegyek",
+  "description": "A szerver jegyei egy helyen: keresés, teljes átirat, válasz, elvállalás és lezárás — a bot hajtja végre a Discordon.",
+  "tabs": {
+    "open": "Nyitott",
+    "closed": "Lezárt",
+    "all": "Mind"
+  },
+  "search": "Keresés: #szám, tárgy, kategória, felhasználó-ID",
+  "emptyTitle": "Nincs jegy",
+  "emptyText": "Ebben a nézetben még nincs jegy.",
+  "emptySearch": "Nincs a keresésnek megfelelő jegy.",
+  "older": "Régebbiek",
+  "pick": "Válassz egy jegyet a listából az átirat megnyitásához.",
+  "closedAgo": "lezárva {when}",
+  "claimedBy": "elvállalta: {name}",
+  "open": "Nyitott",
+  "closed": "Lezárt",
+  "transcript": "Átirat",
+  "claim": "Elvállalom",
+  "close": "Lezárás",
+  "closeTitle": "Lezárod a(z) {code} jegyet?",
+  "closeText": "A tag DM-ben megkapja az átiratot és értékelheti a segítséget, mint a Discordon.",
+  "closeReason": "Indoklás (nem kötelező)",
+  "noMessages": "Ebben a jegyben még nincs mentett üzenet.",
+  "staff": "stáb",
+  "fromWeb": "webről",
+  "edited": "szerkesztve",
+  "deleted": "Az üzenetet törölték.",
+  "replyPlaceholder": "Válasz a tagnak…",
+  "replyHint": "A bot a jegy csatornájába küldi a neved alatt. Ctrl+Enter: küldés.",
+  "send": "Küldés",
+  "sending": "A bot végrehajtja…",
+  "closedInfo": "A jegy lezárva: {when}",
+  "server": {
+    "invalid": "Érvénytelen adat (legfeljebb {max} karakter).",
+    "failed": "A műveletet nem sikerült elküldeni a botnak.",
+    "missing": "A jegy nem található."
+  }
+}

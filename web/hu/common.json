@@ -1,0 +1,22 @@
+{
+  "cancel": "Mégse",
+  "confirm": "Igen, mehet",
+  "save": "Mentés",
+  "saving": "Mentés…",
+  "search": "Keresés",
+  "searchPlaceholder": "Keresés…",
+  "noResults": "Nincs találat",
+  "close": "Bezárás",
+  "menu": "Menü",
+  "loading": "Betöltés",
+  "add": "Hozzáadás",
+  "noneSelected": "Nincs kiválasztva",
+  "unknownItem": "ismeretlen ({id})",
+  "removeItem": "{label} eltávolítása",
+  "atMost": "legfeljebb {max}",
+  "yes": "igen",
+  "no": "nem",
+  "deltaNew": "új",
+  "deltaTitle": "Az előző, ugyanilyen hosszú időszakhoz képest",
+  "skipToContent": "Ugrás a tartalomra"
+}

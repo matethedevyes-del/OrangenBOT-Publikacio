@@ -1,0 +1,10 @@
+{
+  "spoiler": "Spoiler",
+  "noChannel": "Nincs ilyen nevű csatorna — a bot így, szövegként írja ki",
+  "unknownPlaceholder": "Ismeretlen helyettesítő — a bot változatlanul hagyja",
+  "customEmoji": "A szerver saját emojija",
+  "empty": "(üres üzenet)",
+  "label": "Előnézet, ahogy a Discordon megjelenik",
+  "today": "Ma {time}",
+  "unknownMention": "ismeretlen"
+}

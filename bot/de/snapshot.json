@@ -1,0 +1,19 @@
+{
+ "manual_label": "Manuelle Sicherung",
+ "auto_label": "Automatische tägliche Sicherung",
+ "before_restore_label": "Zustand vor der Wiederherstellung",
+ "saved": "✅ Gesichert: {roles} Rollen und {channels} Kanäle.",
+ "gone": "Diese Sicherung existiert nicht mehr.",
+ "no_perms": "Der Bot braucht „Rollen verwalten“ und „Kanäle verwalten“ für die Wiederherstellung.",
+ "nothing_to_do": "✅ Der Server entspricht der Sicherung — nichts wiederherzustellen.",
+ "plan_head": "Die Wiederherstellung würde:",
+ "plan_roles": "• {n} Rollen erstellen: {names}",
+ "plan_categories": "• {n} Kategorien erstellen: {names}",
+ "plan_channels": "• {n} Kanäle erstellen: {names}",
+ "plan_overwrites": "• die Zugriffsrechte von {n} bestehenden Kanälen zurücksetzen",
+ "plan_managed": "• {n} Integrations-/Bot-Rollen überspringen (die verwaltet Discord)",
+ "plan_safe": "Es wird nichts gelöscht, und der aktuelle Zustand wird vorher gesichert.",
+ "done": "✅ Wiederhergestellt: {created} neue Elemente, Zugriff bei {updated} Kanälen aktualisiert.",
+ "failed": "⚠️ {n} Elemente fehlgeschlagen (Rechte / Rollenreihenfolge des Bots): {names}",
+ "reason": "Wiederherstellung aus Sicherung ({name})"
+}

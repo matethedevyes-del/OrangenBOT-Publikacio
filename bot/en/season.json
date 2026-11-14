@@ -1,0 +1,15 @@
+{
+ "empty": "*No clan has scored any points this season yet.*",
+ "row": "{place} {label} — **{points}** points{me}",
+ "tag": "Season champion",
+ "headline": "{name} won the {season} clan season",
+ "banner_body": "First place with {points} points; their vault receives a {prize} season prize.",
+ "card_body": "Finished first with **{points}** points — their vault received a **{prize}** season prize.",
+ "card_role": "\nMembers received the {role} role (until the next champion).",
+ "next": "A new season has started — points start from zero",
+ "role_reason": "Clan season champion",
+ "vault_note": "Season prize ({season})",
+ "vault_label": "Season prize",
+ "panel_title": "👑 **Clan season {season}** — monthly standings",
+ "panel_hint": "-# Points come from members' successful crimes, work, daily bonus, quiz wins, bounties, level-ups (40 per member per day) and territory war placings. At the end of the month the champion gets a prize and a role."
+}

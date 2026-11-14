@@ -1,0 +1,10 @@
+{
+  "spoiler": "Spoiler",
+  "noChannel": "Kein Kanal mit diesem Namen — der Bot schreibt es als normalen Text",
+  "unknownPlaceholder": "Unbekannter Platzhalter — der Bot lässt ihn unverändert",
+  "customEmoji": "Eigenes Emoji des Servers",
+  "empty": "(leere Nachricht)",
+  "label": "Vorschau, wie es auf Discord erscheint",
+  "today": "Heute um {time}",
+  "unknownMention": "unbekannt"
+}

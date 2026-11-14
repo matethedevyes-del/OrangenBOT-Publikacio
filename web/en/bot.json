@@ -1,0 +1,15 @@
+{
+  "working": "The bot is working…",
+  "sendFailed": "Couldn’t send it (network error, or the page was refreshed in the meantime) — reload and try again.",
+  "failed": "That didn’t work",
+  "done": "Done",
+  "doneText": "Done.",
+  "sent": "Sent to the bot — a few seconds.",
+  "open": "Open",
+  "notExecuted": "The bot couldn’t carry it out",
+  "inProgress": "The bot is working on it…",
+  "noPickup": "The bot didn’t pick up the request — it’s probably not running or is restarting. It will carry it out as soon as it starts.",
+  "notResponding": "The bot isn’t responding",
+  "stillRunningText": "The bot hasn’t finished yet — check on Discord, or try again later.",
+  "stillRunning": "The bot is still working"
+}

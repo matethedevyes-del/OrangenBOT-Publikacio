@@ -1,0 +1,236 @@
+{
+  "metaTitle": "Ticketek",
+  "eyebrow": "Ügyfélszolgálat",
+  "title": "Ticket-rendszer",
+  "description": "Jegynyitás panelről, kategóriánként saját kérdésekkel, stábbal és AI-ügyintézővel. A beállításokat a bot pár másodpercen belül átveszi; a kint lévő panelt a Panel fülön frissítheted.",
+  "tabs": {
+    "basics": "Alapok",
+    "panel": "Panel",
+    "categories": "Kategóriák",
+    "ai": "AI-ügyintéző",
+    "blacklist": "Tiltólista"
+  },
+  "saved": "Mentve — a bot pár másodpercen belül átveszi.",
+  "failed": "Nem sikerült",
+  "none": "Nincs",
+  "save": "Mentés",
+  "noCategory": "Nincs (a bot nem tesz kategóriába)",
+  "openCategory": "Nyitott jegyek kategóriája",
+  "closedCategory": "Lezárt jegyek kategóriája",
+  "staffRole": "Stáb rang",
+  "staffRoleHint": "Ők látják és kezelik a jegyeket",
+  "staffRoleNone": "Nincs (a bot Stáb szintje)",
+  "staffPing": "Stáb pingelése",
+  "logChannel": "Napló csatorna",
+  "transcriptChannel": "Átiratok csatornája",
+  "maxOpen": "Nyitott jegy / tag",
+  "autoClose": "Automatikus lezárás",
+  "cooldown": "Várakozás két jegy között",
+  "deleteClosed": "Lezárt jegy törlése",
+  "nameTemplate": "Csatornanév minta",
+  "nameTemplateHint": "Helyettesítők: {placeholders} — üresen: {fallback}",
+  "welcome": "Üdvözlő üzenet a jegyben",
+  "welcomeHint": "Üresen az alap üzenet",
+  "pingModes": {
+    "urgent": "Csak sürgős jegyeknél (P1–P2)",
+    "always": "Minden új jegynél",
+    "never": "Soha (csak a naplóba kerül)"
+  },
+  "switches": {
+    "allowUserClose": {
+      "label": "A tag lezárhatja a saját jegyét",
+      "description": "Kikapcsolva csak a stáb zárhat"
+    },
+    "requireCloseReason": {
+      "label": "Kötelező lezárási indok (stáb)",
+      "description": "A stáb csak indokkal zárhat"
+    },
+    "dmTranscript": {
+      "label": "Átirat DM-ben a nyitónak",
+      "description": "Lezáráskor a tag megkapja a beszélgetést"
+    },
+    "ratingEnabled": {
+      "label": "Értékelés kérése lezáráskor",
+      "description": "1–5 csillag és szöveges visszajelzés DM-ben"
+    }
+  },
+  "duration": {
+    "off": "Kikapcsolva",
+    "week": "1 hét",
+    "days": "{count, plural, one {# nap} other {# nap}}",
+    "hours": "{count, plural, one {# óra} other {# óra}}",
+    "minutes": "{count, plural, one {# perc} other {# perc}}",
+    "noCooldown": "Nincs várakozás",
+    "never": "Soha (kézzel törölhető)"
+  },
+  "panelChannel": "A panel csatornája",
+  "pickChannel": "Válassz csatornát…",
+  "panelTitle": "Cím",
+  "panelDescription": "Leírás",
+  "panelStyle": "Kategória-választó",
+  "styles": {
+    "menu": {
+      "label": "Legördülő menü",
+      "description": "Egy menü az összes kategóriával (25-ig)"
+    },
+    "buttons": {
+      "label": "Gombok",
+      "description": "Kategóriánként egy gomb (legfeljebb 15 kategóriáig)"
+    }
+  },
+  "color": "Szín",
+  "colorHint": "pl. #FD8200 — üresen narancs",
+  "image": "Kép (https)",
+  "footer": "Lábléc",
+  "myTickets": "„Jegyeim” gomb",
+  "help": "„Segítség” gomb",
+  "savedPanel": "Mentve — a kint lévő panelt frissítsd.",
+  "post": "Kirakás",
+  "panelLive": "A panel kint van — beállítás- vagy kategóriaváltozás után frissítsd.",
+  "panelNotLive": "A panel még nincs kint.",
+  "saveFirst": "Előbb mentsd a változásokat.",
+  "posting": "Panel kirakása…",
+  "updatePanel": "Panel frissítése",
+  "postPanel": "Panel kirakása",
+  "orderSaved": "Sorrend mentve.",
+  "turnedOff": "Kikapcsolva.",
+  "turnedOn": "Bekapcsolva.",
+  "categoriesText": "A bekapcsolt kategóriák látszanak a panelen. Beépített kategória szerkesztése után a „Visszaállítás” az alapra hozza.",
+  "customCategory": "Saját kategória",
+  "newCategory": "Új kategória",
+  "editCategory": "Kategória szerkesztése",
+  "cancel": "Mégse",
+  "emoji": "Emoji a Discord-gombon",
+  "emojiHint": "Egy Unicode-emoji vagy a szerver saját emojija (<:nev:azonosító>).",
+  "name": "Név",
+  "priority": "Prioritás",
+  "priorityOption": "{priority} · {label}",
+  "shortDescription": "Rövid leírás (a menüben)",
+  "questions": "Kérdések a jegy nyitásakor",
+  "questionsMax": "(legfeljebb {max})",
+  "question": "Kérdés",
+  "questionAria": "{n}. kérdés",
+  "helper": "Segítő szöveg",
+  "helperAria": "{n}. kérdés segítő szövege",
+  "long": "hosszú",
+  "required": "kötelező",
+  "deleteQuestion": "Kérdés törlése",
+  "addQuestion": "Kérdés",
+  "ownStaff": "Saját stáb rangok",
+  "ownStaffHint": "Üresen a ticket-rendszer stáb rangja",
+  "pingRoles": "Pingelendő rangok új jegynél",
+  "discordCategory": "Discord-kategória",
+  "discordCategoryHint": "Üresen az általános",
+  "general": "Az általános",
+  "aiAgent": "AI-ügyintéző",
+  "aiInherit": "Mint a rendszer többi része",
+  "aiOn": "Mindig be",
+  "aiOff": "Ebben a kategóriában ki",
+  "ownWelcome": "Saját üdvözlő üzenet",
+  "generalPlaceholder": "az általános",
+  "allowFiles": "Fájl csatolható",
+  "staffOnly": "Csak a stáb nyithatja",
+  "custom": "saját",
+  "customized": "testreszabva",
+  "enabledAria": "{label} bekapcsolva",
+  "up": "Fel",
+  "down": "Le",
+  "edit": "Szerkesztés",
+  "delete": "Törlés",
+  "reset": "Visszaállítás",
+  "deleteTitle": "Törlöd a kategóriát?",
+  "resetTitle": "Visszaállítod az alapra?",
+  "deleteText": "A meglévő jegyek megmaradnak.",
+  "resetText": "A kategória minden testreszabása elvész.",
+  "deleted": "Törölve.",
+  "resetDone": "Visszaállítva.",
+  "aiEnabled": "AI-ügyintéző a jegyekben",
+  "aiEnabledText": "Válaszol a gyakori kérdésekre, és szól a stábnak, ha ember kell.",
+  "persona": "Személyiség / utasítás",
+  "personaPlaceholder": "pl. Barátságos, tegeződő ügyfélszolgálatos vagy…",
+  "knowledge": "Tudásbázis",
+  "knowledgeHint": "Szabályok, GYIK, árak — amiből az AI válaszol",
+  "skillsTitle": "Mit tehet meg az AI?",
+  "skills": {
+    "ideas": {
+      "label": "Ötletek fogadása",
+      "description": "Kikérdezi, összefoglalja, és az ötlet-elbírálásba küldi"
+    },
+    "bugs": {
+      "label": "Hibabejelentések fogadása",
+      "description": "Kikérdezi a részleteket, és a hiba-elbírálásba küldi"
+    },
+    "roles": {
+      "label": "Rangok a rangválasztóról",
+      "description": "Felveszi / leveszi a rangválasztó rangjait, a panel szabályaival"
+    },
+    "nickname": {
+      "label": "Becenév módosítása",
+      "description": "Átírja a nyitó becenevét — tiltott szó, link, említés nélkül"
+    },
+    "lookup": {
+      "label": "Saját adatok",
+      "description": "Egyenleg, szint, meghívások, figyelmeztetések — csak a jegy nyitójáé"
+    },
+    "report": {
+      "label": "Tag jelentése",
+      "description": "Jelentést küld a moderátoroknak a jegy hivatkozásával"
+    },
+    "move": {
+      "label": "Áthelyezés a jó kategóriába",
+      "description": "Ha a jegy egyértelműen rossz kategóriában nyílt"
+    },
+    "close": {
+      "label": "Lezárás a tag beleegyezésével",
+      "description": "Megkérdezi, lezárhatja-e a jegyet, és igennél lezárja"
+    }
+  },
+  "blacklistText": "Akik itt vannak, nem nyithatnak jegyet ezen a szerveren.",
+  "blacklistAdded": "Hozzáadva a tiltólistához.",
+  "userId": "Felhasználó azonosítója",
+  "reason": "Indok (nem kötelező)",
+  "reasonAria": "Indok",
+  "ban": "Tiltás",
+  "blacklistEmpty": "A tiltólista üres.",
+  "unbanned": "Feloldva.",
+  "unban": "Feloldás",
+  "priorities": {
+    "P1": "Kritikus",
+    "P2": "Magas",
+    "P3": "Közepes",
+    "P4": "Alacsony"
+  },
+  "extra": {
+    "title": "További ticket-panelek",
+    "description": "Több panelt is kirakhatsz más-más csatornába, mindegyiken saját kategóriákkal (pl. #vásárlás csak a vásárlási kategóriákkal, #support a technikaiakkal). Az üresen hagyott cím, szöveg és stílus a fő panelé.",
+    "add": "Új panel",
+    "empty": "Még nincs további panel.",
+    "live": "kint van",
+    "notLive": "nincs kint",
+    "sameAsMain": "mint a fő panelen",
+    "repost": "Kirakás / frissítés",
+    "edit": "Szerkesztés",
+    "delete": "Törlés",
+    "deleteTitle": "Törlöd a(z) {name} panelt?",
+    "deleteText": "A bot a kint lévő üzenetet is eltávolítja. A nyitott jegyeket nem érinti.",
+    "deleting": "Törlés…",
+    "posting": "Kirakás…",
+    "newTitle": "Új ticket-panel",
+    "editTitle": "Panel szerkesztése",
+    "cancel": "Mégse",
+    "channel": "Csatorna",
+    "pickChannel": "Válassz csatornát…",
+    "name": "Név",
+    "nameHint": "Csak nektek a listában (üresen: a csatorna neve)",
+    "categories": "Kategóriák ezen a panelen",
+    "categoriesHint": "Kattints rájuk; ha egyet sem jelölsz, a fő panel kategóriái jelennek meg",
+    "panelTitle": "Cím",
+    "panelDescription": "Szöveg",
+    "inheritHint": "Üresen: mint a fő panelé",
+    "style": "Stílus",
+    "styleInherit": "Mint a fő panelé",
+    "styleMenu": "Legördülő menü",
+    "styleButtons": "Gombok",
+    "saveAndPost": "Mentés és kirakás"
+  }
+}

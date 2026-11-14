@@ -1,0 +1,33 @@
+{
+  "metaTitle": "Moderationsfälle",
+  "eyebrow": "Moderation",
+  "title": "Moderationsfälle",
+  "description": "Alle Moderationsfälle des Servers (/warn, /timeout, /ban, KI-Moderation …) — insgesamt {total}.",
+  "user": "Nutzer-ID",
+  "type": "Typ",
+  "allTypes": "Alle Typen",
+  "filter": "Filtern",
+  "emptyTitle": "Keine Fälle",
+  "noMatch": "Mit diesem Filter gibt es keine Treffer.",
+  "none": "Auf diesem Server gab es noch keine Moderationsfälle.",
+  "onlyThisMember": "Nur die Fälle dieses Mitglieds",
+  "automatic": "Der Bot hat automatisch eingegriffen",
+  "moderator": "Moderator: {who}",
+  "older": "Ältere",
+  "types": {
+    "ban": "Bann",
+    "tempban": "Temporärer Bann",
+    "softban": "Softban",
+    "kick": "Kick",
+    "auto_kick": "Automatischer Kick",
+    "timeout": "Timeout",
+    "mute": "Stummschaltung",
+    "auto_timeout": "Automatischer Timeout",
+    "automod": "Automod",
+    "warn": "Verwarnung",
+    "note": "Notiz",
+    "unban": "Bann aufgehoben",
+    "untimeout": "Timeout aufgehoben",
+    "unmute": "Stummschaltung aufgehoben"
+  }
+}

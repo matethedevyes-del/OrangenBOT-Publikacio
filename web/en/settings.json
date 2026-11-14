@@ -1,0 +1,156 @@
+{
+  "metaTitle": "Settings",
+  "title": "Settings",
+  "description": "{total} settings in {topics} topics. Anything you haven’t changed uses the bot’s default.",
+  "searchHint": "Search the {total} settings — e.g. “welcome channel”, “log”, “interest”",
+  "missing": "{count} missing",
+  "changed": "{changed} / {total} changed",
+  "off": "off",
+  "eyebrow": "Settings",
+  "moduleOff": "This topic’s module is currently off — the settings are kept, but they have no effect until you turn it on.",
+  "modulesLink": "Modules",
+  "resourcesUnavailable": "The server’s channels and roles can’t be loaded right now (Discord error) — these fields are temporarily read-only.",
+  "commands": "Discord commands:",
+  "topicsNav": "Setting topics",
+  "allTopics": "All topics",
+  "missingRecommended": "Recommended setting missing",
+  "topic": "Topic",
+  "topicOff": "{title} (off)",
+  "topicWarning": "{title} (incomplete)",
+  "invalidFields": "Some fields are invalid",
+  "invalidFieldsText": "Fix the fields marked in red.",
+  "saved": "Saved",
+  "savedText": "The bot will pick up the change within a few seconds.",
+  "saveFailed": "Saving failed",
+  "unsaved": "Unsaved changes",
+  "savingProgress": "Saving…",
+  "unsavedCount": "{count, plural, one {# unsaved change} other {# unsaved changes}}",
+  "undo": "Undo",
+  "saveTitle": "Save (Ctrl + S)",
+  "save": "Save",
+  "leavePrompt": "You have unsaved changes. Are you sure you want to leave this page? Your changes will be lost.",
+  "field": {
+    "recommended": "Recommended",
+    "modified": "changed",
+    "zero": "0 / empty: {zero}",
+    "locked": "Only the owner or a Discord administrator can change this.",
+    "resetTitle": "Back to the bot’s default",
+    "reset": "Default",
+    "notSet": "— Not set —",
+    "unknownChannel": "Deleted / unknown channel ({id})",
+    "unknownRole": "Deleted / unknown role ({id})",
+    "integration": " (integration)",
+    "dangerousRole": " — grants admin permissions, only a server admin can choose it",
+    "colorPicker": "Colour picker",
+    "colorEmpty": "if empty: {zero}",
+    "channel": "Channel",
+    "textChannels": "Text channels",
+    "otherChannels": "Voice and other channels",
+    "previewWelcome": "How it looks on the welcome card",
+    "previewGoodbye": "How it looks on the goodbye card",
+    "previewDm": "How the new member receives it in a DM",
+    "previewLevel": "How the level-up message looks",
+    "previewDefault": " (the bot’s default text)",
+    "hide": "hide",
+    "show": "show",
+    "editOnWarnsPage": "Edit on the Warnings page →",
+    "multiNone": "Nothing disabled"
+  },
+  "units": {
+    "growth": "% / day",
+    "hour": "hours"
+  },
+  "channelKinds": {
+    "announcement": "announcement",
+    "forum": "forum",
+    "voice": "voice",
+    "stage": "stage"
+  },
+  "stats": {
+    "topics": "Topics",
+    "topicsNote": "{total} settings in total",
+    "changed": "Changed",
+    "changedNote": "/ {total}",
+    "missing": "Missing recommended",
+    "missingNote": "Some features won't fully work without these",
+    "missingNone": "All recommended settings are set",
+    "modulesOff": "Modules off",
+    "modulesLink": "Manage modules"
+  },
+  "missingTitle": "Recommended settings still missing",
+  "missingText": "Click one to jump straight to the field.",
+  "missingMore": "and {count} more",
+  "groups": {
+    "core": {
+      "title": "Basics",
+      "text": "Language, branding, roles, welcome and the public page"
+    },
+    "safety": {
+      "title": "Moderation & safety",
+      "text": "Warnings, filters, AI moderation, protection and logs"
+    },
+    "community": {
+      "title": "Community",
+      "text": "Levels, quests, activity, voice, AI chat and music"
+    },
+    "duty": {
+      "title": "Duty",
+      "text": "Clock in and out, quotas, leave and reports"
+    },
+    "economy": {
+      "title": "Economy & games",
+      "text": "Money, jobs, underworld, casino, crypto, stocks, clans and fishing"
+    },
+    "other": {
+      "title": "Other",
+      "text": "More topics"
+    }
+  },
+  "settingsCount": "{count, plural, one {# setting} other {# settings}}",
+  "changedShort": "{count} changed",
+  "moduleActive": "Module on",
+  "moduleInactive": "Module off",
+  "changedOf": "{changed} / {total} changed",
+  "sections": {
+    "links": {
+      "title": "Channels & roles",
+      "text": "Where the bot posts and who gets what"
+    },
+    "toggles": {
+      "title": "Switches",
+      "text": "Turn features on and off"
+    },
+    "values": {
+      "title": "Values & limits",
+      "text": "Numbers, durations, choices"
+    },
+    "texts": {
+      "title": "Texts & templates",
+      "text": "Messages, lists, longer texts"
+    }
+  },
+  "filter": {
+    "placeholder": "Filter this topic…",
+    "onlyChanged": "Changed only",
+    "noResults": "No settings match the filter.",
+    "clear": "Clear filter"
+  },
+  "logRoute": {
+    "title": "Logging to another server too",
+    "description": "Pick a log server (where you have Manage Server and the bot is present). Then for each log type you can choose a channel on this server or on the log server — the main server stays tidy and the logs are still kept.",
+    "label": "Log server",
+    "hint": "Its channels appear as a separate group in the log channel pickers.",
+    "thisOnly": "This server only",
+    "save": "Save",
+    "saved": "Log server saved",
+    "cleared": "Logs stay on this server",
+    "active": "Log channels can also be picked from {name} (below).",
+    "noChoices": "There's no other server where you have permission and the bot is present — invite the bot to the log server.",
+    "groupPrefix": "Log server: {name}",
+    "invalid": "Invalid request.",
+    "sameGuild": "Pick a different server.",
+    "noAccessTarget": "You don't have Manage Server on the chosen server.",
+    "botMissing": "The bot isn't on the chosen server.",
+    "failed": "Saving failed."
+  }
+}

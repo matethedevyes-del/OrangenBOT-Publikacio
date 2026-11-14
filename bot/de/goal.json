@@ -1,0 +1,17 @@
+{
+ "unit_messages": "Nachrichten",
+ "unit_voice": "Minuten im Sprachkanal",
+ "unit_work": "erledigte Arbeiten",
+ "unit_crimes": "erfolgreiche Verbrechen",
+ "unit_casino": "Casinospiele",
+ "tag": "Wöchentliches Community-Ziel",
+ "tag_done": "Ziel erreicht!",
+ "headline": "{target} {unit}",
+ "body": "{contributors} Mitglieder helfen • Belohnung: je {reward}",
+ "ends_label": "Bis Sonntag Mitternacht",
+ "running_text": "Diese Woche gemeinsam schaffen — endet {ends}. Wer hilft, bekommt **{reward}**, wenn es klappt!",
+ "done_text": "🎉 Geschafft! Alle Teilnehmer haben **{reward}** erhalten.",
+ "top": "**Die größten Helfer**",
+ "footer": "{contributors} Mitglieder haben beigetragen • die Karte aktualisiert sich alle paar Minuten",
+ "celebrate": "🎉 **Das wöchentliche Community-Ziel ist erreicht!** {emoji} {contributors} Mitglieder erhielten **{reward}**. Super gemacht!"
+}

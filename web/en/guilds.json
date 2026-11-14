@@ -1,0 +1,32 @@
+{
+  "metaTitle": "My servers",
+  "title": "Your servers",
+  "greeting": "Hi {name}! Choose the server you want to set up.",
+  "adminPanelText": "Every server, user, sanction and the full log.",
+  "adminDenied": "You don’t have access to the admin panel. If the owner has just added you, log out and back in.",
+  "unavailable": "The server couldn’t be opened right now: the database or Discord didn’t respond. Try again in a minute — if it keeps happening, the exact error is in the Cloudflare Workers log (Workers & Pages → the Worker → Logs).",
+  "openDiag": "Open diagnostics →",
+  "denied": "You don’t have access to this server: you need the Administrator or Manage Server permission on Discord, and the bot must be on the server too (according to the bot’s records). If you’ve just invited the bot, wait a minute.",
+  "listFailed": "Your server list can’t be loaded right now",
+  "listFailedText": "Discord or the database isn’t responding. Refresh the page in a minute.",
+  "searchPlaceholder": "Search servers…",
+  "searchLabel": "Search servers",
+  "filterLabel": "Filter",
+  "filterAll": "All",
+  "filterActive": "With bot",
+  "filterInvite": "Can invite",
+  "owner": "Owner",
+  "active": "Active",
+  "botMissing": "The bot isn’t here yet",
+  "invite": "Invite",
+  "noneManageable": "You don’t have the Administrator or Manage Server permission on any server.",
+  "noMatch": "No server matches your search.",
+  "switch": "Switch server",
+  "current": "current",
+  "allServers": "All my servers",
+  "access": {
+    "readonly": "Read-only",
+    "panel": "Panel admin",
+    "manager": "Manager"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metaTitle": "Setup",
+  "eyebrow": "Configuration",
+  "title": "Setup & backups",
+  "description": "Get the bot ready in a few steps: language, channels, staff role, modules. Back up, restore and copy settings here, or start from a ready-made template.",
+  "steps": {
+    "language": "Language",
+    "channels": "Channels",
+    "staff": "Staff",
+    "modules": "Modules",
+    "done": "Done"
+  },
+  "languageText": "Which language should the bot speak on this server? (Messages, panels and the / command list too.)",
+  "channelsText": "Where should the bot write? You can change it anytime in Settings.",
+  "none": "— none —",
+  "staffText": "Members of the staff role can handle tickets, duty and moderation tools.",
+  "staffRole": "Staff role",
+  "modulesText": "Turn on what you need — a disabled module’s commands disappear too.",
+  "back": "Back",
+  "next": "Next",
+  "finish": "Save",
+  "again": "Again",
+  "doneTitle": "All set!",
+  "doneText": "The bot picks up the new settings within a few seconds.",
+  "saved": "Saved ({count} changes).",
+  "skipped": "{count} settings were skipped: {keys}",
+  "backupTitle": "Backup & restore",
+  "backupText": "Download the server settings as a JSON file and restore them anytime.",
+  "export": "Download",
+  "import": "Restore",
+  "tooBig": "The file is too large.",
+  "badFile": "This is not a valid JSON file.",
+  "imported": "Settings restored.",
+  "copyTitle": "Copy to another server",
+  "copyText": "The same settings on another server of yours — without channels and roles (those differ per server).",
+  "noOtherGuilds": "No other server where you are a manager and the bot is present.",
+  "copyTarget": "Target server",
+  "copy": "Copy",
+  "copyConfirm": "Copy the settings to {name}?",
+  "copyConfirmText": "The same settings on the target server will be overwritten.",
+  "copied": "Copied.",
+  "templatesTitle": "Templates",
+  "templatesText": "Start with a module selection tailored to a server type.",
+  "apply": "Apply",
+  "templateConfirm": "Apply the “{name}” template?",
+  "templateConfirmText": "Modules are switched on and off according to the template; other settings stay.",
+  "templateApplied": "Template applied.",
+  "templates": {
+    "community": {
+      "title": "Community server",
+      "text": "Levels, fun, quests, tickets, music, AI"
+    },
+    "gaming": {
+      "title": "Gaming server",
+      "text": "Full economy, underworld, casino, stocks, clans, fishing"
+    },
+    "roleplay": {
+      "title": "Roleplay / faction",
+      "text": "Duty system, tickets, levels, economy"
+    },
+    "minimal": {
+      "title": "Minimal",
+      "text": "Only the ticket system — everything else off"
+    },
+    "support": {
+      "title": "Support",
+      "text": "Tickets and community support without gaming modules."
+    }
+  },
+  "server": {
+    "invalid": "Invalid request.",
+    "failed": "Could not save.",
+    "notBackup": "This is not an OrangenBot settings backup.",
+    "stale": "Settings changed. Generate a new preview."
+  },
+  "previewTitle": "Preview changes",
+  "previewText": "These settings will change. Check channels and roles before saving.",
+  "before": "Current",
+  "after": "New",
+  "preview": "Preview",
+  "previewOn": "Enabled",
+  "previewOff": "Disabled"
+}

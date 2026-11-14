@@ -1,0 +1,49 @@
+{
+  "metaTitle": "Panels veröffentlichen",
+  "title": "Panels",
+  "description": "Button-Panels für deinen Server. Der Bot veröffentlicht sie; gab es im selben Kanal schon eins, ersetzt er es.",
+  "verify": {
+    "title": "Verifizierung",
+    "text": "Neue Mitglieder akzeptieren die Regeln mit einem Klick und erhalten die Mitgliederrolle.",
+    "blocker": "Die Mitgliederrolle, die sie nach dem Akzeptieren bekommen, ist nicht festgelegt.",
+    "hint": "Der Regelkanal ist nicht festgelegt (das Panel würde darauf verweisen)."
+  },
+  "suggestion": {
+    "title": "Vorschläge",
+    "text": "Mitglieder können per Formular Vorschläge senden; der Bot stellt sie mit Abstimmung in den Vorschlagskanal.",
+    "blocker": "Es ist nicht festgelegt, wohin die Vorschläge kommen."
+  },
+  "bug": {
+    "title": "Fehlermeldungen",
+    "text": "Fehler per Formular melden; das Team prüft sie im Fehlerkanal.",
+    "blocker": "Es ist nicht festgelegt, wohin die Meldungen kommen."
+  },
+  "honeypot": {
+    "title": "Spam-Falle",
+    "text": "Eine Warnkarte im Fallenkanal. Wer dort schreibt, wird vom Bot automatisch bestraft (gegen Spam-Bots).",
+    "blocker": "Der Fallenkanal ist nicht festgelegt — erstelle einen mit einem Klick oder wähle einen vorhandenen.",
+    "target": "In den Fallenkanal",
+    "stats": "Erwischte Konten: {total} (letzte 7 Tage: {week})",
+    "create": "Neuer Fallenkanal",
+    "creating": "Der Bot erstellt den Fallenkanal…"
+  },
+  "ticketPanel": "Ticket-Panel",
+  "ticketPanelText": "Tickets → Reiter Panel",
+  "rolePanels": "Rollenauswahl-Panels",
+  "rolePanelsText": "Seite Rollenauswahl",
+  "ownPages": "Panels mit eigener Seite",
+  "setting": "Einstellung",
+  "channelAria": "{title}: Kanal",
+  "pickChannel": "Kanal auswählen…",
+  "blockedTitle": "Lege zuerst die fehlende Einstellung fest",
+  "posting": "Wird veröffentlicht…",
+  "post": "Veröffentlichen",
+  "readOnly": "Du hast nur Lesezugriff.",
+  "open": "Öffnen",
+  "duty": {
+    "title": "Dienst",
+    "text": "Ein- und Ausstempeln per Button, Live-Liste der Diensthabenden, eigene Zeit, Abwesenheitsanträge (Components V2). Mehrere Panels möglich; alle aktualisieren sich live.",
+    "blocker": "Das Dienst-Modul ist ausgeschaltet.",
+    "hint": "Kein Protokollkanal — Ein- und Ausstempeln wird nicht protokolliert."
+  }
+}

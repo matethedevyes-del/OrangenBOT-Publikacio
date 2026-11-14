@@ -1,0 +1,45 @@
+{
+  "metaDescription": "{name} on Discord — {count} members. See what is going on and join in!",
+  "metaDescriptionNoCount": "{name} on Discord. See what is going on and join in!",
+  "eyebrow": "Discord server",
+  "members": "{count, plural, one {# member} other {# members}}",
+  "online": "{count} online",
+  "join": "Join server",
+  "joinAria": "Join {name} on Discord (opens in a new tab)",
+  "noInvite": "This server has no public invite right now.",
+  "share": "Shareable page",
+  "poweredBy": "This page is made by OrangenBot — the server's admins turned it on.",
+  "addBot": "Get OrangenBot for your server",
+  "activity": {
+    "title": "Activity",
+    "subtitle": "Messages per day over the last 30 days",
+    "label": "Daily messages over the last 30 days",
+    "total": "Messages (30 days)",
+    "perDay": "Daily average",
+    "peak": "Peak active"
+  },
+  "modules": {
+    "title": "What runs on this server",
+    "subtitle": "OrangenBot modules switched on here"
+  },
+  "leaderboard": {
+    "title": "Leaderboards",
+    "subtitle": "The most active and the wealthiest members",
+    "levels": "Level",
+    "wealth": "Wealth",
+    "level": "Level {level}",
+    "xp": "{xp} XP",
+    "inBank": "in the bank: {amount}",
+    "empty": "Nobody to show here yet."
+  },
+  "ogAlt": "{name} — public server page",
+  "admin": {
+    "titleOn": "Your public server page is live",
+    "textOn": "Anyone can view it without logging in — share the link with your community.",
+    "open": "Open page",
+    "settings": "Settings",
+    "titleOff": "Public server page",
+    "textOff": "A beautiful, shareable page for your server: description, join button, activity and leaderboards. Off by default.",
+    "enable": "Turn it on"
+  }
+}
