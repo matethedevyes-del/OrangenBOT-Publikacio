@@ -1,0 +1,20 @@
+{
+  "title": "Schnellsuche",
+  "description": "Seiten, Einstellungen und Server suchen. Mit den Pfeiltasten wählen, mit Enter öffnen.",
+  "placeholder": "Was suchst du? (z. B. Willkommenskanal, Ticket, Protokoll)",
+  "results": "Treffer",
+  "noResults": "Keine Treffer für „{query}“",
+  "navigate": "wählen",
+  "open": "öffnen",
+  "anywhere": "Überall:",
+  "groups": {
+    "pages": "Seiten",
+    "topics": "Einstellungsthemen",
+    "settings": "Einstellungen",
+    "modules": "Module",
+    "servers": "Server wechseln"
+  },
+  "module": "Modul {title}",
+  "moduleKeywords": "einschalten ausschalten an aus modul",
+  "serverHint": "Zum Dashboard dieses Servers wechseln"
+}

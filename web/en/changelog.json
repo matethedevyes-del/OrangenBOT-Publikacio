@@ -1,0 +1,442 @@
+{
+  "metaTitle": "What's new",
+  "metaDescription": "What changed in OrangenBot and the web dashboard — release by release.",
+  "eyebrow": "Changelog",
+  "title": "What's new",
+  "lead": "How the bot and the website evolve, in plain words: what is new, what got better and what we fixed.",
+  "latest": "Latest",
+  "version": "Version {version}",
+  "releasesNav": "Releases",
+  "kind": {
+    "new": "New",
+    "improved": "Improved",
+    "fixed": "Fixed"
+  },
+  "area": {
+    "bot": "Bot",
+    "web": "Web"
+  },
+  "counts": "{count, plural, one {# change} other {# changes}}",
+  "badge": "New",
+  "sidebarLink": "What's new",
+  "sidebarAria": "What's new — {version} (not seen yet)",
+  "ctaTitle": "Want to try it?",
+  "ctaText": "Invite the bot and set everything up on the web dashboard.",
+  "ctaInvite": "Invite the bot",
+  "releases": {
+    "v834": {
+      "title": "Security audit, round 2: roles, push notifications, music, permissions",
+      "summary": "Fixes from the second security review: the bot never hands out dangerous roles automatically, buttons check permissions too, and push notifications only reach current staff.",
+      "items": {
+        "autoRoles": "The warning ladder and duty quotas never hand out a role with admin or moderation permissions — not even if the role was made dangerous later.",
+        "buttonGates": "The /penz buttons and panels left open also check the module and the usage permission; if the check fails, the command doesn’t run.",
+        "pushPrivacy": "Push notifications only go to people who can still manage the server; the lock screen no longer shows ticket subjects or leave reasons.",
+        "musicLinks": "Music: only links from known services (YouTube, SoundCloud, Spotify …) and audio files uploaded to Discord can be played — never internal addresses.",
+        "shopRoles": "The bot keeps trying to remove an expired shop role until it succeeds — a Discord error no longer leaves it in place forever.",
+        "sayEditor": "/say editor: only people who can see and write in the channel themselves can load and change a message.",
+        "secrets": "The bot’s secret files are readable by the owner only, and secrets move to the .env.local file that git doesn’t track.",
+        "webHardening": "Website: clicking a notification only opens our own site, the database log no longer stores raw keys, and the SQL console row limit can’t be bypassed with a subquery."
+      }
+    },
+    "v833": {
+      "title": "Security audit: clean packages, encrypted database, safer transfers",
+      "summary": "Fixes from a full security review of the bot and the website, plus a redesigned home page showing real screenshots.",
+      "items": {
+        "packages": "The bot’s packages are installed cleanly from pinned, verified versions — old unused leftovers are gone, and a dependency audit runs on every update.",
+        "dbTls": "Encrypted database connections with configurable strictness and certificate verification; in strict mode the bot refuses to start over an unencrypted connection.",
+        "transfer": "A failed transfer no longer costs the recipient their starting capital, and starting capital can never be paid out twice.",
+        "docker": "No local secret file (.env) can end up in the Docker image.",
+        "webSecurity": "Website: stricter permission checks for role removal and web moderation, encrypted database connection, redacted SQL errors in the log, updated dependencies.",
+        "botStatus": "The status page and the admin panel report accurately whether the bot is alive, regardless of time zone.",
+        "landing": "New home page: a product tour with real, up-to-date dashboard screenshots (overview, statistics, tickets, duty, leaderboard) that advances on its own."
+      }
+    },
+    "v832": {
+      "title": "Clear error messages everywhere, in your language",
+      "summary": "No more raw English Discord error text, web actions report back in the interface language, and ideas can go to a forum channel.",
+      "items": {
+        "discordErrors": "Instead of raw text like “403 Forbidden … Missing Permissions” you get a translated, plain explanation everywhere (missing permission, rate limit, Discord error).",
+        "resultLanguage": "Results and errors of actions started on the web appear in the website’s language (previously always Hungarian).",
+        "forumIdeas": "The AI assistant’s idea and bug-report forwarding also works with forum channels: each one gets its own post.",
+        "pushProviders": "Push notifications only go to known push services (FCM, Mozilla, Apple, Windows) — never to internal addresses.",
+        "ticketDefaults": "The default texts of the built-in ticket categories now appear in the server language on the web too."
+      }
+    },
+    "v831": {
+      "title": "AI features by permission, fixed clan member list",
+      "summary": "AI features can be turned on per server with the operator’s permission, the old Discord dashboards are gone, and several small bugs are fixed.",
+      "items": {
+        "aiAccess": "AI moderation, AI chat and the AI ticket assistant can only be enabled on approved servers; AI ticket triage works everywhere.",
+        "aiAccessWeb": "AI access is granted and revoked per server from the admin panel.",
+        "oldDashboards": "The code of the old Discord dashboards has been removed — every setting lives on the web.",
+        "workIcons": "Missing icons on the buttons for jobs, shop items, fish, game and themes.",
+        "clans": "Clans: every member shows up by name in the member list, and anyone who leaves the server also leaves the clan."
+      }
+    },
+    "v830": {
+      "title": "Every panel and setting on the web, temporary roles, Welcome studio",
+      "summary": "Managing panels and settings has moved entirely to the website, the bot has fewer but stronger commands, and you can give roles for a limited time.",
+      "items": {
+        "temprole": "/temprole: a role for a set time (minutes, hours, days, up to 365 days); the bot removes it automatically when it expires, and the member is notified by DM.",
+        "tempRolesWeb": "New Temporary roles page: the list of active temporary roles, granting and revoking from the web.",
+        "welcomeStudio": "Web Welcome studio: the bot renders the card with your unsaved settings, warns about missing permissions, and can send a test message.",
+        "honeypot": "Honeypot trap channel with one click from the web.",
+        "webOnly": "Posting panels and every setting are web-only: the old setup commands are gone, and buttons on existing panels keep working.",
+        "fewerModCommands": "Fewer moderation commands: tempban became the /ban duration, the six /purge commands became one (filters can be combined), and those Discord already offers natively are gone."
+      }
+    },
+    "v820": {
+      "title": "Custom report panels and custom forms",
+      "summary": "Build any form with your own fields, put several forms on one panel, and edit everything on the web with a live preview.",
+      "items": {
+        "panels": "Panels: several forms in one message, with buttons or a select menu; title, description, color and cover image on the web. On save the bot updates the message in place.",
+        "customForms": "Custom forms: short and long text, number, yes / no, select list, member picker, file upload — up to 15 fields across several pages.",
+        "behaviour": "Per form: who may fill it in, cooldown, one pending submission at a time, roles granted or removed on approval, discussion thread, DM copy.",
+        "leadAlert": "Leadership alert: an answer (e.g. “Did you hand in the money? → No”) pings the leadership.",
+        "formEditor": "Web form editor with live preview, 8 starter templates, statistics and export.",
+        "rejectReason": "Rejection with a reason (sent to the submitter by DM), and old cards stay intact after the form is edited."
+      }
+    },
+    "v810": {
+      "title": "Economy 2.0: all your money in one place, harder money",
+      "summary": "A single /penz hub with buttons, a daily reward streak, separate stock and crypto news channels — and getting rich is much harder.",
+      "items": {
+        "moneyHub": "/penz: balance, net worth, rank, career, and buttons for daily reward, work, bank, inventory, transfer, shop, businesses, bitcoin, crime and casino.",
+        "dailyStreak": "Daily reward with a streak: more every consecutive day, resets when you miss one.",
+        "newsChannels": "Separate news channels for stock and crypto news; the price channels keep only the live board.",
+        "fewerCommands": "Fewer commands: balance, bank, work, inventory, transfer, business and shop moved into /penz; bitcoin and the stock market became one command each.",
+        "harderMoney": "Harder money (balances are kept): lower interest and business income, a smaller career multiplier, rarer and smaller payouts.",
+        "fixes": "Duty statistics no longer end in “interaction failed” on a slow database, and moderation and XP no longer stall during message floods."
+      }
+    },
+    "v7122": {
+      "title": "Leave of absence on its own panel",
+      "summary": "Leave requests got their own panel in their own channel, and the duty panel is cleaner.",
+      "items": {
+        "loaPanel": "The Leave button left the duty panel: leave of absence gets its own panel in a separate channel.",
+        "loaWeb": "The leave panel can also be posted from the web (Reports → Leave panel).",
+        "oldButtons": "Old buttons already posted keep working; they disappear from panels on the next refresh."
+      }
+    },
+    "v7121": {
+      "title": "Reports fully from the web",
+      "summary": "Create, edit and post report forms on the web — no Discord command needed.",
+      "items": {
+        "formsWeb": "New form from a template on the Reports page: panel and target channel, leadership and ping role, title, field labels, on / off.",
+        "republish": "On save the bot (re)posts the panel; delete and repost with one click.",
+        "loaPanelWeb": "Posting the leave panel from the web too."
+      }
+    },
+    "v7120": {
+      "title": "Reports for FiveM factions",
+      "summary": "Button form panels from ready-made templates — submissions arrive as cards and can be reviewed on Discord or on the web.",
+      "items": {
+        "reports": "Report panels from templates: community service, car sale, question to the leadership, praise / complaint about a faction member (with member picker and evidence).",
+        "cards": "Every submission arrives as a card in the target channel with Accept / Reject / Reply buttons; a car not handed in is flagged and pings the leadership.",
+        "reviewWeb": "New Reports page: filter submissions, accept, reject and reply from the web.",
+        "limit": "One submission per minute per member and form — no spam."
+      }
+    },
+    "v7110": {
+      "title": "Logging to another server, web bot control",
+      "summary": "Logs can go to a separate log server, and the bot can be started, restarted and monitored from the website.",
+      "items": {
+        "logRouting": "Log server: per log type, choose whether it goes to the main server or to a channel on another server you manage; cards show the source server’s name.",
+        "logServerWeb": "Log server picker on the Logs page; log channels can be chosen from the log server’s channels too.",
+        "botControl": "Bot control in the admin panel: start, restart, stop and resources via the hosting API — even when the bot is down.",
+        "liveConsole": "Live console from the bot’s logs (secrets redacted), grouped errors, “Update now”, cache clearing, version and how far behind it is.",
+        "fixes": "Missing keys on old tables are restored, and the runtime needed for music installs itself."
+      }
+    },
+    "v7100": {
+      "title": "Tickets as private threads, a brake on channel churn",
+      "summary": "New tickets become private threads, so Discord won’t block channel creation on the server — and the bot slows itself down before trouble starts.",
+      "items": {
+        "threadTickets": "Tickets as private threads: only the opener and the staff can see them; on close they’re locked and archived, reopening restores them.",
+        "channelBudget": "Per-server channel budget: if too many channels open in a short time, the bot slows down before Discord blocks it for hours.",
+        "voiceReuse": "Temporary voice channels: rejoining the lobby gives you your old channel back, and quickly leaving and rejoining doesn’t open a new one.",
+        "legacyTickets": "Old channel tickets keep working; without thread permissions the channel mode stays."
+      }
+    },
+    "v792": {
+      "title": "Opening tickets while Discord blocks",
+      "summary": "If Discord blocks channel creation for hours, the bot explains it clearly, and no half-finished ticket is left behind.",
+      "items": {
+        "ticketBlocked": "When opening a ticket the member gets a clear message (“Tickets can’t be opened right now — try again in about N hours”), and the ticket slot is freed.",
+        "noHalfTickets": "No half-finished ticket is left over when Discord won’t allow new channels.",
+        "anyButton": "For any button, form or command, a long Discord block shows a “Discord isn’t allowing this right now” warning instead of an error code."
+      }
+    },
+    "v791": {
+      "title": "Fixes based on the hosting log",
+      "summary": "A quieter log during Discord blocks, more reliable auto-update and music on the host.",
+      "items": {
+        "voiceBlocked": "Temporary voice channels: during a long Discord block the bot stops retrying every minute and waits quietly after a single warning.",
+        "autoUpdate": "Auto-update no longer gets stuck when the host changes file permissions; real local changes are still never discarded.",
+        "music": "Music: the runtime is found and started even if the host removed its execute permission."
+      }
+    },
+    "v790": {
+      "title": "Underworld 3.0: new robbery, daily cap, 45 world events — all configurable on the web",
+      "summary": "Robbing members has been completely rewritten, making lots of money is much harder, there are twice as many world events with stronger effects — and you can configure everything per server on the dashboard.",
+      "items": {
+        "robberyMethods": "Three robbery methods: pickpocketing (good odds, small sums), street robbery and armed robbery (big loot, but poor odds, lots of heat, harsh fines and long jail time). Higher-ranked and currently active targets are harder, at most 25,000 per robbery, at most 3 attempts a day, and only members carrying at least 5,000 can be robbed.",
+        "dailyCap": "Daily loot cap (100,000 for Rookies, growing with rank), and repeating the same crime on the same day pays 15% less each time — no more getting rich in one afternoon.",
+        "reportRobber": "Reporting: the robbed member can report the robber by DM for 15 minutes. If caught, 60% of the loot is returned, the robber goes to jail, and their wanted level rises either way.",
+        "moreEvents": "22 new world events (protest, SWAT team, police helicopter, blizzard, heatwave, derby match, election, inflation, recession, cartel, informant, bank panic, crypto crash and rally, corrupt tax office …) — 45 in total.",
+        "strongerEvents": "Events now hit 1.5× harder by default, and their strength is configurable per server (×0.25–×3); up to 5 events can run at once.",
+        "webRules": "New “Underworld rules” page in Settings: success, fine and jail multipliers, daily cap, repeat penalty, robbery limits, reporting — and checkboxes to disable any crime, crew heist, robbery method or world event."
+      }
+    },
+    "v780": {
+      "title": "A simpler bot: half the commands, cleaner cards",
+      "summary": "The / list only shows what you can actually use, and cards are less crowded.",
+      "items": {
+        "fewerCommands": "A regular member sees 40 commands instead of 88: staff and admin commands (e.g. /ban, /purge, /security) only show for people with the matching Discord permission. Can be turned off under Settings → Basics.",
+        "modulesHidden": "Commands of disabled modules disappear from the / list — a tickets-only server is left with 17 commands.",
+        "calmCards": "Cleaner cards everywhere: only one divider under the title, spacing elsewhere.",
+        "emojiButtons": "Only the bot’s own emojis: Discord’s default emojis never show up anywhere — whatever can’t be replaced is left out (buttons, menus, the / list and reactions too). 318 custom emojis, including casino board squares and animals."
+      }
+    },
+    "v770": {
+      "title": "Own emojis, much harder robbery and five new web tools",
+      "summary": "The bot now uses its own consistent emojis, getting rich from robbery is no longer easy, and in the dashboard you can handle tickets, send messages, set up the bot in a few clicks and get notifications.",
+      "items": {
+        "ownEmojis": "Cards, replies, logs and embeds use the bot’s own consistent emojis (309 custom emojis) instead of Discord’s default ones.",
+        "buttonEmojis": "Buttons and dropdown menus show the custom emojis too — the emoji at the start of a label moves to the button icon.",
+        "cleanCards": "Cleaner cards: one divider under the title, only spacing between sections — fewer lines, easier to read.",
+        "harderCrime": "Crimes are much harder: lower odds and loot, longer cooldowns, bigger fines and jail (e.g. bank: 12%, every two days). Success never goes above 85%, and at least 10 minutes must pass between crimes.",
+        "harderRobbery": "Robbing a member: 25% base chance (was 45%), at most 10% of their cash, 30% fine on failure, once every 6 hours, and the victim is protected for 12 hours.",
+        "inbox": "New Tickets (inbox) page: every ticket with search and full transcript (downloadable), and you can reply, claim or close from the web.",
+        "composer": "New Message sender: text, up to 10 embeds and link buttons with a live Discord preview — send now or schedule, and reuse earlier messages.",
+        "setup": "New Setup page: set language, channels, staff role and modules step by step.",
+        "backup": "Back up settings to a file and restore them, copy them to another server, plus ready-made templates (community, gaming, roleplay, minimal).",
+        "dutyChart": "Duty: daily chart for the last 30 days, for the whole server or per member.",
+        "push": "The dashboard can be installed as an app (also on phones) and sends push notifications for new tickets, leave requests and replies in claimed tickets.",
+        "next16": "The website moved to Next.js 16 (the old version reached end of support) — faster and more secure."
+      }
+    },
+    "v760": {
+      "title": "Holidays channel and a faster bot",
+      "summary": "Hungarian holidays and memorial days automatically, and the bot uses far fewer resources under heavy load.",
+      "items": {
+        "holidays": "Holidays channel: every morning the bot posts a card about what we celebrate or remember (34 days, including movable holidays) — new command: /unnepek.",
+        "holidaysWeb": "The holidays channel, posting hour and mentioned role can be set in the dashboard’s Community settings.",
+        "scale": "Far fewer Discord requests and less database load: the bot stays fast on many servers.",
+        "logFix": "Logging of deleted and edited messages works for older messages too."
+      }
+    },
+    "v750": {
+      "title": "Automatic updates",
+      "summary": "The bot updates itself when a new version is released — no manual restart needed.",
+      "items": {
+        "autoUpdate": "Every few minutes the bot checks for a new version, downloads it and restarts with it — nothing to press on the hosting panel.",
+        "privateRepo": "Updates from a private GitHub repository too (with a token), and never hangs on a password prompt.",
+        "crimeLoop": "Fixed: the “Quick heist” button gave unlimited money — crimes now share a cooldown."
+      }
+    },
+    "v740": {
+      "title": "Multiple channel creator lobbies",
+      "summary": "Up to 10 lobbies per server, each with its own name and user limit — on Discord and in the dashboard.",
+      "items": {
+        "voiceLobbies": "Multiple temporary voice lobbies (/vc lobbi): a name template ('{name}', '{game}', '{n}') and user limit per lobby — e.g. Duo, Squad.",
+        "voiceWeb": "New Voice channels page in the dashboard: add, edit and remove lobbies with a live preview.",
+        "expiryFix": "Expiry rounds (timed roles, tempbans, blacklist, leave) no longer stall on big bots."
+      }
+    },
+    "v730": {
+      "title": "Polls on the web, lightning-fast command sync",
+      "summary": "Staff can close polls on Discord and in the dashboard, the bot learned auto-replies, and the / list now updates quickly even on 100,000 servers.",
+      "items": {
+        "pollsWeb": "New Polls page: live results and closing open polls in one click — the bot updates the card on Discord too.",
+        "pollsStaff": "Staff (Staff level or above) can close polls with the lock button too, not just the creator.",
+        "autoReplies": "Auto-replies (/autovalasz): the bot answers keywords in chat by itself (e.g. “ip” → the server IP).",
+        "fastSync": "Updating the / command list is many times faster: 10,000 servers in ~8 minutes (was ~3 hours) — and only when something actually changed.",
+        "clusters": "For big bots: multi-process (cluster) mode up to 100,000 servers."
+      }
+    },
+    "v710": {
+      "title": "A refreshed bot and settings",
+      "summary": "The bot speaks your server's language everywhere — in the / command list too —, commands are clickable, and the dashboard settings got a new, clearer layout.",
+      "items": {
+        "commandLanguage": "The / command list follows the server language: command names and descriptions show in the configured language, whatever language each member's Discord uses.",
+        "clickableCommands": "Clickable commands: wherever the bot mentions a command (help, tips, footers), one click fills it in.",
+        "settingsRedesign": "New Settings page: overview, missing recommended settings one click away, grouped topics, a filter and sections.",
+        "warnLadder": "Warning ladder: a role, an action and a custom message (DM + log) per level, with expiring warnings.",
+        "blacklist": "Blacklist: ban for a set time, lifted automatically when it expires — on Discord and on the web.",
+        "loa": "Leave: deny with a reason (sent to the member in a DM), and decide on the web too.",
+        "jumpLinks": "Short “Jump to message” links instead of long Discord URLs; a more compact /jogaim."
+      }
+    },
+    "v700": {
+      "title": "More ticket panels, 455 role icons, the bot’s own emojis",
+      "summary": "Post as many ticket panels as you like, the role icon library has grown many times over, and the server language finally applies to everything.",
+      "items": {
+        "ticketPanels": "Additional ticket panels in different channels, each with only the chosen categories, its own title and style — from the web too.",
+        "roleIcons": "455 role icons (paramedic, firefighter, police, judge, gamer, streamer …) and manual icon choice per role with a searchable icon library.",
+        "botEmojis": "78 of the bot’s own emojis on notification cards, the duty panel and polls — they don’t use up server emoji slots.",
+        "serverLanguage": "The server language also applies to replies only you can see (they used to follow your Discord client’s language).",
+        "ticketFix": "Ticket panel buttons no longer get stuck during a database outage."
+      }
+    },
+    "v690": {
+      "title": "Public pages, message builder, notifications",
+      "summary": "Your server can now present itself on the web, and you can post messages, answer tickets and get notified right from the dashboard.",
+      "items": {
+        "publicPage": "Public server page: description, Join button, activity, leaderboards and enabled modules — on one shareable link, if you turn it on.",
+        "status": "Status page: live health of the bot's shards, the website and the database, refreshed every 30 seconds.",
+        "changelog": "This page: what's new in three languages, plus a small badge on the dashboard until you have seen it.",
+        "messages": "Message builder: embeds, fields and link buttons with a live Discord preview — sent now or scheduled.",
+        "transcripts": "Tickets on the web: full conversation, reply, close and claim from your browser.",
+        "push": "Push notifications for new tickets and leave requests — also as an installable web app.",
+        "backup": "Backup and restore: export and import your settings, or start from a template.",
+        "setup": "Setup wizard for new servers: the essentials in a few steps.",
+        "botBridge": "The bot delivers messages scheduled on the web, and leave requests can be decided from the web too.",
+        "motion": "Animations across the whole website: subtle reveals, live counters, smooth page transitions — calm when reduced motion is on."
+      }
+    },
+    "v680": {
+      "title": "A better duty system",
+      "summary": "Live duty panel, breaks, personal summaries, weekly goals, hourly wage and payslips.",
+      "items": {
+        "dutyPanel": "New duty panel: who is on duty and since when, the team's time today, the week's top members and buttons for everything.",
+        "breaks": "Break button: time on break does not count towards duty.",
+        "goal": "Weekly goal with a reminder, plus a personal weekly summary by DM.",
+        "wage": "Hourly wage in the server's currency: pay shows up in summaries and reports.",
+        "payslip": "Payslips when a period closes: everyone gets their time and pay, management gets a summary.",
+        "loaRules": "Leave of absence: one request at a time, with a cooldown after a rejection.",
+        "dbPage": "Database page for the panel owner: browse and edit tables, plus a safe SQL console.",
+        "teamRoles": "Six team roles in the admin panel, from owner to support.",
+        "shortcut": "Quick search shows your platform's keys (Cmd K on Mac, Ctrl K elsewhere).",
+        "shopEdit": "Existing shop items can be edited again."
+      }
+    },
+    "v670": {
+      "title": "Three languages",
+      "summary": "The bot and the website now speak Hungarian, English and German.",
+      "items": {
+        "languages": "Every bot text in three languages: private replies use your own Discord language.",
+        "commandsTranslated": "Slash command names, descriptions and options in English and German too.",
+        "webLanguages": "Full translation of the website and dashboard, with a language switcher.",
+        "serverLanguage": "Public cards, panels and logs use the server language (Basics → Language)."
+      }
+    },
+    "v661": {
+      "title": "Orange duty panel",
+      "summary": "A nicer panel, stricter permissions for duty times, and the Duty page on the dashboard.",
+      "items": {
+        "orangePanel": "New orange duty panel with the server icon and a live head count.",
+        "adminOnly": "Changing, exporting and looking up times is limited to admins or members with that permission.",
+        "dutyLogging": "Every data lookup and denied attempt goes into the duty log.",
+        "dutyPage": "Duty page on the dashboard: who is on duty, times, log, absences and CSV export.",
+        "rpIcons": "15 new role icons for faction and roleplay servers."
+      }
+    },
+    "v660": {
+      "title": "Duty system and new polls",
+      "summary": "Clock in and out, duty types, leave, quotas, reports — and polls with live results.",
+      "items": {
+        "duty": "Duty system: clock in and out from a panel or command, multiple types, logging and auto clock-out.",
+        "loa": "Leave requests with approval, a leave role and automatic restore.",
+        "quotas": "Quota roles and daily, weekly and monthly reports with CSV.",
+        "polls": "New poll card: live bars, anonymous or hidden results, a deadline and a winner.",
+        "dutyWeb": "Every duty setting on the dashboard, and the panel can be posted from there."
+      }
+    },
+    "v650": {
+      "title": "The new music player",
+      "summary": "Accurate titles, uninterrupted playback, lyrics and sound filters.",
+      "items": {
+        "player": "New music panel: cover art, live progress bar, volume, queue manager, synced lyrics and filters.",
+        "titles": "No more \"Unknown\" titles: the real title, length and artist are shown.",
+        "resume": "If the stream drops, playback resumes exactly where it stopped.",
+        "musicSettings": "Music settings per server: default volume, auto-leave, limits and vote skipping.",
+        "design": "A bolder website: striking orange surfaces and glow."
+      }
+    },
+    "v640": {
+      "title": "One leaderboard, Hungarian command names",
+      "summary": "Fewer, clearer commands.",
+      "items": {
+        "leaderboard": "One /toplista for every leaderboard: wealth, levels, casino, stocks, clans and more.",
+        "hungarianNames": "Hungarian subcommand names everywhere; buttons on existing panels keep working.",
+        "musicGroup": "Music in one group: /zene lejatszas, queue, skip and friends.",
+        "roleIcons": "Role icons and an automod-exempt role on the dashboard."
+      }
+    },
+    "v630": {
+      "title": "Reliable web settings",
+      "summary": "Every web save arrives, posting panels gives clear errors, and the website got a new design.",
+      "items": {
+        "sync": "The bot always picks up settings saved on the web — resets included.",
+        "panelErrors": "Clear error messages when posting panels, plus a link to the posted message.",
+        "help": "Simpler /help: five topics and a \"Start here\" list.",
+        "redesign": "A clean new design for the website and dashboard.",
+        "palette": "Quick search (Ctrl K) for every setting and page.",
+        "saveFix": "After saving, a refreshed page shows the new value right away."
+      }
+    },
+    "v620": {
+      "title": "Everything on the web",
+      "summary": "Tickets, role pickers, notifications, filters and branding — all on the dashboard.",
+      "items": {
+        "onboarding": "A welcome message for the server owner when the bot joins, with a short guide.",
+        "everythingWeb": "Tickets, role pickers, YouTube and TikTok alerts, filters, level rewards and branding on the web.",
+        "statsBoards": "Statistics and leaderboards on the dashboard.",
+        "preview": "Live Discord preview while editing texts.",
+        "rateLimit": "Spam protection on every request."
+      }
+    },
+    "v610": {
+      "title": "Stable at scale",
+      "summary": "Sharding for 10,000+ servers, live status reports and a richer admin panel.",
+      "items": {
+        "sharding": "Sharding and smarter command sync: fast even on 10,000+ servers.",
+        "liveStatus": "Live status per shard: latency, servers, members.",
+        "remote": "Actions from the admin panel: global sanctions, leaving a server, reloads.",
+        "blacklist": "Server blacklist: the bot will not stay on blocked servers.",
+        "diag": "A diagnostics page for when something does not work as it should."
+      }
+    },
+    "v600": {
+      "title": "Every setting on the web",
+      "summary": "The web dashboard has arrived: Discord login and every setting in one place.",
+      "items": {
+        "allSettings": "Modules, channels, roles, permissions and shop — everything on the dashboard.",
+        "login": "Log in with Discord: you only see the servers you manage.",
+        "adminPanel": "An admin panel for the bot team.",
+        "audit": "Every change on the web is logged.",
+        "slashRemoved": "Instead of the /beallitas command, the bot's messages link to the right dashboard page."
+      }
+    },
+    "v840": {
+      "title": "Server operations in one place",
+      "summary": "New automations and clearer server management.",
+      "items": {
+        "automations": "Durable delayed automations with a web editor and safe role handling.",
+        "setup": "Settings preview and a new support template.",
+        "health": "Server health checks with actionable fixes.",
+        "cases": "Case details, staff notes, evidence and persistent appeals.",
+        "weekly": "Completed weekly summaries with opt-in Discord delivery."
+      }
+    },
+    "v850": {
+      "title": "Commands that are easier to find",
+      "summary": "The money and underworld commands are now grouped.",
+      "items": {
+        "money": "Subcommands for the /money group (withdrawn in 8.5.1: /money is a single command again).",
+        "underworld": "The underworld in one place: /underworld crime and /underworld launder; Russian roulette is now /russianroulette.",
+        "help": "The help’s “Start here” list shows the new commands; old names in the bot’s texts point to the new ones."
+      }
+    },
+    "v851": {
+      "title": "Harder levelling, one /money again",
+      "summary": "Slower levelling with adjustable rates, and /money is a single command again.",
+      "items": {
+        "levels": "Slower levelling by default: 8–14 XP per message, 3 XP per minute in voice, 50 XP per quest. Existing levels don’t change.",
+        "levelSettings": "Levelling speed is adjustable on the dashboard: XP per message (minimum / maximum), wait time, voice XP, XP multiplier.",
+        "money": "/money is a single command again — everything is on the panel’s buttons."
+      }
+    }
+  }
+}

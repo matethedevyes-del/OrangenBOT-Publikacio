@@ -1,0 +1,19 @@
+{
+ "from_member": "{name} schrieb",
+ "staff_named": "Antwort von {name} ({guild}-Team)",
+ "staff_anon": "Antwort vom {guild}-Team",
+ "reply_hint": "Zum Antworten einfach hier in die DM schreiben.",
+ "close": "Schließen",
+ "new_title": "📨 Neue Modmail",
+ "new_sub": "{mention} • `{id}` • Konto: {created}",
+ "how_to": "Schreib in diesen Thread — der Bot leitet es per DM an das Mitglied weiter. Nachrichten mit `//` am Anfang sind interne Notizen.",
+ "pick_guild": "Server wählen…",
+ "which_guild": "📨 Modmail ist auf mehreren Servern verfügbar. An welches Team schreibst du?",
+ "picked": "📨 Erledigt, an das **{guild}**-Team weitergeleitet.",
+ "failed": "❌ Das Team ist gerade nicht erreichbar — versuch es später erneut.",
+ "opened": "📨 Deine Nachricht ist beim **{guild}**-Team angekommen. Sie antworten hier; alles Weitere geht auch an sie.",
+ "dm_closed": "⚠️ Das Mitglied nimmt keine DMs an — die Antwort wurde nicht zugestellt.",
+ "already_closed": "Dieses Gespräch ist bereits geschlossen.",
+ "closed_by": "🔒 {mention} hat das Gespräch geschlossen.",
+ "closed_dm": "🔒 Das **{guild}**-Team hat das Gespräch geschlossen. Schreibst du erneut, öffnet sich ein neuer Thread."
+}

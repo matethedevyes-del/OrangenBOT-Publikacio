@@ -1,0 +1,5 @@
+{
+  "label": "Nyelv",
+  "change": "Nyelv: {current} — váltás",
+  "botSynced": "A bot nyelve is {language} lett ezen a szerveren."
+}

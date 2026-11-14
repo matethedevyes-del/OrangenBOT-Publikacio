@@ -1,0 +1,49 @@
+{
+  "metaTitle": "Panelek kirakása",
+  "title": "Panelek",
+  "description": "Gombos panelek a szerverre. A bot rakja ki; ha ugyanabban a csatornában már volt ilyen, lecseréli.",
+  "verify": {
+    "title": "Verifikáció",
+    "text": "Az új tagok egy gombbal elfogadják a szabályzatot, és megkapják a tag rangot.",
+    "blocker": "Nincs megadva a tag rang, amit elfogadás után kapnak.",
+    "hint": "A szabályzat csatornája nincs megadva (a panel erre hivatkozna)."
+  },
+  "suggestion": {
+    "title": "Ötletek",
+    "text": "A tagok űrlapon küldhetnek ötletet; a bot az ötlet-csatornába teszi, szavazással.",
+    "blocker": "Nincs megadva, hová kerüljenek az ötletek."
+  },
+  "bug": {
+    "title": "Hibabejelentés",
+    "text": "Hibák bejelentése űrlapon; a stáb a hiba-csatornában bírálja el.",
+    "blocker": "Nincs megadva, hová kerüljenek a bejelentések."
+  },
+  "honeypot": {
+    "title": "Spam-csapda",
+    "text": "Figyelmeztető kártya a csapda-csatornában. Aki oda ír, azt a bot automatikusan bünteti (spam-botok ellen).",
+    "blocker": "Nincs megadva a csapda-csatorna — hozz létre egyet egy kattintással, vagy válassz egy meglévőt.",
+    "target": "A csapda-csatornába",
+    "stats": "Elkapott fiókok: {total} (az elmúlt 7 napban: {week})",
+    "create": "Új csapda-csatorna",
+    "creating": "A bot létrehozza a csapda-csatornát…"
+  },
+  "ticketPanel": "Ticket-panel",
+  "ticketPanelText": "Ticketek → Panel fül",
+  "rolePanels": "Rangválasztó panelek",
+  "rolePanelsText": "Rangválasztók oldal",
+  "ownPages": "Saját oldalon kezelt panelek",
+  "setting": "Beállítás",
+  "channelAria": "{title}: csatorna",
+  "pickChannel": "Válassz csatornát…",
+  "blockedTitle": "Előbb add meg a hiányzó beállítást",
+  "posting": "Kirakás…",
+  "post": "Kirakás",
+  "readOnly": "Csak olvasási jogod van.",
+  "open": "Megnyitás",
+  "duty": {
+    "title": "Szolgálat",
+    "text": "Be- és kilépés egy gombbal, élő lista a bent lévőkről, saját idő, távollét-kérelem (Components V2). Több panel is lehet; mind élőben frissül.",
+    "blocker": "A Szolgálat modul ki van kapcsolva.",
+    "hint": "Nincs naplócsatorna — a be- és kilépések nem kerülnek naplóba."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "metaTitle": "Einstellungen",
+  "title": "Einstellungen",
+  "description": "{total} Einstellungen in {topics} Themen. Was du nicht geändert hast, nutzt den Standardwert des Bots.",
+  "searchHint": "In den {total} Einstellungen suchen — z. B. „Willkommenskanal“, „Protokoll“, „Zinsen“",
+  "missing": "{count} fehlen",
+  "changed": "{changed} / {total} geändert",
+  "off": "ausgeschaltet",
+  "eyebrow": "Einstellungen",
+  "moduleOff": "Das Modul dieses Themas ist gerade ausgeschaltet — die Einstellungen bleiben erhalten, wirken aber erst, wenn du es einschaltest.",
+  "modulesLink": "Module",
+  "resourcesUnavailable": "Die Kanäle und Rollen des Servers können gerade nicht geladen werden (Discord-Fehler) — diese Felder sind vorübergehend nicht bearbeitbar.",
+  "commands": "Discord-Befehle:",
+  "topicsNav": "Einstellungsthemen",
+  "allTopics": "Alle Themen",
+  "missingRecommended": "Empfohlene Einstellung fehlt",
+  "topic": "Thema",
+  "topicOff": "{title} (ausgeschaltet)",
+  "topicWarning": "{title} (unvollständig)",
+  "invalidFields": "Einige Felder sind fehlerhaft",
+  "invalidFieldsText": "Korrigiere die rot markierten Felder.",
+  "saved": "Gespeichert",
+  "savedText": "Der Bot übernimmt die Änderung in wenigen Sekunden.",
+  "saveFailed": "Speichern fehlgeschlagen",
+  "unsaved": "Ungespeicherte Änderungen",
+  "savingProgress": "Wird gespeichert…",
+  "unsavedCount": "{count, plural, one {# ungespeicherte Änderung} other {# ungespeicherte Änderungen}}",
+  "undo": "Verwerfen",
+  "saveTitle": "Speichern (Strg + S)",
+  "save": "Speichern",
+  "leavePrompt": "Du hast ungespeicherte Änderungen. Möchtest du die Seite wirklich verlassen? Die Änderungen gehen verloren.",
+  "field": {
+    "recommended": "Empfohlen",
+    "modified": "geändert",
+    "zero": "0 / leer: {zero}",
+    "locked": "Nur der Inhaber oder ein Discord-Administrator kann das ändern.",
+    "resetTitle": "Zurück zum Standardwert des Bots",
+    "reset": "Standard",
+    "notSet": "— Nicht festgelegt —",
+    "unknownChannel": "Gelöschter / unbekannter Kanal ({id})",
+    "unknownRole": "Gelöschte / unbekannte Rolle ({id})",
+    "integration": " (Integration)",
+    "dangerousRole": " — gibt Admin-Rechte, nur ein Server-Admin kann sie wählen",
+    "colorPicker": "Farbauswahl",
+    "colorEmpty": "wenn leer: {zero}",
+    "channel": "Kanal",
+    "textChannels": "Textkanäle",
+    "otherChannels": "Sprach- und andere Kanäle",
+    "previewWelcome": "So erscheint es auf der Willkommenskarte",
+    "previewGoodbye": "So erscheint es auf der Abschiedskarte",
+    "previewDm": "So erhält es das neue Mitglied per Direktnachricht",
+    "previewLevel": "So erscheint die Level-up-Nachricht",
+    "previewDefault": " (Standardtext des Bots)",
+    "hide": "ausblenden",
+    "show": "anzeigen",
+    "editOnWarnsPage": "Auf der Seite „Verwarnungen“ bearbeiten →",
+    "multiNone": "Nichts deaktiviert"
+  },
+  "units": {
+    "growth": "% / Tag",
+    "hour": "Std."
+  },
+  "channelKinds": {
+    "announcement": "Ankündigungen",
+    "forum": "Forum",
+    "voice": "Sprache",
+    "stage": "Stage"
+  },
+  "stats": {
+    "topics": "Themen",
+    "topicsNote": "{total} Einstellungen insgesamt",
+    "changed": "Geändert",
+    "changedNote": "/ {total}",
+    "missing": "Fehlende Empfehlungen",
+    "missingNote": "Ohne diese funktionieren manche Funktionen nicht vollständig",
+    "missingNone": "Alle empfohlenen Einstellungen sind gesetzt",
+    "modulesOff": "Module aus",
+    "modulesLink": "Module verwalten"
+  },
+  "missingTitle": "Empfohlene Einstellungen, die noch fehlen",
+  "missingText": "Klicke eine an, um direkt zum Feld zu springen.",
+  "missingMore": "und {count} weitere",
+  "groups": {
+    "core": {
+      "title": "Grundlagen",
+      "text": "Sprache, Erscheinungsbild, Rollen, Begrüßung und die öffentliche Seite"
+    },
+    "safety": {
+      "title": "Moderation & Sicherheit",
+      "text": "Verwarnungen, Filter, KI-Moderation, Schutz und Protokolle"
+    },
+    "community": {
+      "title": "Community",
+      "text": "Level, Quests, Aktivität, Sprache, KI-Chat und Musik"
+    },
+    "duty": {
+      "title": "Dienst",
+      "text": "Ein- und Ausstempeln, Kontingente, Abwesenheit und Berichte"
+    },
+    "economy": {
+      "title": "Wirtschaft & Spiele",
+      "text": "Geld, Jobs, Unterwelt, Casino, Krypto, Börse, Clans und Angeln"
+    },
+    "other": {
+      "title": "Sonstiges",
+      "text": "Weitere Themen"
+    }
+  },
+  "settingsCount": "{count, plural, one {# Einstellung} other {# Einstellungen}}",
+  "changedShort": "{count} geändert",
+  "moduleActive": "Modul an",
+  "moduleInactive": "Modul aus",
+  "changedOf": "{changed} / {total} geändert",
+  "sections": {
+    "links": {
+      "title": "Kanäle & Rollen",
+      "text": "Wohin der Bot schreibt und wer was bekommt"
+    },
+    "toggles": {
+      "title": "Schalter",
+      "text": "Funktionen ein- und ausschalten"
+    },
+    "values": {
+      "title": "Werte & Grenzen",
+      "text": "Zahlen, Zeiten, Auswahlen"
+    },
+    "texts": {
+      "title": "Texte & Vorlagen",
+      "text": "Nachrichten, Listen, längere Texte"
+    }
+  },
+  "filter": {
+    "placeholder": "Dieses Thema filtern…",
+    "onlyChanged": "Nur geänderte",
+    "noResults": "Keine Einstellung passt zum Filter.",
+    "clear": "Filter löschen"
+  },
+  "logRoute": {
+    "title": "Logs auch auf einen anderen Server",
+    "description": "Wähle einen Log-Server (wo du „Server verwalten“ hast und der Bot ist). Danach kannst du für jeden Log-Typ einen Kanal auf diesem oder auf dem Log-Server wählen — der Hauptserver bleibt übersichtlich, die Logs bleiben erhalten.",
+    "label": "Log-Server",
+    "hint": "Seine Kanäle erscheinen als eigene Gruppe in der Log-Kanalauswahl.",
+    "thisOnly": "Nur dieser Server",
+    "save": "Speichern",
+    "saved": "Log-Server gespeichert",
+    "cleared": "Die Logs bleiben auf diesem Server",
+    "active": "Log-Kanäle können auch aus {name} gewählt werden (unten).",
+    "noChoices": "Kein anderer Server, auf dem du Rechte hast und der Bot ist — lade den Bot auf den Log-Server ein.",
+    "groupPrefix": "Log-Server: {name}",
+    "invalid": "Ungültige Anfrage.",
+    "sameGuild": "Wähle einen anderen Server.",
+    "noAccessTarget": "Auf dem gewählten Server hast du kein „Server verwalten“.",
+    "botMissing": "Der Bot ist nicht auf dem gewählten Server.",
+    "failed": "Speichern fehlgeschlagen."
+  }
+}

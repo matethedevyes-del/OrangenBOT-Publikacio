@@ -1,0 +1,51 @@
+{
+  "metaTitle": "Status",
+  "metaDescription": "Live-Status von OrangenBot, dem Dashboard und der Datenbank.",
+  "eyebrow": "Systemstatus",
+  "title": {
+    "operational": "Alle Systeme funktionieren",
+    "degraded": "Teilweise Störung",
+    "down": "Dienstausfall"
+  },
+  "lead": {
+    "operational": "Alle Bot-Shards laufen, Dashboard und Datenbank antworten schnell.",
+    "degraded": "Etwas ist langsam oder antwortet nicht — alles andere funktioniert.",
+    "down": "Der Bot oder die Datenbank ist gerade nicht erreichbar. Im Web gespeicherte Einstellungen greifen nach der Wiederherstellung."
+  },
+  "state": {
+    "operational": "Funktioniert",
+    "degraded": "Eingeschränkt",
+    "down": "Ausgefallen"
+  },
+  "shardState": {
+    "up": "Läuft",
+    "slow": "Langsam",
+    "down": "Antwortet nicht"
+  },
+  "components": "Komponenten",
+  "bot": "Discord-Bot",
+  "botShards": "{count, plural, one {# Shard} other {# Shards}}",
+  "web": "Website und Dashboard",
+  "webDetail": "Liefert genau diese Seite aus",
+  "database": "Datenbank",
+  "responseTime": "Antwortzeit: {ms} ms",
+  "noResponse": "Antwortet nicht",
+  "shards": "Shards",
+  "shardsHint": "Jeder Shard meldet sich alle 30 Sekunden; nach 2 Minuten Stille gilt er als ausgefallen.",
+  "shardLabel": "Shard #{id}",
+  "servers": "Server",
+  "members": "Mitglieder",
+  "latency": "Latenz",
+  "avgLatency": "Durchschnittliche Latenz",
+  "ms": "{ms} ms",
+  "lastReport": "Letzte Meldung: {time}",
+  "checked": "Geprüft: {time}",
+  "autoRefresh": "Aktualisiert sich alle 30 Sekunden",
+  "refreshNow": "Jetzt aktualisieren",
+  "refreshing": "Wird aktualisiert…",
+  "refreshFailed": "Aktualisierung fehlgeschlagen — der letzte bekannte Status wird angezeigt.",
+  "version": "Bot-Version: {version}",
+  "noShards": "Der Bot hat noch keinen Status gemeldet.",
+  "never": "noch nicht",
+  "json": "Maschinenlesbar"
+}

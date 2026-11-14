@@ -1,0 +1,442 @@
+{
+  "metaTitle": "Újdonságok",
+  "metaDescription": "Mi változott az OrangenBotban és a webes vezérlőpulton — kiadásról kiadásra.",
+  "eyebrow": "Változásnapló",
+  "title": "Újdonságok",
+  "lead": "A bot és a weboldal fejlődése érthetően összefoglalva: mi új, mi lett jobb, és mit javítottunk.",
+  "latest": "Legújabb",
+  "version": "Verzió {version}",
+  "releasesNav": "Kiadások",
+  "kind": {
+    "new": "Új",
+    "improved": "Jobb",
+    "fixed": "Javítva"
+  },
+  "area": {
+    "bot": "Bot",
+    "web": "Web"
+  },
+  "counts": "{count, plural, one {# változás} other {# változás}}",
+  "badge": "Új",
+  "sidebarLink": "Újdonságok",
+  "sidebarAria": "Újdonságok — {version} (még nem láttad)",
+  "ctaTitle": "Kipróbálnád?",
+  "ctaText": "Hívd meg a botot, és állíts be mindent a webes vezérlőpulton.",
+  "ctaInvite": "Bot meghívása",
+  "releases": {
+    "v834": {
+      "title": "Biztonsági audit, 2. kör: rangok, push-értesítések, zene, jogosultságok",
+      "summary": "A második biztonsági átvizsgálás javításai: a bot automatikusan nem oszt ki veszélyes rangot, a gombok is ellenőrzik a jogokat, a push-értesítés csak az aktuális stábhoz megy.",
+      "items": {
+        "autoRoles": "A figyelmeztetési létra és a szolgálati kvóta soha nem oszt ki admin vagy moderációs jogú rangot — akkor sem, ha a rangot utólag tették veszélyessé.",
+        "buttonGates": "A /penz gombjai és a nyitva hagyott panelek is ellenőrzik a modult és a használati jogot; ha az ellenőrzés hibára fut, a parancs nem fut le.",
+        "pushPrivacy": "Push-értesítést csak az kap, aki most is kezelheti a szervert; a zárolt képernyőn nem jelenik meg a jegy tárgya vagy a távollét indoka.",
+        "musicLinks": "Zene: csak ismert szolgáltatók linkjei (YouTube, SoundCloud, Spotify …) és Discordra feltöltött hangfájlok játszhatók le — belső címek soha.",
+        "shopRoles": "A lejárt bolti rangot a bot addig próbálja elvenni, amíg sikerül — egy Discord-hiba miatt nem marad meg örökre.",
+        "sayEditor": "/say szerkesztő: csak az láthatja és módosíthatja egy üzenet tartalmát, aki maga is látja és írhat a csatornába.",
+        "secrets": "A bot titokfájljait csak a tulajdonos olvashatja, és a titkok átkerülnek a git által nem követett .env.local-ba.",
+        "webHardening": "Weboldal: az értesítésre kattintva csak a saját oldalunk nyílhat meg, az adatbázis-napló nem tárol nyers kulcsot, és az SQL-konzol sorkorlátja alkérdezéssel sem kerülhető meg."
+      }
+    },
+    "v833": {
+      "title": "Biztonsági audit: tiszta csomagok, titkosított adatbázis, biztonságosabb utalás",
+      "summary": "Egy teljes biztonsági átvizsgálás javításai a botban és a weboldalon, és megújult, valódi képernyőképekkel bemutatott főoldal.",
+      "items": {
+        "packages": "A bot csomagjai tisztán, rögzített és ellenőrzött verziókból települnek — a régi, már nem használt maradványok kikerültek, és minden frissítésnél függőség-audit fut.",
+        "dbTls": "Titkosított adatbázis-kapcsolat beállítható szigorúsággal, tanúsítvány-ellenőrzéssel; kötelező módban titkosítatlan kapcsolattal a bot el sem indul.",
+        "transfer": "Egy sikertelen utalás nem veszi el a címzett kezdőtőkéjét, és a kezdőtőke sosem fizethető ki kétszer.",
+        "docker": "A Docker-képbe semmilyen helyi titokfájl (.env) nem kerülhet bele.",
+        "webSecurity": "Weboldal: szigorúbb jogosultság-ellenőrzés a rangelvételnél és a webes moderációnál, titkosított adatbázis-kapcsolat, kitakart SQL-hibák a naplóban, frissített függőségek.",
+        "botStatus": "Az állapotoldal és az admin panel időzónától függetlenül, pontosan jelzi, él-e a bot.",
+        "landing": "Új főoldal: termékbemutató a vezérlőpult valódi, friss képernyőképeivel (áttekintés, statisztika, jegyek, szolgálat, ranglista), magától lapozva."
+      }
+    },
+    "v832": {
+      "title": "Érthető hibaüzenetek mindenhol, a te nyelveden",
+      "summary": "Nincs több nyers, angol Discord-hibaszöveg, a webes műveletek eredménye a felület nyelvén érkezik, és az ötletek fórumcsatornába is mehetnek.",
+      "items": {
+        "discordErrors": "A „403 Forbidden … Missing Permissions” jellegű nyers szövegek helyett mindenhol lefordított, érthető magyarázat (hiányzó jog, korlátozás, Discord-hiba).",
+        "resultLanguage": "A webről indított műveletek eredménye és hibája a weboldal nyelvén jelenik meg (eddig mindig magyarul).",
+        "forumIdeas": "Az AI-ügyintéző ötlet- és hibajegy-továbbítása fórumcsatornával is működik: mindegyik saját bejegyzést kap.",
+        "pushProviders": "Push-értesítés csak ismert push-szolgáltatóhoz megy (FCM, Mozilla, Apple, Windows) — belső címekre soha.",
+        "ticketDefaults": "A beépített ticket-kategóriák alapszövegei a weben is a szerver nyelvén látszanak."
+      }
+    },
+    "v831": {
+      "title": "AI-funkciók engedéllyel, javított klán-taglista",
+      "summary": "Az AI-funkciók szerverenként, az üzemeltető engedélyével kapcsolhatók be, a régi Discordos irányítópultok kikerültek, és több apró hiba javult.",
+      "items": {
+        "aiAccess": "Az AI-moderáció, az AI-chat és a ticketes AI-ügyintéző csak engedélyezett szervereken kapcsolható be; a jegyek AI-triázsa mindenhol működik.",
+        "aiAccessWeb": "Az AI-engedély szerverenként, az admin panelről adható meg és vonható vissza.",
+        "oldDashboards": "A régi Discordos irányítópultok kódja kikerült — minden beállítás a weben van.",
+        "workIcons": "A munkák, bolti tárgyak, halak, vadak és témák gombjairól hiányzó ikonok.",
+        "clans": "Klánok: a taglistán minden tag a nevével látszik, és aki kilép a szerverről, a klánból is kikerül."
+      }
+    },
+    "v830": {
+      "title": "Minden panel és beállítás a weben, ideiglenes rangok, Üdvözlő-stúdió",
+      "summary": "A panelek és beállítások kezelése teljesen a weboldalra költözött, a bot kevesebb, de erősebb parancsot kapott, és rangot időre is adhatsz.",
+      "items": {
+        "temprole": "/temprole: rang megadott időre (percben, órában, napban, legfeljebb 365 napig); lejáratkor a bot magától leveszi, a tag DM-ben értesül.",
+        "tempRolesWeb": "Új Ideiglenes rangok oldal: az aktív ideiglenes rangok listája, kiadás és visszavonás a webről.",
+        "welcomeStudio": "Webes Üdvözlő-stúdió: a bot a még nem mentett beállításokkal rajzolja meg a kártyát, figyelmeztet a hiányzó jogokra, és próbaüzenetet is küld.",
+        "honeypot": "Csapda-csatorna (honeypot) egy kattintással a webről.",
+        "webOnly": "A panelek kirakása és minden beállítás csak a weben: a régi beállító parancsok megszűntek, a kint lévő panelek gombjai működnek tovább.",
+        "fewerModCommands": "Kevesebb moderációs parancs: a tempban a /ban időtartama lett, a hat /purge egy lett (szűrők együtt is), a Discordban natívan meglévők megszűntek."
+      }
+    },
+    "v820": {
+      "title": "Saját jelentés-panelek és egyedi űrlapok",
+      "summary": "Bármilyen űrlapot összerakhatsz a saját mezőiddel, egy panelen több űrlap is lehet, és mindent a weben szerkesztesz élő előnézettel.",
+      "items": {
+        "panels": "Panelek: egy üzenetben több űrlap, gombokkal vagy választómenüvel; cím, leírás, szín, borítókép a weben. Mentéskor a bot helyben frissíti az üzenetet.",
+        "customForms": "Egyedi űrlapok: rövid és hosszú szöveg, szám, igen / nem, választólista, tagválasztó, fájlfeltöltés — legfeljebb 15 mező, több oldalon.",
+        "behaviour": "Űrlaponként: ki töltheti ki, várakozási idő, egyszerre egy elbírálatlan beküldés, elfogadáskor kiosztott vagy elvett rangok, vitaszál, DM-másolat.",
+        "leadAlert": "Vezetőségi jelzés: egy válasz (pl. „Leadtad a pénzt? → Nem”) pingeli a vezetőséget.",
+        "formEditor": "Webes űrlapszerkesztő élő előnézettel, 8 kiinduló mintával, statisztikával és exporttal.",
+        "rejectReason": "Elutasítás indokkal (a beküldő DM-ben kapja meg), és a régi kártyák az űrlap szerkesztése után is épek maradnak."
+      }
+    },
+    "v810": {
+      "title": "Gazdaság 2.0: minden pénzügy egy helyen, nehezebb pénz",
+      "summary": "Egyetlen /penz központ gombokkal, napi jutalom sorozattal, külön tőzsdei és kriptós hírcsatorna — és sokkal nehezebb meggazdagodni.",
+      "items": {
+        "moneyHub": "/penz: egyenleg, vagyon, helyezés, karrier, és gombok a napi jutalomhoz, munkához, bankhoz, leltárhoz, utaláshoz, bolthoz, üzletekhez, bitcoinhoz, bűnözéshez, kaszinóhoz.",
+        "dailyStreak": "Napi jutalom sorozattal: minden egymást követő napon több, kihagyáskor újraindul.",
+        "newsChannels": "Külön hírcsatornák a tőzsdei és a kriptós hírekhez; az árfolyam-csatornákban csak az élő tábla marad.",
+        "fewerCommands": "Kevesebb parancs: az egyenleg, bank, munka, leltár, utalás, üzlet és bolt a /penz-be, a bitcoin és a tőzsde egy-egy parancsba költözött.",
+        "harderMoney": "Nehezebb pénz (az egyenlegek megmaradnak): kisebb kamat és üzleti bevétel, kisebb karrier-szorzó, ritkább és kisebb kifizetések.",
+        "fixes": "A szolgálati statisztikák lassú adatbázisnál sem lesznek „sikertelen interakció”, és üzenetáradatnál sem akad el a moderáció és az XP."
+      }
+    },
+    "v7122": {
+      "title": "Távollét külön panelen",
+      "summary": "A távollét-kérelem saját panelt kapott a saját csatornájában, a szolgálati panel letisztultabb lett.",
+      "items": {
+        "loaPanel": "A Távollét gomb kikerült a szolgálati panelből: a távollét saját panelt kap egy külön csatornában.",
+        "loaWeb": "A távollét-panel a weben is kirakható (Jelentések → Távollét-panel).",
+        "oldButtons": "A már kint lévő régi gombok továbbra is működnek, a panelekről a következő frissítéskor tűnik el."
+      }
+    },
+    "v7121": {
+      "title": "Jelentések teljesen a webről",
+      "summary": "A jelentés-űrlapokat a weben hozod létre, szerkeszted és rakod ki — Discord-parancs nélkül.",
+      "items": {
+        "formsWeb": "Új űrlap sablonból a webes Jelentések oldalon: panel- és cél-csatorna, vezetőségi és ping-rang, cím, mezőfeliratok, be- / kikapcsolás.",
+        "republish": "Mentéskor a bot (újra) kirakja a panelt; törlés és újrakirakás egy kattintással.",
+        "loaPanelWeb": "A távollét-panel kirakása is a webről."
+      }
+    },
+    "v7120": {
+      "title": "Jelentések FiveM-frakcióknak",
+      "summary": "Gombos űrlap-panelek kész sablonokból — a beküldések kártyaként érkeznek, és a Discordon vagy a weben bírálhatók el.",
+      "items": {
+        "reports": "Jelentés-panelek sablonokból: közmunka, kocsi eladás, kérdés a vezetőség felé, frakciótárs dicséret / panasz (tagválasztóval, bizonyítékkal).",
+        "cards": "Minden beküldés kártyaként érkezik a cél-csatornába Elfogad / Elutasít / Válasz gombokkal; a le nem adott kocsi megjelölve, a vezetőség pingelésével.",
+        "reviewWeb": "Új Jelentések oldal: beküldések szűrése, elfogadás, elutasítás és válasz a webről.",
+        "limit": "Tagonként és űrlaponként percenként egy beküldés — nincs spam."
+      }
+    },
+    "v7110": {
+      "title": "Naplózás másik szerverre, webes bot-vezérlő",
+      "summary": "A naplók egy külön naplószerverre is mehetnek, és a bot a weboldalról indítható, újraindítható és figyelhető.",
+      "items": {
+        "logRouting": "Naplószerver: naplótípusonként eldöntheted, hogy a fő szerver vagy egy másik (általad kezelt) szerver csatornájába menjen; a kártyákon a forrásszerver neve.",
+        "logServerWeb": "A Naplók oldalon naplószerver-választó, a naplócsatornák a naplószerver csatornái közül is választhatók.",
+        "botControl": "Bot-vezérlő az admin panelen: indítás, újraindítás, leállítás és erőforrások a tárhely API-ján — leállt bottal is.",
+        "liveConsole": "Élő konzol a bot naplóiból (titkok kitakarva), csoportosított hibák, „Frissítés most”, gyorsítótár-ürítés, verzió és lemaradás.",
+        "fixes": "A régi táblák hiányzó kulcsai pótlódnak, és a zenéhez szükséges futtató magától települ."
+      }
+    },
+    "v7100": {
+      "title": "Jegyek privát szálként, fék a csatorna-pörgetésre",
+      "summary": "Az új jegyek privát szálak lesznek, így a Discord nem tiltja le a szerver csatornanyitását — és a bot maga lassít, mielőtt baj lenne.",
+      "items": {
+        "threadTickets": "Jegyek privát szálként: csak a nyitó és a stáb látja; lezáráskor zárolva archiválódik, újranyitáskor visszaáll.",
+        "channelBudget": "Szerverenkénti csatornakeret: ha túl sok csatorna nyílik rövid idő alatt, a bot maga lassít, mielőtt a Discord órákra letiltaná.",
+        "voiceReuse": "Ideiglenes hangcsatornák: aki visszalép a lobbiba, a régi csatornáját kapja vissza, és a gyors ki-be lépés nem nyit új csatornát.",
+        "legacyTickets": "A régi, csatornás jegyek változatlanul működnek; szál-jog hiányában marad a csatornás mód."
+      }
+    },
+    "v792": {
+      "title": "Jegynyitás Discord-tiltás alatt",
+      "summary": "Ha a Discord órákra letiltja a csatornanyitást, a bot érthetően szól, és nem marad félkész jegy.",
+      "items": {
+        "ticketBlocked": "Jegynyitásnál a tag érthető üzenetet kap („Most nem nyitható jegy — kb. N óra múlva újra”), a jegyhely felszabadul.",
+        "noHalfTickets": "Nem marad félkész jegy, ha a Discord épp nem engedi a csatornanyitást.",
+        "anyButton": "Bármely gombnál, űrlapnál és parancsnál a hosszú Discord-tiltás „A Discord most nem engedi” figyelmeztetés hibakód helyett."
+      }
+    },
+    "v791": {
+      "title": "Javítások a tárhely naplója alapján",
+      "summary": "Csendesebb napló Discord-tiltásnál, megbízhatóbb automatikus frissítés és zene a tárhelyen.",
+      "items": {
+        "voiceBlocked": "Ideiglenes hangcsatornák: hosszú Discord-tiltásnál a bot nem próbálkozik percenként, egy figyelmeztetés után csendben vár.",
+        "autoUpdate": "Az automatikus frissítés nem akad el, ha a tárhely átállítja a fájlok jogosultságát; valódi helyi módosítást továbbra sem dob el.",
+        "music": "Zene: a futtatót akkor is megtalálja és elindítja, ha a tárhely levette róla a futtatási jogot."
+      }
+    },
+    "v790": {
+      "title": "Alvilág 3.0: új rablás, napi plafon, 45 világesemény — minden a weben állítható",
+      "summary": "A tagrablást teljesen újraírtuk, sokkal nehezebb lett sok pénzt szerezni, kétszer annyi világesemény van és erősebben hatnak — és a vezérlőpulton szerverenként mindent beállíthatsz.",
+      "items": {
+        "robberyMethods": "Három rablási mód: zsebmetszés (jó esély, kis összeg), utcai rablás és fegyveres rablás (nagy zsákmány, de rossz esély, sok körözés, kemény bírság és hosszú börtön). A magasabb rangú és az épp aktív célpont nehezebb, rablásonként legfeljebb 25 000 vihető el, naponta legfeljebb 3 próbálkozás, és csak az rabolható ki, akinél legalább 5000 van.",
+        "dailyCap": "Napi zsákmányplafon (Kezdőnél 100 000, rangonként nő), és ugyanaz a bűntény aznap minden ismétléskor 15%-kal kevesebbet hoz — nem lehet többé egy délután alatt meggazdagodni.",
+        "reportRobber": "Feljelentés: a kirabolt tag DM-ben 15 percig feljelentheti a rablót. Ha elkapják, a zsákmány 60%-a visszajár, a rabló börtönbe kerül, és mindenképp nő a körözése.",
+        "moreEvents": "22 új világesemény (tüntetés, kommandó, helikopteres járőr, hóvihar, kánikula, rangadó, választás, infláció, recesszió, kartell, besúgó, bankpánik, kriptozuhanás és -szárnyalás, korrupt NAV-os …) — összesen 45.",
+        "strongerEvents": "Az események alapból másfélszer erősebben hatnak, és az erősségük szerverenként állítható (×0,25–×3); egyszerre akár 5 esemény is futhat.",
+        "webRules": "Új „Alvilág szabályai” lap a Beállításokban: sikeresély-, bírság- és börtönszorzó, napi plafon, ismétlési levonás, rablási korlátok, feljelentés, és jelölőnégyzetekkel kikapcsolható bármelyik bűntény, bandás balhé, rablási mód vagy világesemény."
+      }
+    },
+    "v780": {
+      "title": "Egyszerűbb bot: fele annyi parancs, letisztultabb kártyák",
+      "summary": "A / listában csak az látszik, amit tényleg használhatsz, a kártyák pedig kevésbé zsúfoltak.",
+      "items": {
+        "fewerCommands": "Egy sima tag 88 helyett 40 parancsot lát: a stáb- és adminparancsok (pl. /ban, /purge, /security) csak azoknak jelennek meg, akiknek megvan hozzá a Discord-joguk. Kikapcsolható a Beállítások → Alapok alatt.",
+        "modulesHidden": "A kikapcsolt modulok parancsai eltűnnek a / listából — egy csak jegyeket használó szerveren 17 parancs marad.",
+        "calmCards": "Letisztultabb kártyák mindenhol: csak a cím alatt van elválasztó vonal, a többi helyén térköz.",
+        "emojiButtons": "Csak a bot saját emojijai: a Discord alap-emojijai sehol nem jelennek meg — ami nem cserélhető, az kimarad (gombokon, menükben, a / listában, reakcióknál is). 318 saját emoji, köztük a kaszinó-táblák négyzetei és az állatok."
+      }
+    },
+    "v770": {
+      "title": "Saját emojik, sokkal nehezebb rablás és öt új webes eszköz",
+      "summary": "A bot mostantól a saját, egységes emojijait használja, a rablással nem lehet többé könnyen meggazdagodni, a vezérlőpulton pedig kezelheted a jegyeket, küldhetsz üzenetet, beállíthatod a botot pár kattintással, és értesítést is kaphatsz.",
+      "items": {
+        "ownEmojis": "A bot a kártyákon, válaszokban, naplókban és embedekben a saját, egységes stílusú emojijait használja (309 saját emoji) a Discord alap-emojijai helyett.",
+        "buttonEmojis": "A gombokon és a lenyíló menükben is a saját emojik jelennek meg — a felirat elejéről az emoji a gomb ikonjára kerül.",
+        "cleanCards": "Letisztultabb kártyák: a cím alatt egy elválasztó, a szakaszok között csak térköz — kevesebb vonal, könnyebb olvasni.",
+        "harderCrime": "A bűntények sokkal nehezebbek: kisebb esély és zsákmány, hosszabb várakozás, nagyobb bírság és börtön (pl. bank: 12% esély, kétnaponta). A sikeresély semmivel sem megy 85% fölé, és két bűntény között legalább 10 percnek kell eltelnie.",
+        "harderRobbery": "A tagrablás alapesélye 25% (eddig 45%), legfeljebb a készpénz 10%-a vihető el, bukáskor 30% a bírság, 6 óránként lehet rabolni, és a kirabolt tag 12 óráig védett.",
+        "inbox": "Új Jegyek (beérkező) oldal: az összes jegy keresővel, teljes átirattal (letölthető), és a webről is válaszolhatsz, elvállalhatod vagy lezárhatod őket.",
+        "composer": "Új Üzenetküldő: szöveg, akár 10 embed és link-gombok élő Discord-előnézettel — azonnal vagy időzítve küldheted, az előzmények újra felhasználhatók.",
+        "setup": "Új Beüzemelés oldal: lépésről lépésre beállítod a nyelvet, a csatornákat, a Stáb rangot és a modulokat.",
+        "backup": "Beállítások mentése fájlba és visszatöltése, másolás másik szerveredre, valamint kész sablonok (közösségi, gamer, roleplay, minimál).",
+        "dutyChart": "Szolgálat: napi grafikon az elmúlt 30 napról, az egész szerverre vagy tagonként.",
+        "push": "A vezérlőpult telepíthető alkalmazásként (telefonon is), és push-értesítést küld új jegyről, távollét-kérelemről és a vállalt jegyben érkező válaszról.",
+        "next16": "A weboldal Next.js 16-ra frissült (a régi verzió támogatása lejárt) — gyorsabb és biztonságosabb."
+      }
+    },
+    "v760": {
+      "title": "Ünnepnapok csatornája és gyorsabb bot",
+      "summary": "Magyar ünnepek és emléknapok automatikusan, és a bot jóval kevesebb erőforrással fut nagy terhelésnél is.",
+      "items": {
+        "holidays": "Ünnepnapok csatornája: a bot reggel kártyán jelzi, mit ünneplünk vagy kire emlékezünk (34 nap, a mozgó ünnepekkel együtt) — új parancs: /unnepek.",
+        "holidaysWeb": "Az ünnepnapok csatornája, időpontja és a megemlített rang a vezérlőpult Közösség beállításai közt is megadható.",
+        "scale": "Sokkal kevesebb Discord-kérés és adatbázis-terhelés: a bot sok szerveren is gyors marad.",
+        "logFix": "A törölt és szerkesztett üzenetek naplózása régebbi üzeneteknél is működik."
+      }
+    },
+    "v750": {
+      "title": "Automatikus frissítés",
+      "summary": "A bot magától frissül, amikor új verzió jelenik meg — nem kell kézzel újraindítani.",
+      "items": {
+        "autoUpdate": "A bot pár percenként megnézi, van-e új verzió, letölti, és magától újraindul vele — a tárhely panelján nem kell semmit nyomni.",
+        "privateRepo": "Privát GitHub-repóból is frissül (tokennel), és sosem akad meg jelszókérésen.",
+        "crimeLoop": "Javítva: a „Gyors balhé” gombbal végtelen pénzt lehetett szerezni — mostantól közös várakozás van a bűntények között."
+      }
+    },
+    "v740": {
+      "title": "Több csatornakészítő lobbi",
+      "summary": "Akár 10 lobbi szerverenként, saját névvel és létszámmal — Discordon és a vezérlőpulton is.",
+      "items": {
+        "voiceLobbies": "Több ideiglenes-hangcsatorna lobbi (/vc lobbi): lobbinként névsablon ('{name}', '{game}', '{n}') és létszámkorlát — pl. Duó, Squad.",
+        "voiceWeb": "Új Hangcsatornák oldal a vezérlőpulton: lobbik felvétele, szerkesztése és törlése előnézettel.",
+        "expiryFix": "A lejárati körök (időkorlátos rangok, tempban, feketelista, távollét) nagy botnál sem akadnak el."
+      }
+    },
+    "v730": {
+      "title": "Szavazások a weben, villámgyors parancs-szinkron",
+      "summary": "A szavazásokat a stáb a Discordon és a vezérlőpulton is lezárhatja, a bot automatikus válaszokat kapott, és most már 100 000 szerveren is gyorsan frissíti a / listát.",
+      "items": {
+        "pollsWeb": "Új Szavazások oldal: élő állás, és a nyitott szavazások lezárása egy kattintással — a bot a Discordon is frissíti a kártyát.",
+        "pollsStaff": "A szavazást a stáb (Stáb szint vagy feljebb) is lezárhatja a gombbal, nem csak az indító.",
+        "autoReplies": "Automatikus válaszok (/autovalasz): kulcsszóra a bot magától válaszol a chatben (pl. „ip” → a szerver IP-címe).",
+        "fastSync": "A / parancslista frissítése sokszor gyorsabb: 10 000 szerver ~8 perc alatt (eddig ~3 óra) — és csak akkor, ha tényleg változott valami.",
+        "clusters": "Nagy botokhoz: több folyamatos (klaszteres) futtatás akár 100 000 szerverig."
+      }
+    },
+    "v710": {
+      "title": "Megújult bot és beállítások",
+      "summary": "A bot mindenhol a szerver nyelvén beszél — a / parancslistában is —, a parancsok kattinthatók, a vezérlőpult beállításai pedig új, áttekinthető felületet kaptak.",
+      "items": {
+        "commandLanguage": "A / parancslista is a szerver nyelvén: a parancsnevek és -leírások mindenkinek a beállított nyelven jelennek meg, akármilyen nyelvű a Discordja.",
+        "clickableCommands": "Kattintható parancsok: ahol a bot parancsot említ (súgó, tippek, láblécek), rákattintva a parancs már be is van írva.",
+        "settingsRedesign": "Új Beállítások oldal: összesítő, hiányzó ajánlott beállítások egy kattintásra, csoportosított témák, szűrő és szekciók.",
+        "warnLadder": "Figyelmeztetési létra: szintenként rang, művelet és saját üzenet (DM + napló), lejáró figyelmeztetésekkel.",
+        "blacklist": "Feketelista: kitiltás megadott időre, lejáratkor automatikus feloldással — Discordon és a weben is.",
+        "loa": "Távollét: elutasítás indokkal (a tag DM-ben megkapja), elbírálás a weben is.",
+        "jumpLinks": "Rövid „Ugrás az üzenethez” linkek a hosszú Discord-linkek helyett; tömörebb /jogaim."
+      }
+    },
+    "v700": {
+      "title": "Több ticket-panel, 455 rangikon, saját bot-emojik",
+      "summary": "Annyi ticket-panelt rakhatsz ki, amennyit akarsz, a rangikonok könyvtára megsokszorozódott, és a szerver nyelve végre mindenre érvényes.",
+      "items": {
+        "ticketPanels": "További ticket-panelek más-más csatornákba, mindegyiken csak a kiválasztott kategóriákkal, saját címmel és stílussal — a webről is.",
+        "roleIcons": "455 rangikon (mentő, tűzoltó, rendőr, bíró, gamer, streamer …) és rangonként kézi ikonválasztás kereshető ikontárral.",
+        "botEmojis": "78 saját bot-emoji az értesítő kártyákon, a szolgálati panelen és a szavazásokon — nem foglal szerver-emojihelyet.",
+        "serverLanguage": "A szerver nyelve a csak neked látszó válaszokra is érvényes (eddig a Discord-kliensed nyelvét követték).",
+        "ticketFix": "A ticket-panel gombjai adatbázis-kiesésnél sem akadnak el."
+      }
+    },
+    "v690": {
+      "title": "Nyilvános oldalak, üzenetszerkesztő, értesítések",
+      "summary": "A szervered most a weben is bemutatkozhat, és a vezérlőpultról üzenhetsz, ticketekre válaszolhatsz, értesítést kaphatsz.",
+      "items": {
+        "publicPage": "Nyilvános szerveroldal: leírás, Csatlakozás gomb, aktivitás, toplisták és a bekapcsolt modulok — egy megosztható linken, ha bekapcsolod.",
+        "status": "Állapotoldal: a bot shardjai, a weboldal és az adatbázis élő állapota, félpercenként frissülve.",
+        "changelog": "Ez az oldal: az újdonságok három nyelven, és egy kis jelzés a vezérlőpulton, amíg meg nem nézed.",
+        "messages": "Üzenetszerkesztő: embedek, mezők, linkgombok élő Discord-előnézettel — azonnal vagy időzítve küldve.",
+        "transcripts": "Ticketek a weben: teljes beszélgetés, válasz, lezárás és átvétel a böngészőből.",
+        "push": "Push-értesítés új ticketről és távollét-kérelemről — telepíthető webalkalmazásként is.",
+        "backup": "Mentés és visszaállítás: a beállítások exportja, importja és kész sablonok.",
+        "setup": "Beállító varázsló új szervereknek: néhány lépésben a legfontosabbak.",
+        "botBridge": "A bot küldi a weben ütemezett üzeneteket, és a webről is elbírálhatók a távollét-kérelmek.",
+        "motion": "Animációk az egész weboldalon: finom beúszás, élő számlálók, gördülékeny lapváltás — csökkentett mozgás beállításnál nyugodtan."
+      }
+    },
+    "v680": {
+      "title": "Jobb szolgálati rendszer",
+      "summary": "Élő szolgálati panel, szünet, személyes összegzés, heti cél, óradíj és bérjegyzék.",
+      "items": {
+        "dutyPanel": "Új szolgálati panel: ki van bent és mióta, a csapat mai ideje, a hét legjobbjai és gombok mindenhez.",
+        "breaks": "Szünet gomb: a szünet ideje nem számít bele a szolgálatba.",
+        "goal": "Heti cél emlékeztetővel, és heti személyes összegzés DM-ben.",
+        "wage": "Óradíj a szerver pénznemében: a bér az összegzésekben és a riportokban is.",
+        "payslip": "Bérjegyzék lezáráskor: mindenki megkapja az idejét és a bérét, a vezetőség egy összesítőt.",
+        "loaRules": "Távollét: egyszerre csak egy kérelem, elutasítás után várakozási idővel.",
+        "dbPage": "Adatbázis oldal a panel tulajdonosának: táblák böngészése, szerkesztés és biztonságos SQL-konzol.",
+        "teamRoles": "Hat csapatszerep az admin panelen, a tulajdonostól az ügyfélszolgálatig.",
+        "shortcut": "A gyorskereső a géped billentyűit mutatja (Macen Cmd K, máshol Ctrl K).",
+        "shopEdit": "A bolt meglévő termékei újra szerkeszthetők."
+      }
+    },
+    "v670": {
+      "title": "Három nyelv",
+      "summary": "A bot és a weboldal magyarul, angolul és németül is beszél.",
+      "items": {
+        "languages": "Minden bot-szöveg három nyelven: a rejtett válaszok a te Discord-nyelveden jelennek meg.",
+        "commandsTranslated": "A slash parancsok neve, leírása és paraméterei angolul és németül is.",
+        "webLanguages": "A weboldal és a vezérlőpult teljes fordítása, nyelvválasztóval.",
+        "serverLanguage": "A nyilvános kártyák, panelek és naplók a szerver nyelvén készülnek (Alapok → Nyelv)."
+      }
+    },
+    "v661": {
+      "title": "Narancs szolgálati panel",
+      "summary": "Látványosabb panel, szigorúbb jogok az időkhöz, és a Szolgálat oldal a vezérlőpulton.",
+      "items": {
+        "orangePanel": "Új, narancs szolgálati panel a szerver ikonjával és élő létszámmal.",
+        "adminOnly": "Idők módosítása, exportja és lekérése csak adminnak vagy külön jogosultnak.",
+        "dutyLogging": "Minden adatlekérés és megtagadott próbálkozás bekerül a szolgálati naplóba.",
+        "dutyPage": "Szolgálat oldal a vezérlőpulton: ki van bent, idők, napló, távollétek és CSV-export.",
+        "rpIcons": "15 új rangikon frakciós és RP-szerverekhez."
+      }
+    },
+    "v660": {
+      "title": "Szolgálati rendszer és új szavazás",
+      "summary": "Be- és kilépés, típusok, távollét, kvóták, riportok — és élő eredményű szavazások.",
+      "items": {
+        "duty": "Szolgálati rendszer: be- és kilépés panelről vagy paranccsal, több típus, napló és automatikus kiléptetés.",
+        "loa": "Távollét-kérelmek elbírálással, távollét-ranggal és automatikus visszaállítással.",
+        "quotas": "Kvóta-rangok és napi, heti, havi riportok CSV-vel.",
+        "polls": "Új szavazókártya: élő sávok, névtelen vagy rejtett eredmény, határidő és nyertes.",
+        "dutyWeb": "Minden szolgálati beállítás a vezérlőpulton, a panel onnan is kirakható."
+      }
+    },
+    "v650": {
+      "title": "Az új zenelejátszó",
+      "summary": "Pontos címek, megszakítás nélküli lejátszás, dalszöveg és hangzás-szűrők.",
+      "items": {
+        "player": "Új zenepanel: borító, élő idősáv, hangerő, sorkezelő, időzített dalszöveg és szűrők.",
+        "titles": "Vége az „Ismeretlen” címeknek: a valódi cím, hossz és előadó jelenik meg.",
+        "resume": "Ha a stream megszakad, a lejátszás pontosan onnan folytatódik.",
+        "musicSettings": "Zene beállítások szerverenként: alap hangerő, kilépés, korlátok, átugrás szavazással.",
+        "design": "Látványosabb weboldal: merész narancs felületek és háttérfény."
+      }
+    },
+    "v640": {
+      "title": "Egy toplista, magyar parancsnevek",
+      "summary": "Kevesebb, de érthetőbb parancs.",
+      "items": {
+        "leaderboard": "Egyetlen /toplista minden ranglistához: vagyon, szint, kaszinó, tőzsde, klánok és még sok más.",
+        "hungarianNames": "Magyar alparancsnevek mindenhol; a kirakott panelek gombjai változatlanul működnek.",
+        "musicGroup": "A zene egy csoportban: /zene lejatszas, sor, kihagyas és társaik.",
+        "roleIcons": "Rangikonok és automod-mentes rang a vezérlőpulton."
+      }
+    },
+    "v630": {
+      "title": "Megbízható webes beállítások",
+      "summary": "Minden webes mentés átjön, a panelek kirakása érthető hibát ad, és új dizájnt kapott a weboldal.",
+      "items": {
+        "sync": "A weben mentett beállításokat a bot mindig átveszi — a visszaállítást is.",
+        "panelErrors": "Panel kirakásakor érthető hibaüzenet és link a kirakott üzenetre.",
+        "help": "Egyszerűbb /help: öt téma és egy „Kezdd itt” lista.",
+        "redesign": "Letisztult, új dizájn a weboldalon és a vezérlőpulton.",
+        "palette": "Gyorskereső (Ctrl K) minden beállításhoz és oldalhoz.",
+        "saveFix": "A mentés után a frissített oldal már az új értéket mutatja."
+      }
+    },
+    "v620": {
+      "title": "Minden a weben",
+      "summary": "Ticketek, rangválasztók, értesítők, szűrők és arculat — mind a vezérlőpulton.",
+      "items": {
+        "onboarding": "Köszöntő a szerver tulajdonosának, amikor meghívja a botot, rövid útmutatóval.",
+        "everythingWeb": "Ticketek, rangválasztók, YouTube- és TikTok-értesítők, szűrők, szintjutalmak és arculat a weben.",
+        "statsBoards": "Statisztika és ranglisták a vezérlőpulton.",
+        "preview": "Élő Discord-előnézet a szövegek szerkesztésekor.",
+        "rateLimit": "Spam elleni védelem minden kérésre."
+      }
+    },
+    "v610": {
+      "title": "Stabil működés nagy méretben",
+      "summary": "Shardolás akár 10 000+ szerverre, élő állapotjelentés és bővebb admin panel.",
+      "items": {
+        "sharding": "Shardolás és okosabb parancs-szinkron: akár 10 000+ szerveren is gyors.",
+        "liveStatus": "Élő állapotjelentés shardonként: késleltetés, szerverek, tagok.",
+        "remote": "Műveletek az admin panelről: globális szankció, kiléptetés, újratöltés.",
+        "blacklist": "Szerver-tiltólista: a bot nem marad a letiltott szervereken.",
+        "diag": "Hibakereső oldal, ha valami nem úgy működik, ahogy kellene."
+      }
+    },
+    "v600": {
+      "title": "Minden beállítás a weben",
+      "summary": "Megérkezett a webes vezérlőpult: Discord-belépés, minden beállítás egy helyen.",
+      "items": {
+        "allSettings": "Modulok, csatornák, rangok, jogosultságok és bolt — minden a vezérlőpulton.",
+        "login": "Belépés Discorddal: csak a saját, kezelt szervereidet látod.",
+        "adminPanel": "Admin panel a bot csapatának.",
+        "audit": "Minden webes módosítás naplózva.",
+        "slashRemoved": "A /beallitas parancs helyett a bot üzenetei a vezérlőpult megfelelő lapjára visznek."
+      }
+    },
+    "v840": {
+      "title": "Szerverüzemeltetés egy helyen",
+      "summary": "Új automatizálások és áttekinthetőbb szerverkezelés.",
+      "items": {
+        "automations": "Tartós, késleltetett automatizálások webes szerkesztővel és biztonságos rangkezeléssel.",
+        "setup": "Beállítási előnézet és új support sablon.",
+        "health": "Szerverállapot-ellenőrzés konkrét javítási lépésekkel.",
+        "cases": "Ügyrészletek, stábjegyzetek, bizonyítékok és tartós fellebbezések.",
+        "weekly": "Lezárt heti összesítő és külön bekapcsolható Discord-kézbesítés."
+      }
+    },
+    "v850": {
+      "title": "Könnyebben megtalálható parancsok",
+      "summary": "A pénzügyek és az alvilág parancsai csoportokba kerültek.",
+      "items": {
+        "money": "A /penz csoport alparancsai (8.5.1-ben visszavonva: a /penz újra egyetlen parancs).",
+        "underworld": "Az alvilág egy helyen: /alvilag bunozes és /alvilag penzmosas; az orosz rulett új neve /oroszrulett.",
+        "help": "A súgó „Kezdd itt” listája az új parancsokat mutatja; a régi nevek a bot szövegeiben az újakra mutatnak."
+      }
+    },
+    "v851": {
+      "title": "Nehezebb szintlépés, újra egy /penz",
+      "summary": "Lassabb szintlépés állítható értékekkel, és a /penz ismét egyetlen parancs.",
+      "items": {
+        "levels": "Lassabb szintlépés alapból: üzenetenként 8–14 XP, hangcsatornában percenként 3 XP, küldetésenként 50 XP. A meglévő szintek nem változnak.",
+        "levelSettings": "A szintlépés sebessége a vezérlőpulton állítható: XP üzenetenként (legkisebb / legnagyobb), várakozási idő, XP hangcsatornában, XP-szorzó.",
+        "money": "A /penz újra egyetlen parancs — minden pénzügy a panel gombjain."
+      }
+    }
+  }
+}

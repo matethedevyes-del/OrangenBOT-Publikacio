@@ -1,0 +1,32 @@
+{
+  "metaTitle": "Umfragen",
+  "eyebrow": "Community",
+  "title": "Umfragen",
+  "description": "Die Umfragen deines Servers (/eszkoz szavazas) mit Live-Ergebnis — offene kannst du hier beenden, der Bot aktualisiert auch die Karte auf Discord.",
+  "listTitle": "Umfragen — {open} offen / {total}",
+  "filter": {
+    "open": "Offen",
+    "closed": "Beendet"
+  },
+  "whoCanClose": "Beenden können: wer die Umfrage gestartet hat, das Team (Stufe „Team“ oder höher unter Berechtigungen) und Mitglieder mit „Nachrichten verwalten“ — der Bot prüft deine Discord-Rollen.",
+  "emptyOpenTitle": "Keine offenen Umfragen",
+  "emptyClosedTitle": "Keine beendeten Umfragen",
+  "emptyText": "Starte eine Umfrage auf Discord: /eszkoz szavazas.",
+  "open": "Offen",
+  "closed": "Beendet",
+  "multiple": "Mehrfachauswahl",
+  "hidden": "Das Ergebnis bleibt bis zum Ende verborgen.",
+  "votes": "{count, plural, one {# Stimme} other {# Stimmen}}",
+  "voters": "{count, plural, one {# Teilnehmer} other {# Teilnehmer}}",
+  "endsAt": "endet: {when}",
+  "openInDiscord": "Auf Discord",
+  "close": "Beenden",
+  "closeTitle": "Umfrage #{id} beenden?",
+  "closeText": "Die Umfrage endet endgültig (kein erneutes Öffnen), der Bot aktualisiert die Karte auf Discord mit dem Endergebnis.",
+  "sending": "Wird an den Bot gesendet…",
+  "server": {
+    "invalid": "Ungültige Daten.",
+    "failed": "Das hat nicht geklappt — versuch es erneut.",
+    "notOpen": "Diese Umfrage ist bereits beendet oder existiert nicht."
+  }
+}

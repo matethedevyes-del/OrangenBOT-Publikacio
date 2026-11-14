@@ -1,0 +1,32 @@
+{
+  "metaTitle": "Szervereim",
+  "title": "Szervereid",
+  "greeting": "Szia, {name}! Válaszd ki, melyik szervert állítod be.",
+  "adminPanelText": "Minden szerver, felhasználó, szankció és a teljes napló.",
+  "adminDenied": "Az admin panelhez nincs hozzáférésed. Ha a tulajdonos most vett fel, lépj ki és be újra.",
+  "unavailable": "A szervert most nem sikerült megnyitni: az adatbázis vagy a Discord nem válaszolt. Próbáld újra egy perc múlva — ha tartósan így marad, a pontos hiba a Cloudflare Workers naplójában látszik (Workers & Pages → a Worker → Logs).",
+  "openDiag": "Hibakeresés megnyitása →",
+  "denied": "Ehhez a szerverhez nincs hozzáférésed: Adminisztrátor vagy Szerver kezelése jog kell a Discordon, és a botnak is a szerveren kell lennie (a bot nyilvántartása szerint). Ha most hívtad meg a botot, várj egy percet.",
+  "listFailed": "A szervereid listája most nem tölthető be",
+  "listFailedText": "A Discord vagy az adatbázis épp nem válaszol. Frissítsd az oldalt egy perc múlva.",
+  "searchPlaceholder": "Szerver keresése…",
+  "searchLabel": "Szerver keresése",
+  "filterLabel": "Szűrés",
+  "filterAll": "Mind",
+  "filterActive": "Bottal",
+  "filterInvite": "Meghívható",
+  "owner": "Tulajdonos",
+  "active": "Aktív",
+  "botMissing": "A bot még nincs itt",
+  "invite": "Meghívás",
+  "noneManageable": "Egyetlen szerveren sincs Adminisztrátor vagy Szerver kezelése jogod.",
+  "noMatch": "Nincs a keresésnek megfelelő szerver.",
+  "switch": "Szerver váltása",
+  "current": "jelenlegi",
+  "allServers": "Összes szerverem",
+  "access": {
+    "readonly": "Csak olvasás",
+    "panel": "Panel-admin",
+    "manager": "Kezelő"
+  }
+}

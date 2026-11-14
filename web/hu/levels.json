@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Szintjutalmak",
+  "eyebrow": "Szintrendszer",
+  "title": "Szintjutalmak",
+  "description": "Amikor egy tag eléri a szintet, a bot automatikusan megadja neki a rangot (szintenként egy rang).",
+  "settingsLink": "XP-szorzók, szintlépési üzenet és csatorna:",
+  "settingsLinkLabel": "{topic} beállításai",
+  "done": "Kész",
+  "failed": "Nem sikerült",
+  "newReward": "Új jutalom",
+  "level": "Szint",
+  "levelPlaceholder": "pl. 10",
+  "role": "Rang",
+  "roleHint": "Csak olyan rang, amit a bot ki tud osztani.",
+  "pickRole": "Válassz rangot…",
+  "save": "Mentés",
+  "emptyTitle": "Még nincs szintjutalom",
+  "emptyText": "Adj meg egy szintet és egy rangot — a bot a szint elérésekor automatikusan kiosztja.",
+  "levelN": "{level}. szint",
+  "deletedRole": "törölt rang ({id})",
+  "deleteAria": "{level}. szint jutalmának törlése"
+}

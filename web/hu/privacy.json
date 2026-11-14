@@ -1,0 +1,47 @@
+{
+  "title": "Adatvédelmi tájékoztató",
+  "intro": "Ez a tájékoztató az OrangenBot webes vezérlőpultjára vonatkozik (a GDPR 13. cikke szerint). A bot Discordon belüli adatkezeléséről a bot <code>/adatvedelem</code> parancsa tájékoztat.",
+  "s1": {
+    "title": "1. Az adatkezelő",
+    "text": "{name} — elérhetőség: {contact}. Adatvédelmi kérdéssel és kérelemmel ide fordulhatsz."
+  },
+  "s2": {
+    "title": "2. Milyen adatokat kezelünk?",
+    "identity": "<b>Discord-azonosító, megjelenített név, avatar-azonosító</b> — a Discord-belépéskor (OAuth2 <code>identify</code> jogosultság). E-mail címet nem kérünk.",
+    "guilds": "<b>A szervereid listája és az ott lévő jogosultságaid</b> (OAuth2 <code>guilds</code>) — csak annak eldöntésére, mely szervereket kezelheted. Nem tároljuk: legfeljebb 30 másodpercig a szerver memóriájában marad.",
+    "token": "<b>Discord hozzáférési token</b> — titkosítva, kizárólag a böngésződben tárolt, JavaScript számára elérhetetlen (HttpOnly) munkamenet-sütiben, legfeljebb 7 napig. Adatbázisba nem kerül.",
+    "settings": "<b>A szerverek beállításai</b>, amelyeket módosítasz (pl. üdvözlő csatorna, modulok) — a bot adatbázisában, a szerverhez kötve, nem a személyedhez.",
+    "audit": "<b>Módosítási napló</b> — minden vezérlőpultról végzett módosításnál a Discord-azonosítód, a megjelenített neved, a szerver azonosítója, a módosított elem és a régi / új érték (a módosítások visszakövethetősége és a visszaélések kivizsgálása érdekében). A szerver kezelői és a vezérlőpult üzemeltetői látják.",
+    "stats": "<b>Szerver-statisztika és ranglisták</b> — ha a szerveren be van kapcsolva az aktivitás-követés, a bot naponta csak darabszámokat tárol (üzenetek száma, hangpercek, be- és kilépők; üzenettartalmat soha). A vezérlőpulton ebből a szerver kezelői összesített grafikonokat és a legaktívabb tagok listáját látják, valamint a szintrendszer és a gazdaság ranglistáját — ugyanazt, amit a bot parancsai is mutatnak a szerveren. A kilépő tag összesített sora törlődik, a napi bontást a bot a szerveren beállított megőrzési idő után törli.",
+    "captcha": "<b>Captcha (Cloudflare Turnstile)</b> — belépéskor és egyes admin-műveleteknél a Cloudflare a böngésződ technikai jellemzői alapján ellenőrzi, hogy nem automatizált program vagy. Ehhez az IP-címedet a Cloudflare kapja meg; nálunk nem tárolódik."
+  },
+  "s3": {
+    "title": "3. Cél és jogalap",
+    "service": "Belépés és jogosultság-ellenőrzés, a szolgáltatás nyújtása — GDPR 6. cikk (1) b) (a szolgáltatás igénybevétele).",
+    "security": "Biztonság, visszaélések megelőzése, műszaki napló, sebességkorlát — GDPR 6. cikk (1) f) (jogos érdek).",
+    "consent": "Nem szükséges sütik (ha valaha bevezetjük) — GDPR 6. cikk (1) a) (hozzájárulás), bármikor visszavonható."
+  },
+  "s4": {
+    "title": "4. Sütik",
+    "session": "<b>authjs.session-token</b> — munkamenet (titkosított, HttpOnly, Secure), legfeljebb 7 nap. Szükséges.",
+    "csrf": "<b>authjs.csrf-token, authjs.callback-url</b> — a belépés védelme, munkamenet végéig. Szükséges.",
+    "consent": "<b>orangen_consent</b> — a sütiválasztásod, 180 nap. Szükséges.",
+    "locale": "<b>NEXT_LOCALE</b> — a választott nyelv (magyar, angol vagy német), 1 év. Szükséges a választott nyelv megjelenítéséhez.",
+    "note": "Analitikai, követő vagy hirdetési sütit jelenleg nem használunk. A választásodat bármikor módosíthatod a lábléc „Sütibeállítások” linkjével."
+  },
+  "s5": {
+    "title": "5. Adatfeldolgozók és továbbítás",
+    "cloudflare": "<b>Cloudflare, Inc.</b> — az oldal tárhelye és hálózata, valamint a captcha (Turnstile); a kérések a Cloudflare hálózatán futnak (az EU–USA adatvédelmi keretrendszer alapján).",
+    "discord": "<b>Discord Inc.</b> — a belépés és a szerveradatok forrása (a Discord saját adatkezelése szerint).",
+    "note": "Adatot harmadik félnek nem adunk el és nem adunk át marketingcélra."
+  },
+  "s6": {
+    "title": "6. Megőrzés",
+    "text": "A munkamenet legfeljebb 7 napig él, kijelentkezéskor azonnal törlődik. A szerverbeállítások addig maradnak meg, amíg a szerver használja a botot, vagy amíg a szerver adminisztrátora módosítja őket. A módosítási napló bejegyzései 90 nap után automatikusan törlődnek."
+  },
+  "s7": {
+    "title": "7. Jogaid",
+    "rights": "Kérhetsz hozzáférést az adataidhoz, helyesbítést, törlést, az adatkezelés korlátozását, adathordozhatóságot, és tiltakozhatsz a jogos érdeken alapuló adatkezelés ellen. A kérelmet a fenti elérhetőségen fogadjuk, és egy hónapon belül válaszolunk. Panaszt a Nemzeti Adatvédelmi és Információszabadság Hatóságnál (NAIH, naih.hu) tehetsz, vagy bírósághoz fordulhatsz.",
+    "revoke": "Az alkalmazás hozzáférését a Discordon is bármikor visszavonhatod: Felhasználói beállítások → Engedélyezett alkalmazások."
+  }
+}

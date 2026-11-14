@@ -1,0 +1,15 @@
+{
+  "working": "A bot dolgozik…",
+  "sendFailed": "Nem sikerült elküldeni (hálózati hiba, vagy közben frissült az oldal) — töltsd újra, és próbáld újra.",
+  "failed": "Nem sikerült",
+  "done": "Kész",
+  "doneText": "Kész.",
+  "sent": "Elküldve a botnak — néhány másodperc.",
+  "open": "Megnyitás",
+  "notExecuted": "A bot nem tudta végrehajtani",
+  "inProgress": "A bot dolgozik rajta…",
+  "noPickup": "A bot nem vette fel a kérést — valószínűleg nem fut, vagy épp újraindul. Amint elindul, végrehajtja.",
+  "notResponding": "A bot nem válaszol",
+  "stillRunningText": "A bot még nem végzett — nézd meg a Discordon, vagy próbáld újra később.",
+  "stillRunning": "A bot még dolgozik"
+}

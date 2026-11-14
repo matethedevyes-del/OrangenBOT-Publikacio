@@ -1,0 +1,8 @@
+{
+  "eyebrow": "Jogi tájékoztató",
+  "effective": "Hatályos: {date}",
+  "prevails": "Ez a dokumentum eredetileg magyar nyelven készült; eltérés esetén a magyar változat az irányadó.",
+  "seeAlso": "Lásd még: <link>{title}</link>.",
+  "operatorName": "[Üzemeltető neve]",
+  "operatorContact": "[kapcsolattartási e-mail cím]"
+}

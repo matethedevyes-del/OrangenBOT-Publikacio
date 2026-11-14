@@ -1,0 +1,253 @@
+{
+  "chapters": "Kapitel",
+  "heroTitle1": "Der Bot deines Servers —",
+  "heroTitle2": "in Orange.",
+  "heroLead": "Er moderiert, zahlt, zählt und passt für dich auf. Du klickst nur im Dashboard — den Rest erledigt OrangenBot.",
+  "invite": "Bot einladen",
+  "pillsLabel": "Wichtigste Funktionen",
+  "pills": {
+    "economy": "Wirtschaft",
+    "moderation": "Moderation",
+    "tickets": "Tickets",
+    "stats": "Statistik",
+    "music": "Musik"
+  },
+  "heroModules": {
+    "economy": "Wirtschaft",
+    "casino": "Casino",
+    "aimod": "KI-Moderation",
+    "tickets": "Tickets",
+    "nameday": "Namenstage"
+  },
+  "applied": "Der Bot hat die Änderung übernommen",
+  "overviewAlt": "Die Übersichtsseite des Dashboards",
+  "settingsAlt": "Die Willkommens-Einstellungen mit Live-Vorschau wie auf Discord",
+  "numbers": {
+    "servers": "Server nutzen ihn",
+    "modules": "schaltbare Module",
+    "settings": "Einstellungen im Web",
+    "free": "für immer kostenlos",
+    "freeValue": "0 €"
+  },
+  "modules": {
+    "eyebrow": "Module",
+    "title": "Schalte ein, was du brauchst. Der Rest stört nicht.",
+    "text": "{count} Module, jedes ein einziger Schalter. Schaltest du eines aus, verschwinden auch seine Befehle — die Einstellungen bleiben erhalten, bis du es zurückholst.",
+    "activeCount": "{on} / {total} aktiv",
+    "exampleLabel": "Beispiel: Module"
+  },
+  "settings": {
+    "eyebrow": "Einstellungen",
+    "title": "Du siehst es zuerst. Dann deine Mitglieder.",
+    "text": "Jede Einstellung mit verständlichem Namen und Erklärung. Willkommens-, Abschieds- und Level-up-Nachrichten siehst du schon beim Tippen genau so, wie sie auf Discord erscheinen.",
+    "shortcut": "zu jeder Einstellung im Handumdrehen"
+  },
+  "features": {
+    "eyebrow": "Alle Funktionen",
+    "title": "Alles, was eine lebendige Community braucht.",
+    "economy": {
+      "title": "Wirtschaft und Unterwelt",
+      "text": "Jobs, Bank, Shop, Verbrechen und Weltereignisse, in der eigenen Währung des Servers."
+    },
+    "stocks": {
+      "title": "Börse und Bitcoin",
+      "text": "Minütlich schwankende Kurse, Diagramme, Mining und Krypto-News."
+    },
+    "casino": {
+      "title": "Casino",
+      "text": "16 Spiele, Jackpot, tägliches Lotto und eine serverübergreifende Meisterschaft."
+    },
+    "moderation": {
+      "title": "Moderation",
+      "text": "Fallprotokoll, Filter, Verwarnungen, Einspruch per Knopfdruck."
+    },
+    "ai": {
+      "title": "KI-Moderation und KI-Chat",
+      "text": "Punktebasierte automatische Moderation und ein auf deinen Server zugeschnittener Assistent."
+    },
+    "tickets": {
+      "title": "Tickets",
+      "text": "Kategorien mit Fragen, KI-Sachbearbeiter, Transkripte und Bewertungen."
+    },
+    "rolePanels": {
+      "title": "Rollenauswahl",
+      "text": "Panels mit Buttons oder Menüs, temporäre Rollen, Bedingungen."
+    },
+    "social": {
+      "title": "YouTube und TikTok",
+      "text": "Benachrichtigung bei neuen Videos, Shorts und Livestreams."
+    },
+    "levels": {
+      "title": "Levelsystem",
+      "text": "XP für Nachrichten und Sprachchat, Levelkarten, Belohnungsrollen."
+    },
+    "namedays": {
+      "title": "Namenstage und Geburtstage",
+      "text": "Täglicher Gruß in der Zeitzone des Servers, mit dem ungarischen Namenstagskalender."
+    },
+    "clans": {
+      "title": "Clans und Quests",
+      "text": "Gemeinsame Kasse, Gebietskämpfe, tägliche Quests, Auszeichnungen."
+    },
+    "music": {
+      "title": "Musik und Community",
+      "text": "Player mit Bedienfeld, Willkommenskarten, Starboard, Wortkette."
+    }
+  },
+  "how": {
+    "eyebrow": "So funktioniert’s",
+    "title": "Zwei Minuten, fertig.",
+    "invite": {
+      "title": "Einladen",
+      "text": "Ein Klick, und der Bot ist auf deinem Server. Er schickt dir den Dashboard-Link per DM."
+    },
+    "login": {
+      "title": "Mit Discord anmelden",
+      "text": "Kein Passwort, keine E-Mail. Du siehst nur Server, die du verwalten darfst."
+    },
+    "configure": {
+      "title": "Anpassen",
+      "text": "Module, Kanäle, Rollen, Panels — der Bot übernimmt es in Sekunden."
+    }
+  },
+  "security": {
+    "eyebrow": "Sicherheit",
+    "title": "Abgesichert, wo es zählt.",
+    "permitted": {
+      "title": "Nur für Berechtigte",
+      "text": "Nötig sind die Berechtigung Administrator oder Server verwalten, und der Bot muss ebenfalls auf dem Server sein — bei jeder Anfrage neu geprüft."
+    },
+    "token": {
+      "title": "Keine gespeicherten Tokens",
+      "text": "HttpOnly-, Secure-Cookie. Das Discord-Token gelangt nicht in den Browser, und wir schreiben es auch in keine Datenbank."
+    },
+    "input": {
+      "title": "Geprüfte Eingaben",
+      "text": "Jedes Feld läuft durch ein Schema; Kanäle und Rollen werden mit den echten Daten des Servers abgeglichen."
+    },
+    "audit": {
+      "title": "Alles wird protokolliert",
+      "text": "Jede Änderung erscheint im Protokoll des Servers: wer, was, wann."
+    }
+  },
+  "faq": {
+    "eyebrow": "Fragen",
+    "title": "Was alle fragen.",
+    "price": {
+      "q": "Was kostet das?",
+      "a": "Nichts. Der Bot und das Dashboard sind kostenlos."
+    },
+    "scopes": {
+      "q": "Welche Berechtigungen verlangt die Anmeldung?",
+      "a": "Nur deinen Namen und deine Serverliste (Discord „identify“ und „guilds“). Deine E-Mail-Adresse und Nachrichten sehen wir nicht, und wir tun auf Discord nichts in deinem Namen."
+    },
+    "who": {
+      "q": "Wer kann den Server einstellen?",
+      "a": "Wer auf Discord die Berechtigung Administrator oder Server verwalten hat, auf einem Server, auf dem auch der Bot ist. Die eigenen Stufen des Bots (Team, Moderator, Admin) legst du auf der Seite Rollen und Rechte fest."
+    },
+    "delay": {
+      "q": "Wie lange dauert es, bis der Bot eine Änderung übernimmt?",
+      "a": "Ein paar Sekunden. Der Bot lädt die Einstellungen innerhalb von 15 Sekunden neu und veröffentlicht Panels innerhalb von 5 Sekunden."
+    },
+    "commands": {
+      "q": "Muss ich Befehle lernen?",
+      "a": "Nein. Alle Einstellungen sind im Web; die Mitglieder sehen in /help, was sie nutzen können."
+    },
+    "language": {
+      "q": "Welche Sprache spricht der Bot?",
+      "a": "Der Bot spricht Ungarisch, Englisch oder Deutsch — pro Server im Dashboard einstellbar (Grundlagen → Sprache), und alle Antworten erscheinen in dieser Sprache. Das Dashboard gibt es auf Ungarisch, Englisch und Deutsch — die Sprache wählst du im Menü."
+    }
+  },
+  "cta": {
+    "title1": "Mach auch deinen Server",
+    "title2": "orange."
+  },
+  "preview": {
+    "welcome": "## Hallo {mention}!\nWillkommen auf **{szerver}**. Schau im Kanal {#regeln} vorbei und fühl dich wie zu Hause.\n-# Du bist unser {tagszam}. Mitglied",
+    "guildName": "Orangen-Club",
+    "rulesChannel": "regeln"
+  },
+  "saving": "Speichern…",
+  "designEyebrow": "Discord, vereinfacht.",
+  "designPreview": "Vorschau",
+  "designPreviewNote": "Klare Einstellungen. Nur das, was du brauchst.",
+  "tour": {
+    "overview": {
+      "label": "Übersicht",
+      "path": "Narancs Klub / Übersicht",
+      "alt": "Die Dashboard-Übersicht: Module, Nachrichten, offene Tickets, Aktivität und letzte Änderungen"
+    },
+    "stats": {
+      "label": "Statistik",
+      "path": "Narancs Klub / Statistik",
+      "alt": "Aktivität und Wachstum: Nachrichten, Sprachzeit, aktive Mitglieder und Mitgliederwachstum in Diagrammen"
+    },
+    "inbox": {
+      "label": "Tickets",
+      "path": "Narancs Klub / Tickets",
+      "alt": "Ticket-Posteingang: das ganze Gespräch, Antworten und Schließen direkt im Web"
+    },
+    "duty": {
+      "label": "Dienst",
+      "path": "Narancs Klub / Dienst",
+      "alt": "Dienstzeiten: Tagesdiagramm, wer im Dienst ist, Summen und Export"
+    },
+    "leaderboard": {
+      "label": "Bestenliste",
+      "path": "Narancs Klub / Bestenliste",
+      "alt": "Die Bestenlisten des Servers nach Level und Vermögen, mit Siegertreppchen"
+    }
+  },
+  "heroKicker": "Für Communities, Fraktionen und Crews",
+  "mock": {
+    "channel": "dienst",
+    "time": "Heute um 19:42",
+    "dutyTitle": "Dienst-Panel — Polizei",
+    "onDuty": "Im Dienst: {count}",
+    "onBreak": "in Pause",
+    "teamToday": "Teamzeit heute",
+    "clockIn": "Einstempeln",
+    "break": "Pause",
+    "clockOut": "Ausstempeln",
+    "ticketTitle": "Neues Ticket #0142 — Support",
+    "ticketText": "Ich habe nach meinem heutigen Dienst kein Gehalt bekommen.",
+    "claim": "Übernehmen",
+    "label": "Beispiel: So sieht der Bot auf Discord aus"
+  },
+  "tourSection": {
+    "eyebrow": "Dashboard",
+    "title": "Das Gehirn deines Bots, im Browser.",
+    "text": "Alle Einstellungen, Tickets, Statistiken und Logs an einem Ort — keine Befehle auswendig lernen, auch am Handy."
+  },
+  "bento": {
+    "eyebrow": "Funktionen",
+    "title": "Alles, was einen Server lebendig hält.",
+    "faction": {
+      "title": "Für FiveM-Fraktionen",
+      "text": "Dienst-Panel mit Live-Liste, Stundenlohn und Gehaltsabrechnung, Abwesenheiten, Berichte mit eigenen Formularen — alles auch im Dashboard.",
+      "goal": "Wochenziel",
+      "days": "Mo,Di,Mi,Do,Fr,Sa,So",
+      "hours": "Dienststunden diese Woche"
+    },
+    "tickets": {
+      "open": "Offen",
+      "claimed": "Übernommen",
+      "closed": "Geschlossen",
+      "s1": "Fehlende Zahlung",
+      "s2": "Einspruch gegen Bann",
+      "s3": "Fraktionsbewerbung"
+    },
+    "economy": {
+      "ticker": "ORANGE",
+      "change": "+12,4 % heute"
+    },
+    "moderation": {
+      "s1": "Verwarnung",
+      "s2": "Timeout für 10 Minuten",
+      "s3": "Kick",
+      "s4": "Bann für 7 Tage",
+      "level": "Stufe {n}"
+    },
+    "more": "Und mehr"
+  }
+}

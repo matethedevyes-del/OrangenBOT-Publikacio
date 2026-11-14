@@ -1,0 +1,19 @@
+{
+ "manual_label": "Manual backup",
+ "auto_label": "Automatic daily backup",
+ "before_restore_label": "State before restore",
+ "saved": "✅ Saved: {roles} roles and {channels} channels.",
+ "gone": "This backup no longer exists.",
+ "no_perms": "The bot needs Manage Roles and Manage Channels to restore.",
+ "nothing_to_do": "✅ The server matches the backup — nothing to restore.",
+ "plan_head": "Restoring would:",
+ "plan_roles": "• create {n} roles: {names}",
+ "plan_categories": "• create {n} categories: {names}",
+ "plan_channels": "• create {n} channels: {names}",
+ "plan_overwrites": "• reset access on {n} existing channels",
+ "plan_managed": "• skip {n} integration / bot roles (Discord manages those)",
+ "plan_safe": "Nothing is deleted, and the current state is saved first.",
+ "done": "✅ Restored: {created} new items, access updated on {updated} channels.",
+ "failed": "⚠️ {n} items failed (bot permissions / role order): {names}",
+ "reason": "Restore from backup ({name})"
+}

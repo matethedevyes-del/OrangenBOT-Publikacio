@@ -1,0 +1,47 @@
+{
+  "title": "Datenschutzerklärung",
+  "intro": "Diese Erklärung gilt für das Web-Dashboard von OrangenBot (gemäß Art. 13 DSGVO). Wie der Bot innerhalb von Discord mit Daten umgeht, erklärt der Befehl <code>/adatvedelem</code> des Bots.",
+  "s1": {
+    "title": "1. Verantwortlicher",
+    "text": "{name} — Kontakt: {contact}. Hierhin kannst du dich mit Fragen und Anträgen zum Datenschutz wenden."
+  },
+  "s2": {
+    "title": "2. Welche Daten verarbeiten wir?",
+    "identity": "<b>Discord-ID, Anzeigename, Avatar-ID</b> — bei der Anmeldung mit Discord (OAuth2-Berechtigung <code>identify</code>). Eine E-Mail-Adresse fragen wir nicht ab.",
+    "guilds": "<b>Deine Serverliste und deine Berechtigungen dort</b> (OAuth2 <code>guilds</code>) — nur, um zu entscheiden, welche Server du verwalten darfst. Wir speichern sie nicht: Sie bleibt höchstens 30 Sekunden im Arbeitsspeicher des Servers.",
+    "token": "<b>Discord-Zugriffstoken</b> — verschlüsselt, ausschließlich in einem Sitzungs-Cookie in deinem Browser gespeichert, auf das JavaScript nicht zugreifen kann (HttpOnly), höchstens 7 Tage lang. Es gelangt in keine Datenbank.",
+    "settings": "<b>Die Servereinstellungen</b>, die du änderst (z. B. Willkommenskanal, Module) — in der Datenbank des Bots, an den Server gebunden, nicht an deine Person.",
+    "audit": "<b>Änderungsprotokoll</b> — bei jeder Änderung über das Dashboard deine Discord-ID, dein Anzeigename, die Server-ID, das geänderte Element und der alte / neue Wert (damit Änderungen nachvollziehbar sind und Missbrauch untersucht werden kann). Sichtbar für die Verwalter des Servers und die Betreiber des Dashboards.",
+    "stats": "<b>Serverstatistik und Bestenlisten</b> — ist auf dem Server die Aktivitätserfassung eingeschaltet, speichert der Bot täglich nur Zählwerte (Anzahl der Nachrichten, Sprachminuten, Beitritte und Austritte; niemals Nachrichteninhalte). Daraus sehen die Verwalter des Servers im Dashboard zusammengefasste Diagramme und eine Liste der aktivsten Mitglieder sowie die Bestenlisten des Levelsystems und der Wirtschaft — dasselbe, was auch die Befehle des Bots auf dem Server zeigen. Die zusammengefasste Zeile eines austretenden Mitglieds wird gelöscht; die Tageswerte löscht der Bot nach der auf dem Server eingestellten Aufbewahrungsdauer.",
+    "captcha": "<b>Captcha (Cloudflare Turnstile)</b> — bei der Anmeldung und bei einigen Admin-Aktionen prüft Cloudflare anhand technischer Merkmale deines Browsers, dass du kein automatisiertes Programm bist. Dazu erhält Cloudflare deine IP-Adresse; bei uns wird sie nicht gespeichert."
+  },
+  "s3": {
+    "title": "3. Zweck und Rechtsgrundlage",
+    "service": "Anmeldung, Berechtigungsprüfung und Bereitstellung des Dienstes — Art. 6 Abs. 1 lit. b DSGVO (Nutzung des Dienstes).",
+    "security": "Sicherheit, Missbrauchsverhinderung, technisches Protokoll, Ratenbegrenzung — Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).",
+    "consent": "Nicht notwendige Cookies (falls wir je welche einführen) — Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), jederzeit widerrufbar."
+  },
+  "s4": {
+    "title": "4. Cookies",
+    "session": "<b>authjs.session-token</b> — Sitzung (verschlüsselt, HttpOnly, Secure), höchstens 7 Tage. Notwendig.",
+    "csrf": "<b>authjs.csrf-token, authjs.callback-url</b> — Schutz der Anmeldung, bis zum Ende der Sitzung. Notwendig.",
+    "consent": "<b>orangen_consent</b> — deine Cookie-Auswahl, 180 Tage. Notwendig.",
+    "locale": "<b>NEXT_LOCALE</b> — die gewählte Sprache (Ungarisch, Englisch oder Deutsch), 1 Jahr. Notwendig, um die gewählte Sprache anzuzeigen.",
+    "note": "Analyse-, Tracking- oder Werbe-Cookies verwenden wir derzeit nicht. Deine Auswahl kannst du jederzeit über den Link „Cookie-Einstellungen“ in der Fußzeile ändern."
+  },
+  "s5": {
+    "title": "5. Auftragsverarbeiter und Übermittlung",
+    "cloudflare": "<b>Cloudflare, Inc.</b> — Hosting und Netzwerk der Website sowie das Captcha (Turnstile); die Anfragen laufen über das Netzwerk von Cloudflare (auf Grundlage des EU-US-Datenschutzrahmens).",
+    "discord": "<b>Discord Inc.</b> — Quelle der Anmeldung und der Serverdaten (gemäß der eigenen Datenschutzerklärung von Discord).",
+    "note": "Wir verkaufen keine Daten an Dritte und geben sie nicht zu Marketingzwecken weiter."
+  },
+  "s6": {
+    "title": "6. Speicherdauer",
+    "text": "Eine Sitzung gilt höchstens 7 Tage und wird beim Abmelden sofort gelöscht. Die Servereinstellungen bleiben erhalten, solange der Server den Bot nutzt oder bis der Administrator des Servers sie ändert. Einträge im Änderungsprotokoll werden nach 90 Tagen automatisch gelöscht."
+  },
+  "s7": {
+    "title": "7. Deine Rechte",
+    "rights": "Du kannst Auskunft über deine Daten, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit verlangen und der auf berechtigtem Interesse beruhenden Verarbeitung widersprechen. Anträge nehmen wir über den oben genannten Kontakt entgegen und antworten innerhalb eines Monats. Beschwerden kannst du bei der ungarischen Datenschutzbehörde (Nemzeti Adatvédelmi és Információszabadság Hatóság, NAIH, naih.hu) einreichen oder dich an ein Gericht wenden.",
+    "revoke": "Den Zugriff der App kannst du auch auf Discord jederzeit widerrufen: Benutzereinstellungen → Autorisierte Apps."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "metaTitle": "Tickets",
+  "eyebrow": "Support",
+  "title": "Ticket system",
+  "description": "Tickets opened from a panel, with custom questions, staff and an AI agent per category. The bot picks up settings within a few seconds; refresh the posted panel on the Panel tab.",
+  "tabs": {
+    "basics": "Basics",
+    "panel": "Panel",
+    "categories": "Categories",
+    "ai": "AI agent",
+    "blacklist": "Blacklist"
+  },
+  "saved": "Saved — the bot will pick it up within a few seconds.",
+  "failed": "That didn’t work",
+  "none": "None",
+  "save": "Save",
+  "noCategory": "None (the bot doesn’t put it in a category)",
+  "openCategory": "Category for open tickets",
+  "closedCategory": "Category for closed tickets",
+  "staffRole": "Staff role",
+  "staffRoleHint": "They can see and manage tickets",
+  "staffRoleNone": "None (the bot’s Staff level)",
+  "staffPing": "Pinging staff",
+  "logChannel": "Log channel",
+  "transcriptChannel": "Transcript channel",
+  "maxOpen": "Open tickets per member",
+  "autoClose": "Auto-close",
+  "cooldown": "Wait between two tickets",
+  "deleteClosed": "Delete closed tickets",
+  "nameTemplate": "Channel name template",
+  "nameTemplateHint": "Placeholders: {placeholders} — empty: {fallback}",
+  "welcome": "Welcome message in the ticket",
+  "welcomeHint": "Empty: the default message",
+  "pingModes": {
+    "urgent": "Only for urgent tickets (P1–P2)",
+    "always": "For every new ticket",
+    "never": "Never (only logged)"
+  },
+  "switches": {
+    "allowUserClose": {
+      "label": "Members can close their own ticket",
+      "description": "When off, only staff can close"
+    },
+    "requireCloseReason": {
+      "label": "Closing reason required (staff)",
+      "description": "Staff can only close with a reason"
+    },
+    "dmTranscript": {
+      "label": "Transcript by DM to the opener",
+      "description": "When closed, the member receives the conversation"
+    },
+    "ratingEnabled": {
+      "label": "Ask for a rating when closed",
+      "description": "1–5 stars and written feedback by DM"
+    }
+  },
+  "duration": {
+    "off": "Off",
+    "week": "1 week",
+    "days": "{count, plural, one {# day} other {# days}}",
+    "hours": "{count, plural, one {# hour} other {# hours}}",
+    "minutes": "{count, plural, one {# minute} other {# minutes}}",
+    "noCooldown": "No waiting",
+    "never": "Never (can be deleted manually)"
+  },
+  "panelChannel": "Panel channel",
+  "pickChannel": "Choose a channel…",
+  "panelTitle": "Title",
+  "panelDescription": "Description",
+  "panelStyle": "Category picker",
+  "styles": {
+    "menu": {
+      "label": "Dropdown menu",
+      "description": "One menu with all categories (up to 25)"
+    },
+    "buttons": {
+      "label": "Buttons",
+      "description": "One button per category (up to 15 categories)"
+    }
+  },
+  "color": "Colour",
+  "colorHint": "e.g. #FD8200 — empty: orange",
+  "image": "Image (https)",
+  "footer": "Footer",
+  "myTickets": "“My tickets” button",
+  "help": "“Help” button",
+  "savedPanel": "Saved — refresh the posted panel.",
+  "post": "Posting",
+  "panelLive": "The panel is posted — refresh it after changing settings or categories.",
+  "panelNotLive": "The panel hasn’t been posted yet.",
+  "saveFirst": "Save your changes first.",
+  "posting": "Posting the panel…",
+  "updatePanel": "Refresh panel",
+  "postPanel": "Post panel",
+  "orderSaved": "Order saved.",
+  "turnedOff": "Turned off.",
+  "turnedOn": "Turned on.",
+  "categoriesText": "Enabled categories appear on the panel. After editing a built-in category, “Reset” restores the default.",
+  "customCategory": "Custom category",
+  "newCategory": "New category",
+  "editCategory": "Edit category",
+  "cancel": "Cancel",
+  "emoji": "Emoji on the Discord button",
+  "emojiHint": "A Unicode emoji or one of the server’s own emojis (<:name:id>).",
+  "name": "Name",
+  "priority": "Priority",
+  "priorityOption": "{priority} · {label}",
+  "shortDescription": "Short description (in the menu)",
+  "questions": "Questions when opening a ticket",
+  "questionsMax": "(at most {max})",
+  "question": "Question",
+  "questionAria": "Question {n}",
+  "helper": "Helper text",
+  "helperAria": "Helper text for question {n}",
+  "long": "long",
+  "required": "required",
+  "deleteQuestion": "Delete question",
+  "addQuestion": "Question",
+  "ownStaff": "Own staff roles",
+  "ownStaffHint": "Empty: the ticket system’s staff role",
+  "pingRoles": "Roles to ping for new tickets",
+  "discordCategory": "Discord category",
+  "discordCategoryHint": "Empty: the general one",
+  "general": "The general one",
+  "aiAgent": "AI agent",
+  "aiInherit": "Same as the rest of the system",
+  "aiOn": "Always on",
+  "aiOff": "Off in this category",
+  "ownWelcome": "Own welcome message",
+  "generalPlaceholder": "the general one",
+  "allowFiles": "Files can be attached",
+  "staffOnly": "Only staff can open it",
+  "custom": "custom",
+  "customized": "customised",
+  "enabledAria": "{label} enabled",
+  "up": "Up",
+  "down": "Down",
+  "edit": "Edit",
+  "delete": "Delete",
+  "reset": "Reset",
+  "deleteTitle": "Delete this category?",
+  "resetTitle": "Reset to default?",
+  "deleteText": "Existing tickets are kept.",
+  "resetText": "All customisations of the category will be lost.",
+  "deleted": "Deleted.",
+  "resetDone": "Reset.",
+  "aiEnabled": "AI agent in tickets",
+  "aiEnabledText": "Answers common questions and alerts the staff when a human is needed.",
+  "persona": "Personality / instructions",
+  "personaPlaceholder": "e.g. You are a friendly, informal support agent…",
+  "knowledge": "Knowledge base",
+  "knowledgeHint": "Rules, FAQ, prices — what the AI answers from",
+  "skillsTitle": "What can the AI do?",
+  "skills": {
+    "ideas": {
+      "label": "Collect suggestions",
+      "description": "Asks questions, summarises and sends it to suggestion review"
+    },
+    "bugs": {
+      "label": "Collect bug reports",
+      "description": "Asks for the details and sends it to bug review"
+    },
+    "roles": {
+      "label": "Roles from the role picker",
+      "description": "Adds / removes role-picker roles, following the panel’s rules"
+    },
+    "nickname": {
+      "label": "Change nickname",
+      "description": "Changes the opener’s nickname — no banned words, links or mentions"
+    },
+    "lookup": {
+      "label": "Own data",
+      "description": "Balance, level, invites, warnings — only the ticket opener’s"
+    },
+    "report": {
+      "label": "Report a member",
+      "description": "Sends a report to the moderators with a link to the ticket"
+    },
+    "move": {
+      "label": "Move to the right category",
+      "description": "If the ticket was clearly opened in the wrong category"
+    },
+    "close": {
+      "label": "Close with the member’s consent",
+      "description": "Asks whether it may close the ticket and closes it if yes"
+    }
+  },
+  "blacklistText": "People on this list can’t open tickets on this server.",
+  "blacklistAdded": "Added to the blacklist.",
+  "userId": "User ID",
+  "reason": "Reason (optional)",
+  "reasonAria": "Reason",
+  "ban": "Ban",
+  "blacklistEmpty": "The blacklist is empty.",
+  "unbanned": "Unbanned.",
+  "unban": "Unban",
+  "priorities": {
+    "P1": "Critical",
+    "P2": "High",
+    "P3": "Medium",
+    "P4": "Low"
+  },
+  "extra": {
+    "title": "Extra ticket panels",
+    "description": "Post several panels to different channels, each with its own categories (e.g. #purchases with only purchase categories, #support with technical ones). An empty title, text or style falls back to the main panel.",
+    "add": "New panel",
+    "empty": "No extra panels yet.",
+    "live": "posted",
+    "notLive": "not posted",
+    "sameAsMain": "same as the main panel",
+    "repost": "Post / refresh",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteTitle": "Delete the {name} panel?",
+    "deleteText": "The bot also removes the posted message. Open tickets are not affected.",
+    "deleting": "Deleting…",
+    "posting": "Posting…",
+    "newTitle": "New ticket panel",
+    "editTitle": "Edit panel",
+    "cancel": "Cancel",
+    "channel": "Channel",
+    "pickChannel": "Choose a channel…",
+    "name": "Name",
+    "nameHint": "Only for you, in the list (empty: the channel's name)",
+    "categories": "Categories on this panel",
+    "categoriesHint": "Click to select; if you pick none, the main panel's categories are shown",
+    "panelTitle": "Title",
+    "panelDescription": "Text",
+    "inheritHint": "Empty: same as the main panel",
+    "style": "Style",
+    "styleInherit": "Same as the main panel",
+    "styleMenu": "Dropdown menu",
+    "styleButtons": "Buttons",
+    "saveAndPost": "Save and post"
+  }
+}

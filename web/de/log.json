@@ -1,0 +1,192 @@
+{
+  "metaTitle": "Protokoll",
+  "eyebrow": "Protokoll",
+  "title": "Wer hat was geändert?",
+  "description": "Jede Änderung im Dashboard mit altem und neuem Wert — 90 Tage lang.",
+  "emptyTitle": "Noch keine Einträge",
+  "emptyText": "Jede Änderung im Dashboard landet hier — wer, was, wann. Einträge werden 90 Tage lang aufbewahrt.",
+  "older": "Ältere",
+  "actions": {
+    "settings": {
+      "update": "hat eine Einstellung geändert:",
+      "import": "hat Einstellungen importiert:",
+      "log_route": "hat den Log-Server festgelegt:"
+    },
+    "permissions": {
+      "update": "hat geändert:"
+    },
+    "shop": {
+      "create": "hat ein neues Produkt angelegt:",
+      "update": "hat das Produkt geändert:",
+      "delete": "hat das Produkt gelöscht:"
+    },
+    "guild": {
+      "leave": "hat den Bot entfernt von:",
+      "reload": "hat die Servereinstellungen neu laden lassen:",
+      "blacklist": "hat den Server auf die Sperrliste gesetzt:",
+      "unblacklist": "hat von der Sperrliste genommen:",
+      "ai_access": "hat die KI-Freigabe geändert für:"
+    },
+    "staff": {
+      "add": "hat ein Panel-Mitglied hinzugefügt:",
+      "update": "hat das Panel-Mitglied geändert:",
+      "remove": "hat das Panel-Mitglied entfernt:"
+    },
+    "profile": {
+      "update": "hat das Profil geändert:"
+    },
+    "sanction": {
+      "issue": "hat eine globale Sanktion verhängt:",
+      "lift": "hat die globale Sanktion aufgehoben:"
+    },
+    "bot": {
+      "resync": "hat neu synchronisiert:",
+      "power": "hat eine Energieaktion an den Server gesendet:",
+      "restart": "hat den Bot neu gestartet:",
+      "update": "hat den Bot aktualisiert:",
+      "cog_reload": "hat ein Modul neu geladen:",
+      "cache_clear": "hat die Bot-Caches geleert:"
+    },
+    "rolepanel": {
+      "create": "hat ein neues Rollenauswahl-Panel erstellt:",
+      "update": "hat das Rollenauswahl-Panel geändert:",
+      "duplicate": "hat das Rollenauswahl-Panel dupliziert:",
+      "delete": "hat das Rollenauswahl-Panel gelöscht:",
+      "publish": "hat das Rollenauswahl-Panel veröffentlicht / aktualisiert:",
+      "entry_add": "hat dem Rollenauswahl-Panel eine Rolle hinzugefügt:",
+      "entry_update": "hat eine Rolle im Rollenauswahl-Panel geändert:",
+      "entry_move": "hat die Rollen des Rollenauswahl-Panels neu angeordnet:",
+      "entry_remove": "hat eine Rolle aus dem Rollenauswahl-Panel entfernt:"
+    },
+    "filter": {
+      "block": "hat einen gesperrten Begriff hinzugefügt:",
+      "unblock": "hat aus den gesperrten Begriffen entfernt:",
+      "allow": "hat den Begriff erlaubt:",
+      "unallow": "hat aus den erlaubten Begriffen entfernt:",
+      "review": "hat einen KI-Moderationsfall geprüft:"
+    },
+    "level": {
+      "reward": "hat eine Level-Belohnung festgelegt:",
+      "unreward": "hat die Level-Belohnung gelöscht:"
+    },
+    "panel": {
+      "post": "hat veröffentlicht:"
+    },
+    "brand": {
+      "update": "hat geändert:",
+      "background": "hat ein neues Bild festgelegt:"
+    },
+    "role_icons": {
+      "apply": "hat angewendet:",
+      "choose": "hat ein Symbol gewählt:"
+    },
+    "tickets": {
+      "config": "hat die Ticket-Einstellung geändert:",
+      "panel": "Ticket-Panel:",
+      "category": "hat die Ticket-Kategorie geändert:",
+      "category_add": "hat eine neue Ticket-Kategorie angelegt:",
+      "category_delete": "hat die Ticket-Kategorie gelöscht:",
+      "category_reset": "hat die Ticket-Kategorie zurückgesetzt:",
+      "category_order": "hat die Ticket-Kategorien neu angeordnet:",
+      "categories_enabled": "hat Ticket-Kategorien ein-/ausgeschaltet:",
+      "blacklist": "hat von Tickets ausgeschlossen:",
+      "unblacklist": "hat die Ticket-Sperre aufgehoben:",
+      "extra_panel": "hat ein zusätzliches Ticket-Panel gepostet:",
+      "extra_panel_delete": "hat das Ticket-Panel gelöscht:",
+      "reply": "hat im Ticket geantwortet:",
+      "close": "hat das Ticket geschlossen:",
+      "claim": "hat das Ticket übernommen:"
+    },
+    "feed": {
+      "add": "hat eine neue Benachrichtigung angelegt:",
+      "update": "hat die Benachrichtigung geändert:",
+      "delete": "hat die Benachrichtigung gelöscht:"
+    },
+    "duty": {
+      "view": "hat Dienstdaten angesehen:",
+      "reset": "hat Dienstzeit zurückgesetzt:",
+      "purge": "hat Dienstdaten endgültig gelöscht:",
+      "force_out": "hat ausgestempelt:",
+      "export": "hat Dienstzeiten exportiert:",
+      "loa_approve": "hat den Abwesenheitsantrag genehmigt:",
+      "loa_deny": "hat den Abwesenheitsantrag abgelehnt:"
+    },
+    "warns": {
+      "add": "hat verwarnt:",
+      "revoke": "hat eine Verwarnung zurückgezogen:",
+      "clear": "hat alle Verwarnungen zurückgezogen von:",
+      "ladder": "hat die Verwarnungsleiter geändert:"
+    },
+    "blacklist": {
+      "add": "hat gesperrt:",
+      "remove": "hat von der Sperrliste entfernt:"
+    },
+    "db": {
+      "query": "hat eine Datenbankabfrage ausgeführt:",
+      "write": "hat die Datenbank geändert:",
+      "row_update": "hat eine Datenbankzeile bearbeitet:",
+      "row_delete": "hat eine Datenbankzeile gelöscht:"
+    },
+    "polls": {
+      "close": "hat die Umfrage beendet:"
+    },
+    "voice": {
+      "lobby_save": "hat die Kanal-Ersteller-Lobby gespeichert:",
+      "lobby_delete": "hat die Kanal-Ersteller-Lobby entfernt:"
+    },
+    "messages": {
+      "schedule": "hat eine Nachricht gesendet / geplant:",
+      "cancel": "hat eine geplante Nachricht abgesagt:"
+    },
+    "setup": {
+      "apply": "hat den Einrichtungsassistenten ausgeführt:"
+    },
+    "hosting": {
+      "file_download": "hat eine Datei vom Hosting heruntergeladen:",
+      "backup_create": "hat ein Backup erstellt:",
+      "backup_download": "hat ein Backup heruntergeladen:"
+    },
+    "reports": {
+      "decide": "hat eine Meldung geprüft:",
+      "form_save": "hat ein Meldeformular gespeichert:",
+      "form_repost": "hat ein Formular-Panel neu gepostet:",
+      "form_delete": "hat ein Meldeformular gelöscht:",
+      "loa_panel": "hat das Abwesenheits-Panel gepostet:",
+      "panel_save": "hat ein Melde-Panel gespeichert:",
+      "panel_repost": "hat ein Melde-Panel neu gepostet:",
+      "panel_delete": "hat ein Melde-Panel gelöscht:",
+      "form_move": "hat die Formulare eines Panels umsortiert:",
+      "submission_delete": "hat eine Meldung gelöscht:",
+      "export": "hat Meldungen exportiert:"
+    },
+    "temproles": {
+      "add": "hat eine temporäre Rolle vergeben:",
+      "remove": "hat eine temporäre Rolle entfernt:"
+    },
+    "welcome": {
+      "test": "hat eine Begrüßungs-Testnachricht gesendet:"
+    },
+    "honeypot": {
+      "create": "hat einen Fallenkanal erstellt:"
+    }
+  },
+  "targets": {
+    "permissions": "Rollen und Rechte",
+    "settings": "{count} Einstellungen",
+    "brand": "Erscheinungsbild des Bots",
+    "roleIcons": "Rollensymbole",
+    "welcomeBackground": "Begrüßungshintergrund",
+    "goodbyeBackground": "Abschiedshintergrund",
+    "commands": "Befehle",
+    "wholeServer": "ganzer Server",
+    "everyone": "alle",
+    "dutyPage": "Dienst-Seite",
+    "panelVerify": "Verifizierungs-Panel",
+    "panelSuggestion": "Vorschlags-Panel",
+    "panelBug": "Fehlermelde-Panel",
+    "panelHoneypot": "Honeypot-Karte",
+    "panelDuty": "Dienst-Panel",
+    "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
+    "level": "Level {count}"
+  }
+}

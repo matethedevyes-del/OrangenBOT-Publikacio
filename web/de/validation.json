@@ -1,0 +1,15 @@
+{
+  "number": "Gib eine Zahl ein.",
+  "integer": "Gib eine ganze Zahl ein.",
+  "tooSmall": "Zu klein — mindestens {min}.",
+  "tooBig": "Zu groß — höchstens {max}.",
+  "text": "Gib einen Text ein.",
+  "pick": "Wähle aus der Liste.",
+  "hex": "Gib einen Hex-Farbcode ein, z. B. #FD8200.",
+  "channelIds": "Es dürfen nur Kanal-IDs enthalten sein.",
+  "tooLong": "Zu lang — höchstens {max} Zeichen.",
+  "bool": "Gib einen Ein/Aus-Wert an.",
+  "invalid": "Ungültiger Wert.",
+  "negative": "Darf nicht negativ sein.",
+  "required": "Pflichtfeld."
+}

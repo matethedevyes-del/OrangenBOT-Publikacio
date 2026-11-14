@@ -1,0 +1,45 @@
+{
+  "metaDescription": "{name} Discord-szerver — {count} tag. Nézd meg, mi történik, és csatlakozz!",
+  "metaDescriptionNoCount": "{name} Discord-szerver. Nézd meg, mi történik, és csatlakozz!",
+  "eyebrow": "Discord-szerver",
+  "members": "{count, plural, one {# tag} other {# tag}}",
+  "online": "{count} online",
+  "join": "Csatlakozás",
+  "joinAria": "Csatlakozás a(z) {name} szerverhez a Discordon (új lapon nyílik)",
+  "noInvite": "A szerver most nem fogad nyilvános meghívóval.",
+  "share": "Megosztható oldal",
+  "poweredBy": "Az oldalt az OrangenBot készíti — a szerver kezelője kapcsolta be.",
+  "addBot": "OrangenBot a saját szerveredre",
+  "activity": {
+    "title": "Aktivitás",
+    "subtitle": "Üzenetek naponta, az elmúlt 30 napban",
+    "label": "Napi üzenetek az elmúlt 30 napban",
+    "total": "Üzenet (30 nap)",
+    "perDay": "Átlag naponta",
+    "peak": "Aktív csúcs"
+  },
+  "modules": {
+    "title": "Ami a szerveren fut",
+    "subtitle": "Az OrangenBot bekapcsolt moduljai"
+  },
+  "leaderboard": {
+    "title": "Toplisták",
+    "subtitle": "A legaktívabb és a legvagyonosabb tagok",
+    "levels": "Szint",
+    "wealth": "Vagyon",
+    "level": "{level}. szint",
+    "xp": "{xp} XP",
+    "inBank": "ebből bankban: {amount}",
+    "empty": "Itt még nincs kit mutatni."
+  },
+  "ogAlt": "{name} — nyilvános szerveroldal",
+  "admin": {
+    "titleOn": "A szerver nyilvános oldala él",
+    "textOn": "Bárki megnézheti bejelentkezés nélkül — oszd meg a linket a közösségeddel.",
+    "open": "Oldal megnyitása",
+    "settings": "Beállítások",
+    "titleOff": "Nyilvános szerveroldal",
+    "textOff": "Egy szép, megosztható oldal a szerverednek: leírás, csatlakozás gomb, aktivitás és toplisták. Alapból ki van kapcsolva.",
+    "enable": "Bekapcsolás"
+  }
+}

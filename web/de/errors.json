@@ -1,0 +1,11 @@
+{
+  "title": "Etwas ist schiefgelaufen",
+  "text": "Ein unerwarteter Fehler ist aufgetreten. Versuche es erneut — wenn das Problem bleibt, wende dich an den Betreiber.",
+  "code": "Fehlercode: {digest}",
+  "retry": "Erneut versuchen",
+  "notFoundTitle": "Diese Seite gibt es nicht",
+  "notFoundText": "Vielleicht hast du dich bei der Adresse vertippt, oder die Seite wurde inzwischen entfernt.",
+  "tooManyTitle": "Zu viele Anfragen",
+  "tooManyText": "Von dieser Adresse kamen in kurzer Zeit zu viele Anfragen. Warte eine Minute und lade die Seite dann neu.",
+  "tooManyPlain": "Zu viele Anfragen — bitte warte eine Minute."
+}

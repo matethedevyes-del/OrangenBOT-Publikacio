@@ -1,0 +1,29 @@
+{
+  "title": "Allgemeine Geschäftsbedingungen",
+  "intro": "Mit der Nutzung des Dashboards akzeptierst du die folgenden Bedingungen. Für die Nutzung des Bots innerhalb von Discord gelten zusätzlich die Bedingungen, die der Befehl <code>/aszf</code> des Bots anzeigt.",
+  "s1": {
+    "title": "1. Der Dienst",
+    "text": "Das Dashboard (betrieben von {name}) dient der webbasierten Verwaltung der serverbezogenen Einstellungen des Discord-Bots OrangenBot. Der Dienst ist kostenlos und wird „wie besehen“ bereitgestellt."
+  },
+  "s2": {
+    "title": "2. Zugang",
+    "account": "Die Anmeldung erfolgt mit einem Discord-Konto; für die Sicherheit deines Kontos bist du selbst verantwortlich.",
+    "permission": "Die Einstellungen eines Servers kann nur verwalten, wer dort die Berechtigung Administrator oder Server verwalten hat, und nur wenn der Bot ebenfalls Mitglied des Servers ist. Die Berechtigung prüfen wir bei jeder Aktion bei Discord.",
+    "responsibility": "Für deine Änderungen bist du gegenüber dem Inhaber und dem Team des Servers verantwortlich."
+  },
+  "s3": {
+    "title": "3. Unzulässige Nutzung",
+    "bypass": "Das Umgehen der Sicherheitsmaßnahmen des Systems oder der Versuch eines unbefugten Zugriffs auf die Einstellungen anderer Server.",
+    "load": "Automatisierte Anfragen, die eine übermäßige Last verursachen (der Dienst verwendet eine Ratenbegrenzung).",
+    "unlawful": "Die Nutzung des Dienstes zu Zwecken, die gegen Gesetze oder die Bedingungen von Discord verstoßen.",
+    "note": "Bei Missbrauch können wir den Zugang einschränken oder sperren."
+  },
+  "s4": {
+    "title": "4. Haftung",
+    "text": "Wir tun alles für einen durchgehenden und fehlerfreien Betrieb, können ihn aber nicht garantieren. Die vom Bot verwalteten virtuellen Guthaben (z. B. Ft, BTC) haben keinen realen Geldwert. Soweit gesetzlich zulässig, haften wir nicht für mittelbare Schäden, die aus einem Ausfall des Dienstes oder einer fehlerhaften Einstellung entstehen."
+  },
+  "s5": {
+    "title": "5. Änderungen und Kontakt",
+    "text": "Wir können diese Bedingungen ändern; wesentliche Änderungen kündigen wir auf der Website an. Bei Fragen: {contact}."
+  }
+}

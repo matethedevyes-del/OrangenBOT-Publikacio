@@ -1,0 +1,17 @@
+{
+ "unit_messages": "üzenet",
+ "unit_voice": "perc hangcsatornában",
+ "unit_work": "elvégzett munka",
+ "unit_crimes": "sikeres bűntény",
+ "unit_casino": "kaszinójáték",
+ "tag": "Heti közösségi cél",
+ "tag_done": "Cél teljesítve!",
+ "headline": "{target} {unit}",
+ "body": "{contributors} tag segít • jutalom: {reward} fejenként",
+ "ends_label": "Vasárnap éjfélig",
+ "running_text": "Együtt kell összegyűjteni a héten — vége {ends}. Aki hozzájárul, **{reward}** jutalmat kap, ha összejön!",
+ "done_text": "🎉 Összejött! Minden résztvevő megkapta a **{reward}** jutalmat.",
+ "top": "**A legtöbbet segítők**",
+ "footer": "{contributors} tag járult hozzá eddig • a kártya pár percenként frissül",
+ "celebrate": "🎉 **Teljesült a heti közösségi cél!** {emoji} {contributors} tag kapott **{reward}** jutalmat. Szép munka mindenkinek!"
+}

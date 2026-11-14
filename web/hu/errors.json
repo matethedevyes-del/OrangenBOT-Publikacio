@@ -1,0 +1,11 @@
+{
+  "title": "Valami félrement",
+  "text": "Váratlan hiba történt. Próbáld újra — ha nem múlik el, szólj az üzemeltetőnek.",
+  "code": "Hibakód: {digest}",
+  "retry": "Újrapróbálás",
+  "notFoundTitle": "Ez az oldal nem létezik",
+  "notFoundText": "Lehet, hogy elírtad a címet, vagy az oldal közben megszűnt.",
+  "tooManyTitle": "Túl sok kérés",
+  "tooManyText": "Rövid idő alatt túl sok kérés érkezett erről a címről. Várj egy percet, aztán frissítsd az oldalt.",
+  "tooManyPlain": "Túl sok kérés — várj egy percet."
+}

@@ -1,0 +1,14 @@
+{
+ "crash_tag": "Piaci összeomlás",
+ "boom_tag": "Aranykor",
+ "crash_head": "Összeomlott minden piac — a bitcoin, a tőzsde és az alvilág is zuhan",
+ "boom_head": "Aranykor köszöntött be — szárnyal a bitcoin, a tőzsde és az alvilág is",
+ "crash_body": "Egyszerre rázza meg a szervert minden piac. Aki most vásárol, olcsón jut hozzá — aki eladósodott, bajban van.",
+ "boom_body": "Minden piac egyszerre szárnyal. Aki most ad el, nagyot kaszál — de az aranykor nem tart örökké.",
+ "chip_btc": "Bitcoin {pct}",
+ "chip_stocks": "Tőzsde: {head}",
+ "chip_uw": "Alvilág: {name}",
+ "source": "Az egész szerveren",
+ "footer": "Hogy meddig tart, senki sem tudja",
+ "title": "Mega-esemény"
+}

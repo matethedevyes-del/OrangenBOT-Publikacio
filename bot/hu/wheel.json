@@ -1,0 +1,17 @@
+{
+ "cash": "Pénz",
+ "xp": "XP",
+ "none": "Semmi",
+ "chips": "Chip",
+ "jackpot": "Főnyeremény",
+ "button": "Szerencsekerék",
+ "off": "A szerencsekerék ezen a szerveren ki van kapcsolva.",
+ "wait": "🎡 Ma már pörgettél — újra {when}.",
+ "title": "🎡 Szerencsekerék",
+ "won_cash": "🎉 Nyertél **{fmt}**-ot!",
+ "won_chips": "🎰 Nyertél **{n} chip**-et!",
+ "won_xp": "⭐ Nyertél **{n} XP**-t!",
+ "won_none": "😅 Most semmi — holnap újra próbálhatod!",
+ "won_jackpot": "💎 **FŐNYEREMÉNY!** Nyertél **{fmt}**-ot!",
+ "footer": "Naponta egy ingyen pörgetés • /penz → Szerencsekerék"
+}

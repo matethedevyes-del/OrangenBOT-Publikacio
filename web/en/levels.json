@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Level rewards",
+  "eyebrow": "Levelling",
+  "title": "Level rewards",
+  "description": "When a member reaches the level, the bot automatically gives them the role (one role per level).",
+  "settingsLink": "XP multipliers, level-up message and channel:",
+  "settingsLinkLabel": "{topic} settings",
+  "done": "Done",
+  "failed": "That didn’t work",
+  "newReward": "New reward",
+  "level": "Level",
+  "levelPlaceholder": "e.g. 10",
+  "role": "Role",
+  "roleHint": "Only a role the bot can assign.",
+  "pickRole": "Choose a role…",
+  "save": "Save",
+  "emptyTitle": "No level rewards yet",
+  "emptyText": "Enter a level and a role — the bot assigns it automatically when the level is reached.",
+  "levelN": "Level {level}",
+  "deletedRole": "deleted role ({id})",
+  "deleteAria": "Delete the reward for level {level}"
+}

@@ -1,0 +1,192 @@
+{
+  "metaTitle": "Log",
+  "eyebrow": "Log",
+  "title": "Who changed what?",
+  "description": "Every change made in the dashboard, with the old and the new value — for 90 days.",
+  "emptyTitle": "No entries yet",
+  "emptyText": "Every change made in the dashboard appears here — who, what, when. Entries are kept for 90 days.",
+  "older": "Older",
+  "actions": {
+    "settings": {
+      "update": "changed a setting:",
+      "import": "imported settings:",
+      "log_route": "set the log server:"
+    },
+    "permissions": {
+      "update": "changed"
+    },
+    "shop": {
+      "create": "added a new product:",
+      "update": "changed the product:",
+      "delete": "deleted the product:"
+    },
+    "guild": {
+      "leave": "made the bot leave:",
+      "reload": "reloaded the server settings:",
+      "blacklist": "blacklisted the server:",
+      "unblacklist": "removed from the blacklist:",
+      "ai_access": "changed the AI access of:"
+    },
+    "staff": {
+      "add": "added a panel member:",
+      "update": "changed the panel member:",
+      "remove": "removed the panel member:"
+    },
+    "profile": {
+      "update": "changed the profile:"
+    },
+    "sanction": {
+      "issue": "issued a global sanction:",
+      "lift": "lifted the global sanction:"
+    },
+    "bot": {
+      "resync": "re-synced",
+      "power": "sent a power action to the server:",
+      "restart": "restarted the bot:",
+      "update": "updated the bot:",
+      "cog_reload": "reloaded a module:",
+      "cache_clear": "cleared the bot caches:"
+    },
+    "rolepanel": {
+      "create": "created a new role picker panel:",
+      "update": "changed the role picker panel:",
+      "duplicate": "duplicated the role picker panel:",
+      "delete": "deleted the role picker panel:",
+      "publish": "posted / updated the role picker panel:",
+      "entry_add": "added a role to the role picker panel:",
+      "entry_update": "changed a role on the role picker panel:",
+      "entry_move": "reordered the roles of the role picker panel:",
+      "entry_remove": "removed a role from the role picker panel:"
+    },
+    "filter": {
+      "block": "added a blocked term:",
+      "unblock": "removed from the blocked terms:",
+      "allow": "allowed the term:",
+      "unallow": "removed from the allowed terms:",
+      "review": "reviewed an AI moderation case:"
+    },
+    "level": {
+      "reward": "set a level reward:",
+      "unreward": "deleted the level reward:"
+    },
+    "panel": {
+      "post": "posted:"
+    },
+    "brand": {
+      "update": "changed",
+      "background": "set a new image:"
+    },
+    "role_icons": {
+      "apply": "applied",
+      "choose": "chose an icon:"
+    },
+    "tickets": {
+      "config": "changed the ticket setting:",
+      "panel": "ticket panel:",
+      "category": "changed the ticket category:",
+      "category_add": "added a new ticket category:",
+      "category_delete": "deleted the ticket category:",
+      "category_reset": "reset the ticket category:",
+      "category_order": "reordered the ticket categories:",
+      "categories_enabled": "switched ticket categories on/off:",
+      "blacklist": "banned from tickets:",
+      "unblacklist": "lifted the ticket ban:",
+      "extra_panel": "posted an extra ticket panel:",
+      "extra_panel_delete": "deleted the ticket panel:",
+      "reply": "replied in ticket:",
+      "close": "closed ticket:",
+      "claim": "claimed ticket:"
+    },
+    "feed": {
+      "add": "added a new notifier:",
+      "update": "changed the notifier:",
+      "delete": "deleted the notifier:"
+    },
+    "duty": {
+      "view": "viewed duty data:",
+      "reset": "reset duty time:",
+      "purge": "permanently deleted duty data:",
+      "force_out": "clocked out of duty:",
+      "export": "exported duty time:",
+      "loa_approve": "approved the leave request:",
+      "loa_deny": "denied the leave request:"
+    },
+    "warns": {
+      "add": "warned:",
+      "revoke": "revoked a warning:",
+      "clear": "revoked all warnings of:",
+      "ladder": "changed the warning ladder:"
+    },
+    "blacklist": {
+      "add": "blacklisted:",
+      "remove": "removed from the blacklist:"
+    },
+    "db": {
+      "query": "ran a database query:",
+      "write": "changed the database:",
+      "row_update": "edited a database row:",
+      "row_delete": "deleted a database row:"
+    },
+    "polls": {
+      "close": "closed the poll:"
+    },
+    "voice": {
+      "lobby_save": "saved the channel creator lobby:",
+      "lobby_delete": "removed the channel creator lobby:"
+    },
+    "messages": {
+      "schedule": "sent / scheduled a message:",
+      "cancel": "cancelled a scheduled message:"
+    },
+    "setup": {
+      "apply": "ran the setup wizard:"
+    },
+    "hosting": {
+      "file_download": "downloaded a hosting file:",
+      "backup_create": "created a backup:",
+      "backup_download": "downloaded a backup:"
+    },
+    "reports": {
+      "decide": "reviewed a report:",
+      "form_save": "saved a report form:",
+      "form_repost": "reposted a report form panel:",
+      "form_delete": "deleted a report form:",
+      "loa_panel": "posted the absence panel:",
+      "panel_save": "saved a report panel:",
+      "panel_repost": "reposted a report panel:",
+      "panel_delete": "deleted a report panel:",
+      "form_move": "reordered a panel's forms:",
+      "submission_delete": "deleted a report:",
+      "export": "exported reports:"
+    },
+    "temproles": {
+      "add": "gave a temporary role:",
+      "remove": "removed a temporary role:"
+    },
+    "welcome": {
+      "test": "sent a welcome test message:"
+    },
+    "honeypot": {
+      "create": "created a trap channel:"
+    }
+  },
+  "targets": {
+    "permissions": "Roles and permissions",
+    "settings": "{count} settings",
+    "brand": "the bot's branding",
+    "roleIcons": "role icons",
+    "welcomeBackground": "welcome background",
+    "goodbyeBackground": "goodbye background",
+    "commands": "commands",
+    "wholeServer": "whole server",
+    "everyone": "everyone",
+    "dutyPage": "Duty page",
+    "panelVerify": "verification panel",
+    "panelSuggestion": "suggestion panel",
+    "panelBug": "bug report panel",
+    "panelHoneypot": "honeypot card",
+    "panelDuty": "duty panel",
+    "members": "{count, plural, one {# member} other {# members}}",
+    "level": "level {count}"
+  }
+}

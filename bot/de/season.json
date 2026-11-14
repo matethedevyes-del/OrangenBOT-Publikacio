@@ -1,0 +1,15 @@
+{
+ "empty": "*In dieser Saison hat noch kein Clan Punkte gesammelt.*",
+ "row": "{place} {label} — **{points}** Punkte{me}",
+ "tag": "Saisonsieger",
+ "headline": "{name} gewinnt die Clan-Saison {season}",
+ "banner_body": "Platz eins mit {points} Punkten; ihre Kasse erhält {prize} Saisonpreis.",
+ "card_body": "Mit **{points}** Punkten auf Platz eins — ihre Kasse erhielt **{prize}** Saisonpreis.",
+ "card_role": "\nDie Mitglieder erhielten die Rolle {role} (bis zum nächsten Sieger).",
+ "next": "Eine neue Saison hat begonnen — die Punkte starten bei null",
+ "role_reason": "Clan-Saisonsieger",
+ "vault_note": "Saisonpreis ({season})",
+ "vault_label": "Saisonpreis",
+ "panel_title": "👑 **Clan-Saison {season}** — Monatswertung",
+ "panel_hint": "-# Punkte gibt es für erfolgreiche Verbrechen, Arbeit, Tagesbonus, Quizsiege, Kopfgelder und Levelaufstiege der Mitglieder (40 pro Mitglied und Tag) sowie für Platzierungen im Gebietskrieg. Am Monatsende erhält der Sieger einen Preis und eine Rolle."
+}

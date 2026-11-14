@@ -1,0 +1,192 @@
+{
+  "metaTitle": "Napló",
+  "eyebrow": "Napló",
+  "title": "Ki mit módosított?",
+  "description": "Minden vezérlőpultról végzett módosítás a régi és az új értékkel — 90 napig.",
+  "emptyTitle": "Még nincs bejegyzés",
+  "emptyText": "Minden vezérlőpultról végzett módosítás ide kerül — ki, mit, mikor. A bejegyzéseket 90 napig őrizzük.",
+  "older": "Régebbiek",
+  "actions": {
+    "settings": {
+      "update": "beállítást módosított:",
+      "import": "beállításokat töltött be:",
+      "log_route": "beállította a naplószervert:"
+    },
+    "permissions": {
+      "update": "módosította a"
+    },
+    "shop": {
+      "create": "új terméket vett fel:",
+      "update": "módosította a terméket:",
+      "delete": "törölte a terméket:"
+    },
+    "guild": {
+      "leave": "kiléptette a botot innen:",
+      "reload": "újratöltette a szerver beállításait:",
+      "blacklist": "tiltólistára tette a szervert:",
+      "unblacklist": "levette a tiltólistáról:",
+      "ai_access": "módosította az AI-engedélyt:"
+    },
+    "staff": {
+      "add": "panel-tagot vett fel:",
+      "update": "módosította a panel-tagot:",
+      "remove": "eltávolította a panel-tagot:"
+    },
+    "profile": {
+      "update": "módosította a profilt:"
+    },
+    "sanction": {
+      "issue": "globális szankciót rendelt el:",
+      "lift": "feloldotta a globális szankciót:"
+    },
+    "bot": {
+      "resync": "újraélesíttette a",
+      "power": "energia-műveletet küldött a szervernek:",
+      "restart": "újraindíttatta a botot:",
+      "update": "frissíttette a botot:",
+      "cog_reload": "újratöltetett egy modult:",
+      "cache_clear": "üríttette a bot gyorsítótárát:"
+    },
+    "rolepanel": {
+      "create": "új rangválasztó panelt hozott létre:",
+      "update": "módosította a rangválasztó panelt:",
+      "duplicate": "lemásolta a rangválasztó panelt:",
+      "delete": "törölte a rangválasztó panelt:",
+      "publish": "kihelyezte / frissítette a rangválasztó panelt:",
+      "entry_add": "rangot tett a rangválasztó panelre:",
+      "entry_update": "módosított egy rangot a rangválasztó panelen:",
+      "entry_move": "átrendezte a rangválasztó panel rangjait:",
+      "entry_remove": "levett egy rangot a rangválasztó panelről:"
+    },
+    "filter": {
+      "block": "tiltott kifejezést vett fel:",
+      "unblock": "levette a tiltottak közül:",
+      "allow": "engedélyezte a kifejezést:",
+      "unallow": "levette az engedélyezettek közül:",
+      "review": "elbírált egy AI-moderációs esetet:"
+    },
+    "level": {
+      "reward": "szintjutalmat állított be:",
+      "unreward": "törölte a szintjutalmat:"
+    },
+    "panel": {
+      "post": "kirakta:"
+    },
+    "brand": {
+      "update": "módosította",
+      "background": "új képet állított be:"
+    },
+    "role_icons": {
+      "apply": "beállította",
+      "choose": "ikont választott:"
+    },
+    "tickets": {
+      "config": "módosította a ticket-beállítást:",
+      "panel": "ticket-panel:",
+      "category": "módosította a ticket-kategóriát:",
+      "category_add": "új ticket-kategóriát vett fel:",
+      "category_delete": "törölte a ticket-kategóriát:",
+      "category_reset": "visszaállította a ticket-kategóriát:",
+      "category_order": "átrendezte a ticket-kategóriák",
+      "categories_enabled": "be/kikapcsolt ticket-kategóriákat:",
+      "blacklist": "kitiltotta a ticketekből:",
+      "unblacklist": "feloldotta a ticket-tiltást:",
+      "extra_panel": "további ticket-panelt rakott ki:",
+      "extra_panel_delete": "törölte a ticket-panelt:",
+      "reply": "válaszolt a jegyben:",
+      "close": "lezárta a jegyet:",
+      "claim": "elvállalta a jegyet:"
+    },
+    "feed": {
+      "add": "új értesítőt vett fel:",
+      "update": "módosította az értesítőt:",
+      "delete": "törölte az értesítőt:"
+    },
+    "duty": {
+      "view": "megnézte a szolgálati adatokat:",
+      "reset": "nullázta a szolgálati időt:",
+      "purge": "véglegesen törölte a szolgálati adatokat:",
+      "force_out": "kiléptette a szolgálatból:",
+      "export": "exportálta a szolgálati időket:",
+      "loa_approve": "jóváhagyta a távollét-kérelmet:",
+      "loa_deny": "elutasította a távollét-kérelmet:"
+    },
+    "warns": {
+      "add": "figyelmeztetést adott:",
+      "revoke": "visszavont egy figyelmeztetést:",
+      "clear": "visszavonta minden figyelmeztetését:",
+      "ladder": "módosította a figyelmeztetési létrát:"
+    },
+    "blacklist": {
+      "add": "tiltólistára tette:",
+      "remove": "levette a tiltólistáról:"
+    },
+    "db": {
+      "query": "lekérdezést futtatott az adatbázisban:",
+      "write": "módosította az adatbázist:",
+      "row_update": "szerkesztett egy adatbázis-sort:",
+      "row_delete": "törölt egy adatbázis-sort:"
+    },
+    "polls": {
+      "close": "lezárta a szavazást:"
+    },
+    "voice": {
+      "lobby_save": "mentette a csatornakészítő lobbit:",
+      "lobby_delete": "törölte a csatornakészítő lobbit:"
+    },
+    "messages": {
+      "schedule": "üzenetet küldött / időzített:",
+      "cancel": "lemondta az időzített üzenetet:"
+    },
+    "setup": {
+      "apply": "lefuttatta a beüzemelő varázslót:"
+    },
+    "hosting": {
+      "file_download": "letöltött egy fájlt a tárhelyről:",
+      "backup_create": "mentést készíttetett:",
+      "backup_download": "letöltött egy mentést:"
+    },
+    "reports": {
+      "decide": "elbírált egy jelentést:",
+      "form_save": "mentett egy jelentés-űrlapot:",
+      "form_repost": "újrakirakta egy jelentés-űrlap paneljét:",
+      "form_delete": "törölt egy jelentés-űrlapot:",
+      "loa_panel": "kirakta a távollét-panelt:",
+      "panel_save": "mentett egy jelentés-panelt:",
+      "panel_repost": "újrakirakott egy jelentés-panelt:",
+      "panel_delete": "törölt egy jelentés-panelt:",
+      "form_move": "átrendezte egy panel űrlapjait:",
+      "submission_delete": "törölt egy jelentést:",
+      "export": "exportálta a jelentéseket:"
+    },
+    "temproles": {
+      "add": "ideiglenes rangot adott:",
+      "remove": "levette az ideiglenes rangot:"
+    },
+    "welcome": {
+      "test": "üdvözlő próbaüzenetet küldetett:"
+    },
+    "honeypot": {
+      "create": "csapda-csatornát hozatott létre:"
+    }
+  },
+  "targets": {
+    "permissions": "Rangok és jogok",
+    "settings": "{count} beállítás",
+    "brand": "a bot arculata",
+    "roleIcons": "rangikonok",
+    "welcomeBackground": "üdvözlő háttér",
+    "goodbyeBackground": "búcsúzó háttér",
+    "commands": "parancsok",
+    "wholeServer": "teljes szerver",
+    "everyone": "mindenki",
+    "dutyPage": "Szolgálat oldal",
+    "panelVerify": "verifikációs panel",
+    "panelSuggestion": "ötlet-panel",
+    "panelBug": "hibabejelentő panel",
+    "panelHoneypot": "csapda-kártya",
+    "panelDuty": "szolgálati panel",
+    "members": "{count} tag",
+    "level": "{count}. szint"
+  }
+}

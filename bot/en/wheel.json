@@ -1,0 +1,17 @@
+{
+ "cash": "Money",
+ "xp": "XP",
+ "none": "Nothing",
+ "chips": "Chips",
+ "jackpot": "Jackpot",
+ "button": "Lucky wheel",
+ "off": "The lucky wheel is turned off on this server.",
+ "wait": "🎡 You already spun today — again {when}.",
+ "title": "🎡 Lucky wheel",
+ "won_cash": "🎉 You won **{fmt}**!",
+ "won_chips": "🎰 You won **{n} chips**!",
+ "won_xp": "⭐ You won **{n} XP**!",
+ "won_none": "😅 Nothing this time — try again tomorrow!",
+ "won_jackpot": "💎 **JACKPOT!** You won **{fmt}**!",
+ "footer": "One free spin a day • /penz → Lucky wheel"
+}

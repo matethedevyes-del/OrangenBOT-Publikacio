@@ -1,0 +1,83 @@
+{
+  "metaTitle": "Einrichtung",
+  "eyebrow": "Konfiguration",
+  "title": "Einrichtung & Sicherungen",
+  "description": "Der Bot ist in wenigen Schritten bereit: Sprache, Kanäle, Team-Rolle, Module. Hier kannst du Einstellungen sichern, wiederherstellen und kopieren oder mit einer Vorlage starten.",
+  "steps": {
+    "language": "Sprache",
+    "channels": "Kanäle",
+    "staff": "Team",
+    "modules": "Module",
+    "done": "Fertig"
+  },
+  "languageText": "In welcher Sprache soll der Bot auf diesem Server sprechen? (Auch Nachrichten, Panels und die /-Befehlsliste.)",
+  "channelsText": "Wohin soll der Bot schreiben? Du kannst es jederzeit in den Einstellungen ändern.",
+  "none": "— keiner —",
+  "staffText": "Mitglieder der Team-Rolle verwalten Tickets, Dienst und Moderationswerkzeuge.",
+  "staffRole": "Team-Rolle",
+  "modulesText": "Schalte ein, was du brauchst — die Befehle eines deaktivierten Moduls verschwinden auch.",
+  "back": "Zurück",
+  "next": "Weiter",
+  "finish": "Speichern",
+  "again": "Erneut",
+  "doneTitle": "Fertig!",
+  "doneText": "Der Bot übernimmt die neuen Einstellungen in wenigen Sekunden.",
+  "saved": "Gespeichert ({count} Änderungen).",
+  "skipped": "{count} Einstellungen übersprungen: {keys}",
+  "backupTitle": "Sichern & wiederherstellen",
+  "backupText": "Lade die Server-Einstellungen als JSON-Datei herunter und stelle sie jederzeit wieder her.",
+  "export": "Herunterladen",
+  "import": "Wiederherstellen",
+  "tooBig": "Die Datei ist zu groß.",
+  "badFile": "Das ist keine gültige JSON-Datei.",
+  "imported": "Einstellungen wiederhergestellt.",
+  "copyTitle": "Auf anderen Server kopieren",
+  "copyText": "Dieselben Einstellungen auf einem anderen deiner Server — ohne Kanäle und Rollen (die sind je Server anders).",
+  "noOtherGuilds": "Kein anderer Server, auf dem du Verwalter bist und der Bot läuft.",
+  "copyTarget": "Zielserver",
+  "copy": "Kopieren",
+  "copyConfirm": "Einstellungen nach {name} kopieren?",
+  "copyConfirmText": "Gleiche Einstellungen auf dem Zielserver werden überschrieben.",
+  "copied": "Kopiert.",
+  "templatesTitle": "Vorlagen",
+  "templatesText": "Starte mit einer Modulauswahl für deinen Servertyp.",
+  "apply": "Anwenden",
+  "templateConfirm": "Vorlage „{name}“ anwenden?",
+  "templateConfirmText": "Module werden laut Vorlage ein- und ausgeschaltet; andere Einstellungen bleiben.",
+  "templateApplied": "Vorlage angewendet.",
+  "templates": {
+    "community": {
+      "title": "Community-Server",
+      "text": "Level, Spaß, Quests, Tickets, Musik, KI"
+    },
+    "gaming": {
+      "title": "Gaming-Server",
+      "text": "Volle Wirtschaft, Unterwelt, Casino, Börse, Clans, Angeln"
+    },
+    "roleplay": {
+      "title": "Roleplay / Fraktion",
+      "text": "Dienstsystem, Tickets, Level, Wirtschaft"
+    },
+    "minimal": {
+      "title": "Minimal",
+      "text": "Nur das Ticketsystem — alles andere aus"
+    },
+    "support": {
+      "title": "Support",
+      "text": "Tickets und Community-Hilfe ohne Spielmodule."
+    }
+  },
+  "server": {
+    "invalid": "Ungültige Anfrage.",
+    "failed": "Konnte nicht gespeichert werden.",
+    "notBackup": "Das ist keine OrangenBot-Einstellungssicherung.",
+    "stale": "Die Einstellungen wurden geändert. Erstelle eine neue Vorschau."
+  },
+  "previewTitle": "Änderungen prüfen",
+  "previewText": "Diese Einstellungen werden geändert. Kanäle und Rollen vor dem Speichern prüfen.",
+  "before": "Aktuell",
+  "after": "Neu",
+  "preview": "Vorschau",
+  "previewOn": "Aktiviert",
+  "previewOff": "Deaktiviert"
+}

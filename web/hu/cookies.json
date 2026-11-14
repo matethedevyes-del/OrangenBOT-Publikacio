@@ -1,0 +1,18 @@
+{
+  "title": "Sütik és adatvédelem",
+  "text": "A bejelentkezéshez, a választott nyelvhez és a biztonsághoz szükséges sütiket használunk. Követő vagy hirdetési sütit nem — egyéb sütit csak a hozzájárulásoddal. Részletek: <link>Adatvédelmi tájékoztató</link>.",
+  "necessary": "Szükséges",
+  "necessaryText": "Bejelentkezés, CSRF-védelem, nyelv, ez a választás",
+  "alwaysOn": "Mindig aktív",
+  "preferences": "Beállítások",
+  "preferencesText": "Kényelmi funkciók megjegyzése",
+  "analytics": "Statisztika",
+  "analyticsText": "Névtelen látogatottsági adatok",
+  "saveChoice": "Választás mentése",
+  "customize": "Testreszabás",
+  "necessaryOnly": "Csak a szükségesek",
+  "acceptAll": "Mindet elfogadom",
+  "saved": "Sütibeállítások mentve",
+  "savedText": "Bármikor módosíthatod a lábléc „Sütibeállítások” linkjével.",
+  "settingsLink": "Sütibeállítások"
+}

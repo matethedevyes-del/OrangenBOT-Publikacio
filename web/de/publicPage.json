@@ -1,0 +1,45 @@
+{
+  "metaDescription": "{name} auf Discord — {count} Mitglieder. Sieh dir an, was los ist, und mach mit!",
+  "metaDescriptionNoCount": "{name} auf Discord. Sieh dir an, was los ist, und mach mit!",
+  "eyebrow": "Discord-Server",
+  "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
+  "online": "{count} online",
+  "join": "Beitreten",
+  "joinAria": "{name} auf Discord beitreten (öffnet in neuem Tab)",
+  "noInvite": "Dieser Server hat gerade keine öffentliche Einladung.",
+  "share": "Teilbare Seite",
+  "poweredBy": "Diese Seite wird von OrangenBot erstellt — die Admins des Servers haben sie aktiviert.",
+  "addBot": "OrangenBot für deinen Server",
+  "activity": {
+    "title": "Aktivität",
+    "subtitle": "Nachrichten pro Tag in den letzten 30 Tagen",
+    "label": "Tägliche Nachrichten in den letzten 30 Tagen",
+    "total": "Nachrichten (30 Tage)",
+    "perDay": "Tagesdurchschnitt",
+    "peak": "Aktiv-Spitze"
+  },
+  "modules": {
+    "title": "Was auf diesem Server läuft",
+    "subtitle": "Hier aktivierte OrangenBot-Module"
+  },
+  "leaderboard": {
+    "title": "Bestenlisten",
+    "subtitle": "Die aktivsten und reichsten Mitglieder",
+    "levels": "Level",
+    "wealth": "Vermögen",
+    "level": "Level {level}",
+    "xp": "{xp} XP",
+    "inBank": "davon auf der Bank: {amount}",
+    "empty": "Hier gibt es noch niemanden zu zeigen."
+  },
+  "ogAlt": "{name} — öffentliche Serverseite",
+  "admin": {
+    "titleOn": "Deine öffentliche Serverseite ist online",
+    "textOn": "Jeder kann sie ohne Anmeldung ansehen — teile den Link mit deiner Community.",
+    "open": "Seite öffnen",
+    "settings": "Einstellungen",
+    "titleOff": "Öffentliche Serverseite",
+    "textOff": "Eine schöne, teilbare Seite für deinen Server: Beschreibung, Beitreten-Button, Aktivität und Bestenlisten. Standardmäßig aus.",
+    "enable": "Aktivieren"
+  }
+}

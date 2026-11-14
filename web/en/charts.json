@@ -1,0 +1,15 @@
+{
+  "metricLabel": "Metric",
+  "messages": "Messages",
+  "voiceMinutes": "Voice minutes",
+  "activeMembers": "Active members",
+  "unitMessages": "messages",
+  "unitMinutes": "min",
+  "unitMembers": "members",
+  "previousPeriod": "Previous period",
+  "activityLabel": "{metric} per day, compared with the previous period",
+  "growthLabel": "Joins and leaves per day",
+  "joins": "Joins",
+  "leaves": "Leaves",
+  "day": "Day"
+}

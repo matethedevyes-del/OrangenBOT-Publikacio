@@ -1,0 +1,19 @@
+{
+ "manual_label": "Kézi mentés",
+ "auto_label": "Automatikus napi mentés",
+ "before_restore_label": "Visszaállítás előtti állapot",
+ "saved": "✅ Mentve: {roles} rang és {channels} csatorna.",
+ "gone": "Ez a mentés már nem létezik.",
+ "no_perms": "A botnak „Rangok kezelése” és „Csatornák kezelése” jog kell a visszaállításhoz.",
+ "nothing_to_do": "✅ A szerver megegyezik a mentéssel — nincs mit visszaállítani.",
+ "plan_head": "A visszaállítás ezt tenné:",
+ "plan_roles": "• {n} rangot hozna létre: {names}",
+ "plan_categories": "• {n} kategóriát hozna létre: {names}",
+ "plan_channels": "• {n} csatornát hozna létre: {names}",
+ "plan_overwrites": "• {n} meglévő csatorna hozzáféréseit állítaná vissza",
+ "plan_managed": "• {n} integrációs / bot-rangot kihagy (azokat a Discord kezeli)",
+ "plan_safe": "Semmit nem töröl, és előtte elmenti a jelenlegi állapotot.",
+ "done": "✅ Visszaállítva: {created} új elem, {updated} csatorna hozzáférései frissítve.",
+ "failed": "⚠️ {n} elem nem sikerült (a bot jogai / rangsorrendje miatt): {names}",
+ "reason": "Visszaállítás pillanatképből ({name})"
+}

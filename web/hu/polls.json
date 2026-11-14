@@ -1,0 +1,32 @@
+{
+  "metaTitle": "Szavazások",
+  "eyebrow": "Közösség",
+  "title": "Szavazások",
+  "description": "A szerver szavazásai (/eszkoz szavazas) élő állással — a nyitottakat innen is lezárhatod, a bot a Discordon is frissíti a kártyát.",
+  "listTitle": "Szavazások — {open} nyitott / {total}",
+  "filter": {
+    "open": "Nyitottak",
+    "closed": "Lezártak"
+  },
+  "whoCanClose": "Lezárni az indító, a stáb (Stáb szint vagy feljebb a Jogosultságoknál) és az Üzenetek kezelése jogú tagok tudják — a bot a Discordos rangjaid alapján ellenőrzi.",
+  "emptyOpenTitle": "Nincs nyitott szavazás",
+  "emptyClosedTitle": "Nincs lezárt szavazás",
+  "emptyText": "Szavazást a Discordon indíthatsz: /eszkoz szavazas.",
+  "open": "Nyitott",
+  "closed": "Lezárva",
+  "multiple": "Több válasz",
+  "hidden": "Az eredmény a lezárásig rejtett.",
+  "votes": "{count, plural, one {# szavazat} other {# szavazat}}",
+  "voters": "{count, plural, one {# szavazó} other {# szavazó}}",
+  "endsAt": "lezárul: {when}",
+  "openInDiscord": "Discordon",
+  "close": "Lezárás",
+  "closeTitle": "Lezárod a(z) #{id} szavazást?",
+  "closeText": "A szavazás lezárul (újra megnyitni nem lehet), a bot a Discordon is frissíti a kártyát a végeredménnyel.",
+  "sending": "Küldés a botnak…",
+  "server": {
+    "invalid": "Hibás adatok.",
+    "failed": "A művelet nem sikerült — próbáld újra.",
+    "notOpen": "Ez a szavazás már le van zárva, vagy nem létezik."
+  }
+}

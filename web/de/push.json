@@ -1,0 +1,12 @@
+{
+  "enable": "Benachrichtigungen aktivieren",
+  "disable": "Benachrichtigungen deaktivieren",
+  "enableHint": "Push-Benachrichtigungen in diesem Browser (neues Ticket, Abwesenheitsantrag, Antwort in einem übernommenen Ticket).",
+  "disableHint": "Du erhältst in diesem Browser keine Benachrichtigungen mehr von diesem Server.",
+  "on": "Benachrichtigungen aktiviert.",
+  "off": "Benachrichtigungen deaktiviert.",
+  "denied": "Der Browser hat Benachrichtigungen nicht erlaubt.",
+  "failed": "Fehlgeschlagen — bitte erneut versuchen.",
+  "invalid": "Ungültige Anfrage.",
+  "tooManyDevices": "Du kannst auf diesem Server höchstens {max} Geräte anmelden — deaktiviere zuerst ein altes."
+}

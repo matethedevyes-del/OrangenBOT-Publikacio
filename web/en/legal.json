@@ -1,0 +1,8 @@
+{
+  "eyebrow": "Legal information",
+  "effective": "Effective: {date}",
+  "prevails": "This is a translation for convenience; in case of any discrepancy, the Hungarian version prevails.",
+  "seeAlso": "See also: <link>{title}</link>.",
+  "operatorName": "[Operator name]",
+  "operatorContact": "[contact email address]"
+}

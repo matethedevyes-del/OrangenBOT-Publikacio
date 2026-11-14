@@ -1,0 +1,32 @@
+{
+  "metaTitle": "Polls",
+  "eyebrow": "Community",
+  "title": "Polls",
+  "description": "Your server's polls (/eszkoz szavazas) with live results — close open ones from here, the bot updates the card on Discord too.",
+  "listTitle": "Polls — {open} open / {total}",
+  "filter": {
+    "open": "Open",
+    "closed": "Closed"
+  },
+  "whoCanClose": "The creator, staff (Staff level or above under Permissions) and members with Manage Messages can close polls — the bot checks your Discord roles.",
+  "emptyOpenTitle": "No open polls",
+  "emptyClosedTitle": "No closed polls",
+  "emptyText": "Start a poll on Discord: /eszkoz szavazas.",
+  "open": "Open",
+  "closed": "Closed",
+  "multiple": "Multiple choice",
+  "hidden": "Results are hidden until the poll closes.",
+  "votes": "{count, plural, one {# vote} other {# votes}}",
+  "voters": "{count, plural, one {# voter} other {# voters}}",
+  "endsAt": "closes: {when}",
+  "openInDiscord": "On Discord",
+  "close": "Close",
+  "closeTitle": "Close poll #{id}?",
+  "closeText": "The poll closes for good (it can't be reopened) and the bot updates the card on Discord with the final result.",
+  "sending": "Sending to the bot…",
+  "server": {
+    "invalid": "Invalid data.",
+    "failed": "Something went wrong — try again.",
+    "notOpen": "This poll is already closed or doesn't exist."
+  }
+}

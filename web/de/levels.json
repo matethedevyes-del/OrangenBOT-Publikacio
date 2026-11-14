@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Level-Belohnungen",
+  "eyebrow": "Levelsystem",
+  "title": "Level-Belohnungen",
+  "description": "Erreicht ein Mitglied das Level, gibt ihm der Bot automatisch die Rolle (eine Rolle pro Level).",
+  "settingsLink": "XP-Multiplikatoren, Level-up-Nachricht und Kanal:",
+  "settingsLinkLabel": "Einstellungen: {topic}",
+  "done": "Fertig",
+  "failed": "Das hat nicht geklappt",
+  "newReward": "Neue Belohnung",
+  "level": "Level",
+  "levelPlaceholder": "z. B. 10",
+  "role": "Rolle",
+  "roleHint": "Nur eine Rolle, die der Bot vergeben kann.",
+  "pickRole": "Rolle auswählen…",
+  "save": "Speichern",
+  "emptyTitle": "Noch keine Level-Belohnungen",
+  "emptyText": "Gib ein Level und eine Rolle an — der Bot vergibt sie automatisch, wenn das Level erreicht wird.",
+  "levelN": "Level {level}",
+  "deletedRole": "gelöschte Rolle ({id})",
+  "deleteAria": "Belohnung für Level {level} löschen"
+}

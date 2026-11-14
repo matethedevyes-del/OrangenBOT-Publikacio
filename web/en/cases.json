@@ -1,0 +1,33 @@
+{
+  "metaTitle": "Moderation cases",
+  "eyebrow": "Moderation",
+  "title": "Moderation cases",
+  "description": "All of the server’s moderation cases (/warn, /timeout, /ban, AI moderation …) — {total} in total.",
+  "user": "User ID",
+  "type": "Type",
+  "allTypes": "All types",
+  "filter": "Filter",
+  "emptyTitle": "No cases",
+  "noMatch": "No results with this filter.",
+  "none": "There haven’t been any moderation cases on this server yet.",
+  "onlyThisMember": "Only this member’s cases",
+  "automatic": "The bot took action automatically",
+  "moderator": "Moderator: {who}",
+  "older": "Older",
+  "types": {
+    "ban": "Ban",
+    "tempban": "Temporary ban",
+    "softban": "Softban",
+    "kick": "Kick",
+    "auto_kick": "Automatic kick",
+    "timeout": "Timeout",
+    "mute": "Mute",
+    "auto_timeout": "Automatic timeout",
+    "automod": "Automod",
+    "warn": "Warning",
+    "note": "Note",
+    "unban": "Unban",
+    "untimeout": "Timeout removed",
+    "unmute": "Unmute"
+  }
+}

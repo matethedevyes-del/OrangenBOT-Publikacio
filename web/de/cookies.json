@@ -1,0 +1,18 @@
+{
+  "title": "Cookies und Datenschutz",
+  "text": "Wir verwenden Cookies, die für die Anmeldung, die gewählte Sprache und die Sicherheit nötig sind. Keine Tracking- oder Werbe-Cookies — andere Cookies nur mit deiner Einwilligung. Details: <link>Datenschutzerklärung</link>.",
+  "necessary": "Notwendig",
+  "necessaryText": "Anmeldung, CSRF-Schutz, Sprache, diese Auswahl",
+  "alwaysOn": "Immer aktiv",
+  "preferences": "Präferenzen",
+  "preferencesText": "Komfortfunktionen merken",
+  "analytics": "Statistik",
+  "analyticsText": "Anonyme Besucherstatistik",
+  "saveChoice": "Auswahl speichern",
+  "customize": "Anpassen",
+  "necessaryOnly": "Nur notwendige",
+  "acceptAll": "Alle akzeptieren",
+  "saved": "Cookie-Einstellungen gespeichert",
+  "savedText": "Du kannst sie jederzeit über den Link „Cookie-Einstellungen“ in der Fußzeile ändern.",
+  "settingsLink": "Cookie-Einstellungen"
+}

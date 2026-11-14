@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Module",
+  "title": "Funktionen ein- und ausschalten",
+  "description": "Ein Klick, und das Modul ist auf diesem Server ein- oder ausgeschaltet. Die Befehle eines ausgeschalteten Moduls laufen nicht — die Mitglieder bekommen eine freundliche Nachricht. Die Untermodule (Unterwelt, Bitcoin, Börse) stoppen zusammen mit der Wirtschaft.",
+  "on": "{title}: eingeschaltet",
+  "off": "{title}: ausgeschaltet",
+  "onText": "Der Bot übernimmt es in wenigen Sekunden.",
+  "offText": "Die Befehle des Moduls laufen auf diesem Server nicht.",
+  "failed": "Das hat nicht geklappt",
+  "partOf": "Teil von {parent}",
+  "blocked": "Läuft nicht, weil {parent} ausgeschaltet ist.",
+  "settings": "Einstellungen",
+  "turnOff": "{title} ausschalten",
+  "turnOn": "{title} einschalten",
+  "aiLocked": "Auf diesem Server kann nur der OrangenBot-Betreiber KI-Funktionen freigeben."
+}

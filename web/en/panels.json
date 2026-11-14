@@ -1,0 +1,49 @@
+{
+  "metaTitle": "Posting panels",
+  "title": "Panels",
+  "description": "Button panels for your server. The bot posts them; if there was already one in the same channel, it replaces it.",
+  "verify": {
+    "title": "Verification",
+    "text": "New members accept the rules with one button and receive the member role.",
+    "blocker": "The member role they get after accepting isn’t set.",
+    "hint": "The rules channel isn’t set (the panel would refer to it)."
+  },
+  "suggestion": {
+    "title": "Suggestions",
+    "text": "Members can send suggestions via a form; the bot posts them to the suggestion channel with voting.",
+    "blocker": "It isn’t set where suggestions should go."
+  },
+  "bug": {
+    "title": "Bug reports",
+    "text": "Bug reports via a form; the staff reviews them in the bug channel.",
+    "blocker": "It isn’t set where reports should go."
+  },
+  "honeypot": {
+    "title": "Spam trap",
+    "text": "A warning card in the trap channel. Anyone who writes there is punished automatically by the bot (against spam bots).",
+    "blocker": "The trap channel isn’t set — create one with one click, or pick an existing one.",
+    "target": "To the trap channel",
+    "stats": "Accounts caught: {total} (last 7 days: {week})",
+    "create": "New trap channel",
+    "creating": "The bot is creating the trap channel…"
+  },
+  "ticketPanel": "Ticket panel",
+  "ticketPanelText": "Tickets → Panel tab",
+  "rolePanels": "Role picker panels",
+  "rolePanelsText": "Role pickers page",
+  "ownPages": "Panels managed on their own page",
+  "setting": "Setting",
+  "channelAria": "{title}: channel",
+  "pickChannel": "Choose a channel…",
+  "blockedTitle": "First set the missing setting",
+  "posting": "Posting…",
+  "post": "Post",
+  "readOnly": "You have read-only access.",
+  "open": "Open",
+  "duty": {
+    "title": "Duty",
+    "text": "Clock in and out with one button, live list of who's on duty, own time, leave requests (Components V2). You can post several panels; all update live.",
+    "blocker": "The Duty module is turned off.",
+    "hint": "No log channel — clock ins and outs aren't logged."
+  }
+}

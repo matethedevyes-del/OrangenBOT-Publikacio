@@ -1,0 +1,47 @@
+{
+  "title": "Privacy policy",
+  "intro": "This notice applies to the OrangenBot web dashboard (pursuant to Article 13 GDPR). For how the bot handles data within Discord, see the bot’s <code>/adatvedelem</code> command.",
+  "s1": {
+    "title": "1. Data controller",
+    "text": "{name} — contact: {contact}. You can send any data protection question or request here."
+  },
+  "s2": {
+    "title": "2. What data do we process?",
+    "identity": "<b>Discord ID, display name, avatar ID</b> — when you log in with Discord (OAuth2 <code>identify</code> scope). We do not ask for your email address.",
+    "guilds": "<b>Your list of servers and your permissions on them</b> (OAuth2 <code>guilds</code>) — only to decide which servers you can manage. We do not store it: it stays in server memory for at most 30 seconds.",
+    "token": "<b>Discord access token</b> — encrypted, stored only in a session cookie in your browser that JavaScript cannot access (HttpOnly), for at most 7 days. It never goes into a database.",
+    "settings": "<b>Server settings</b> that you change (e.g. welcome channel, modules) — in the bot’s database, linked to the server, not to you personally.",
+    "audit": "<b>Change log</b> — for every change made in the dashboard: your Discord ID, your display name, the server ID, the changed item and the old / new value (so changes can be traced and abuse investigated). Visible to the server’s managers and the dashboard operators.",
+    "stats": "<b>Server statistics and leaderboards</b> — if activity tracking is enabled on the server, the bot stores only daily counts (number of messages, voice minutes, joins and leaves; never message content). From this, the server’s managers see aggregated charts and a list of the most active members on the dashboard, as well as the levelling and economy leaderboards — the same as the bot’s commands show on the server. A departing member’s aggregate row is deleted, and the bot deletes the daily breakdown after the retention period set on the server.",
+    "captcha": "<b>Captcha (Cloudflare Turnstile)</b> — when you log in and for some admin actions, Cloudflare checks, based on technical characteristics of your browser, that you are not an automated program. For this, Cloudflare receives your IP address; we do not store it."
+  },
+  "s3": {
+    "title": "3. Purpose and legal basis",
+    "service": "Login, permission checks and providing the service — Article 6(1)(b) GDPR (use of the service).",
+    "security": "Security, preventing abuse, technical logs, rate limiting — Article 6(1)(f) GDPR (legitimate interest).",
+    "consent": "Non-essential cookies (should we ever introduce any) — Article 6(1)(a) GDPR (consent), which you can withdraw at any time."
+  },
+  "s4": {
+    "title": "4. Cookies",
+    "session": "<b>authjs.session-token</b> — session (encrypted, HttpOnly, Secure), at most 7 days. Necessary.",
+    "csrf": "<b>authjs.csrf-token, authjs.callback-url</b> — login protection, until the end of the session. Necessary.",
+    "consent": "<b>orangen_consent</b> — your cookie choice, 180 days. Necessary.",
+    "locale": "<b>NEXT_LOCALE</b> — your chosen language (Hungarian, English or German), 1 year. Necessary to show the language you chose.",
+    "note": "We currently use no analytics, tracking or advertising cookies. You can change your choice at any time with the “Cookie settings” link in the footer."
+  },
+  "s5": {
+    "title": "5. Processors and transfers",
+    "cloudflare": "<b>Cloudflare, Inc.</b> — hosting and network for the site, and the captcha (Turnstile); requests run on Cloudflare’s network (under the EU–US Data Privacy Framework).",
+    "discord": "<b>Discord Inc.</b> — the source of logins and server data (under Discord’s own privacy policy).",
+    "note": "We do not sell data to third parties or share it for marketing purposes."
+  },
+  "s6": {
+    "title": "6. Retention",
+    "text": "A session lasts at most 7 days and is deleted immediately when you log out. Server settings are kept for as long as the server uses the bot, or until the server’s administrator changes them. Change log entries are deleted automatically after 90 days."
+  },
+  "s7": {
+    "title": "7. Your rights",
+    "rights": "You can request access to your data, rectification, erasure, restriction of processing and data portability, and you can object to processing based on legitimate interest. We accept requests at the contact above and reply within one month. You can lodge a complaint with the Hungarian National Authority for Data Protection and Freedom of Information (NAIH, naih.hu) or go to court.",
+    "revoke": "You can also revoke the app’s access on Discord at any time: User Settings → Authorized Apps."
+  }
+}
